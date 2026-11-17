@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D08  积分筒横剖面与真实侧向接口</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">Y-Z剖面按名义尺寸比例绘制，X垂直图面。红线是顺序飞点透射后的示意反射路径，不是光线追迹结果。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<circle cx="800" cy="600" r="208" fill="#dee7ed" stroke="#226da6" stroke-width="3"/>
+<circle cx="800" cy="600" r="187.2" fill="#fafaf1" stroke="#5e7180" stroke-width="2"/>
+<circle cx="800" cy="600" r="160" fill="white" stroke="#226da6" stroke-width="2"/>
+<line x1="520" y1="384.8" x2="1015" y2="384.8" stroke="#5e7180" stroke-width="5" />
+<rect x="744" y="389.6" width="112" height="2.4" rx="0" fill="#586b79" stroke="#5e7180" stroke-width="1"/>
+<rect x="795.2" y="389" width="9.6" height="29" rx="0" fill="white" stroke="white" stroke-width="1.5"/>
+<text x="510" y="330" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">胶片中心 Z=110；薄唇顶 Z=109.4</text>
+<text x="510" y="360" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">片厚0.2时，片下表面至薄唇0.5</text>
+<polygon points="612.8,560 356.8,579.2 356.8,620.8 612.8,640" fill="#d7f0f6" stroke="#226da6" stroke-width="2"/>
+<rect x="578" y="557" width="20" height="86" rx="0" fill="#dee7ed" stroke="#226da6" stroke-width="2"/>
+<rect x="599" y="561" width="20" height="78" rx="0" fill="#d7f0f6" stroke="none" stroke-width="1.5"/>
+<rect x="197.6" y="500" width="144" height="200" rx="0" fill="#434f5b" stroke="#226da6" stroke-width="2"/>
+<rect x="341.6" y="560" width="12" height="80" rx="0" fill="#cfe5ef" stroke="#226da6" stroke-width="2"/>
+<rect x="65.6" y="464.8" width="12.8" height="400" rx="0" fill="#69a28c" stroke="#20826c" stroke-width="2"/>
+<line x1="101.6" y1="539.04" x2="197.6" y2="539.04" stroke="#9a8044" stroke-width="5" />
+<rect x="78.4" y="529.04" width="48" height="20" rx="0" fill="#c3ab6b" stroke="#5e7180" stroke-width="1"/>
+<line x1="101.6" y1="660.96" x2="197.6" y2="660.96" stroke="#9a8044" stroke-width="5" />
+<rect x="78.4" y="650.96" width="48" height="20" rx="0" fill="#c3ab6b" stroke="#5e7180" stroke-width="1"/>
+<text x="50" y="910" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#20826c" font-weight="700" text-anchor="start">B01板面Y=−91</text>
+<text x="197" y="755" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#226da6" font-weight="700" text-anchor="start">PMT本体18深×25高</text>
+<text x="197" y="789" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">光窗与导光端间隙0.4</text>
+<text x="360" y="705" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#226da6" font-weight="700" text-anchor="start">锥形PMMA：L32</text>
+<text x="360" y="738" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">入口8×10，出口5.2方</text>
+<line x1="800" y1="383" x2="800" y2="759" stroke="#cb462e" stroke-width="3" marker-end="url(#arr)" />
+<line x1="800" y1="759" x2="950" y2="545" stroke="#cb462e" stroke-width="3" marker-end="url(#arr)" />
+<line x1="950" y1="545" x2="700" y2="475" stroke="#cb462e" stroke-width="3" marker-end="url(#arr)" />
+<line x1="700" y1="475" x2="640" y2="600" stroke="#cb462e" stroke-width="3" marker-end="url(#arr)" />
+<line x1="612" y1="600" x2="358" y2="600" stroke="#cb462e" stroke-width="3" marker-end="url(#arr)" />
+<text x="710" y="870" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#226da6" font-weight="700" text-anchor="start">首落点轨迹必须连续均匀</text>
+<rect x="1050" y="205" width="500" height="83" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="1060" y="235" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="white" font-weight="700" text-anchor="start">约束</text>
+<text x="1210.0" y="235" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="white" font-weight="700" text-anchor="start">设计与待验证项</text>
+<rect x="1050" y="288" width="500" height="83" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1060" y="314" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">方向</text>
+<text x="1210.0" y="314" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">筒轴X；侧窗朝−Y</text>
+<rect x="1050" y="371" width="500" height="83" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1060" y="397" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">输出</text>
+<text x="1210.0" y="397" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">经导光件直接耦合PMT</text>
+<rect x="1050" y="454" width="500" height="83" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1060" y="480" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">收光口</text>
+<text x="1210.0" y="480" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">不得轴向穿过封闭端盖</text>
+<rect x="1050" y="537" width="500" height="83" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1060" y="563" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">PMT光窗</text>
+<text x="1210.0" y="563" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">φ10窗口，φ8有效面</text>
+<rect x="1050" y="620" width="500" height="83" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1060" y="646" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">装配状态</text>
+<text x="1210.0" y="646" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">尺寸源于S01；引脚镜像复核</text>
+<rect x="1050" y="703" width="500" height="83" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1060" y="729" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">均匀性</text>
+<text x="1210.0" y="729" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">位置与角度扫描验证</text>
+<rect x="1050" y="786" width="500" height="83" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1060" y="812" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">高反射点</text>
+<text x="1210.0" y="812" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">作为亮线风险，禁止刻意加入</text>
+<text x="80" y="1005" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#cb462e" font-weight="400" text-anchor="start">图中没有把导光件伸到筒中心；PMT、光窗、导光件与侧窗依次相接。遮光套/盖板在此剖面中省略。</text>
+</svg>

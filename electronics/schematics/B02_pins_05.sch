@@ -1,0 +1,89 @@
+EESchema Schematic File Version 4
+LIBS:ZL80_R5-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "ZL80 B02 PIN-NET DRAFT 5"
+Date "2026-11-14"
+Rev "R5-PDR"
+Comp "NOT ROUTED / NO ERC / REVIEW REQUIRED"
+$EndDescr
+Text Notes 800 650 0 90 ~ 0
+PIN-NET REVIEW SHEET - not a manufacturing schematic. Named nets connect globally.
+$Comp
+L B02_J4 J4
+U 1 1 8920c3f6
+P 3000 3000
+F 0 "J4" H 3000 2370 50 0000 C CNN
+F 1 "HEADER_2x4_P2.54" H 3000 3630 40 0000 C CNN
+	1 3000 3000
+	1 0 0 -1
+$EndComp
+Wire Wire Line
+	2000 2730 1500 2730
+Text Label 1500 2730 0 35 ~ 0
+3V3IO
+Wire Wire Line
+	2000 2910 1500 2910
+Text Label 1500 2910 0 35 ~ 0
+AGND
+Wire Wire Line
+	2000 3090 1500 3090
+Text Label 1500 3090 0 35 ~ 0
+SCLK_3V3
+Wire Wire Line
+	2000 3270 1500 3270
+Text Label 1500 3270 0 35 ~ 0
+SDIO_3V3
+Wire Wire Line
+	4000 2730 4500 2730
+Text Label 4000 2730 0 35 ~ 0
+CSB_3V3
+Wire Wire Line
+	4000 2910 4500 2910
+Text Label 4000 2910 0 35 ~ 0
+PDWN_3V3
+Wire Wire Line
+	4000 3090 4500 3090
+Text Label 4000 3090 0 35 ~ 0
+ORA_3V3
+Wire Wire Line
+	4000 3270 4500 3270
+Text Label 4000 3270 0 35 ~ 0
+ORB_3V3
+$Comp
+L B02_J5 J5
+U 1 1 f4b13c4d
+P 8000 3000
+F 0 "J5" H 8000 2450 50 0000 C CNN
+F 1 "HEADER_2x3_P2.54" H 8000 3550 40 0000 C CNN
+	1 8000 3000
+	1 0 0 -1
+$EndComp
+Wire Wire Line
+	7000 2820 6500 2820
+Text Label 6500 2820 0 35 ~ 0
+1V8A
+Wire Wire Line
+	7000 3000 6500 3000
+Text Label 6500 3000 0 35 ~ 0
+AGND
+Wire Wire Line
+	7000 3180 6500 3180
+Text Label 6500 3180 0 35 ~ 0
+1V8D
+Wire Wire Line
+	9000 2820 9500 2820
+Text Label 9000 2820 0 35 ~ 0
+AGND
+Wire Wire Line
+	9000 3000 9500 3000
+Text Label 9000 3000 0 35 ~ 0
++5VA
+Wire Wire Line
+	9000 3180 9500 3180
+Text Label 9000 3180 0 35 ~ 0
+-5VA
+$EndSCHEMATC

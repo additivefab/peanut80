@@ -1,0 +1,13 @@
+﻿board,part,associated_IC,center_distance_mm,status,note
+B06,R1,U1,3.905,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.
+B06,C1,U1,6.964,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.
+B06,C6,U1,6.5,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.
+B06,C7,U2,3.0,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.
+B07,R1,U1,3.905,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.
+B07,C1,U1,3.041,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.
+B07,C6,U1,5.315,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.
+B07,C7,U2,15.7,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.
+B08,R1,U1,6.403,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.
+B08,C1,U1,6.403,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.
+B01,R1,U1,5.59,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.
+B01,C1,U1,5.59,REVIEW_REQUIRED,Centroid distance only; not routed loop length. Optimize feedback/decoupling before routing; resize board with G1 approval if necessary.

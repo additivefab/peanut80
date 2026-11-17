@@ -1,0 +1,13 @@
+﻿test_id,subject,procedure,acceptance,status
+TB-G5-01,数字电平和接线,断电核对+限流供电测量Vadj/转换,针脚/方向/电平批准；未批准不接ADC,NOT_RUN
+TB-G5-02,SPI读回,只读Chip ID和grade，记录SPI波形,ID匹配原厂；24bit帧、读阶段无总线争用,NOT_RUN
+TB-G5-03,ADC测试码,两通道棋盘格/字翻转，多捕获相位,每路原始位顺序正确、无毛刺/丢样,NOT_RUN
+TB-G5-04,双路同epoch,同一已知信号或同步标记+两DCO波形,证明A/B对齐；不能仅凭两个计数器相等,NOT_RUN
+TB-G5-05,aperture时间,注入可同步已知边沿，比较ADC和事件时间,延迟分项和标定残差达已批准预算,NOT_RUN
+TB-G5-06,SOS/EOS,先恒幅后变幅，保留上/下沿时间,分别报告抖动与timewalk；G1待批准目标,NOT_RUN
+TB-G5-07,编码器,正反转、索引、无效双跳与停转,正负计数正确，索引不清零，非法跳转标故障,NOT_RUN
+TB-G5-08,AXIS背压,DMA预置后短停/长停,短停数据不变；溢出必须计数和停止，不补行,NOT_RUN
+TB-G5-09,CRC与存储,截断/换序/字节翻转,解析必须拒绝，原始数据不得覆盖,NOT_RUN
+TB-G5-10,重启和掉电,正常stop/复位/丢END,正常footer完整；无END判不完整,NOT_RUN
+TB-G5-11,绝对facet,参考索引与6面逐一标定,无有效参考时仅相对编号,NOT_RUN
+TB-G5-12,短时全链路,先模拟输入、再光学台架,保存Raw与配置哈希；不得据此直接宣称OD/MTF合格,NOT_RUN

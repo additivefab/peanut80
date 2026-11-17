@@ -1,0 +1,13 @@
+﻿id,priority,issue,closure,status
+G5-01,P0,HDL原生编译/仿真未运行,安装Icarus或Vivado后运行所有自检bench；失败先修复，不得删除检查,OPEN
+G5-02,P0,B02双通道同epoch适配器未集成,通道各自DCO捕获、CDC、共同起点、序号和相位验证,OPEN
+G5-03,P0,aperture时戳未实测标定,总延迟拆成ADC周期、采样相位、板级捕获、CDC；建立可追溯epoch,OPEN
+G5-04,P0,SP2引脚、电压及转换未冻结,核对V1.3B实物；1.8V ADC数据/SPI/OR与3.3V传感器不能混接,OPEN
+G5-05,P0,PS/DDR/DMA驱动与Block Design尚未提供可运行整机实现,核定时钟/HP端口/中断/缓存一致性/描述符；先回环再接ADC,OPEN
+G5-06,P0,Vivado布局布线、时序及CDC未通过,保留真实报告，不允许屏蔽全部跨域路径冒充收敛,OPEN
+G5-07,P0,G4电源、ADC和安全链路仍未闭合,保持禁止真实上电及激光/电机执行,OPEN
+G5-08,P1,SOS/EOS时间偏移尚未闭合,恒幅抖动与变幅时间偏移分别测试；本版仅记录两边沿,OPEN
+G5-09,P1,绝对facet未知,物理索引与首面映射证明后才允许逐面绝对校准,OPEN
+G5-10,P1,320MB/s逐样本记录不能直接连续通过千兆网,短时DDR抓取；再实现FPGA滤波/重采样及有限缓存/拥塞策略,OPEN
+G5-11,P1,DDR长记录与软件读取目前为离线示例,实际DMA接收驱动、分块落盘、掉电恢复待实现,OPEN
+G5-12,P1,硬件ROI/NCO/LUT二维重采样未实现,本轮离线诊断坐标映射，不生成已标定密度Master,OPEN

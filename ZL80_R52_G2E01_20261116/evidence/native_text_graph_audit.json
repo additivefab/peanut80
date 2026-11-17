@@ -1,0 +1,1652 @@
+{
+  "scope": "Independent KiCad text graph; NOT native ERC",
+  "status": "PASS",
+  "mismatches": [],
+  "boards": [
+    {
+      "file": "electronics/projects/B01/B01_G2E01.kicad_sch",
+      "pin_count": 76,
+      "wire_count": 85,
+      "label_count": 70,
+      "local_shorts": [],
+      "pins": [
+        {
+          "ref": "JPMT1",
+          "pin": "1",
+          "nets": []
+        },
+        {
+          "ref": "JPMT1",
+          "pin": "2",
+          "nets": [
+            "PMT_VREF"
+          ]
+        },
+        {
+          "ref": "JPMT1",
+          "pin": "3",
+          "nets": [
+            "PMT_VCONT"
+          ]
+        },
+        {
+          "ref": "JPMT1",
+          "pin": "4",
+          "nets": [
+            "5VA_PMT"
+          ]
+        },
+        {
+          "ref": "JPMT1",
+          "pin": "5",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "JPMT1",
+          "pin": "6",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "JPMT1",
+          "pin": "7",
+          "nets": [
+            "PMT_I"
+          ]
+        },
+        {
+          "ref": "JPMT1",
+          "pin": "8",
+          "nets": []
+        },
+        {
+          "ref": "U1",
+          "pin": "3",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "2",
+          "nets": [
+            "PMT_I"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "6",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "7",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "4",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "1",
+          "nets": []
+        },
+        {
+          "ref": "U1",
+          "pin": "5",
+          "nets": []
+        },
+        {
+          "ref": "U1",
+          "pin": "8",
+          "nets": []
+        },
+        {
+          "ref": "R1",
+          "pin": "1",
+          "nets": [
+            "PMT_I"
+          ]
+        },
+        {
+          "ref": "R1",
+          "pin": "2",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "C1",
+          "pin": "1",
+          "nets": [
+            "PMT_I"
+          ]
+        },
+        {
+          "ref": "C1",
+          "pin": "2",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "8",
+          "nets": [
+            "FDA_P"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "1",
+          "nets": [
+            "FDA_N"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "4",
+          "nets": [
+            "D_A_P"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "5",
+          "nets": [
+            "D_A_N"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "2",
+          "nets": [
+            "ADC_VCM"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "3",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "6",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "7",
+          "nets": []
+        },
+        {
+          "ref": "R2",
+          "pin": "1",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "R2",
+          "pin": "2",
+          "nets": [
+            "FDA_P"
+          ]
+        },
+        {
+          "ref": "R3",
+          "pin": "1",
+          "nets": [
+            "D_A_N"
+          ]
+        },
+        {
+          "ref": "R3",
+          "pin": "2",
+          "nets": [
+            "FDA_P"
+          ]
+        },
+        {
+          "ref": "R4",
+          "pin": "1",
+          "nets": [
+            "OFFSET_0V5"
+          ]
+        },
+        {
+          "ref": "R4",
+          "pin": "2",
+          "nets": [
+            "FDA_N"
+          ]
+        },
+        {
+          "ref": "R5",
+          "pin": "1",
+          "nets": [
+            "D_A_P"
+          ]
+        },
+        {
+          "ref": "R5",
+          "pin": "2",
+          "nets": [
+            "FDA_N"
+          ]
+        },
+        {
+          "ref": "R6",
+          "pin": "1",
+          "nets": [
+            "D_A_P"
+          ]
+        },
+        {
+          "ref": "R6",
+          "pin": "2",
+          "nets": [
+            "ADC_A_P"
+          ]
+        },
+        {
+          "ref": "R7",
+          "pin": "1",
+          "nets": [
+            "D_A_N"
+          ]
+        },
+        {
+          "ref": "R7",
+          "pin": "2",
+          "nets": [
+            "ADC_A_N"
+          ]
+        },
+        {
+          "ref": "C2",
+          "pin": "1",
+          "nets": [
+            "ADC_A_P"
+          ]
+        },
+        {
+          "ref": "C2",
+          "pin": "2",
+          "nets": [
+            "ADC_A_N"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "1",
+          "nets": [
+            "ADC_A_P"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "3",
+          "nets": [
+            "ADC_A_N"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "4",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "5",
+          "nets": [
+            "ADC_VCM"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "6",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "J2",
+          "pin": "1",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "J2",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "J2",
+          "pin": "3",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "J2",
+          "pin": "4",
+          "nets": [
+            "5VA_PMT"
+          ]
+        },
+        {
+          "ref": "J2",
+          "pin": "5",
+          "nets": [
+            "PMT_VCONT"
+          ]
+        },
+        {
+          "ref": "J2",
+          "pin": "6",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "J2",
+          "pin": "7",
+          "nets": [
+            "OFFSET_0V5"
+          ]
+        },
+        {
+          "ref": "J2",
+          "pin": "8",
+          "nets": [
+            "PMT_VREF"
+          ]
+        },
+        {
+          "ref": "C3",
+          "pin": "1",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "C3",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "C4",
+          "pin": "1",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "C4",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "C5",
+          "pin": "1",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "C5",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "C6",
+          "pin": "1",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "C6",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "C7",
+          "pin": "1",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "C7",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "C8",
+          "pin": "1",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "C8",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "C9",
+          "pin": "1",
+          "nets": [
+            "5VA_PMT"
+          ]
+        },
+        {
+          "ref": "C9",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "TP1",
+          "pin": "1",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "TP2",
+          "pin": "1",
+          "nets": [
+            "ADC_VCM"
+          ]
+        },
+        {
+          "ref": "#FLG1",
+          "pin": "1",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "#FLG2",
+          "pin": "1",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "#FLG3",
+          "pin": "1",
+          "nets": [
+            "5VA_PMT"
+          ]
+        },
+        {
+          "ref": "#FLG4",
+          "pin": "1",
+          "nets": [
+            "AGND"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "electronics/projects/B06/B06_G2E01.kicad_sch",
+      "pin_count": 60,
+      "wire_count": 83,
+      "label_count": 59,
+      "local_shorts": [],
+      "pins": [
+        {
+          "ref": "D1",
+          "pin": "1",
+          "nets": [
+            "PD_SUM"
+          ]
+        },
+        {
+          "ref": "D1",
+          "pin": "3",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "D1",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "3",
+          "nets": [
+            "VBIAS"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "4",
+          "nets": [
+            "PD_SUM"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "1",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "5",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R1",
+          "pin": "1",
+          "nets": [
+            "PD_SUM"
+          ]
+        },
+        {
+          "ref": "R1",
+          "pin": "2",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "C1",
+          "pin": "1",
+          "nets": [
+            "PD_SUM"
+          ]
+        },
+        {
+          "ref": "C1",
+          "pin": "2",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "3",
+          "nets": [
+            "CMP_P"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "1",
+          "nets": [
+            "THRESH"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "5",
+          "nets": [
+            "CMP_OUT"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "4",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "6",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R2",
+          "pin": "1",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "R2",
+          "pin": "2",
+          "nets": [
+            "CMP_P"
+          ]
+        },
+        {
+          "ref": "R3",
+          "pin": "1",
+          "nets": [
+            "CMP_P"
+          ]
+        },
+        {
+          "ref": "R3",
+          "pin": "2",
+          "nets": [
+            "CMP_OUT"
+          ]
+        },
+        {
+          "ref": "R4",
+          "pin": "1",
+          "nets": [
+            "CMP_OUT"
+          ]
+        },
+        {
+          "ref": "R4",
+          "pin": "2",
+          "nets": [
+            "SYNC"
+          ]
+        },
+        {
+          "ref": "R5",
+          "pin": "1",
+          "nets": [
+            "SYNC"
+          ]
+        },
+        {
+          "ref": "R5",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "1",
+          "nets": [
+            "5VA_IN"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "3",
+          "nets": [
+            "SYNC"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "4",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R6",
+          "pin": "1",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "R6",
+          "pin": "2",
+          "nets": [
+            "VBIAS"
+          ]
+        },
+        {
+          "ref": "R7",
+          "pin": "1",
+          "nets": [
+            "VBIAS"
+          ]
+        },
+        {
+          "ref": "R7",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "C2",
+          "pin": "1",
+          "nets": [
+            "VBIAS"
+          ]
+        },
+        {
+          "ref": "C2",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R8",
+          "pin": "1",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "R8",
+          "pin": "2",
+          "nets": [
+            "THRESH"
+          ]
+        },
+        {
+          "ref": "R9",
+          "pin": "1",
+          "nets": [
+            "THRESH"
+          ]
+        },
+        {
+          "ref": "R9",
+          "pin": "2",
+          "nets": [
+            "VBIAS"
+          ]
+        },
+        {
+          "ref": "C3",
+          "pin": "1",
+          "nets": [
+            "THRESH"
+          ]
+        },
+        {
+          "ref": "C3",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "1",
+          "nets": [
+            "5VA_IN"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "3",
+          "nets": [
+            "5VA_IN"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "5",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "4",
+          "nets": []
+        },
+        {
+          "ref": "C4",
+          "pin": "1",
+          "nets": [
+            "5VA_IN"
+          ]
+        },
+        {
+          "ref": "C4",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "C5",
+          "pin": "1",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "C5",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "C6",
+          "pin": "1",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "C6",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "C7",
+          "pin": "1",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "C7",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "TP1",
+          "pin": "1",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "TP2",
+          "pin": "1",
+          "nets": [
+            "THRESH"
+          ]
+        },
+        {
+          "ref": "TP3",
+          "pin": "1",
+          "nets": [
+            "SYNC"
+          ]
+        },
+        {
+          "ref": "#FLG1",
+          "pin": "1",
+          "nets": [
+            "5VA_IN"
+          ]
+        },
+        {
+          "ref": "#FLG2",
+          "pin": "1",
+          "nets": [
+            "GND"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "electronics/projects/B07/B07_G2E01.kicad_sch",
+      "pin_count": 60,
+      "wire_count": 83,
+      "label_count": 59,
+      "local_shorts": [],
+      "pins": [
+        {
+          "ref": "D1",
+          "pin": "1",
+          "nets": [
+            "PD_SUM"
+          ]
+        },
+        {
+          "ref": "D1",
+          "pin": "3",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "D1",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "3",
+          "nets": [
+            "VBIAS"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "4",
+          "nets": [
+            "PD_SUM"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "1",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "5",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R1",
+          "pin": "1",
+          "nets": [
+            "PD_SUM"
+          ]
+        },
+        {
+          "ref": "R1",
+          "pin": "2",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "C1",
+          "pin": "1",
+          "nets": [
+            "PD_SUM"
+          ]
+        },
+        {
+          "ref": "C1",
+          "pin": "2",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "3",
+          "nets": [
+            "CMP_P"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "1",
+          "nets": [
+            "THRESH"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "5",
+          "nets": [
+            "CMP_OUT"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "4",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "6",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R2",
+          "pin": "1",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "R2",
+          "pin": "2",
+          "nets": [
+            "CMP_P"
+          ]
+        },
+        {
+          "ref": "R3",
+          "pin": "1",
+          "nets": [
+            "CMP_P"
+          ]
+        },
+        {
+          "ref": "R3",
+          "pin": "2",
+          "nets": [
+            "CMP_OUT"
+          ]
+        },
+        {
+          "ref": "R4",
+          "pin": "1",
+          "nets": [
+            "CMP_OUT"
+          ]
+        },
+        {
+          "ref": "R4",
+          "pin": "2",
+          "nets": [
+            "SYNC"
+          ]
+        },
+        {
+          "ref": "R5",
+          "pin": "1",
+          "nets": [
+            "SYNC"
+          ]
+        },
+        {
+          "ref": "R5",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "1",
+          "nets": [
+            "5VA_IN"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "3",
+          "nets": [
+            "SYNC"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "4",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R6",
+          "pin": "1",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "R6",
+          "pin": "2",
+          "nets": [
+            "VBIAS"
+          ]
+        },
+        {
+          "ref": "R7",
+          "pin": "1",
+          "nets": [
+            "VBIAS"
+          ]
+        },
+        {
+          "ref": "R7",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "C2",
+          "pin": "1",
+          "nets": [
+            "VBIAS"
+          ]
+        },
+        {
+          "ref": "C2",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R8",
+          "pin": "1",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "R8",
+          "pin": "2",
+          "nets": [
+            "THRESH"
+          ]
+        },
+        {
+          "ref": "R9",
+          "pin": "1",
+          "nets": [
+            "THRESH"
+          ]
+        },
+        {
+          "ref": "R9",
+          "pin": "2",
+          "nets": [
+            "VBIAS"
+          ]
+        },
+        {
+          "ref": "C3",
+          "pin": "1",
+          "nets": [
+            "THRESH"
+          ]
+        },
+        {
+          "ref": "C3",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "1",
+          "nets": [
+            "5VA_IN"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "3",
+          "nets": [
+            "5VA_IN"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "5",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "4",
+          "nets": []
+        },
+        {
+          "ref": "C4",
+          "pin": "1",
+          "nets": [
+            "5VA_IN"
+          ]
+        },
+        {
+          "ref": "C4",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "C5",
+          "pin": "1",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "C5",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "C6",
+          "pin": "1",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "C6",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "C7",
+          "pin": "1",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "C7",
+          "pin": "2",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "TP1",
+          "pin": "1",
+          "nets": [
+            "TIA_OUT"
+          ]
+        },
+        {
+          "ref": "TP2",
+          "pin": "1",
+          "nets": [
+            "THRESH"
+          ]
+        },
+        {
+          "ref": "TP3",
+          "pin": "1",
+          "nets": [
+            "SYNC"
+          ]
+        },
+        {
+          "ref": "#FLG1",
+          "pin": "1",
+          "nets": [
+            "5VA_IN"
+          ]
+        },
+        {
+          "ref": "#FLG2",
+          "pin": "1",
+          "nets": [
+            "GND"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "electronics/projects/B08/B08_G2E01.kicad_sch",
+      "pin_count": 37,
+      "wire_count": 44,
+      "label_count": 34,
+      "local_shorts": [],
+      "pins": [
+        {
+          "ref": "D1",
+          "pin": "1",
+          "nets": [
+            "REF_SUM"
+          ]
+        },
+        {
+          "ref": "D1",
+          "pin": "3",
+          "nets": [
+            "PD_NBIAS"
+          ]
+        },
+        {
+          "ref": "D1",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "3",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "2",
+          "nets": [
+            "REF_SUM"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "6",
+          "nets": [
+            "REF_TIA"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "7",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "4",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "U1",
+          "pin": "1",
+          "nets": []
+        },
+        {
+          "ref": "U1",
+          "pin": "5",
+          "nets": []
+        },
+        {
+          "ref": "U1",
+          "pin": "8",
+          "nets": []
+        },
+        {
+          "ref": "R1",
+          "pin": "1",
+          "nets": [
+            "REF_SUM"
+          ]
+        },
+        {
+          "ref": "R1",
+          "pin": "2",
+          "nets": [
+            "REF_TIA"
+          ]
+        },
+        {
+          "ref": "C1",
+          "pin": "1",
+          "nets": [
+            "REF_SUM"
+          ]
+        },
+        {
+          "ref": "C1",
+          "pin": "2",
+          "nets": [
+            "REF_TIA"
+          ]
+        },
+        {
+          "ref": "R2",
+          "pin": "1",
+          "nets": [
+            "REF_TIA"
+          ]
+        },
+        {
+          "ref": "R2",
+          "pin": "2",
+          "nets": [
+            "REF_V"
+          ]
+        },
+        {
+          "ref": "R3",
+          "pin": "1",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "R3",
+          "pin": "2",
+          "nets": [
+            "PD_NBIAS"
+          ]
+        },
+        {
+          "ref": "C2",
+          "pin": "1",
+          "nets": [
+            "PD_NBIAS"
+          ]
+        },
+        {
+          "ref": "C2",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "C3",
+          "pin": "1",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "C3",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "C4",
+          "pin": "1",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "C4",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "C5",
+          "pin": "1",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "C5",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "C6",
+          "pin": "1",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "C6",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "1",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "2",
+          "nets": [
+            "AGND"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "3",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "J1",
+          "pin": "4",
+          "nets": [
+            "REF_V"
+          ]
+        },
+        {
+          "ref": "TP1",
+          "pin": "1",
+          "nets": [
+            "REF_V"
+          ]
+        },
+        {
+          "ref": "#FLG1",
+          "pin": "1",
+          "nets": [
+            "+5VA"
+          ]
+        },
+        {
+          "ref": "#FLG2",
+          "pin": "1",
+          "nets": [
+            "-5VA"
+          ]
+        },
+        {
+          "ref": "#FLG3",
+          "pin": "1",
+          "nets": [
+            "AGND"
+          ]
+        }
+      ]
+    }
+  ]
+}

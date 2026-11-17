@@ -1,0 +1,17 @@
+{
+  "scope": "body rectangles and board holes only; no pad, trace, netlist or KiCad ERC/DRC validation",
+  "components": 84,
+  "boards": 8,
+  "syntax_balanced": {
+    "B07_R5_placement.kicad_pcb": true,
+    "B05_R5_placement.kicad_pcb": true,
+    "B02_R5_placement.kicad_pcb": true,
+    "B01_R5_placement.kicad_pcb": true,
+    "B03_R5_placement.kicad_pcb": true,
+    "B08_R5_placement.kicad_pcb": true,
+    "B06_R5_placement.kicad_pcb": true,
+    "B04_R5_placement.kicad_pcb": true
+  },
+  "issues": [],
+  "schematic_pages": 16
+}

@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "filename": "B08_G4.kicad_pro",
+    "version": 1
+  },
+  "text_variables": {
+    "DESIGN_STATUS": "REVIEW_ONLY_BLOCKED"
+  },
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.15,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
+        "min_through_hole_diameter": 0.3,
+        "min_copper_edge_clearance": 0.25
+      }
+    }
+  },
+  "schematic": {
+    "meta": {
+      "version": 1
+    }
+  }
+}

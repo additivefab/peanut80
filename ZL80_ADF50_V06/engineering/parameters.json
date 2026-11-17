@@ -1,0 +1,319 @@
+{
+ "revision": "ADF50-V0.6-PDR",
+ "date": "2026-11-17",
+ "status": "Evaluation of the third-party V05 package merged into V0.4; calculation and nominal geometry only; not manufacturing release",
+ "supersedes": "ADF50-V0.4 (kept unchanged). ZL80_ADF50_V05_20261117 is the evaluated third-party package (kept unchanged).",
+ "user_constraints_2026_11_16": {
+  "depth_along_film_travel_mm": 700,
+  "height_max_mm": 650,
+  "rule": "bends are allowed if reasonable; the film must not travel outward first and then fold back"
+ },
+ "architecture": "one-way flow as V0.4: 78 deg gravity magazine in front, 7-roller R80 bends both sides, standing output bin behind; independent throat cartridge; overlap hand-off at the exit; scanner G3 drive unchanged",
+ "film_width_mm": 80,
+ "film_length_mm": 300,
+ "batch_size": 50,
+ "film_thickness_nominal_mm": 0.2,
+ "film_thickness_trial_range_mm": [
+  0.15,
+  0.35
+ ],
+ "equivalent_density_assumed_kg_m3": 1400,
+ "film_modulus_assumed_gpa": 4.0,
+ "g_m_s2": 9.81,
+ "scan_plane_z_mm": 110,
+ "scan_line_y_mm": 0,
+ "input_scan_nip_y_mm": -42,
+ "output_scan_nip_y_mm": 42,
+ "parked_leading_edge_y_mm": -35,
+ "output_isolated_tail_y_mm": 65,
+ "scanner_front_panel_y_mm": -150,
+ "scanner_rear_panel_y_mm": 150,
+ "scanner_size_mm_WDH": [
+  320,
+  300,
+  300
+ ],
+ "entry_nip_y_mm": -131,
+ "entry_roller_od_mm": 20,
+ "bend_radius_mm": 80,
+ "bend_gap_from_panel_mm": 6,
+ "guide_idler_rolling_friction_assumed": 0.03,
+ "guide_sliding_friction_assumed": 0.3,
+ "guide_channel_gap_mm": 3,
+ "magazine_angle_deg_from_horizontal": 78,
+ "slope_station_from_bend_start_mm": {
+  "double_sheet_sensor": 10,
+  "feed_retard_nip": 25,
+  "dam_top": 45,
+  "pick_contact": 70
+ },
+ "magazine_support_length_mm": 330,
+ "magazine_rear_allowance_mm": 12,
+ "magazine_housing_below_path_mm": 40,
+ "magazine_lid_above_path_mm": 35,
+ "magazine_width_mm": 140,
+ "pressure_plate_mass_g": 150,
+ "plate_margin_mm": 4.5,
+ "dam_height_mm": 2.5,
+ "top_sheet_level_tolerance_mm": 0.5,
+ "dam_angle_recipes_deg": {
+  "0.15": 62,
+  "0.20": 55,
+  "0.35": 38
+ },
+ "dam_friction_assumed": 0.3,
+ "pick_to_dam_free_length_mm": 25,
+ "pick_arm_force_recipes_n": {
+  "0.15": 0.5,
+  "0.20": 0.8,
+  "0.35": 1.8
+ },
+ "pick_roller_friction_assumed": 1.0,
+ "intersheet_friction_assumed": 0.3,
+ "feed_nip_force_recipes_n": {
+  "0.15": 0.8,
+  "0.20": 1.0,
+  "0.35": 1.5
+ },
+ "retard_radius_mm": 10,
+ "residual_adhesion_example_n": 0.05,
+ "path_drag_example_n": 0.1,
+ "output_bin_angle_deg_from_horizontal": 80,
+ "eject_nip_after_bend_mm": 8,
+ "output_bin_length_mm": 345,
+ "output_bin_depth_mm": 35,
+ "output_bin_front_cover_mm": 10,
+ "output_bin_capacity_design_sheets": 60,
+ "output_bin_width_mm": 124,
+ "prefeed_speed_mm_s": 50,
+ "eject_speed_mm_s": 50,
+ "fast_traverse_mm_s": 15.0,
+ "per_sheet_extra_time_budget_s": 5,
+ "scan_modes_r52": [
+  {
+   "name": "快速",
+   "line_average": 1,
+   "feed_mm_s": 15.0,
+   "density_to": 2.5
+  },
+  {
+   "name": "标准",
+   "line_average": 8,
+   "feed_mm_s": 1.875,
+   "density_to": 3.5
+  },
+  {
+   "name": "高黑度(PMT增益1000待确认)",
+   "line_average": 16,
+   "feed_mm_s": 0.9375,
+   "density_to": 4.5
+  },
+  {
+   "name": "高黑度(PMT增益5000)",
+   "line_average": 64,
+   "feed_mm_s": 0.234375,
+   "density_to": 4.5
+  }
+ ],
+ "batch_success_probability_target_example": 0.99,
+ "reference_options": [
+  {
+   "option": "A V0.1 外置，片仓80°，整张缓冲",
+   "envelope_mm_WDH": [
+    350,
+    1100,
+    550
+   ],
+   "bends_deg": [
+    100
+   ],
+   "one_way": false,
+   "core_change": "无"
+  },
+  {
+   "option": "B V0.2 片仓折回扫描仪上方",
+   "envelope_mm_WDH": [
+    320,
+    785,
+    639
+   ],
+   "bends_deg": [
+    115
+   ],
+   "one_way": false,
+   "core_change": "无"
+  },
+  {
+   "option": "C 整机倾斜60°直通（粗估）",
+   "envelope_mm_WDH": [
+    320,
+    653,
+    658
+   ],
+   "bends_deg": [],
+   "one_way": true,
+   "core_change": "光学核心整体旋转，机架机箱重做"
+  },
+  {
+   "option": "D V0.3 同平面直通",
+   "envelope_mm_WDH": [
+    320,
+    995,
+    300
+   ],
+   "bends_deg": [],
+   "one_way": true,
+   "core_change": "前后面板开口"
+  }
+ ],
+ "assumptions": [
+  "Media: developed, fixed, fully dried sheet film, one thickness class per batch, no interleaving paper.",
+  "Friction coefficients, modulus, adhesion and all forces are design assumptions, not measurements.",
+  "Coordinates are the R5-PDR1 nominal frame (scan line Y=0, film plane Z=110, enclosure 320x300x300, film travels toward +Y) with the R5.2 collector layout B.",
+  "Scan modes come from the R5.2 photon budget; calculated, not measured.",
+  "Dam model is a cantilever estimate, feed/retard window a rigid friction estimate, bend reaction an order-of-magnitude estimate (4*EI/R^2). All need a mock-up with real film.",
+  "Items taken from the third-party V05 package are proposals that this revision adopts, adapts or rejects; none is verified."
+ ],
+ "magazine_angle_trial_range_deg": [
+  75,
+  80
+ ],
+ "lift_arm_length_mm": 28,
+ "idler_count_per_bend": 7,
+ "idler_od_mm": 12,
+ "inner_guide_gap_mm": 1.2,
+ "inner_guide_gap_variants_mm": [
+  0.8,
+  1.2,
+  2.0,
+  3.0
+ ],
+ "v04_idler_count_per_bend": 5,
+ "v04_idler_od_mm": 10,
+ "v04_inner_guide_gap_mm": 3.0,
+ "scanner_g3": {
+  "base_size_mm": [
+   300,
+   288,
+   6
+  ],
+  "front_panel_y_mm": [
+   -150,
+   -148.5
+  ],
+  "rear_panel_y_mm": [
+   148.5,
+   150
+  ],
+  "bottom_panel_z_mm": [
+   0,
+   1.5
+  ],
+  "foot_bottom_z_mm": -8,
+  "drive": "entry follower with encoder (measurement), exit single motor (traction); NOT changed",
+  "metrology_nips_s_mm": {
+   "entry_follower": -42,
+   "exit_drive": 42
+  }
+ },
+ "feet": {
+  "leveling_foot_height_mm": 13,
+  "bench_z_mm": -8,
+  "adjust_range_mm": 3
+ },
+ "cartridge": {
+  "panel_opening_x_mm": [
+   -72,
+   112
+  ],
+  "panel_opening_z_mm": [
+   54,
+   166
+  ],
+  "flange_x_mm": [
+   -80,
+   120
+  ],
+  "flange_z_mm": [
+   44,
+   176
+  ],
+  "flange_thickness_mm": 3,
+  "tunnel_length_mm": 9,
+  "tunnel_slot_height_mm": 6,
+  "manual_variant": "R5 labyrinth H08 on the same seat; ADF cartridge and manual cartridge are mutually exclusive, interlocked by presence and lock sensors",
+  "light_trap_status": "tunnel is 9 mm, shorter than the R5 H08 (30 mm); equivalence NOT shown; stray-light and laser leakage tests required"
+ },
+ "handoff": {
+  "grip_margin_mm": 5,
+  "drive_nip_s_mm": 42,
+  "measure_nip_s_mm": -42,
+  "exit_follow_tail_s_mm": 12,
+  "fast_eject_tail_s_mm": 45,
+  "min_length_mm": 260,
+  "max_length_mm": 300,
+  "entry_hold_head_s_mm": 47,
+  "entry_nip_open_during_scan": true,
+  "eject_pressure_roller_closes_on_moving_sheet": true
+ },
+ "metrology": {
+  "g3_unchanged_window_rule": "[42+margin, L-(42+margin)]",
+  "recommended_ecr": "ECR-G3-01 (approved): independent follower encoder on the exit pressure roller; no belt coupling",
+  "alternatives": [
+   "explicit ROI [47, L-47]",
+   "60+L+60 leader/trailer carrier (needs 435 mm magazine)"
+  ],
+  "ecr_g3_01_status": "APPROVED 2026-11-17 by the user; hardware not built; metrology qualification NOT_RUN",
+  "dual_follower_default_in_controller": true
+ },
+ "output_gate": {
+  "return_fingers": 3,
+  "finger_pivot_tn_mm": [
+   34,
+   7.5
+  ],
+  "finger_tip_tn_mm": [
+   22,
+   -3
+  ],
+  "finger_width_mm": 8,
+  "paddle_arms": 2,
+  "paddle_pivot_tn_mm": [
+   44,
+   7
+  ],
+  "paddle_sweep_deg": 40,
+  "concept": "passive one-way return fingers hold the tail against slide-back; a paddle then pushes the held sheet onto the stack; powered pusher is verified on the bench, a separate guide plate is not modelled",
+  "mu_sheet_wall_assumed": 0.3
+ },
+ "v05_package_reference": {
+  "folder": "ZL80_ADF50_V05_20261117",
+  "front_angle_deg": 78,
+  "rollers_per_bend": 7,
+  "roller_od_mm": 12,
+  "inner_gap_mm": 1.2,
+  "plate_stroke_mm": 22,
+  "envelope_mm_WDH": [
+   320,
+   682.114,
+   583.189
+  ],
+  "safe_roi_mm": [
+   47,
+   253
+  ],
+  "exit_head_overlap_mm_300": 78.299,
+  "unchecked_tail_at_78deg_mm": 64.0915,
+  "stop_distance_mm": 11.75,
+  "depth_limit_mm": 700
+ },
+ "stop_budget": {
+  "detect_ms": 15,
+  "filter_ms": 5,
+  "actuate_ms": 50,
+  "decel_mm_s2": 200,
+  "guard_mm": 2,
+  "speed_mm_s": 50
+ },
+ "rear_bend_gap_mm": 2
+}

@@ -1,0 +1,17 @@
+{
+  "revision": "R52-G2E01-D01",
+  "status": "BLOCKED",
+  "scope": "First4 circuit candidates; fullG2 incomplete",
+  "checks": {
+    "python_tests": "PASS_35",
+    "kicad_text_connectivity": "PASS_233_PINS",
+    "numerical_models": "EXECUTED_LIMITED_MODEL",
+    "native_KiCad_ERC_DRC": "NOT_RUN",
+    "native_SPICE": "NOT_RUN",
+    "bench": "NOT_RUN",
+    "PCB_routing": "NOT_DONE",
+    "B02_B03_B04_B05": "UNCLOSED",
+    "layout_critical_loops": "REVIEW_REQUIRED",
+    "manufacturer_release": "NOT_APPROVED"
+  }
+}

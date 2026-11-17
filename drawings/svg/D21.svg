@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D21  外置自动馈片接口与解耦设计</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">用户新PPT的350mm/大幅机型不直接缩成80mm机；保留可靠单张交接原则，外置ADF独立开发。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="50" y="210" width="270" height="140" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="185.0" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">倾斜堆叠</text>
+<text x="62" y="275" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">恒力压板/侧导轨</text>
+<line x1="320" y1="280" x2="350" y2="280" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<rect x="360" y="210" width="270" height="140" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="495.0" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">拾取/分离</text>
+<text x="372" y="275" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">摩擦差+反向辊</text>
+<line x1="630" y1="280" x2="660" y2="280" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<rect x="670" y="210" width="270" height="140" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="805.0" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">检测/预定位</text>
+<text x="682" y="275" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">双张+偏斜+前沿</text>
+<line x1="940" y1="280" x2="970" y2="280" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<rect x="980" y="210" width="270" height="140" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="1115.0" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">交给主机</text>
+<text x="992" y="275" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">独立计量辊接管</text>
+<line x1="1250" y1="280" x2="1280" y2="280" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<rect x="1290" y="210" width="270" height="140" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="1425.0" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">扫描Master</text>
+<text x="1302" y="275" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">异常拒片/重扫</text>
+<rect x="70" y="465" width="1450" height="80" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="80" y="495" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">项目</text>
+<text x="428.0" y="495" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">本版交付边界</text>
+<rect x="70" y="545" width="1450" height="80" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="571" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">外置机械空间</text>
+<text x="428.0" y="571" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">250×300×330mm概念包络；不计入主机体积</text>
+<rect x="70" y="625" width="1450" height="80" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="651" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">主机片口高度</text>
+<text x="428.0" y="651" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">胶片中心Z=110，左右侧向基准可调</text>
+<rect x="70" y="705" width="1450" height="80" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="731" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">控制握手</text>
+<text x="428.0" y="731" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">REQUEST / READY / SINGLE_OK / JAM / EXIT_FULL / FAULT</text>
+<rect x="70" y="785" width="1450" height="80" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="811" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">电气接口</text>
+<text x="428.0" y="811" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">外置24V独立电源；隔离/缓冲接口，不把24V送入FPGA</text>
+<rect x="70" y="865" width="1450" height="80" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="891" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">30片目标</text>
+<text x="428.0" y="891" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">只作为PoC目标，不是完成自动分片设计</text>
+<rect x="70" y="945" width="1450" height="80" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="971" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">禁止方案</text>
+<text x="428.0" y="971" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">不以固定窄缝限张数；不靠透射OD单独判双张</text>
+<text x="90" y="1025" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#cb462e" font-weight="400" text-anchor="start">散片输送与长卷连续模式互斥管理；外置收卷只管低张力，不决定图像像素间距。</text>
+</svg>

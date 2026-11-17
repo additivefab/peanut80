@@ -1,0 +1,172 @@
+{
+  "scope": "ECR-G3-01 nominal geometry vs G3 integrated context (238 instances), parts that move with the upper roller lifted by dz. Rigid, no tolerances, no fasteners, no cable.",
+  "parts": {
+    "G3E-01": {
+      "name": "磁铁载体套 Ø9×8.2（铝，Ø6 内孔套在上辊右轴端）",
+      "material": "6061-T6",
+      "process_note": "车削；内孔 Ø6 H7，粘接加顶丝；端面 Ø6.1×2.5 磁铁槽",
+      "volume_mm3": 329.8,
+      "mass_g": 0.89,
+      "mass_basis": "volume x nominal density"
+    },
+    "G3E-02": {
+      "name": "径向充磁钕铁硼磁铁 Ø6×2.5",
+      "material": "外购",
+      "process_note": "压入载体槽，面低于载体端面 0",
+      "volume_mm3": 70.7,
+      "mass_g": 0.52,
+      "mass_basis": "volume x nominal density"
+    },
+    "G3E-03": {
+      "name": "磁编码器小板 12×12×1.6（芯片面朝磁铁，ABI 输出）",
+      "material": "外购",
+      "process_note": "候选 AS5047P 类，手册指标待核对；气隙 1.0 mm；芯片中心对轴 ±0.25 mm",
+      "volume_mm3": 214.0,
+      "mass_g": 1.5,
+      "mass_basis": "assumed"
+    },
+    "G3E-04": {
+      "name": "编码器支架（Z 形，两耳固定在右轴承压盖外侧面）",
+      "material": "5052-H32",
+      "process_note": "折弯 t1.5；两耳套在 G3-M06 上排两颗压盖螺钉下，这两颗换成长 1.5 mm 的同规格螺钉；随上辊升降",
+      "volume_mm3": 572.4,
+      "mass_g": 1.53,
+      "mass_basis": "volume x nominal density"
+    }
+  },
+  "moving_mass_added_g": 4.44,
+  "rotating_mass_added_g": 1.41,
+  "interference": {
+    "dz_+0": {
+      "overlaps": [],
+      "min_clearances_lt3mm": [
+        [
+          0.0,
+          "G3E-01",
+          "UPPER_CORE_42"
+        ],
+        [
+          0.0,
+          "G3E-04",
+          "CAP_72_42_120.1"
+        ],
+        [
+          1.7,
+          "G3E-02",
+          "UPPER_CORE_42"
+        ],
+        [
+          2.06,
+          "G3E-01",
+          "CAP_72_42_120.1"
+        ],
+        [
+          2.1,
+          "G3E-04",
+          "FRAME_R"
+        ],
+        [
+          2.1,
+          "G3E-04",
+          "SLIDER_72_42"
+        ],
+        [
+          2.7,
+          "G3E-03",
+          "COUPLER_GUARD"
+        ]
+      ]
+    },
+    "dz_+5": {
+      "overlaps": [],
+      "min_clearances_lt3mm": [
+        [
+          0.0,
+          "G3E-01",
+          "UPPER_CORE_42"
+        ],
+        [
+          0.0,
+          "G3E-04",
+          "CAP_72_42_120.1"
+        ],
+        [
+          1.7,
+          "G3E-02",
+          "UPPER_CORE_42"
+        ],
+        [
+          2.06,
+          "G3E-01",
+          "CAP_72_42_120.1"
+        ],
+        [
+          2.1,
+          "G3E-04",
+          "FRAME_R"
+        ],
+        [
+          2.1,
+          "G3E-04",
+          "SLIDER_72_42"
+        ]
+      ]
+    },
+    "dz_-1": {
+      "overlaps": [],
+      "min_clearances_lt3mm": [
+        [
+          0.0,
+          "G3E-01",
+          "UPPER_CORE_42"
+        ],
+        [
+          0.0,
+          "G3E-04",
+          "CAP_72_42_120.1"
+        ],
+        [
+          1.7,
+          "G3E-02",
+          "UPPER_CORE_42"
+        ],
+        [
+          1.7,
+          "G3E-03",
+          "COUPLER_GUARD"
+        ],
+        [
+          2.06,
+          "G3E-01",
+          "CAP_72_42_120.1"
+        ],
+        [
+          2.1,
+          "G3E-04",
+          "FRAME_R"
+        ],
+        [
+          2.1,
+          "G3E-04",
+          "SLIDER_72_42"
+        ],
+        [
+          2.2,
+          "G3E-01",
+          "COUPLER_GUARD"
+        ]
+      ]
+    }
+  },
+  "replaced_g3_screws": [
+    "CAP_SCREW_72_42_120.1_-7_7",
+    "CAP_SCREW_72_42_120.1_7_7"
+  ],
+  "axis_yz": [
+    42.0,
+    120.1
+  ],
+  "magnet_to_chip_gap_mm": 1.0,
+  "carrier_over_guard_clearance_mm": 3.2,
+  "board_over_guard_clearance_mm": 2.7
+}

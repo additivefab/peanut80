@@ -1,0 +1,2 @@
+COMMAND: gcc -std=c11 -Wall -Wextra -Werror -I/mnt/data/ZL80_R52_G5_20261116/software/include /mnt/data/ZL80_R52_G5_20261116/tests/test_raw_c.c -o /mnt/data/_g5_work/test_raw_c
+PASS native C raw record ABI test

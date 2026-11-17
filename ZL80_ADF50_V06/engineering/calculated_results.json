@@ -1,0 +1,395 @@
+{
+  "per_thickness": [
+    {
+      "thickness_mm": 0.15,
+      "single_mass_g": 5.039999999999999,
+      "single_weight_n": 0.0494424,
+      "stack_mass_g": 251.99999999999994,
+      "stack_thickness_mm": 7.5,
+      "pick_interface_force_full_stack_n": 0.5,
+      "pick_interface_force_last_sheet_n": 0.5,
+      "stack_load_on_dam_n": 2.4180982467260552,
+      "plate_force_full_stack_n": 0.8199247021427326,
+      "dam_angle_deg": 62,
+      "dam_lift_factor": 0.19983343501400208,
+      "push_needed_nominal_n": 0.21618004012678366,
+      "top_sheet_push_available_n": 0.3983619649345211,
+      "top_sheet_margin_nominal": 1.8427324035137227,
+      "top_sheet_margin_worst_level": 1.5356103362614357,
+      "self_feed_by_weight_ratio": 0.27963939747951605,
+      "second_sheet_adhesion_allowed_n": 0.12458206716690581,
+      "feed_nip_force_n": 0.8,
+      "retard_window_n": [
+        0.3383619649345211,
+        0.7483619649345211
+      ],
+      "retard_window_width_n": 0.41000000000000003,
+      "retard_torque_mid_mNm": 5.433619649345212,
+      "slide_back_force_in_bin_n": 0.04869125884753079,
+      "slide_back_wall_friction_n": 0.002575674797843832,
+      "bending_stiffness_EI_Nm2": 8.999999999999998e-05,
+      "bend_strain_pct": 0.09375,
+      "bend_outer_guide_normal_n": 0.05624999999999998,
+      "bend_drag_idler_n": 0.0016874999999999993,
+      "bend_drag_if_sliding_n": 0.016874999999999994,
+      "scan_axial_force_range_n": [
+        -0.03258975530851847,
+        0.029017178960712663
+      ],
+      "free_span_100mm_buckling_load_n": 0.08882643960980419,
+      "exit_push_needed_max_n": 0.031352939999999996
+    },
+    {
+      "thickness_mm": 0.2,
+      "single_mass_g": 6.7200000000000015,
+      "single_weight_n": 0.06592320000000002,
+      "stack_mass_g": 336.00000000000006,
+      "stack_thickness_mm": 10.0,
+      "pick_interface_force_full_stack_n": 0.8,
+      "pick_interface_force_last_sheet_n": 0.8,
+      "stack_load_on_dam_n": 3.2241309956347415,
+      "plate_force_full_stack_n": 0.9912522518441993,
+      "dam_angle_deg": 55,
+      "dam_lift_factor": 0.33073301346153555,
+      "push_needed_nominal_n": 0.3096152964237094,
+      "top_sheet_push_available_n": 0.6244826199126947,
+      "top_sheet_margin_nominal": 2.016963073614065,
+      "top_sheet_margin_worst_level": 1.680802561345054,
+      "self_feed_by_weight_ratio": 0.2603336328078659,
+      "second_sheet_adhesion_allowed_n": 0.18320961722627271,
+      "feed_nip_force_n": 1.0,
+      "retard_window_n": [
+        0.4144826199126948,
+        0.9644826199126949
+      ],
+      "retard_window_width_n": 0.55,
+      "retard_torque_mid_mNm": 6.894826199126949,
+      "slide_back_force_in_bin_n": 0.0649216784633744,
+      "slide_back_wall_friction_n": 0.0034342330637917766,
+      "bending_stiffness_EI_Nm2": 0.0002133333333333334,
+      "bend_strain_pct": 0.125,
+      "bend_outer_guide_normal_n": 0.13333333333333336,
+      "bend_drag_idler_n": 0.004000000000000001,
+      "bend_drag_if_sliding_n": 0.04000000000000001,
+      "scan_axial_force_range_n": [
+        -0.04695300707802464,
+        0.038689571947616894
+      ],
+      "free_span_100mm_buckling_load_n": 0.210551560556573,
+      "exit_push_needed_max_n": 0.04355392000000001
+    },
+    {
+      "thickness_mm": 0.35,
+      "single_mass_g": 11.760000000000002,
+      "single_weight_n": 0.11536560000000001,
+      "stack_mass_g": 588.0000000000001,
+      "stack_thickness_mm": 17.5,
+      "pick_interface_force_full_stack_n": 1.8,
+      "pick_interface_force_last_sheet_n": 1.8,
+      "stack_load_on_dam_n": 5.642229242360797,
+      "plate_force_full_stack_n": 1.5052349009485986,
+      "dam_angle_deg": 38,
+      "dam_lift_factor": 0.7080592706308654,
+      "push_needed_nominal_n": 0.7750763569708381,
+      "top_sheet_push_available_n": 1.372844584847216,
+      "top_sheet_margin_nominal": 1.771237856115986,
+      "top_sheet_margin_worst_level": 1.4760315467633216,
+      "self_feed_by_weight_ratio": 0.18198946438038116,
+      "second_sheet_adhesion_allowed_n": 0.5072165007294545,
+      "feed_nip_force_n": 1.5,
+      "retard_window_n": [
+        0.6128445848472159,
+        1.5128445848472158
+      ],
+      "retard_window_width_n": 0.8999999999999999,
+      "retard_torque_mid_mNm": 10.62844584847216,
+      "slide_back_force_in_bin_n": 0.1136129373109052,
+      "slide_back_wall_friction_n": 0.006009907861635609,
+      "bending_stiffness_EI_Nm2": 0.0011433333333333332,
+      "bend_strain_pct": 0.21875,
+      "bend_outer_guide_normal_n": 0.7145833333333332,
+      "bend_drag_idler_n": 0.021437499999999995,
+      "bend_drag_if_sliding_n": 0.21437499999999995,
+      "scan_axial_force_range_n": [
+        -0.11104276238654312,
+        0.06770675090832956
+      ],
+      "free_span_100mm_buckling_load_n": 1.1284247698578829,
+      "exit_push_needed_max_n": 0.09065686
+    }
+  ],
+  "path": {
+    "direction": "monotonic +Y from magazine top to bin top",
+    "points_yz": {
+      "entry_bend_end": [
+        -156,
+        110
+      ],
+      "entry_bend_start": [
+        -234.3,
+        173.4
+      ],
+      "sensor": [
+        -236.3,
+        183.1
+      ],
+      "feed_nip": [
+        -239.4,
+        197.8
+      ],
+      "dam": [
+        -243.6,
+        217.4
+      ],
+      "pick": [
+        -248.8,
+        241.8
+      ],
+      "mag_top": [
+        -314.7,
+        551.9
+      ],
+      "exit_bend_start": [
+        152,
+        110
+      ],
+      "exit_bend_end": [
+        230.8,
+        176.1
+      ],
+      "eject_nip": [
+        232.2,
+        184.0
+      ],
+      "bin_top": [
+        292.1,
+        523.7
+      ]
+    },
+    "entry_bend_deg": 78.0,
+    "exit_bend_deg": 80.0,
+    "bend_radius_mm": 80,
+    "entry_arc_mm": 108.90854532444615,
+    "exit_arc_mm": 111.70107212763709,
+    "y_monotonic": true,
+    "dam_to_park_mm": 274.90854532444615,
+    "sensor_to_park_mm": 239.90854532444615,
+    "fraction_checked_before_scan": 0.7996951510814871,
+    "unchecked_tail_mm": 60.09145467555385,
+    "feed_nip_to_entry_nip_mm": 158.90854532444615,
+    "entry_nip_to_scan_nip_mm": 89,
+    "scan_exit_nip_to_eject_nip_mm": 229.70107212763708,
+    "lead_past_eject_nip_when_tail_isolated_mm": 93.29892787236292,
+    "tail_in_magazine_when_scan_starts_mm": 25.091454675553848,
+    "plate_travel_mm": 22.0,
+    "lift_arm_angle_range_deg": [
+      6.150639827941038,
+      63.2344994232439
+    ],
+    "entry_nip_to_measure_nip_mm": 89
+  },
+  "envelope": {
+    "working_envelope_mm_WDH": [
+      320,
+      680.39023474736,
+      564.1870953971836
+    ],
+    "front_y_mm": -353.8395364345296,
+    "rear_y_mm": 326.5506983128304,
+    "front_protrusion_mm": 203.83953643452958,
+    "rear_protrusion_mm": 176.55069831283038,
+    "magazine_top_z_mm": 564.1870953971836,
+    "bin_top_z_mm": 530.4817643766243,
+    "footprint_m2": 0.2177248751191552,
+    "volume_m3": 0.12283756488919069,
+    "depth_margin_to_constraint_mm": 19.609765252640045,
+    "height_margin_to_constraint_mm": 85.81290460281639,
+    "magazine_overhang_over_scanner_mm": 0.0,
+    "lid_to_front_panel_clearance_mm": 59.372668119820446
+  },
+  "architecture_options": [
+    {
+      "option": "A V0.1 外置，片仓80°，整张缓冲",
+      "envelope_mm_WDH": [
+        350,
+        1100,
+        550
+      ],
+      "bends_deg": [
+        100
+      ],
+      "one_way": false,
+      "core_change": "无",
+      "footprint_m2": 0.385,
+      "fits_700x650": false
+    },
+    {
+      "option": "B V0.2 片仓折回扫描仪上方",
+      "envelope_mm_WDH": [
+        320,
+        785,
+        639
+      ],
+      "bends_deg": [
+        115
+      ],
+      "one_way": false,
+      "core_change": "无",
+      "footprint_m2": 0.2512,
+      "fits_700x650": false
+    },
+    {
+      "option": "C 整机倾斜60°直通（粗估）",
+      "envelope_mm_WDH": [
+        320,
+        653,
+        658
+      ],
+      "bends_deg": [],
+      "one_way": true,
+      "core_change": "光学核心整体旋转，机架机箱重做",
+      "footprint_m2": 0.20896,
+      "fits_700x650": false
+    },
+    {
+      "option": "D V0.3 同平面直通",
+      "envelope_mm_WDH": [
+        320,
+        995,
+        300
+      ],
+      "bends_deg": [],
+      "one_way": true,
+      "core_change": "前后面板开口",
+      "footprint_m2": 0.3184,
+      "fits_700x650": false
+    },
+    {
+      "option": "E V0.6 前78°斜仓下滑，7托辊R80弯道，后竖立收片",
+      "envelope_mm_WDH": [
+        320,
+        680,
+        564
+      ],
+      "bends_deg": [
+        78,
+        80
+      ],
+      "one_way": true,
+      "core_change": "前面板开口装入口辊；后面板不变",
+      "footprint_m2": 0.2177248751191552,
+      "fits_700x650": true
+    }
+  ],
+  "handoff": {
+    "exit_nip_s_mm": 271.7010721276371,
+    "exit_span_mm": 229.70107212763708,
+    "overlap_mm_L300": 70.29892787236292,
+    "grip_depth_at_follow_trigger_mm": 40.298927872362924,
+    "master_remaining_grip_at_trigger_mm": 30,
+    "min_length_overlap_mm": 30.298927872362924,
+    "head_at_follow_trigger_mm": 312,
+    "v04_claimed_overlap_mm": 93.0,
+    "g3_unchanged_window_mm": [
+      47,
+      253
+    ],
+    "g3_unchanged_window_length_mm": 206,
+    "with_exit_follower_window_mm": [
+      0,
+      300
+    ],
+    "head_zone_driven_by_entry_rollers_mm": 47,
+    "tail_zone_without_independent_measure_mm": 42,
+    "entry_hold_until_head_mm": 47,
+    "entry_rollers_still_gripping_at_hold_release": true,
+    "entry_nip_leaves_sheet_when_head_mm": 169,
+    "stop_distance_mm": 11.75
+  },
+  "bend_support": {
+    "v06": {
+      "entry": {
+        "count": 7,
+        "roller_od_mm": 12,
+        "pitch_deg": 9.75,
+        "chord_mm": 13.597148379590664,
+        "sagitta_mm": 0.28887881883844535,
+        "roller_surface_gap_mm": 1.5971483795906636
+      },
+      "exit": {
+        "count": 7,
+        "roller_od_mm": 12,
+        "pitch_deg": 10.0,
+        "chord_mm": 13.944918839625306,
+        "sagitta_mm": 0.3038449397558387,
+        "roller_surface_gap_mm": 1.9449188396253057
+      }
+    },
+    "v04": {
+      "entry": {
+        "count": 5,
+        "roller_od_mm": 10,
+        "pitch_deg": 13.0,
+        "chord_mm": 18.11251420286507,
+        "sagitta_mm": 0.5125987042952952,
+        "roller_surface_gap_mm": 8.112514202865071
+      },
+      "exit": {
+        "count": 5,
+        "roller_od_mm": 10,
+        "pitch_deg": 13.333333333333334,
+        "chord_mm": 18.57486626003684,
+        "sagitta_mm": 0.5391025884035233,
+        "roller_surface_gap_mm": 8.574866260036838
+      }
+    }
+  },
+  "batch_time": [
+    {
+      "mode": "快速",
+      "line_average": 1,
+      "feed_mm_s": 15.0,
+      "density_to": 2.5,
+      "per_sheet_min": 0.6794254280395833,
+      "batch_hours": 0.5661878566996528,
+      "sheets_per_8h": 706,
+      "worst_loss_if_late_double_min": 0.0667682829728376,
+      "status": "calculated from the R5.2 photon budget; OD capability unverified"
+    },
+    {
+      "mode": "标准",
+      "line_average": 8,
+      "feed_mm_s": 1.875,
+      "density_to": 3.5,
+      "per_sheet_min": 3.0127587613729165,
+      "batch_hours": 2.5106323011440974,
+      "sheets_per_8h": 159,
+      "worst_loss_if_late_double_min": 0.5341462637827008,
+      "status": "calculated from the R5.2 photon budget; OD capability unverified"
+    },
+    {
+      "mode": "高黑度(PMT增益1000待确认)",
+      "line_average": 16,
+      "feed_mm_s": 0.9375,
+      "density_to": 4.5,
+      "per_sheet_min": 5.6794254280395835,
+      "batch_hours": 4.73285452336632,
+      "sheets_per_8h": 84,
+      "worst_loss_if_late_double_min": 1.0682925275654016,
+      "status": "calculated from the R5.2 photon budget; OD capability unverified"
+    },
+    {
+      "mode": "高黑度(PMT增益5000)",
+      "line_average": 64,
+      "feed_mm_s": 0.234375,
+      "density_to": 4.5,
+      "per_sheet_min": 21.67942542803958,
+      "batch_hours": 18.06618785669965,
+      "sheets_per_8h": 22,
+      "worst_loss_if_late_double_min": 4.273170110261606,
+      "status": "calculated from the R5.2 photon budget; OD capability unverified"
+    }
+  ],
+  "independent_per_sheet_success_required": 0.9997990134834266,
+  "note": "All values are calculated from assumed inputs. Nothing here is a measurement."
+}

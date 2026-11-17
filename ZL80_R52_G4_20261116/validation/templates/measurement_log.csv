@@ -1,0 +1,2 @@
+﻿test_id,run_id,date,board_serial,board_revision,source_hash,instrument,calibration,stimulus,voltage_v,current_ma,temperature_c,time_ns,noise_rms_v,raw_path,operator,result
+,,,,,,,,,,,,,,,,NOT_RUN

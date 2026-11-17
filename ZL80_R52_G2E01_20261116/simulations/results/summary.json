@@ -1,0 +1,68 @@
+{
+  "evidence_class": "EXECUTED_NUMERICAL_EQUIVALENT_MODEL",
+  "date": "2026-11-16",
+  "native_spice": "NOT_RUN",
+  "bench": "NOT_RUN",
+  "assumptions": [
+    "Single-pole op-amp A(s); no slew/saturation/overload/extra poles/PCB parasitics except lumped input C.",
+    "S5971 actual capacitance at 1V and 5V not measured: lumped C swept, no 100MHz assumption at these biases.",
+    "Comparator constant4.5ns is an illustrative typical-delay parameter, NOT jitter or worst-case propagation.",
+    "Optical detector input is assumed current. Pulse edge sigma150ns/plateau1.6us is NOT measured from the actual optical head.",
+    "AD8138 modeled as ideal DC gain and external RC only; vendor macro/SI/ADC kickback still required."
+  ],
+  "B06": {
+    "bias_V": 0.9955702841884415,
+    "threshold_V": 1.018386419988556,
+    "threshold_above_bias_mV": 22.816135800114434,
+    "dividers_current_mA": 9.955702841884417,
+    "quiescent_board_mA_estimate": 21.455702841884417,
+    "scan_speed_mm_s_assumed": 62831.853071795864,
+    "proposed_5um_timing_budget_ns": 79.57747154594767,
+    "leading_edge_amplitude_timewalk_pp_ns": 306.00000000000045,
+    "midpoint_amplitude_timewalk_pp_ns": 23.0,
+    "white_noise_subset_rms_mV": 0.29596179403755185,
+    "illustrative_local_noise_jitter_ns": 1.0013094800108702,
+    "timewalk_vs_budget": "OPEN: deterministic peak-to-peak walk and RMS budget are different statistics; amplitude correction or pulse-center method needs optical validation.",
+    "ac_nominal": {
+      "dc_ohm": 9999.90000099999,
+      "bandwidth_3db_Hz": 9120108.393559096,
+      "phase_margin_deg_singlepole": 76.7854784121611,
+      "peaking_dB": -4.218932666171656e-12,
+      "all_poles_lhp": true
+    },
+    "model_scope": "Analog resistor/shot/OPA white noise subset only; no comparator noise,1/f,PMT,laser,power,MCU threshold,or PCB."
+  },
+  "B01": {
+    "rf_ohm": 100000.0,
+    "cf_pF": 2.2,
+    "gain_diff": 1.6152304609218437,
+    "map_tia_0_to_1V_diff_V": [
+      -0.8076152304609219,
+      0.8076152304609219
+    ],
+    "ADC_diff_halfspan_assumed_V": 1.0,
+    "differential_margin_each_rail_V": 0.19238476953907813,
+    "settling_vs_pixel": "Finite model explicitly not guaranteed to settle0.1% inside0.796us; test edge response/MTF at mode bandwidth.",
+    "gain_switch": "Solder-population alternatives only; no pixel-rate gain switch is designed.",
+    "PMT_VCONT_and_ADC_VCM": "External B03/B02 contracts remain OPEN; test with verified laboratory references first."
+  },
+  "B08": {
+    "ac_nominal": {
+      "dc_ohm": 9999.99000001,
+      "bandwidth_3db_Hz": 160324.53906900418,
+      "phase_margin_deg_singlepole": 89.95963104088372,
+      "peaking_dB": -1.712122627500955e-08,
+      "all_poles_lhp": true
+    },
+    "nominal_reverse_bias_V": 5.0,
+    "output_at_100uA_V": 0.9999990000010001,
+    "delay_alignment": "Reference is band-limited; do not divide PMT samples by unmatched raw reference timestamps."
+  },
+  "judgement": {
+    "numerical_execution": "COMPLETED",
+    "component_model_validation": "OPEN",
+    "timing_5um_compliance": "NOT_DEMONSTRATED",
+    "manufacturing_release": "BLOCKED",
+    "bench_evidence": "NONE"
+  }
+}

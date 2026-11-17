@@ -1,0 +1,6 @@
+{
+  "worksheets": 13,
+  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "method": "artifact_tool recalculation and formula error inspect",
+  "note": "not hardware verification"
+}

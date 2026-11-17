@@ -1,0 +1,9 @@
+{
+  "timestamp_utc": "2026-11-16T12:06:36.747162+00:00",
+  "kicad_cli": null,
+  "zone_refill": "MANUAL_REQUIRED_BEFORE_DRC",
+  "checks": [],
+  "release": "BLOCKED",
+  "status": "NOT_RUN",
+  "reason": "kicad-cli not installed/in PATH; no native parse/ERC/DRC performed"
+}

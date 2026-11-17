@@ -1,0 +1,6 @@
+﻿id,title,url,location,use
+W01,AD9268 Rev.A,https://www.analog.com/media/en/technical-documentation/data-sheets/AD9268.pdf,"pp9-10,33,35,37-39",CMOS latency12 sample clocks; default DCO rising; SPI24bit + shadow commit
+W02,AMD AXI DMA PG021,https://docs.amd.com/r/en-US/pg021_axi_dma/Typical-System-Interconnect,Typical System Interconnect,DMA must be configured before data; TREADY can deassert
+W03,AMD AXI DMA PG021,https://docs.amd.com/r/en-US/pg021_axi_dma/S2MM,S2MM / packet semantics,TLAST marks last stream beat of packet; must match DMA configuration
+W04,AMD UG903,https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/Recommended-Asynchronous-Clock-Groups-Constraints,CDC constraints,clock groups may override max-delay constraints; no blanket false paths
+W05,AMD UG903,https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/Input-Delays,Input Delays,source-synchronous input delays require real timing budget

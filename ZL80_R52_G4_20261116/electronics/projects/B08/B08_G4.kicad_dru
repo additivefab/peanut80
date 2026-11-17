@@ -1,0 +1,4 @@
+(version 1)
+(rule "G4 minimum copper clearance" (constraint clearance (min 0.15mm)))
+(rule "G4 minimum width" (constraint track_width (min 0.15mm)))
+(rule "G4 board edge clearance" (constraint edge_clearance (min 0.25mm)))

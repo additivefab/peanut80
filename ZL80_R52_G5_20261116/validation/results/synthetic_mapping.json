@@ -1,0 +1,9 @@
+{
+  "scope": "PYTHON_SYNTHETIC_DIAGNOSTIC_MAPPING_NOT_MEASUREMENT",
+  "mapped_samples": 76394,
+  "lines": 3,
+  "valid_coordinate_rows": 76394,
+  "unknown_absolute_facets": 76394,
+  "min_x": -39.999576569,
+  "max_x": 39.998948253
+}

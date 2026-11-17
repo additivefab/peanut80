@@ -1,0 +1,35 @@
+test_01_width (test_engineering.EngineeringTests.test_01_width) ... ok
+test_02_plane (test_engineering.EngineeringTests.test_02_plane) ... ok
+test_03_nip_gap (test_engineering.EngineeringTests.test_03_nip_gap) ... ok
+test_04_four_rollers (test_engineering.EngineeringTests.test_04_four_rollers) ... ok
+test_05_bearings (test_engineering.EngineeringTests.test_05_bearings) ... ok
+test_06_encoder_quantization (test_engineering.EngineeringTests.test_06_encoder_quantization) ... ok
+test_07_encoder_accuracy_not_quantum (test_engineering.EngineeringTests.test_07_encoder_accuracy_not_quantum) ... ok
+test_08_3000rpm_line (test_engineering.EngineeringTests.test_08_3000rpm_line) ... ok
+test_09_nominal_feed (test_engineering.EngineeringTests.test_09_nominal_feed) ... ok
+test_10_motor_insertion (test_engineering.EngineeringTests.test_10_motor_insertion) ... ok
+test_11_coupling_bounds (test_engineering.EngineeringTests.test_11_coupling_bounds) ... ok
+test_12_spring_force (test_engineering.EngineeringTests.test_12_spring_force) ... ok
+test_13_gravity_included (test_engineering.EngineeringTests.test_13_gravity_included) ... ok
+test_14_motor_not_approved (test_engineering.EngineeringTests.test_14_motor_not_approved) ... ok
+test_15_bench_not_done (test_engineering.EngineeringTests.test_15_bench_not_done) ... ok
+test_16_tension_not_clamp_force (test_engineering.EngineeringTests.test_16_tension_not_clamp_force) ... ok
+test_17_force_corner_fails (test_engineering.EngineeringTests.test_17_force_corner_fails) ... ok
+test_18_gap_chain (test_engineering.EngineeringTests.test_18_gap_chain) ... ok
+test_19_thickness_focus_not_gap (test_engineering.EngineeringTests.test_19_thickness_focus_not_gap) ... ok
+test_20_positive_deflection (test_engineering.EngineeringTests.test_20_positive_deflection) ... ok
+test_21_harness_unique (test_engineering.EngineeringTests.test_21_harness_unique) ... ok
+test_22_cut_length (test_engineering.EngineeringTests.test_22_cut_length) ... ok
+test_23_shapes_valid (test_engineering.EngineeringTests.test_23_shapes_valid) ... ok
+test_24_collision_classification (test_engineering.EngineeringTests.test_24_collision_classification) ... ok
+test_25_blank_bench_refused (test_engineering.EngineeringTests.test_25_blank_bench_refused) ... ok
+test_26_known_synthetic_ANALYZER_ONLY (test_engineering.EngineeringTests.test_26_known_synthetic_ANALYZER_ONLY) ... ok
+test_27_base_holes_closed (test_engineering.EngineeringTests.test_27_base_holes_closed) ... ok
+test_28_release_lift (test_engineering.EngineeringTests.test_28_release_lift) ... ok
+test_29_doe_not_measured (test_engineering.EngineeringTests.test_29_doe_not_measured) ... ok
+test_30_source_baseline_preserved (test_engineering.EngineeringTests.test_30_source_baseline_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.005s
+
+OK

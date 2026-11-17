@@ -1,0 +1,51 @@
+{
+  "model_status": "IDEAL_ANALYTICAL_PLUS_NOMINAL_POLYGON_GEOMETRY",
+  "baseline": {
+    "rpm": 3000,
+    "pixel_x_um": 50.0,
+    "pixel_y_um": 50.0,
+    "line_hz": 300.0,
+    "line_period_ms": 3.3333333333333335,
+    "x_velocity_mm_s": 62831.853071795864,
+    "feed_mm_s": 15.0,
+    "scan_time_ms": 1.5915494309189533,
+    "roi_time_ms": 1.2732395447351628,
+    "sync_time_ms": 1.4642254764454372,
+    "scan_duty": 0.477464829275686,
+    "roi_duty": 0.38197186342054884,
+    "optical_half_deg": 28.64788975654116,
+    "mechanical_half_deg": 14.32394487827058,
+    "pixel_dwell_us": 0.7957747154594768,
+    "instant_pixel_MHz": 1.2566370614359172,
+    "average_pixel_MHz": 0.48,
+    "pixels_per_roi": 1600.0,
+    "adc_samples_per_pixel": 15.915494309189533,
+    "adc_samples_per_roi_nominal": 25464.790894703256,
+    "feed_during_roi_um": 19.098593171027442,
+    "roi_start_after_sos_us": 95.4929658551372,
+    "timing_rms_budget_ns": 79.57747154594767,
+    "raw_MB_s": 80.0,
+    "image_MB_s": 0.96,
+    "roller_rpm": 14.32394487827058,
+    "encoder_quantization_um": 3.834951969714103
+  },
+  "gaussian_ideal": {
+    "ideal_diameter_1e2_um": 21.021184883577536,
+    "ideal_fwhm_um": 12.375276883537492,
+    "rayleigh_range_mm": 0.42042369767155074,
+    "diameter_at_0p1mm_defocus_um": 21.60764248847034
+  },
+  "warnings": [
+    "No actual lens prescription: no full-field spot, aberration, MTF or telecentricity verification.",
+    "EFL is not working distance; lens_reference_z is only a CAD plane.",
+    "Fixed angle-to-position map ignores performance changes due to beam walk.",
+    "Minimum motor speed, laser working point, power, and facet optical efficiency require supplier/bench evidence.",
+    "Reference source geometry retained; mount drawings are not manufacturing release."
+  ],
+  "finite_polygon": {
+    "min_edge_margin_1e2_mm": -0.09308124336318535,
+    "max_chief_ray_walk_mm": 1.0554097160346885
+  },
+  "real_lens_raytrace": "NOT_RUN_NO_PRESCRIPTION",
+  "bench_tests": "NOT_RUN"
+}

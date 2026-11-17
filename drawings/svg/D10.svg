@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D10  PMT实物接口、针脚与模拟板耦合</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">设计分配与名义几何；图中包络不等于厂商实物认证。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="110" y="240" width="700" height="350" rx="0" fill="#d5dce1" stroke="#226da6" stroke-width="3"/>
+<circle cx="264" cy="415" r="70" fill="#abd6e5" stroke="#226da6" stroke-width="3"/>
+<circle cx="264" cy="415" r="56" fill="#eaf8fc" stroke="#226da6" stroke-width="2"/>
+<text x="280" y="645" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">本体50×25×18；图示为光窗面</text>
+<text x="300" y="700" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">光窗中心距左端11；φ10窗 / φ8有效面</text>
+<line x1="110" y1="205" x2="810" y2="205" stroke="#226da6" stroke-width="3" />
+<text x="460" y="190" font-family="Noto Sans CJK SC, sans-serif" font-size="24" fill="#226da6" font-weight="700" text-anchor="middle">50</text>
+<line x1="880" y1="240" x2="880" y2="590" stroke="#226da6" stroke-width="3" />
+<text x="900" y="420" font-family="Noto Sans CJK SC, sans-serif" font-size="24" fill="#172d3f" font-weight="400" text-anchor="start">25</text>
+<rect x="1030" y="195" width="520" height="79" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="1040" y="225" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="white" font-weight="700" text-anchor="start">针脚</text>
+<text x="1175.2" y="225" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="white" font-weight="700" text-anchor="start">功能</text>
+<rect x="1030" y="274" width="520" height="79" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1040" y="300" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">1 / 8</text>
+<text x="1175.2" y="300" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">NC</text>
+<rect x="1030" y="353" width="520" height="79" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1040" y="379" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">2</text>
+<text x="1175.2" y="379" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">Vref输出，禁止反向供电</text>
+<rect x="1030" y="432" width="520" height="79" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1040" y="458" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">3</text>
+<text x="1175.2" y="458" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">Vcont 0.5–1.1V，慢调</text>
+<rect x="1030" y="511" width="520" height="79" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1040" y="537" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">4 / 5</text>
+<text x="1175.2" y="537" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">+5V / GND</text>
+<rect x="1030" y="590" width="520" height="79" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1040" y="616" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">6 / 7</text>
+<text x="1175.2" y="616" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">Signal GND / 电流输出</text>
+<rect x="1030" y="669" width="520" height="79" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1040" y="695" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">4×M2</text>
+<text x="1175.2" y="695" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">14mm方距，深度3mm</text>
+<rect x="80" y="820" width="920" height="115" rx="5" fill="#edf4f8" stroke="none" stroke-width="1.5"/>
+<text x="98" y="852" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">R5基线采用H10720针脚版本</text>
+<text x="98" y="885" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">12mm引脚到可拆插座；B01改至Y=−91，插座6mm高，名义插入约3.1mm。底视图镜像、孔位与配合</text>
+<text x="98" y="912" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">需复核。</text>
+<text x="1050" y="800" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#cb462e" font-weight="400" text-anchor="start">电流信号在模块后立即进入TIA，不经跨机箱长同轴。</text>
+<text x="1050" y="831" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#cb462e" font-weight="400" text-anchor="start">内部高压已封装，不另接裸高压。</text>
+</svg>

@@ -1,0 +1,40 @@
+test_01_four_boards (test_design.TestDesign.test_01_four_boards) ... ok
+test_02_pin_ids_unique (test_design.TestDesign.test_02_pin_ids_unique) ... ok
+test_03_all_pins_mapped (test_design.TestDesign.test_03_all_pins_mapped) ... ok
+test_04_sources_on_ics (test_design.TestDesign.test_04_sources_on_ics) ... ok
+test_05_diode_three_pins (test_design.TestDesign.test_05_diode_three_pins) ... ok
+test_06_opa356_types (test_design.TestDesign.test_06_opa356_types) ... ok
+test_07_comparator_shutdown (test_design.TestDesign.test_07_comparator_shutdown) ... ok
+test_08_opa828_nc (test_design.TestDesign.test_08_opa828_nc) ... ok
+test_09_regulator_output (test_design.TestDesign.test_09_regulator_output) ... ok
+test_10_pmt_direction (test_design.TestDesign.test_10_pmt_direction) ... ok
+test_11_all_nc_empty (test_design.TestDesign.test_11_all_nc_empty) ... ok
+test_12_references_unique (test_design.TestDesign.test_12_references_unique) ... ok
+test_13_generated_syntax (test_design.TestDesign.test_13_generated_syntax) ... ok
+test_14_native_instance_count (test_design.TestDesign.test_14_native_instance_count) ... ok
+test_15_native_uuid_unique (test_design.TestDesign.test_15_native_uuid_unique) ... ok
+test_16_not_all_passive (test_design.TestDesign.test_16_not_all_passive) ... ok
+test_17_pcb_pad_net_agrees (test_design.TestDesign.test_17_pcb_pad_net_agrees) ... ok
+test_18_pcb_no_copper_claim (test_design.TestDesign.test_18_pcb_no_copper_claim) ... ok
+test_19_floorplan_no_parked (test_design.TestDesign.test_19_floorplan_no_parked) ... ok
+test_20_floorplan_inside_bounds (test_design.TestDesign.test_20_floorplan_inside_bounds) ... ok
+test_21_tia_poles (test_design.TestDesign.test_21_tia_poles) ... ok
+test_22_tia_dc (test_design.TestDesign.test_22_tia_dc) ... ok
+test_23_bias_loaded (test_design.TestDesign.test_23_bias_loaded) ... ok
+test_24_fda_headroom (test_design.TestDesign.test_24_fda_headroom) ... ok
+test_25_bipolar_model_not_rail_blowup (test_design.TestDesign.test_25_bipolar_model_not_rail_blowup) ... ok
+test_26_report_limits (test_design.TestDesign.test_26_report_limits) ... ok
+test_27_timewalk_exposes_risk (test_design.TestDesign.test_27_timewalk_exposes_risk) ... ok
+test_28_not_fake_bench (test_design.TestDesign.test_28_not_fake_bench) ... ok
+test_29_adc_65pins (test_design.TestDesign.test_29_adc_65pins) ... ok
+test_30_adc_cmos_not_lvds (test_design.TestDesign.test_30_adc_cmos_not_lvds) ... ok
+test_31_source_register (test_design.TestDesign.test_31_source_register) ... ok
+test_32_synccircuits_identical_except_mechanics (test_design.TestDesign.test_32_synccircuits_identical_except_mechanics) ... ok
+test_33_derived_proposed_timing (test_design.TestDesign.test_33_derived_proposed_timing) ... ok
+test_34_no_dummy_gain_switch (test_design.TestDesign.test_34_no_dummy_gain_switch) ... ok
+test_35_pads_inside_courtyard (test_design.TestDesign.test_35_pads_inside_courtyard) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.118s
+
+OK

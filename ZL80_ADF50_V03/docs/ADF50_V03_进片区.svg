@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="13">
+<rect width="1000" height="480" fill="#ffffff"/>
+<rect x="460" y="0" width="8" height="448" fill="#c9d2da" stroke="#556" fill-opacity="1"/>
+<text x="476" y="24" fill="#334" text-anchor="start">前面板 Y=-150</text>
+<rect x="610.4" y="280" width="184.0" height="168" fill="#f7ecd9" stroke="#b83" fill-opacity="1"/>
+<text x="660" y="408" fill="#b83" text-anchor="start">模拟屏蔽罩（R5.2 布局 B）</text>
+<rect x="643.2" y="288" width="6.400000000000034" height="160" fill="#d9c9a6" stroke="#b83" fill-opacity="1"/>
+<rect x="600" y="264" width="40" height="32" fill="#dde" stroke="#66a" fill-opacity="1"/>
+<rect x="600" y="200" width="40" height="32" fill="#dde" stroke="#66a" fill-opacity="1"/>
+<text x="644" y="184" fill="#66a" text-anchor="start">片到位传感器 S03（x=±25）</text>
+<rect x="560" y="148" width="40" height="88" fill="#fde3c4" stroke="#e80" fill-opacity="1"/>
+<rect x="560" y="260" width="40" height="84" fill="#fde3c4" stroke="#e80" fill-opacity="1"/>
+<text x="552" y="64" fill="#a50" text-anchor="start">超声双张检测（x=0）</text>
+<circle cx="508" cy="208" r="40.0" fill="#fff4e6" stroke="#a50" stroke-width="1.4"/>
+<circle cx="508" cy="288" r="40.0" fill="#fff4e6" stroke="#a50" stroke-width="1.4"/>
+<text x="472" y="128" fill="#a50" text-anchor="start">送片辊（固定轴）</text>
+<text x="452" y="392" fill="#a50" text-anchor="end">限矩反转辊（扫描时下落脱开）</text>
+<circle cx="328" cy="218.0" r="40.0" fill="#fff4e6" stroke="#a50" stroke-width="1.4"/>
+<line x1="328" y1="218.0" x2="508" y2="208" stroke="#a50" stroke-width="2.5" />
+<text x="360" y="112" fill="#a50" text-anchor="end">拾取辊：配重臂绕送片辊轴摆动</text>
+<polygon points="420.99792461790287,258.0 428,248 460,248 460,344 420.99792461790287,344" fill="#e4e8ec" stroke="#556"/>
+<text x="444" y="284" fill="#334" text-anchor="middle">斜坝</text>
+<rect x="0" y="258.0" width="420.79999999999995" height="40.0" fill="#cfe3f7" stroke="#06c" fill-opacity="1"/>
+<text x="12" y="274.0" fill="#046" text-anchor="start">片堆（顶面恒在 Z=107.5）</text>
+<line x1="0" y1="299.2" x2="420.79999999999995" y2="304" stroke="#555" stroke-width="3" />
+<line x1="0" y1="248" x2="900" y2="248" stroke="#06c" stroke-width="2" />
+<circle cx="892" cy="207.60000000000002" r="40.0" fill="none" stroke="#334" stroke-width="1.4"/>
+<circle cx="892" cy="288.4" r="40.0" fill="none" stroke="#334" stroke-width="1.4"/>
+<text x="892" y="144" fill="#334" text-anchor="middle">扫描段入口辊</text>
+<line x1="428" y1="432" x2="428" y2="448" stroke="#333" stroke-width="1" />
+<text x="428" y="472" fill="#333" text-anchor="middle">坝顶 -158</text>
+<line x1="508" y1="432" x2="508" y2="448" stroke="#333" stroke-width="1" />
+<text x="508" y="472" fill="#333" text-anchor="middle">-138</text>
+<line x1="580" y1="432" x2="580" y2="448" stroke="#333" stroke-width="1" />
+<text x="580" y="472" fill="#333" text-anchor="middle">-120</text>
+<line x1="620" y1="432" x2="620" y2="448" stroke="#333" stroke-width="1" />
+<text x="620" y="472" fill="#333" text-anchor="middle">-110</text>
+<line x1="892" y1="432" x2="892" y2="448" stroke="#333" stroke-width="1" />
+<text x="892" y="472" fill="#333" text-anchor="middle">-42</text>
+<text x="12" y="464" fill="#333" text-anchor="start">进片区放大，4 px = 1 mm；尺寸为名义占位</text>
+</svg>

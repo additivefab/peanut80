@@ -1,0 +1,1 @@
+(sym_lib_table (lib (name "ZL80_R5-cache")(type "Legacy")(uri "${KIPRJMOD}/ZL80_R5-cache.lib")(options "")(descr "PDR pin net symbols")))

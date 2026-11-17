@@ -1,0 +1,30 @@
+﻿id,category,requirement,criterion,authority,source_id,verification_id,method,status
+SYS-001,系统,80 mm有效成像幅宽,80 mm,USER_FIXED,U01,TC-01/TC-04,量测与全幅试扫,待验证
+SYS-002,系统,扫描方向预留跨度,100 mm,USER_FIXED,U01,TC-01,片面边界量测,待验证
+SYS-003,系统,连续直通走片，非停一行走一步,连续；长度由外置卷架/数据流决定,USER_FIXED,U01,G3,真实片材输送,G3接口
+SYS-004,系统,保留激光飞点+单PMT,禁止整条线同时照明后用单PMT判X,USER_FIXED,U01/U05,设计审查,架构复核,文档已定义
+OPT-001,光学,工作波长,635 nm名义；波长容差待供应商,DESIGN_BASELINE,U02,TC-02,数据表/光谱/温漂,RFQ
+OPT-002,光学,旋转多面反射镜扫描,六面候选；非透明折射棱镜,INHERITED_PROVISIONAL,U02,TC-01,采购图/逐面识别,RFQ
+OPT-003,光学,镜头全扫幅与有效幅宽分开,有效±40 mm；预留±50 mm,USER_FIXED,U01,TC-01/TC-04,全场光斑/能量,待验证
+OPT-004,光学,f-theta有效焦距,100 mm预算；WD/BFL/入瞳未知,INHERITED_PROVISIONAL,U02/V01,RFQ-O03,真实光学模型,BLOCKED
+OPT-005,光学,全有效幅宽光斑,1/e2直径≤35 um建议；X/Y分别测,PROPOSED_TARGET,D01,TC-04,刀口/光束分析；原始数据,待批准
+OPT-006,光学,片面主光线角,绝对值≤5 deg建议,INHERITED_TARGET,U03,TC-05,厂商模型/位移法,待批准
+OPT-007,光学,镜面边缘/镜头渐晕,不裁切目标束轮廓；功率阈值待冻结,PROPOSED_TARGET,D01,TC-01/TC-04,场边遮光检查,BLOCKED_名义模型边缘风险
+OPT-008,光学,镜头前后鬼像与回反,不得形成不可接受的扫描伪影/损伤,PROPOSED_TARGET,V01/D01,TC-09,供应商模型+台架,RFQ
+COL-001,下游接口,横置矩形狭缝积分筒,内腔φ40×120；狭缝104×1.2；侧窗出光,INHERITED_PROVISIONAL,U01/U02,G2,接口和收光位置响应,G2接口
+COL-002,下游接口,PMMA至单PMT,径向-Y；两个筒端封闭,USER_FIXED,U01,G2,原理/装配复核,G2接口
+SYN-001,同步,SOS/EOS名义片面坐标,X=-46/+46 mm,INHERITED_PROVISIONAL,U02,TC-03,实际触发位置标定,待冻结
+SYN-002,同步,光源有效窗与图像窗分离,SOS/EOS在ROI外仍须被照到,PROPOSED_REQUIREMENT,D01,TC-03/TC-10,时序审查和实测,文档已定义
+SYN-003,同步,逐面校准索引,真Z/index或可验证相位标识,PROPOSED_REQUIREMENT,U05/D01,TC-06,丢脉冲/掉电/重启验证,RFQ
+SYN-004,同步,等效同步误差目标,5 um RMS建议；3000rpm预算79.58ns,PROPOSED_TARGET,D01,TC-03,模拟阈值时走+捕获误差,待批准
+SYN-005,同步,几何校准残差,有效80mm最大绝对残差≤10um建议,PROPOSED_TARGET,D01,TC-06,独立几何靶标,待批准
+ELE-001,电气接口,ADC持续运行,20MSPS预算；模式/延迟待实际AD9268配置,INHERITED_PROVISIONAL,U03,G4/G5,SPI/采集/延迟校验,未设计PCB
+ELE-002,电气接口,接口电平隔离,外部24V/5V不得默认直连FPGA,PROPOSED_REQUIREMENT,D01,ICD签署,版本/方向/电平检查,待冻结
+DAT-001,数据,保存同步原始证据,sample时间、SOS/EOS、index、y编码和增益状态,PROPOSED_REQUIREMENT,U05,TC-06/TC-10,Raw数据及元数据,模板已提供
+MEC-001,机械接口,统一右手坐标与R5转换,局部Z0=R5名义片面Z110,INHERITED_GEOMETRY,U03,CAD检查,位姿表核对,已定义未实测
+MEC-002,机械接口,可调装调结构,镜头Z调节±15mm预算；真实WD冻结后重做,INHERITED_PROVISIONAL,U03,TC-04,行程/工具空间/回装,待验证
+SAFE-001,安全,失电激光关闭,硬禁能+失电闭合快门；独立于PC/FPGA正常运行,PROPOSED_REQUIREMENT,U02/D01,TC-10,故障注入；先在仿真信号源验证,安全评审未完成
+SAFE-002,安全,高速转子采购边界,供应商总成；不得按包络自制,INHERITED_REQUIREMENT,U02,采购审查,动平衡/防护/寿命文件,RFQ
+QA-001,质量,采样间距与分辨率分开,50um采样不等于SRbD≤50um,PROPOSED_REQUIREMENT,U05,G7,独立双方向空间评价,G7边界
+QA-002,质量,仿真与实测区分,本包模型不替代真实光学处方/台架,PROPOSED_REQUIREMENT,D01,所有关口,每项证据状态标记,已定义
+REL-001,发布,禁止自动加工/投板/上板,无签署制造放行则保持BLOCKED,PROPOSED_REQUIREMENT,U02,发布检查,哈希与审批,NOT_RELEASED

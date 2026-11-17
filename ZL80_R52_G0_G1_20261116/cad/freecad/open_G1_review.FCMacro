@@ -1,0 +1,33 @@
+# Run using FreeCAD > Macro > Macros. Imports actual inherited STEP parts.
+# This produces an editable object tree, not a reconstructed parametric design history.
+import json
+from pathlib import Path
+import FreeCAD as App
+import Part
+ROOT = Path(__file__).resolve().parents[2]
+rows=json.loads((ROOT/'cad/instances.json').read_text(encoding='utf-8'))
+doc=App.newDocument('ZL80_G1_Review')
+for i,row in enumerate(rows):
+    shape=Part.read(str(ROOT/'cad/parts'/f'{row["part"]}.step'))
+    obj=doc.addObject('Part::Feature',f'P_{i}_{row["part"]}')
+    obj.Label=f'{row["part"]} | {row["name"]}'
+    obj.Shape=shape
+    rot=App.Rotation()
+    if row['rotation']:
+        ax,deg=row['rotation'];rot=App.Rotation(App.Vector(*ax),deg)
+    obj.Placement=App.Placement(App.Vector(*row['position']),rot)
+    obj.addProperty('App::PropertyString','DesignStatus','Provenance')
+    obj.DesignStatus='Inherited R5 nominal geometry; NOT MANUFACTURING RELEASE'
+doc.recompute()
+try:
+    import FreeCADGui as Gui
+    Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
+except ImportError:
+    pass
+out=ROOT/'generated';out.mkdir(exist_ok=True)
+path=out/'ZL80_G1_Review.FCStd'
+if path.exists():
+    import datetime
+    path=out/('ZL80_G1_Review_'+datetime.datetime.now().strftime('%Y%m%d_%H%M%S')+'.FCStd')
+doc.saveAs(str(path))
+App.Console.PrintMessage('Saved: '+str(path)+'\n')

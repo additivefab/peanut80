@@ -1,0 +1,37 @@
+[
+  {
+    "file": "G4_README.md",
+    "source": "g4/ZL80_R52_G4_20261116/README_先读.md",
+    "sha256": "4b89513b08a340ec33448e334b6ece6432dd344b7ada7c478ad41a5f3a421557"
+  },
+  {
+    "file": "G4_open_issues.csv",
+    "source": "g4/ZL80_R52_G4_20261116/engineering/open_issues.csv",
+    "sha256": "195fe2e2f5c12ade925a7be9391d283a059c12a9228996074abce556b0452518"
+  },
+  {
+    "file": "G2_interface_control.csv",
+    "source": "g2/ZL80_R52_G2E01_20261116/engineering/interface_control.csv",
+    "sha256": "df41378d29552a988d11808c3654b09fb625f27caefe10f0b3b32fa034ba1b86"
+  },
+  {
+    "file": "G01_master_parameters.json",
+    "source": "g01/ZL80_R52_G0_G1_20261116/config/master_parameters.json",
+    "sha256": "1af3e132978a16375caf01ec2d3304872a01c64d1ae4f06175642d64dee349fb"
+  },
+  {
+    "file": "G01_scan_modes.csv",
+    "source": "g01/ZL80_R52_G0_G1_20261116/results/scan_modes.csv",
+    "sha256": "3de7d00bb57b752a396f81f55dabc2edcc942eaaf2effcab5f53bc0fc1ece263"
+  },
+  {
+    "file": "R51_SP2_pin_assignment.csv",
+    "source": "r51/ZL80_R5_1_AI_Engineering/reference/R5/electronics/SP2_V13B_pin_assignment.csv",
+    "sha256": "2cb11b22cc18536a0ef78ac892b83fd00d7ab68183f9d315d886c0e2ab2d0d39"
+  },
+  {
+    "file": "R51_SP2_draft_REFERENCE_ONLY.xdc.txt",
+    "source": "r51/ZL80_R5_1_AI_Engineering/firmware/SP2_V13B_draft.xdc",
+    "sha256": "05babf18af0f8a06dddeb9fa60c29f2f61634e44c6cff396a23f476e0241804f"
+  }
+]

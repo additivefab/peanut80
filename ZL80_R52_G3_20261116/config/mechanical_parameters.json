@@ -1,0 +1,135 @@
+{
+  "revision": "R52-G3-M01-D01",
+  "status": "DESIGN_REVIEW_NOT_FOR_PRODUCTION",
+  "units": "mm",
+  "axes": {
+    "X": "fast scan / roller shafts",
+    "Y": "continuous feed; inlet negative",
+    "Z": "up; R5 base bottom z5"
+  },
+  "film_width": 80,
+  "scan_span": 100,
+  "film_center_z": 110,
+  "film_thickness_nominal": 0.2,
+  "film_thickness_range": [
+    0.15,
+    0.35
+  ],
+  "roller_diameter": 20,
+  "roller_face_length": 100,
+  "roller_core_diameter": 14,
+  "roller_y": [
+    -42,
+    42
+  ],
+  "lower_center_z": 99.9,
+  "upper_center_z": 120.1,
+  "bearing_x": [
+    -72,
+    72
+  ],
+  "bearing_size": [
+    6,
+    12,
+    4
+  ],
+  "upper_release_lift": 5,
+  "frame_thickness": 8,
+  "base_size": [
+    300,
+    288,
+    6
+  ],
+  "base_center": [
+    0,
+    0,
+    8
+  ],
+  "case_outer": [
+    320,
+    300,
+    300
+  ],
+  "sheet_thickness": 1.5,
+  "cavity_center_z": 83.1,
+  "slot_top_z": 109.4,
+  "coupling_center_x": 96,
+  "coupling_outer_diameter": 20,
+  "coupling_length": 30,
+  "coupling_bores": [
+    6,
+    5
+  ],
+  "motor_front_x": 121.5,
+  "motor_body_length": 26,
+  "motor_width": 35.2,
+  "motor_shaft_diameter": 5,
+  "motor_shaft_length": 20.5,
+  "motor_step_deg": 1.8,
+  "microsteps": 16,
+  "motor_holding_torque_Nm": 0.14,
+  "motor_run_torque_Nm": null,
+  "encoder_ppr": 4096,
+  "quadrature": 4,
+  "encoder_accuracy_deg": 0.2,
+  "spring_k_N_mm": 0.5,
+  "spring_free_length": 18,
+  "spring_installed_length": 13.9,
+  "springs_per_nip": 2,
+  "web_tension_target_N": 0.5,
+  "web_tension_DOE_N": [
+    0.2,
+    0.5,
+    1.0
+  ],
+  "mu_assumed": 0.3,
+  "design_pull_force_N": 1.2,
+  "drag_torque_Nm": 0.003,
+  "reflected_inertia_kg_m2": 5e-06,
+  "acceleration_m_s2": 0.05,
+  "torque_safety_factor": 3,
+  "coupling_torsional_stiffness_Nm_rad": 29,
+  "coupling_zero_backlash_allowable_Nm": 0.2,
+  "bearing_C_N": 831,
+  "bearing_C0_N": 363,
+  "speed_test_mm_s": [
+    0.5,
+    3,
+    15,
+    30
+  ],
+  "calculation_rpm": [
+    300,
+    600,
+    1200,
+    3000
+  ],
+  "poly_facets": 6,
+  "EFL_mm": 100,
+  "pixel_y_um": 50,
+  "pixel_x_um": 50,
+  "proposed_acceptance": {
+    "mean_speed_error_pct": 1,
+    "position_residual_rms_um": 5,
+    "tension_mean_error_N": 0.1,
+    "tension_rms_N": 0.05,
+    "scratch": "no new visible or microscope scratches under registered method"
+  },
+  "notes": [
+    "PPR quantization is not encoder accuracy",
+    "one outlet motor; inlet is measuring idler, not tension servo",
+    "nip normal force is not web tension",
+    "all fit tolerances are proposals requiring bearing supplier and process approval",
+    "G2 B05 motor/encoder circuit not closed; no automatic power-up"
+  ],
+  "foot_centers_x": [
+    -132,
+    132
+  ],
+  "foot_centers_y": [
+    -120,
+    120
+  ],
+  "upper_moving_mass_kg_assumed": 0.2,
+  "gravity_m_s2": 9.80665
+}

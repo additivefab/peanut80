@@ -1,0 +1,1024 @@
+[
+  {
+    "id": "M01",
+    "name": "共同基准底板300×280×6",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      300.0,
+      280.0,
+      6.0
+    ],
+    "volume_mm3": 502272.96163007175,
+    "valid": true
+  },
+  {
+    "id": "M02",
+    "name": "片道侧框含轴承孔与上辊浮槽",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      6.0,
+      128.0,
+      132.0
+    ],
+    "volume_mm3": 65697.70241765791,
+    "valid": true
+  },
+  {
+    "id": "M03",
+    "name": "20mm辊芯与6mm轴",
+    "material": "不锈钢",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      176.0,
+      14.0,
+      14.0
+    ],
+    "volume_mm3": 17542.653377645405,
+    "valid": true
+  },
+  {
+    "id": "M04",
+    "name": "20mm可换胶辊套",
+    "material": "PU50A试样/硅胶候选",
+    "status": "材料DOE件",
+    "note": "不得以材料名宣称无划伤；动态轮径需校准",
+    "dimensions": [
+      100.0,
+      20.0,
+      20.0
+    ],
+    "volume_mm3": 16022.122533307947,
+    "valid": true
+  },
+  {
+    "id": "M05",
+    "name": "6×12×4轴承包络",
+    "material": "轴承钢",
+    "status": "MR126尺寸族候选",
+    "note": "精度/密封/预载/游隙需定型",
+    "dimensions": [
+      4.0,
+      12.0,
+      12.0
+    ],
+    "volume_mm3": 339.29200658769764,
+    "valid": true
+  },
+  {
+    "id": "M06",
+    "name": "上辊浮动轴承滑块",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      12.0,
+      18.0,
+      18.0
+    ],
+    "volume_mm3": 2530.8319736492094,
+    "valid": true
+  },
+  {
+    "id": "M07",
+    "name": "上辊调压横盖",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      24.0,
+      26.0,
+      5.0
+    ],
+    "volume_mm3": 3050.7278819883445,
+    "valid": true
+  },
+  {
+    "id": "M08",
+    "name": "压簧安装包络",
+    "material": "弹簧钢",
+    "status": "按0.2-1N张力DOE选型",
+    "note": "实体环是弹簧外廓，不是弹簧制造模型",
+    "dimensions": [
+      6.0,
+      6.0,
+      13.9
+    ],
+    "volume_mm3": 294.75993072306244,
+    "valid": true
+  },
+  {
+    "id": "M09",
+    "name": "近扫描线低摩擦支承条",
+    "material": "表面保护材料DOE",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      84.0,
+      2.0,
+      0.5
+    ],
+    "volume_mm3": 84.0,
+    "valid": true
+  },
+  {
+    "id": "M10",
+    "name": "可调边导块",
+    "material": "PEEK/POM试片",
+    "status": "自制试验几何",
+    "note": "不挤占80mm通道；片边保护实测",
+    "dimensions": [
+      3.0,
+      25.0,
+      3.0
+    ],
+    "volume_mm3": 225.0,
+    "valid": true
+  },
+  {
+    "id": "M11",
+    "name": "牵引柔性联轴器外廓",
+    "material": "采购",
+    "status": "16OD×16L规格限界",
+    "note": "6→5mm孔径正式采购确认",
+    "dimensions": [
+      16.0,
+      16.0,
+      16.0
+    ],
+    "volume_mm3": 2764.6015351590186,
+    "valid": true
+  },
+  {
+    "id": "P01",
+    "name": "14HS10-0404S电机本体外廓",
+    "material": "采购",
+    "status": "厂家本体+轴长限界",
+    "note": "安装孔4-M3 26mm方距应向厂家二次确认",
+    "dimensions": [
+      46.0,
+      35.2,
+      35.2
+    ],
+    "volume_mm3": 33328.73459569759,
+    "valid": true
+  },
+  {
+    "id": "M12",
+    "name": "电机安装法兰",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      5.0,
+      48.0,
+      48.0
+    ],
+    "volume_mm3": 9368.009032290991,
+    "valid": true
+  },
+  {
+    "id": "P02",
+    "name": "AMT112S编码器外廓",
+    "material": "采购",
+    "status": "厂家外廓；无内部结构",
+    "note": "15.33mm上边距；包含轴孔视觉标志，不是完整厂家STEP",
+    "dimensions": [
+      10.34,
+      28.58,
+      37.25
+    ],
+    "volume_mm3": 11008.015699999998,
+    "valid": true
+  },
+  {
+    "id": "M13",
+    "name": "编码器安装板",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      3.0,
+      36.0,
+      46.0
+    ],
+    "volume_mm3": 4394.596508866791,
+    "valid": true
+  },
+  {
+    "id": "C01",
+    "name": "横置狭缝积分筒壳",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "顶部104mm薄唇；侧窗8×10；两端均封闭",
+    "dimensions": [
+      126.0,
+      56.0,
+      52.0
+    ],
+    "volume_mm3": 49119.14013259011,
+    "valid": true
+  },
+  {
+    "id": "C02",
+    "name": "一体漫反射内胆",
+    "material": "光学级烧结PTFE候选",
+    "status": "试制几何",
+    "note": "首落点轨迹无接缝/胶线/补漆；位置响应待测",
+    "dimensions": [
+      120.0,
+      46.8,
+      46.8
+    ],
+    "volume_mm3": 53103.071319157636,
+    "valid": true
+  },
+  {
+    "id": "C03",
+    "name": "两端封闭端盖",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      5.5,
+      58.0,
+      58.0
+    ],
+    "volume_mm3": 13068.440317301805,
+    "valid": true
+  },
+  {
+    "id": "C04",
+    "name": "漫反射端衬",
+    "material": "光学漫反射试样",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      1.5,
+      46.8,
+      46.8
+    ],
+    "volume_mm3": 2580.3157100994404,
+    "valid": true
+  },
+  {
+    "id": "C05",
+    "name": "104×1.2矩形薄唇片",
+    "material": "不锈钢消光",
+    "status": "名义几何",
+    "note": "薄唇0.3；片面至唇口0.5；毛刺/反射须实测",
+    "dimensions": [
+      114.0,
+      14.0,
+      0.3
+    ],
+    "volume_mm3": 438.63623916933756,
+    "valid": true
+  },
+  {
+    "id": "C06",
+    "name": "矩形锥形PMMA导光件",
+    "material": "光学PMMA",
+    "status": "R5耦合试样",
+    "note": "入口8×10；出口5.2×5.2；L32；出端到φ8PMT窗口0.4间隙；效率未验证",
+    "dimensions": [
+      8.0,
+      32.0,
+      10.0
+    ],
+    "volume_mm3": 1640.96,
+    "valid": true
+  },
+  {
+    "id": "C07",
+    "name": "导光遮光套/空气间隙",
+    "material": "消光铝",
+    "status": "名义包络",
+    "note": "内槽为全长保守让位；仅端部软支承，侧面不灌黑胶",
+    "dimensions": [
+      22.0,
+      23.3,
+      12.4
+    ],
+    "volume_mm3": 3859.4120000000003,
+    "valid": true
+  },
+  {
+    "id": "C08",
+    "name": "PMT窗口接口法兰",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "14×14孔距4×M2，来自H10720配件螺孔；深度3mm不得超入",
+    "dimensions": [
+      26.0,
+      3.0,
+      29.0
+    ],
+    "volume_mm3": 1941.5575493338406,
+    "valid": true
+  },
+  {
+    "id": "C09",
+    "name": "积分筒鞍座",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      12.0,
+      70.0,
+      50.1
+    ],
+    "volume_mm3": 40272.8449461626,
+    "valid": true
+  },
+  {
+    "id": "C10",
+    "name": "可拆遮直视挡片A/B",
+    "material": "漫反射材料",
+    "status": "仅变体/不装入基线",
+    "note": "新增实验件；只定义几何，不保证均匀性",
+    "dimensions": [
+      50.0,
+      0.8,
+      22.0
+    ],
+    "volume_mm3": 880.0000000000002,
+    "valid": true
+  },
+  {
+    "id": "P03",
+    "name": "H10720-20本体含凸窗",
+    "material": "采购",
+    "status": "厂家机械尺寸外廓",
+    "note": "有效光阴极φ8；引脚单独建模；不可把25mm外壳当有效面",
+    "dimensions": [
+      50.0,
+      19.5,
+      25.0
+    ],
+    "volume_mm3": 22617.809724509614,
+    "valid": true
+  },
+  {
+    "id": "P04",
+    "name": "PMT引脚空间",
+    "material": "采购",
+    "status": "引脚外廓",
+    "note": "8针位置由数据表名义布局转录；原理图/PCB须二次核对镜像",
+    "dimensions": [
+      1.0,
+      12.0,
+      1.0
+    ],
+    "volume_mm3": 9.42477796076938,
+    "valid": true
+  },
+  {
+    "id": "EP_VERT",
+    "name": "B01垂直支柱L6.7",
+    "material": "黄铜",
+    "status": "采购尺寸",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      6.0,
+      6.7,
+      6.0
+    ],
+    "volume_mm3": 135.5534398170924,
+    "valid": true
+  },
+  {
+    "id": "H01",
+    "name": "PMT与AFE接地屏蔽舱",
+    "material": "铝1.5",
+    "status": "名义屏蔽几何",
+    "note": "外部不引出HV；前端窗口接缝需遮光；通风不直吹光学区",
+    "dimensions": [
+      96.0,
+      46.0,
+      54.0
+    ],
+    "volume_mm3": 33158.524783386674,
+    "valid": true
+  },
+  {
+    "id": "M14",
+    "name": "上部基准支承柱",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      12.0,
+      14.0,
+      91.0
+    ],
+    "volume_mm3": 15288.0,
+    "valid": true
+  },
+  {
+    "id": "M15",
+    "name": "光学后横梁",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      228.0,
+      20.0,
+      6.0
+    ],
+    "volume_mm3": 27360.0,
+    "valid": true
+  },
+  {
+    "id": "M16",
+    "name": "激光器悬臂托板",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      34.0,
+      90.0,
+      5.0
+    ],
+    "volume_mm3": 15300.0,
+    "valid": true
+  },
+  {
+    "id": "M17",
+    "name": "激光头夹座",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      32.0,
+      22.0,
+      12.0
+    ],
+    "volume_mm3": 6188.977149241438,
+    "valid": true
+  },
+  {
+    "id": "O01",
+    "name": "635nm激光头RFQ限界",
+    "material": "采购",
+    "status": "RFQ占位",
+    "note": "波长/功率/APC/TTL接口待正式型号",
+    "dimensions": [
+      50.0,
+      12.0,
+      12.0
+    ],
+    "volume_mm3": 5654.8667764616275,
+    "valid": true
+  },
+  {
+    "id": "O02",
+    "name": "准直整形组件RFQ限界",
+    "material": "采购",
+    "status": "RFQ光学包络",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      16.0,
+      16.0,
+      16.0
+    ],
+    "volume_mm3": 3216.9908772759477,
+    "valid": true
+  },
+  {
+    "id": "O03",
+    "name": "ND与参考分光组件限界",
+    "material": "采购",
+    "status": "光学功能包络",
+    "note": "参考取样在衰减之后",
+    "dimensions": [
+      14.0,
+      18.0,
+      18.0
+    ],
+    "volume_mm3": 4536.0,
+    "valid": true
+  },
+  {
+    "id": "O04",
+    "name": "失电关闭机械快门限界",
+    "material": "采购",
+    "status": "RFQ机械快门",
+    "note": "硬件关断和机械快门双路径；该模型不表示快门运动片",
+    "dimensions": [
+      18.0,
+      24.0,
+      24.0
+    ],
+    "volume_mm3": 9859.061990118455,
+    "valid": true
+  },
+  {
+    "id": "O05",
+    "name": "六面polygon光学外廓",
+    "material": "厂家精密反射转子",
+    "status": "示意/不得按此生产高速件",
+    "note": "高速转子的动平衡/防爆罩/轴承由供应商负责",
+    "dimensions": [
+      38.637,
+      12.0,
+      38.637
+    ],
+    "volume_mm3": 12470.765814495917,
+    "valid": true
+  },
+  {
+    "id": "O06",
+    "name": "Polygon主轴电机限界",
+    "material": "采购",
+    "status": "RFQ占位",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      36.0,
+      40.0,
+      36.0
+    ],
+    "volume_mm3": 40715.040790523715,
+    "valid": true
+  },
+  {
+    "id": "M18",
+    "name": "主轴支承座",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      44.0,
+      16.0,
+      24.0
+    ],
+    "volume_mm3": 7408.579382613903,
+    "valid": true
+  },
+  {
+    "id": "O07",
+    "name": "f-theta扫描镜组RFQ限界",
+    "material": "采购",
+    "status": "光学RFQ占位",
+    "note": "EFL100不等于工作距；本图光程须由供应商处方关闭",
+    "dimensions": [
+      96.0,
+      44.0,
+      30.0
+    ],
+    "volume_mm3": 126720.0,
+    "valid": true
+  },
+  {
+    "id": "M19",
+    "name": "扫描镜组安装框",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      110.0,
+      60.0,
+      6.0
+    ],
+    "volume_mm3": 13919.04,
+    "valid": true
+  },
+  {
+    "id": "M20L",
+    "name": "镜组框连接臂",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      24.0,
+      48.0,
+      6.0
+    ],
+    "volume_mm3": 6192.0,
+    "valid": true
+  },
+  {
+    "id": "M20R",
+    "name": "镜组框连接臂",
+    "material": "6061-T6",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      24.0,
+      48.0,
+      6.0
+    ],
+    "volume_mm3": 6192.0,
+    "valid": true
+  },
+  {
+    "id": "S01",
+    "name": "片外SOS/EOS接收头限界",
+    "material": "采购",
+    "status": "S5971封装限界",
+    "note": "不表示内部光学器件和比较器抖动",
+    "dimensions": [
+      6.0,
+      8.0,
+      6.0
+    ],
+    "volume_mm3": 226.19467105846508,
+    "valid": true
+  },
+  {
+    "id": "S02",
+    "name": "片外取样折转片",
+    "material": "消光支架+小镜片",
+    "status": "光路接口示意",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      2.0,
+      3.0,
+      0.7
+    ],
+    "volume_mm3": 4.2,
+    "valid": true
+  },
+  {
+    "id": "S03",
+    "name": "进出片对射头限界",
+    "material": "采购",
+    "status": "RFQ传感器",
+    "note": "不能按透射强弱单独判双张；ROI时禁止IR发射",
+    "dimensions": [
+      15.0,
+      10.0,
+      8.0
+    ],
+    "volume_mm3": 1200.0,
+    "valid": true
+  },
+  {
+    "id": "S04",
+    "name": "机械互锁开关限界",
+    "material": "采购",
+    "status": "NC开关RFQ限界",
+    "note": "安装操动/冗余/失效分析未认证",
+    "dimensions": [
+      16.0,
+      8.0,
+      12.0
+    ],
+    "volume_mm3": 1536.0,
+    "valid": true
+  },
+  {
+    "id": "S05",
+    "name": "温度小板限界",
+    "material": "PCB",
+    "status": "TMP117安装区",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      10.0,
+      12.0,
+      1.6
+    ],
+    "volume_mm3": 192.0,
+    "valid": true
+  },
+  {
+    "id": "B01",
+    "name": "PMT线性TIA前端卡",
+    "material": "FR4",
+    "status": "原理草图+布局起点；未布线",
+    "note": "90×50外形固定；RF/CF用焊接选档，不逐像素切换；PMT信号不跨机箱拉线",
+    "dimensions": [
+      90.0,
+      50.0,
+      1.6
+    ],
+    "volume_mm3": 7148.528145963584,
+    "valid": true
+  },
+  {
+    "id": "B02",
+    "name": "AD9268双通道采集板",
+    "material": "FR4",
+    "status": "布局起点；高速引脚布线未完成",
+    "note": "20MSPS；32数据+2DCO直入1.8V Bank33；控制接口电平转换",
+    "dimensions": [
+      60.0,
+      80.0,
+      1.6
+    ],
+    "volume_mm3": 7628.528145963583,
+    "valid": true
+  },
+  {
+    "id": "EP_6p2",
+    "name": "M3支柱L6.2",
+    "material": "黄铜",
+    "status": "采购尺寸",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      6.0,
+      6.0,
+      6.2
+    ],
+    "volume_mm3": 125.43751147253326,
+    "valid": true
+  },
+  {
+    "id": "B03",
+    "name": "PMT控制与低噪声电源板",
+    "material": "FR4",
+    "status": "接口与功能布局；未布线",
+    "note": "低压5V给PMT内置高压；增益DAC硬限制0.5-1.0V；监测Vref/电流",
+    "dimensions": [
+      60.0,
+      50.0,
+      1.6
+    ],
+    "volume_mm3": 4748.5281459635835,
+    "valid": true
+  },
+  {
+    "id": "EP_10p2",
+    "name": "M3支柱L10.2",
+    "material": "黄铜",
+    "status": "采购尺寸",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      6.0,
+      6.0,
+      10.2
+    ],
+    "volume_mm3": 206.36493822900627,
+    "valid": true
+  },
+  {
+    "id": "B04",
+    "name": "电源分配与硬件禁能板",
+    "material": "FR4",
+    "status": "布局起点；安全功能未认证",
+    "note": "24V输入；5V数字、12V电机、模拟预稳压；硬件开盖/失扫禁能",
+    "dimensions": [
+      120.0,
+      65.0,
+      1.6
+    ],
+    "volume_mm3": 12428.52814596359,
+    "valid": true
+  },
+  {
+    "id": "B05",
+    "name": "运动驱动与传感接口板",
+    "material": "FR4",
+    "status": "布局起点；驱动与滤波待定",
+    "note": "TMC2209；5V编码器→3.3V缓冲；差分长线预留；卡片检测不只靠堵转",
+    "dimensions": [
+      65.0,
+      100.0,
+      1.6
+    ],
+    "volume_mm3": 10348.528145963588,
+    "valid": true
+  },
+  {
+    "id": "B06",
+    "name": "SOS接收小板",
+    "material": "FR4",
+    "status": "光机接口与布局起点",
+    "note": "x=-46光阱小反射镜→S5971；接收面位置需靶标调试",
+    "dimensions": [
+      18.0,
+      20.0,
+      1.6
+    ],
+    "volume_mm3": 551.6715064906006,
+    "valid": true
+  },
+  {
+    "id": "B07",
+    "name": "EOS接收小板",
+    "material": "FR4",
+    "status": "光机接口与布局起点",
+    "note": "x=+46；两端均在80mm成像区外、100mm光学跨度内",
+    "dimensions": [
+      18.0,
+      20.0,
+      1.6
+    ],
+    "volume_mm3": 551.6715064906006,
+    "valid": true
+  },
+  {
+    "id": "B08",
+    "name": "激光参考PD小板",
+    "material": "FR4",
+    "status": "参考PD+TIA布局起点",
+    "note": "取样分光在ND/衰减之后，监视到片前的光功率变化",
+    "dimensions": [
+      25.0,
+      20.0,
+      1.6
+    ],
+    "volume_mm3": 775.6715064906004,
+    "valid": true
+  },
+  {
+    "id": "B09",
+    "name": "SP2可调安装托板",
+    "material": "6061-T6",
+    "status": "机械托板非定制FPGA PCB",
+    "note": "SP2安装空间110×60×25；开槽可调；J5/J6和安装孔须卡尺/厂家机械图复核",
+    "dimensions": [
+      120.0,
+      70.0,
+      2.0
+    ],
+    "volume_mm3": 16735.660182454485,
+    "valid": true
+  },
+  {
+    "id": "EP_6p0",
+    "name": "M3支柱L6.0",
+    "material": "黄铜",
+    "status": "采购尺寸",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      6.0,
+      6.0,
+      6.0
+    ],
+    "volume_mm3": 121.3911401347096,
+    "valid": true
+  },
+  {
+    "id": "P05",
+    "name": "SP2模块安装限界110×60×25",
+    "material": "采购实物",
+    "status": "待实测包络",
+    "note": "照片只确认V1.3B；此形状不表示厂家实际PCB孔位",
+    "dimensions": [
+      110.0,
+      60.0,
+      25.0
+    ],
+    "volume_mm3": 165000.0,
+    "valid": true
+  },
+  {
+    "id": "A01",
+    "name": "外置馈片模块接口占位",
+    "material": "外置附件",
+    "status": "功能/空间接口，未完成分片细节",
+    "note": "30片仅PoC上限假设；不纳入主机包络/质量",
+    "dimensions": [
+      250.0,
+      300.0,
+      330.0
+    ],
+    "volume_mm3": 24750000.0,
+    "valid": true
+  },
+  {
+    "id": "A02",
+    "name": "外置进出片托板",
+    "material": "铝+可换保护衬",
+    "status": "自制名义几何",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      86.0,
+      80.0,
+      2.0
+    ],
+    "volume_mm3": 13760.0,
+    "valid": true
+  },
+  {
+    "id": "H02",
+    "name": "前面板/片口/按钮/三状态灯",
+    "material": "铝2mm",
+    "status": "接口名义板",
+    "note": "状态灯硬件安装口；光泄漏须实测",
+    "dimensions": [
+      320.0,
+      2.0,
+      300.0
+    ],
+    "volume_mm3": 190906.95665695673,
+    "valid": true
+  },
+  {
+    "id": "H02R",
+    "name": "后面板/片口/电子舱通风/ADF接口",
+    "material": "铝2mm",
+    "status": "接口名义板",
+    "note": "风口需遮光风道；外部ADF接口不得直达FPGA",
+    "dimensions": [
+      320.0,
+      2.0,
+      300.0
+    ],
+    "volume_mm3": 187268.0,
+    "valid": true
+  },
+  {
+    "id": "H03",
+    "name": "右检修板及SP2连接器可换开窗",
+    "material": "铝2mm",
+    "status": "名义板",
+    "note": "64×35检修口加可换遮光接口片；真实接口孔位待量测SP2",
+    "dimensions": [
+      2.0,
+      296.0,
+      300.0
+    ],
+    "volume_mm3": 173119.99999999997,
+    "valid": true
+  },
+  {
+    "id": "H03L",
+    "name": "左检修板及24V锁紧电源入口",
+    "material": "铝2mm",
+    "status": "名义板",
+    "note": "φ12.2安装限界；最终连接器料号须冻结",
+    "dimensions": [
+      2.0,
+      296.0,
+      300.0
+    ],
+    "volume_mm3": 177366.20267471985,
+    "valid": true
+  },
+  {
+    "id": "H04",
+    "name": "顶盖",
+    "material": "铝2mm",
+    "status": "名义板",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      316.0,
+      296.0,
+      2.0
+    ],
+    "volume_mm3": 187072.0,
+    "valid": true
+  },
+  {
+    "id": "H05",
+    "name": "底盖",
+    "material": "铝2mm",
+    "status": "名义板",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      316.0,
+      296.0,
+      2.0
+    ],
+    "volume_mm3": 187072.0,
+    "valid": true
+  },
+  {
+    "id": "H06",
+    "name": "脚垫",
+    "material": "弹性体",
+    "status": "采购",
+    "note": "未冻结加工公差/表面处理/完整紧固",
+    "dimensions": [
+      16.0,
+      16.0,
+      8.0
+    ],
+    "volume_mm3": 1608.4954386379738,
+    "valid": true
+  },
+  {
+    "id": "H07",
+    "name": "散热风扇/风道限界",
+    "material": "采购",
+    "status": "40mm风扇RFQ占位",
+    "note": "只吹电子舱；粉尘不能直接进入片道和积分筒",
+    "dimensions": [
+      40.0,
+      10.0,
+      40.0
+    ],
+    "volume_mm3": 15999.999999999996,
+    "valid": true
+  },
+  {
+    "id": "H08",
+    "name": "前后遮光迷宫框",
+    "material": "消光铝",
+    "status": "遮光外形起点",
+    "note": "仍需无片/片尾/翘曲激光泄漏评估",
+    "dimensions": [
+      94.0,
+      30.0,
+      16.0
+    ],
+    "volume_mm3": 32220.0,
+    "valid": true
+  }
+]

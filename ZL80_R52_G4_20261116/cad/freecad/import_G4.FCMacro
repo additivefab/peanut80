@@ -1,0 +1,15 @@
+# Run in a new FreeCAD session. Imports STEP review assembly; no parametric feature history.
+from pathlib import Path
+import FreeCAD as App
+import Import
+root=Path(__file__).resolve().parents[2]
+p=root/'cad/assemblies/ZL80_G4_G3_Integration.step'
+doc=App.newDocument('ZL80_G4_Review')
+Import.insert(str(p),doc.Name)
+doc.recompute()
+out=root/'cad/assemblies/ZL80_G4_Review.FCStd'
+if out.exists():
+    raise RuntimeError('Refusing overwrite: rename existing FCStd first')
+doc.saveAs(str(out))
+Gui.activeDocument().activeView().viewAxonometric()
+Gui.activeDocument().activeView().fitAll()

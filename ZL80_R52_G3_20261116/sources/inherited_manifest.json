@@ -1,0 +1,302 @@
+[
+  {
+    "path": "sources/inherited/G01_master_parameters.json",
+    "sha256": "1af3e132978a16375caf01ec2d3304872a01c64d1ae4f06175642d64dee349fb",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/R51_board_definitions.json",
+    "sha256": "504a9f07207a94d9d2797aecbd98a67ab1f21c151b8de61d35388d09b2fd42d6",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/R51_harness_routes.json",
+    "sha256": "a2f6edce4f4e5f12ca90bd729dded863ef5cbd2dc46dec37dccd5ba1540bef21",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/instances_R5.json",
+    "sha256": "728294a38d141c99b1189c80eed49fd81a1ff1326420471301a4aa495be1f3a4",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/B01.step",
+    "sha256": "bf9ffce8678b60f0d05e74a38de74fcb62c6556285b793471b3e803c2ddca9b2",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/B02.step",
+    "sha256": "99a70e10dcd7f3557da4b186991bbef9208c4a49324858e11b02d06226a5e8a5",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/B03.step",
+    "sha256": "73b47e0850deebaa96b6c8e044c0fa79a43169215316ee49e5b379480ccd05b6",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/B04.step",
+    "sha256": "1fe2cb6f58eabbaecca7db27682619efcf457b4ef7cb308b3ee0024eacdb8043",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/B05.step",
+    "sha256": "a2bf01b3b41340e023a8997ed308302567e743575ebe5455ccc8accb5a415358",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/B06.step",
+    "sha256": "145f587ce2eac3a19b054a19c2e8b7c1fcada1e786546b136e17b4d77f7fd043",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/B07.step",
+    "sha256": "396e96bf670fe7bc7cbf7c6c1d39b9edea4fb40440a2a122000f746114aeeae1",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/B08.step",
+    "sha256": "4a5d729a5603129f8bbe7cc21461a5d0a27b3c243ed7583ee9655c8340212f97",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/B09.step",
+    "sha256": "44c76274617b6294d0db45eb17aa33620215899715ea3307192a385d3a9181c0",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/C01.step",
+    "sha256": "750e5a63087631fc329990d4462b0ea6c0b9825a281dcb60b7d848e7d61bfd17",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/C02.step",
+    "sha256": "16a08187f7b921e556e41ea8da382de8e3b4f92ad12bd54ed54a91fdfebcea10",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/C03.step",
+    "sha256": "796395177583aa61acc4b49bff9a31fefb954d138b51282dba3f9c74b0519504",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/C04.step",
+    "sha256": "0a58ed3850f59ef5e0a781fa10d794f166770bdb384729fd613ec7c363e053f8",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/C05.step",
+    "sha256": "fd64e8c9e983450c2520f3d5008ac3787b2f538ef211d1ecbd77fa530c01a642",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/C06.step",
+    "sha256": "a974aed0159f40d003a1fdda77a2ae3e49035ea56fa3794e82b9f312128d7a2a",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/C07.step",
+    "sha256": "f2a4b9024a843ae1954389633e398e3ed97f95b62c218ef7e2cd308501eb1e0f",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/C08.step",
+    "sha256": "8a740ab52b3297855e9a89056cc2275f03c354f4d41542f0d2b542fe5726544b",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/C09.step",
+    "sha256": "4d0be7187811960ca7891152787f5351f5e9d1b4c660eff79e613d8b08e3c66c",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/EP_10p2.step",
+    "sha256": "4408a99462492d3a86fdfac23325c5a0f6a2ed70edebf29c51c33e6e88f0985e",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/EP_6p0.step",
+    "sha256": "5bb88547cc4a6404f88b26b50a2b3dc2a32c0de5efd8130f44c937f2a773a280",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/EP_6p2.step",
+    "sha256": "474fb960bbf0ea27c6a37c0c6b18b27181ce147e5bb4e030eadbe0e68b899245",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/EP_VERT.step",
+    "sha256": "5c1e481a73494ebaf9a766b63fac95f9d3d7c6b687a80ba43d2d0189897acbbc",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/H01.step",
+    "sha256": "a13bba3bc994d55dff77d2ec8d233f697e29f07e283b4b8b524220ddebe69c51",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/H07.step",
+    "sha256": "d8b63e4a8c077d5482e8c21101a1f27f8f71fdc110ea41f1c45aaf3fc03cb584",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/H08.step",
+    "sha256": "91f59bdd5ebd87930de52418f02964fb7472cc7befeeb0738a34ccd8fb67f00a",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/M01.step",
+    "sha256": "5fd353244a4c98e0c1d1e5a1438f78347649ac7f5dedba40bc881b174156dce2",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/M09.step",
+    "sha256": "2515e714f5f97b935a80fa1557d5d453583a8d22909789ad4c33dacb1de0a3f6",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/M10.step",
+    "sha256": "fbebd90617a894a2becc2573a8ee6350663f8bf85dc13beac81662a98b3c5d06",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/M14.step",
+    "sha256": "4b675478870aeb4e439cbebacdfd578f3a844a9599b356cf26dd3230dfa00d37",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/M15.step",
+    "sha256": "837752a67ea3f2c466343e660a8c38885346bcc1af9a3f57f6c3510c707a2869",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/M16.step",
+    "sha256": "515af40bbe98cb05db014c3cdc35e577caea0fb5827d8f529cd3683cf9e9f36f",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/M17.step",
+    "sha256": "3061fc7d0ea98162154670e3d3d81981d6f793d0009424f8b1c98ea655014299",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/M18.step",
+    "sha256": "5f15c23018fc9401341a82b54a1377a73d0f6a586d76421779c58431db6666c5",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/M19.step",
+    "sha256": "95603f8c121d4cbe48d3b0972f92cbbb57e8b9c3348e80678c0bc0db709e5da5",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/M20L.step",
+    "sha256": "342e399081900dcd3dd95ce07fd06a7410e2cee22d6adb41d3e70774b9272df3",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/M20R.step",
+    "sha256": "fd8593df96d98263f7df007a95ba8af10218860a435de957226115792ac88791",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/O01.step",
+    "sha256": "4391a7b1f47d8af9fe72623891dc94d467f111bb4da21fa75c8aad101471eede",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/O02.step",
+    "sha256": "9fea3ca1d86314c27300d6b377c65b489f0e654150bf750cefacd73bf3d494e7",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/O03.step",
+    "sha256": "14ffbb517dfe34dd9d754fd3628b523fe0d8f0623f4f36b8d509bbf46b0efc78",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/O04.step",
+    "sha256": "006aaae4694c8d90df01fa58037cb72adb18eac737a38feb4eea62cd5f59aedf",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/O05.step",
+    "sha256": "2cb15634a9fdab8cc633d10c87393a80a481687187165c4a38ca18824dd2206f",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/O06.step",
+    "sha256": "f5e18265e2e122169e409c9560f0d89e2fb5fc97688fd64410dc58df57f36f65",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/O07.step",
+    "sha256": "dd8b3213ddc241c6d813e9df1f2fd5be55814d6136610b4a88d5bb667f2a3fa9",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/P03.step",
+    "sha256": "6e8f9a992c875486b395635d57e1a44791e9f19b40ecfbb45f5c4bf925de6438",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/P04.step",
+    "sha256": "a8a115f454ac0a71063722e7b797efe159adf290ec76b24775cedbbe538b9fc2",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/P05.step",
+    "sha256": "d666e2e10e01db23ed02273f8f81432d09d7efdf68ae2ffa107d082eeceebdd2",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/S01.step",
+    "sha256": "184a18b8429317723885d9dd4be9a1655b6f94cb4f2221e9ae8f1a4b428c8689",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/S02.step",
+    "sha256": "9ed6a6a4dd078d157c22da1fbdb282a6effa1ed114810151a37c494282634701",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/S03.step",
+    "sha256": "3dcef09cec0d7a013ad68e2e1fc32d8af8b9e9e70802065fe07ca0cbbc8aae66",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/S04.step",
+    "sha256": "0835d27c09eb775c97ee45bd4e9fb7a62b1f40c94141e63685c4d62113b42587",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/inherited/parts/S05.step",
+    "sha256": "f5a2d9a2ff415c58c9f843079ff73a530ad3a69e4f9f1972fada95ef27f8b6a6",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/G2_reference/B01_space_review.step",
+    "sha256": "80ca0ed48608e26fedd7d6c79392517acd7e321e0d4d44be5f8c328e0ae60070",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/G2_reference/B06_space_review.step",
+    "sha256": "8588316b8c60ecbc64c7b778e9a3850b1c924a6b1b4801e261db0faf03350d75",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/G2_reference/B07_space_review.step",
+    "sha256": "db6975fe807501b54d9617c0112907b1e234839639e201475a68f42e36d7718f",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/G2_reference/B08_space_review.step",
+    "sha256": "120af03649c68c250068f0c7c7b73705c2f84e7d07258200e8ee4c31158d4fbd",
+    "note": "inherited reference, not claimed supplier production CAD"
+  },
+  {
+    "path": "sources/G2_reference/README.md",
+    "sha256": "b14a1dadde071b6058f4f199021bcfa25ecb1e59e3680954f2ac8094dcf03855",
+    "note": "inherited reference, not claimed supplier production CAD"
+  }
+]

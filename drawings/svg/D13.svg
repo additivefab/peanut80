@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D13  传感器位置、检测范围与干扰抑制</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">设计分配与名义几何；图中包络不等于厂商实物认证。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="50" y="175" width="1500" height="54" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="60" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="white" font-weight="700" text-anchor="start">ID</text>
+<text x="330.0" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="white" font-weight="700" text-anchor="start">坐标(X,Y,Z)</text>
+<text x="735.0" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="white" font-weight="700" text-anchor="start">作用 / 注意</text>
+<rect x="50" y="229" width="1500" height="54" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="255" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_SOS</text>
+<text x="330.0" y="255" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[-46, 12, 112]</text>
+<text x="735.0" y="255" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S5971+反射片；SOS+校准X=-46mm</text>
+<rect x="50" y="283" width="1500" height="54" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="309" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_EOS</text>
+<text x="330.0" y="309" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[46, 12, 112]</text>
+<text x="735.0" y="309" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S5971+反射片；EOS+校准X=46mm</text>
+<rect x="50" y="337" width="1500" height="54" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="363" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_REF</text>
+<text x="330.0" y="363" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[-62, -24, 245]</text>
+<text x="735.0" y="363" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S5971取样；双通道ADC参考</text>
+<rect x="50" y="391" width="1500" height="54" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="417" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_ENT_L</text>
+<text x="330.0" y="417" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[-25, -110, 110]</text>
+<text x="735.0" y="417" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">入口对射；前沿/偏斜tL</text>
+<rect x="50" y="445" width="1500" height="54" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="471" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_ENT_R</text>
+<text x="330.0" y="471" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[25, -110, 110]</text>
+<text x="735.0" y="471" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">入口对射；前沿/偏斜tR</text>
+<rect x="50" y="499" width="1500" height="54" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="525" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_EXIT</text>
+<text x="330.0" y="525" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[0, 110, 110]</text>
+<text x="735.0" y="525" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">出口对射；片尾/卡片</text>
+<rect x="50" y="553" width="1500" height="54" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="579" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_ENC_M</text>
+<text x="330.0" y="579" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[-100, -42, 99.9]</text>
+<text x="735.0" y="579" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">入口计量编码器；实际Y位置</text>
+<rect x="50" y="607" width="1500" height="54" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="633" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_ENC_D</text>
+<text x="330.0" y="633" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[-100, 42, 99.9]</text>
+<text x="735.0" y="633" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">出口复核编码器；Y速度复核</text>
+<rect x="50" y="661" width="1500" height="54" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="687" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_LID_1</text>
+<text x="330.0" y="687" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[-145, 100, 278]</text>
+<text x="735.0" y="687" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">NC开盖；硬件允许链</text>
+<rect x="50" y="715" width="1500" height="54" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="741" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_LID_2</text>
+<text x="330.0" y="741" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[145, 100, 278]</text>
+<text x="735.0" y="741" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">NC开盖；硬件允许链</text>
+<rect x="50" y="769" width="1500" height="54" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="795" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_RELEASE</text>
+<text x="330.0" y="795" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[95, -42, 147]</text>
+<text x="735.0" y="795" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">NC放辊；硬件允许链</text>
+<rect x="50" y="823" width="1500" height="54" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="849" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_TEMP_P</text>
+<text x="330.0" y="849" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[48, -75, 82]</text>
+<text x="735.0" y="849" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">TMP117；温漂遥测</text>
+<rect x="50" y="877" width="1500" height="54" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="903" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_TEMP_O</text>
+<text x="330.0" y="903" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[72, 57.2, 220]</text>
+<text x="735.0" y="903" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">TMP117；温漂遥测</text>
+<rect x="50" y="931" width="1500" height="54" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="957" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S_TEMP_D</text>
+<text x="330.0" y="957" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[-115, 50, 46]</text>
+<text x="735.0" y="957" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">TMP117；过温停机</text>
+<text x="70" y="1040" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#cb462e" font-weight="700" text-anchor="start">入口IR双头横距50；ROI有效期间硬件熄灭IR，避免PMT拾取传感器光。双张不能只按透射OD判断。</text>
+</svg>

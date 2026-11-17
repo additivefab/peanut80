@@ -1,0 +1,7 @@
+{
+  "parts": 73,
+  "instances": 149,
+  "all_valid": true,
+  "scope": "B-rep validity and rigid nominal core intersections only; excludes tolerances, cables, fasteners and optics performance",
+  "raw_overlap_count": 0
+}

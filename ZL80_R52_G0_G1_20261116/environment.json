@@ -1,0 +1,11 @@
+{
+  "observed_python": "3.13.5",
+  "core_calculations": "Python standard library; Python >=3.10 syntax",
+  "optional_packages": {
+    "cadquery": "2.8.0",
+    "ezdxf": "1.4.4",
+    "reportlab": "4.4.9"
+  },
+  "FreeCAD": "NOT_INSTALLED_NOT_EXECUTED",
+  "real_optical_software": "NOT_EXECUTED"
+}

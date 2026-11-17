@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "ZL80_G2") (type "KiCad") (uri "${KIPRJMOD}/../../libraries/ZL80_G2.pretty") (options "") (descr "Candidate land patterns; manufacturer approval pending")))

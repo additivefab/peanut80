@@ -1,0 +1,21 @@
+{
+  "scope": "New G4 board/component clearance envelopes versus retained actual G3 rigid parts; not full manufacturing assembly check",
+  "new_objects": 123,
+  "context_objects": 231,
+  "excluded_proxies": [
+    "R5_PD_sync-46",
+    "R5_PD_sync46",
+    "R5_PD_reference",
+    "R5_PMT线性TIA前端卡",
+    "R5_SOS接收小板",
+    "R5_EOS接收小板",
+    "R5_激光参考PD小板"
+  ],
+  "bbox_candidate_pairs": 48,
+  "body_collision_count": 8,
+  "unexpected_body_collisions": 0,
+  "connector_corridor_conflicts": 0,
+  "body_valid": true,
+  "native_freecad": "NOT_RUN",
+  "socket": "TBD"
+}

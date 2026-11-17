@@ -1,0 +1,632 @@
+[
+  {
+    "id": "D01",
+    "title": "总体设计与零件空间布置",
+    "svg": "drawings/svg/D01.svg",
+    "png": "drawings/png/D01.png"
+  },
+  {
+    "id": "D02",
+    "title": "外壳、接口及维护方向",
+    "svg": "drawings/svg/D02.svg",
+    "png": "drawings/png/D02.png"
+  },
+  {
+    "id": "D03",
+    "title": "总装分层与装配基准",
+    "svg": "drawings/svg/D03.svg",
+    "png": "drawings/png/D03.png"
+  },
+  {
+    "id": "D04",
+    "title": "下层PCB空间布置与高度预算",
+    "svg": "drawings/svg/D04.svg",
+    "png": "drawings/png/D04.png"
+  },
+  {
+    "id": "D05",
+    "title": "PCB装联空间与采购件高度",
+    "svg": "drawings/svg/D05.svg",
+    "png": "drawings/png/D05.png"
+  },
+  {
+    "id": "D06",
+    "title": "光学顺序与二维扫描几何",
+    "svg": "drawings/svg/D06.svg",
+    "png": "drawings/png/D06.png"
+  },
+  {
+    "id": "D07",
+    "title": "横置积分筒总成与R5耦合修正",
+    "svg": "drawings/svg/D07.svg",
+    "png": "drawings/png/D07.png"
+  },
+  {
+    "id": "D08",
+    "title": "积分筒横剖面与侧窗关系",
+    "svg": "drawings/svg/D08.svg",
+    "png": "drawings/png/D08.png"
+  },
+  {
+    "id": "D09",
+    "title": "扫描宽度、狭缝及筒轴尺寸链",
+    "svg": "drawings/svg/D09.svg",
+    "png": "drawings/png/D09.png"
+  },
+  {
+    "id": "D10",
+    "title": "PMT实物接口、针脚与模拟板耦合",
+    "svg": "drawings/svg/D10.svg",
+    "png": "drawings/png/D10.png"
+  },
+  {
+    "id": "D11",
+    "title": "四辊片道与独立计量链",
+    "svg": "drawings/svg/D11.svg",
+    "png": "drawings/png/D11.png"
+  },
+  {
+    "id": "D12",
+    "title": "编码器精度预算与安装",
+    "svg": "drawings/svg/D12.svg",
+    "png": "drawings/png/D12.png"
+  },
+  {
+    "id": "D13",
+    "title": "传感器位置、检测范围与干扰抑制",
+    "svg": "drawings/svg/D13.svg",
+    "png": "drawings/png/D13.png"
+  },
+  {
+    "id": "D14",
+    "title": "电气信号链与电压域",
+    "svg": "drawings/svg/D14.svg",
+    "png": "drawings/png/D14.png"
+  },
+  {
+    "id": "D15",
+    "title": "线性TIA与对数前端的分支决策",
+    "svg": "drawings/svg/D15.svg",
+    "png": "drawings/png/D15.png"
+  },
+  {
+    "id": "D16",
+    "title": "功率分配、硬件互锁与散热",
+    "svg": "drawings/svg/D16.svg",
+    "png": "drawings/png/D16.png"
+  },
+  {
+    "id": "D17",
+    "title": "线束通道、插拔与维护净空",
+    "svg": "drawings/svg/D17.svg",
+    "png": "drawings/png/D17.png"
+  },
+  {
+    "id": "D18",
+    "title": "扫描时序、数据与位置标签延迟",
+    "svg": "drawings/svg/D18.svg",
+    "png": "drawings/png/D18.png"
+  },
+  {
+    "id": "D19",
+    "title": "空间重建与原始数据边界",
+    "svg": "drawings/svg/D19.svg",
+    "png": "drawings/png/D19.png"
+  },
+  {
+    "id": "D20",
+    "title": "扫描、数据率与光子预算",
+    "svg": "drawings/svg/D20.svg",
+    "png": "drawings/png/D20.png"
+  },
+  {
+    "id": "D21",
+    "title": "外置自动馈片接口与解耦设计",
+    "svg": "drawings/svg/D21.svg",
+    "png": "drawings/png/D21.png"
+  },
+  {
+    "id": "D22",
+    "title": "装调顺序与可维护设计",
+    "svg": "drawings/svg/D22.svg",
+    "png": "drawings/png/D22.png"
+  },
+  {
+    "id": "D23",
+    "title": "验证范围与设计冻结门槛",
+    "svg": "drawings/svg/D23.svg",
+    "png": "drawings/png/D23.png"
+  },
+  {
+    "id": "D24",
+    "title": "版本差异、继承关系与文件入口",
+    "svg": "drawings/svg/D24.svg",
+    "png": "drawings/png/D24.png"
+  },
+  {
+    "id": "E01",
+    "title": "B01 PMT线性TIA前端卡：外形、布局与接插件",
+    "svg": "drawings/svg/E01.svg",
+    "png": "drawings/png/E01.png"
+  },
+  {
+    "id": "E02",
+    "title": "B02 AD9268双通道采集板：外形、布局与接插件",
+    "svg": "drawings/svg/E02.svg",
+    "png": "drawings/png/E02.png"
+  },
+  {
+    "id": "E03",
+    "title": "B03 PMT控制与低噪声电源板：外形、布局与接插件",
+    "svg": "drawings/svg/E03.svg",
+    "png": "drawings/png/E03.png"
+  },
+  {
+    "id": "E04",
+    "title": "B04 电源分配与硬件禁能板：外形、布局与接插件",
+    "svg": "drawings/svg/E04.svg",
+    "png": "drawings/png/E04.png"
+  },
+  {
+    "id": "E05",
+    "title": "B05 运动驱动与传感接口板：外形、布局与接插件",
+    "svg": "drawings/svg/E05.svg",
+    "png": "drawings/png/E05.png"
+  },
+  {
+    "id": "E06",
+    "title": "B06 SOS接收小板：外形、布局与接插件",
+    "svg": "drawings/svg/E06.svg",
+    "png": "drawings/png/E06.png"
+  },
+  {
+    "id": "E07",
+    "title": "B07 EOS接收小板：外形、布局与接插件",
+    "svg": "drawings/svg/E07.svg",
+    "png": "drawings/png/E07.png"
+  },
+  {
+    "id": "E08",
+    "title": "B08 激光参考PD小板：外形、布局与接插件",
+    "svg": "drawings/svg/E08.svg",
+    "png": "drawings/png/E08.png"
+  },
+  {
+    "id": "P_M01",
+    "title": "M01 共同基准底板300×280×6",
+    "svg": "drawings/svg/P_M01.svg",
+    "png": "drawings/png/P_M01.png"
+  },
+  {
+    "id": "P_M02",
+    "title": "M02 片道侧框含轴承孔与上辊浮槽",
+    "svg": "drawings/svg/P_M02.svg",
+    "png": "drawings/png/P_M02.png"
+  },
+  {
+    "id": "P_M03",
+    "title": "M03 20mm辊芯与6mm轴",
+    "svg": "drawings/svg/P_M03.svg",
+    "png": "drawings/png/P_M03.png"
+  },
+  {
+    "id": "P_M04",
+    "title": "M04 20mm可换胶辊套",
+    "svg": "drawings/svg/P_M04.svg",
+    "png": "drawings/png/P_M04.png"
+  },
+  {
+    "id": "P_M05",
+    "title": "M05 6×12×4轴承包络",
+    "svg": "drawings/svg/P_M05.svg",
+    "png": "drawings/png/P_M05.png"
+  },
+  {
+    "id": "P_M06",
+    "title": "M06 上辊浮动轴承滑块",
+    "svg": "drawings/svg/P_M06.svg",
+    "png": "drawings/png/P_M06.png"
+  },
+  {
+    "id": "P_M07",
+    "title": "M07 上辊调压横盖",
+    "svg": "drawings/svg/P_M07.svg",
+    "png": "drawings/png/P_M07.png"
+  },
+  {
+    "id": "P_M08",
+    "title": "M08 压簧安装包络",
+    "svg": "drawings/svg/P_M08.svg",
+    "png": "drawings/png/P_M08.png"
+  },
+  {
+    "id": "P_M09",
+    "title": "M09 近扫描线低摩擦支承条",
+    "svg": "drawings/svg/P_M09.svg",
+    "png": "drawings/png/P_M09.png"
+  },
+  {
+    "id": "P_M10",
+    "title": "M10 可调边导块",
+    "svg": "drawings/svg/P_M10.svg",
+    "png": "drawings/png/P_M10.png"
+  },
+  {
+    "id": "P_M11",
+    "title": "M11 牵引柔性联轴器外廓",
+    "svg": "drawings/svg/P_M11.svg",
+    "png": "drawings/png/P_M11.png"
+  },
+  {
+    "id": "P_P01",
+    "title": "P01 14HS10-0404S电机本体外廓",
+    "svg": "drawings/svg/P_P01.svg",
+    "png": "drawings/png/P_P01.png"
+  },
+  {
+    "id": "P_M12",
+    "title": "M12 电机安装法兰",
+    "svg": "drawings/svg/P_M12.svg",
+    "png": "drawings/png/P_M12.png"
+  },
+  {
+    "id": "P_P02",
+    "title": "P02 AMT112S编码器外廓",
+    "svg": "drawings/svg/P_P02.svg",
+    "png": "drawings/png/P_P02.png"
+  },
+  {
+    "id": "P_M13",
+    "title": "M13 编码器安装板",
+    "svg": "drawings/svg/P_M13.svg",
+    "png": "drawings/png/P_M13.png"
+  },
+  {
+    "id": "P_C01",
+    "title": "C01 横置狭缝积分筒壳",
+    "svg": "drawings/svg/P_C01.svg",
+    "png": "drawings/png/P_C01.png"
+  },
+  {
+    "id": "P_C02",
+    "title": "C02 一体漫反射内胆",
+    "svg": "drawings/svg/P_C02.svg",
+    "png": "drawings/png/P_C02.png"
+  },
+  {
+    "id": "P_C03",
+    "title": "C03 两端封闭端盖",
+    "svg": "drawings/svg/P_C03.svg",
+    "png": "drawings/png/P_C03.png"
+  },
+  {
+    "id": "P_C04",
+    "title": "C04 漫反射端衬",
+    "svg": "drawings/svg/P_C04.svg",
+    "png": "drawings/png/P_C04.png"
+  },
+  {
+    "id": "P_C05",
+    "title": "C05 104×1.2矩形薄唇片",
+    "svg": "drawings/svg/P_C05.svg",
+    "png": "drawings/png/P_C05.png"
+  },
+  {
+    "id": "P_C06",
+    "title": "C06 矩形锥形PMMA导光件",
+    "svg": "drawings/svg/P_C06.svg",
+    "png": "drawings/png/P_C06.png"
+  },
+  {
+    "id": "P_C07",
+    "title": "C07 导光遮光套/空气间隙",
+    "svg": "drawings/svg/P_C07.svg",
+    "png": "drawings/png/P_C07.png"
+  },
+  {
+    "id": "P_C08",
+    "title": "C08 PMT窗口接口法兰",
+    "svg": "drawings/svg/P_C08.svg",
+    "png": "drawings/png/P_C08.png"
+  },
+  {
+    "id": "P_C09",
+    "title": "C09 积分筒鞍座",
+    "svg": "drawings/svg/P_C09.svg",
+    "png": "drawings/png/P_C09.png"
+  },
+  {
+    "id": "P_C10",
+    "title": "C10 可拆遮直视挡片A/B",
+    "svg": "drawings/svg/P_C10.svg",
+    "png": "drawings/png/P_C10.png"
+  },
+  {
+    "id": "P_P03",
+    "title": "P03 H10720-20本体含凸窗",
+    "svg": "drawings/svg/P_P03.svg",
+    "png": "drawings/png/P_P03.png"
+  },
+  {
+    "id": "P_P04",
+    "title": "P04 PMT引脚空间",
+    "svg": "drawings/svg/P_P04.svg",
+    "png": "drawings/png/P_P04.png"
+  },
+  {
+    "id": "P_EP_VERT",
+    "title": "EP_VERT B01垂直支柱L6.7",
+    "svg": "drawings/svg/P_EP_VERT.svg",
+    "png": "drawings/png/P_EP_VERT.png"
+  },
+  {
+    "id": "P_H01",
+    "title": "H01 PMT与AFE接地屏蔽舱",
+    "svg": "drawings/svg/P_H01.svg",
+    "png": "drawings/png/P_H01.png"
+  },
+  {
+    "id": "P_M14",
+    "title": "M14 上部基准支承柱",
+    "svg": "drawings/svg/P_M14.svg",
+    "png": "drawings/png/P_M14.png"
+  },
+  {
+    "id": "P_M15",
+    "title": "M15 光学后横梁",
+    "svg": "drawings/svg/P_M15.svg",
+    "png": "drawings/png/P_M15.png"
+  },
+  {
+    "id": "P_M16",
+    "title": "M16 激光器悬臂托板",
+    "svg": "drawings/svg/P_M16.svg",
+    "png": "drawings/png/P_M16.png"
+  },
+  {
+    "id": "P_M17",
+    "title": "M17 激光头夹座",
+    "svg": "drawings/svg/P_M17.svg",
+    "png": "drawings/png/P_M17.png"
+  },
+  {
+    "id": "P_O01",
+    "title": "O01 635nm激光头RFQ限界",
+    "svg": "drawings/svg/P_O01.svg",
+    "png": "drawings/png/P_O01.png"
+  },
+  {
+    "id": "P_O02",
+    "title": "O02 准直整形组件RFQ限界",
+    "svg": "drawings/svg/P_O02.svg",
+    "png": "drawings/png/P_O02.png"
+  },
+  {
+    "id": "P_O03",
+    "title": "O03 ND与参考分光组件限界",
+    "svg": "drawings/svg/P_O03.svg",
+    "png": "drawings/png/P_O03.png"
+  },
+  {
+    "id": "P_O04",
+    "title": "O04 失电关闭机械快门限界",
+    "svg": "drawings/svg/P_O04.svg",
+    "png": "drawings/png/P_O04.png"
+  },
+  {
+    "id": "P_O05",
+    "title": "O05 六面polygon光学外廓",
+    "svg": "drawings/svg/P_O05.svg",
+    "png": "drawings/png/P_O05.png"
+  },
+  {
+    "id": "P_O06",
+    "title": "O06 Polygon主轴电机限界",
+    "svg": "drawings/svg/P_O06.svg",
+    "png": "drawings/png/P_O06.png"
+  },
+  {
+    "id": "P_M18",
+    "title": "M18 主轴支承座",
+    "svg": "drawings/svg/P_M18.svg",
+    "png": "drawings/png/P_M18.png"
+  },
+  {
+    "id": "P_O07",
+    "title": "O07 f-theta扫描镜组RFQ限界",
+    "svg": "drawings/svg/P_O07.svg",
+    "png": "drawings/png/P_O07.png"
+  },
+  {
+    "id": "P_M19",
+    "title": "M19 扫描镜组安装框",
+    "svg": "drawings/svg/P_M19.svg",
+    "png": "drawings/png/P_M19.png"
+  },
+  {
+    "id": "P_M20L",
+    "title": "M20L 镜组框连接臂",
+    "svg": "drawings/svg/P_M20L.svg",
+    "png": "drawings/png/P_M20L.png"
+  },
+  {
+    "id": "P_M20R",
+    "title": "M20R 镜组框连接臂",
+    "svg": "drawings/svg/P_M20R.svg",
+    "png": "drawings/png/P_M20R.png"
+  },
+  {
+    "id": "P_S01",
+    "title": "S01 片外SOS/EOS接收头限界",
+    "svg": "drawings/svg/P_S01.svg",
+    "png": "drawings/png/P_S01.png"
+  },
+  {
+    "id": "P_S02",
+    "title": "S02 片外取样折转片",
+    "svg": "drawings/svg/P_S02.svg",
+    "png": "drawings/png/P_S02.png"
+  },
+  {
+    "id": "P_S03",
+    "title": "S03 进出片对射头限界",
+    "svg": "drawings/svg/P_S03.svg",
+    "png": "drawings/png/P_S03.png"
+  },
+  {
+    "id": "P_S04",
+    "title": "S04 机械互锁开关限界",
+    "svg": "drawings/svg/P_S04.svg",
+    "png": "drawings/png/P_S04.png"
+  },
+  {
+    "id": "P_S05",
+    "title": "S05 温度小板限界",
+    "svg": "drawings/svg/P_S05.svg",
+    "png": "drawings/png/P_S05.png"
+  },
+  {
+    "id": "P_B01",
+    "title": "B01 PMT线性TIA前端卡",
+    "svg": "drawings/svg/P_B01.svg",
+    "png": "drawings/png/P_B01.png"
+  },
+  {
+    "id": "P_B02",
+    "title": "B02 AD9268双通道采集板",
+    "svg": "drawings/svg/P_B02.svg",
+    "png": "drawings/png/P_B02.png"
+  },
+  {
+    "id": "P_EP_6p2",
+    "title": "EP_6p2 M3支柱L6.2",
+    "svg": "drawings/svg/P_EP_6p2.svg",
+    "png": "drawings/png/P_EP_6p2.png"
+  },
+  {
+    "id": "P_B03",
+    "title": "B03 PMT控制与低噪声电源板",
+    "svg": "drawings/svg/P_B03.svg",
+    "png": "drawings/png/P_B03.png"
+  },
+  {
+    "id": "P_EP_10p2",
+    "title": "EP_10p2 M3支柱L10.2",
+    "svg": "drawings/svg/P_EP_10p2.svg",
+    "png": "drawings/png/P_EP_10p2.png"
+  },
+  {
+    "id": "P_B04",
+    "title": "B04 电源分配与硬件禁能板",
+    "svg": "drawings/svg/P_B04.svg",
+    "png": "drawings/png/P_B04.png"
+  },
+  {
+    "id": "P_B05",
+    "title": "B05 运动驱动与传感接口板",
+    "svg": "drawings/svg/P_B05.svg",
+    "png": "drawings/png/P_B05.png"
+  },
+  {
+    "id": "P_B06",
+    "title": "B06 SOS接收小板",
+    "svg": "drawings/svg/P_B06.svg",
+    "png": "drawings/png/P_B06.png"
+  },
+  {
+    "id": "P_B07",
+    "title": "B07 EOS接收小板",
+    "svg": "drawings/svg/P_B07.svg",
+    "png": "drawings/png/P_B07.png"
+  },
+  {
+    "id": "P_B08",
+    "title": "B08 激光参考PD小板",
+    "svg": "drawings/svg/P_B08.svg",
+    "png": "drawings/png/P_B08.png"
+  },
+  {
+    "id": "P_B09",
+    "title": "B09 SP2可调安装托板",
+    "svg": "drawings/svg/P_B09.svg",
+    "png": "drawings/png/P_B09.png"
+  },
+  {
+    "id": "P_EP_6p0",
+    "title": "EP_6p0 M3支柱L6.0",
+    "svg": "drawings/svg/P_EP_6p0.svg",
+    "png": "drawings/png/P_EP_6p0.png"
+  },
+  {
+    "id": "P_P05",
+    "title": "P05 SP2模块安装限界110×60×25",
+    "svg": "drawings/svg/P_P05.svg",
+    "png": "drawings/png/P_P05.png"
+  },
+  {
+    "id": "P_A01",
+    "title": "A01 外置馈片模块接口占位",
+    "svg": "drawings/svg/P_A01.svg",
+    "png": "drawings/png/P_A01.png"
+  },
+  {
+    "id": "P_A02",
+    "title": "A02 外置进出片托板",
+    "svg": "drawings/svg/P_A02.svg",
+    "png": "drawings/png/P_A02.png"
+  },
+  {
+    "id": "P_H02",
+    "title": "H02 前面板/片口/按钮/三状态灯",
+    "svg": "drawings/svg/P_H02.svg",
+    "png": "drawings/png/P_H02.png"
+  },
+  {
+    "id": "P_H02R",
+    "title": "H02R 后面板/片口/电子舱通风/ADF接口",
+    "svg": "drawings/svg/P_H02R.svg",
+    "png": "drawings/png/P_H02R.png"
+  },
+  {
+    "id": "P_H03",
+    "title": "H03 右检修板及SP2连接器可换开窗",
+    "svg": "drawings/svg/P_H03.svg",
+    "png": "drawings/png/P_H03.png"
+  },
+  {
+    "id": "P_H03L",
+    "title": "H03L 左检修板及24V锁紧电源入口",
+    "svg": "drawings/svg/P_H03L.svg",
+    "png": "drawings/png/P_H03L.png"
+  },
+  {
+    "id": "P_H04",
+    "title": "H04 顶盖",
+    "svg": "drawings/svg/P_H04.svg",
+    "png": "drawings/png/P_H04.png"
+  },
+  {
+    "id": "P_H05",
+    "title": "H05 底盖",
+    "svg": "drawings/svg/P_H05.svg",
+    "png": "drawings/png/P_H05.png"
+  },
+  {
+    "id": "P_H06",
+    "title": "H06 脚垫",
+    "svg": "drawings/svg/P_H06.svg",
+    "png": "drawings/png/P_H06.png"
+  },
+  {
+    "id": "P_H07",
+    "title": "H07 散热风扇/风道限界",
+    "svg": "drawings/svg/P_H07.svg",
+    "png": "drawings/png/P_H07.png"
+  },
+  {
+    "id": "P_H08",
+    "title": "H08 前后遮光迷宫框",
+    "svg": "drawings/svg/P_H08.svg",
+    "png": "drawings/png/P_H08.png"
+  }
+]

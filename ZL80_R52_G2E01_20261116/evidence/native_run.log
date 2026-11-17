@@ -1,0 +1,65 @@
+{
+  "run_utc": "2026-11-16T09:36:03.366926+00:00",
+  "scope": "Native ERC/DRC/SPICE only; no bench testing",
+  "boards": {
+    "B06": {
+      "erc": {
+        "status": "NOT_RUN",
+        "reason": "kicad-cli executable unavailable"
+      },
+      "drc": {
+        "status": "NOT_RUN",
+        "reason": "kicad-cli executable unavailable"
+      }
+    },
+    "B07": {
+      "erc": {
+        "status": "NOT_RUN",
+        "reason": "kicad-cli executable unavailable"
+      },
+      "drc": {
+        "status": "NOT_RUN",
+        "reason": "kicad-cli executable unavailable"
+      }
+    },
+    "B08": {
+      "erc": {
+        "status": "NOT_RUN",
+        "reason": "kicad-cli executable unavailable"
+      },
+      "drc": {
+        "status": "NOT_RUN",
+        "reason": "kicad-cli executable unavailable"
+      }
+    },
+    "B01": {
+      "erc": {
+        "status": "NOT_RUN",
+        "reason": "kicad-cli executable unavailable"
+      },
+      "drc": {
+        "status": "NOT_RUN",
+        "reason": "kicad-cli executable unavailable"
+      }
+    }
+  },
+  "spice": {
+    "B01_TIA_equivalent.cir": {
+      "status": "NOT_RUN",
+      "reason": "ngspice executable unavailable"
+    },
+    "B06_TIA_equivalent.cir": {
+      "status": "NOT_RUN",
+      "reason": "ngspice executable unavailable"
+    },
+    "B08_TIA_equivalent.cir": {
+      "status": "NOT_RUN",
+      "reason": "ngspice executable unavailable"
+    }
+  },
+  "bench": {
+    "status": "NOT_RUN",
+    "reason": "No hardware in this execution environment"
+  },
+  "release": "BLOCKED: native success alone cannot approve procurement/layout or bench performance."
+}

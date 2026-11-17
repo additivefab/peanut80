@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D09  扫描宽度、狭缝及筒轴尺寸链</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">设计分配与名义几何；图中包络不等于厂商实物认证。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<line x1="390" y1="240" x2="1190" y2="240" stroke="#cb462e" stroke-width="4" />
+<line x1="390" y1="220" x2="390" y2="260" stroke="#cb462e" stroke-width="2" />
+<line x1="1190" y1="220" x2="1190" y2="260" stroke="#cb462e" stroke-width="2" />
+<text x="790" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="26" fill="#cb462e" font-weight="700" text-anchor="middle">有效成像80 mm（X=−40…+40）</text>
+<line x1="290" y1="390" x2="1290" y2="390" stroke="#226da6" stroke-width="4" />
+<line x1="290" y1="370" x2="290" y2="410" stroke="#226da6" stroke-width="2" />
+<line x1="1290" y1="370" x2="1290" y2="410" stroke="#226da6" stroke-width="2" />
+<text x="790" y="355" font-family="Noto Sans CJK SC, sans-serif" font-size="26" fill="#226da6" font-weight="700" text-anchor="middle">光学预留100 mm（X=−50…+50）</text>
+<line x1="270" y1="540" x2="1310" y2="540" stroke="#20826c" stroke-width="4" />
+<line x1="270" y1="520" x2="270" y2="560" stroke="#20826c" stroke-width="2" />
+<line x1="1310" y1="520" x2="1310" y2="560" stroke="#20826c" stroke-width="2" />
+<text x="790" y="505" font-family="Noto Sans CJK SC, sans-serif" font-size="26" fill="#20826c" font-weight="700" text-anchor="middle">实体狭缝104 mm（两端各多2）</text>
+<line x1="190" y1="690" x2="1390" y2="690" stroke="#a75f12" stroke-width="4" />
+<line x1="190" y1="670" x2="190" y2="710" stroke="#a75f12" stroke-width="2" />
+<line x1="1390" y1="670" x2="1390" y2="710" stroke="#a75f12" stroke-width="2" />
+<text x="790" y="655" font-family="Noto Sans CJK SC, sans-serif" font-size="26" fill="#a75f12" font-weight="700" text-anchor="middle">有效内腔120 mm</text>
+<line x1="160" y1="840" x2="1420" y2="840" stroke="#5e7180" stroke-width="4" />
+<line x1="160" y1="820" x2="160" y2="860" stroke="#5e7180" stroke-width="2" />
+<line x1="1420" y1="820" x2="1420" y2="860" stroke="#5e7180" stroke-width="2" />
+<text x="790" y="805" font-family="Noto Sans CJK SC, sans-serif" font-size="26" fill="#5e7180" font-weight="700" text-anchor="middle">筒壳126 mm（不含端盖）</text>
+<text x="790" y="980" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#172d3f" font-weight="400" text-anchor="middle">片外SOS/EOS取样点：名义X=±46；镜片在Z=112，其坐标需光学校准。</text>
+</svg>

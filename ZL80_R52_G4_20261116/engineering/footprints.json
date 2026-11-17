@@ -1,0 +1,562 @@
+{
+  "0603": {
+    "w": 2.8,
+    "h": 1.6,
+    "z": 0.7,
+    "pads": [
+      {
+        "num": "1",
+        "x": -0.825,
+        "y": 0,
+        "w": 0.95,
+        "h": 0.95,
+        "drill": 0
+      },
+      {
+        "num": "2",
+        "x": 0.825,
+        "y": 0,
+        "w": 0.95,
+        "h": 0.95,
+        "drill": 0
+      }
+    ],
+    "status": "INHERITED_CANDIDATE_VERIFY_LAND_PATTERN",
+    "body": [
+      1.6,
+      0.8,
+      0.7
+    ]
+  },
+  "SOT23_5": {
+    "w": 3.6,
+    "h": 3.1,
+    "z": 1.45,
+    "pads": [
+      {
+        "num": "1",
+        "x": -1.1,
+        "y": -0.95,
+        "w": 1.2,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "2",
+        "x": -1.1,
+        "y": 0,
+        "w": 1.2,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "3",
+        "x": -1.1,
+        "y": 0.95,
+        "w": 1.2,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "4",
+        "x": 1.1,
+        "y": 0.95,
+        "w": 1.2,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "5",
+        "x": 1.1,
+        "y": -0.95,
+        "w": 1.2,
+        "h": 0.6,
+        "drill": 0
+      }
+    ],
+    "status": "INHERITED_CANDIDATE_VERIFY_LAND_PATTERN",
+    "body": [
+      1.6,
+      2.9,
+      1.45
+    ]
+  },
+  "SOT23_6": {
+    "w": 3.6,
+    "h": 3.1,
+    "z": 1.45,
+    "pads": [
+      {
+        "num": "1",
+        "x": -1.1,
+        "y": -0.95,
+        "w": 1.2,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "2",
+        "x": -1.1,
+        "y": 0,
+        "w": 1.2,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "3",
+        "x": -1.1,
+        "y": 0.95,
+        "w": 1.2,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "4",
+        "x": 1.1,
+        "y": 0.95,
+        "w": 1.2,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "5",
+        "x": 1.1,
+        "y": 0,
+        "w": 1.2,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "6",
+        "x": 1.1,
+        "y": -0.95,
+        "w": 1.2,
+        "h": 0.6,
+        "drill": 0
+      }
+    ],
+    "status": "INHERITED_CANDIDATE_VERIFY_LAND_PATTERN",
+    "body": [
+      1.6,
+      2.9,
+      1.45
+    ]
+  },
+  "SOIC8": {
+    "w": 7.4,
+    "h": 5.4,
+    "z": 1.75,
+    "pads": [
+      {
+        "num": "1",
+        "x": -2.7,
+        "y": -1.905,
+        "w": 1.55,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "8",
+        "x": 2.7,
+        "y": -1.905,
+        "w": 1.55,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "2",
+        "x": -2.7,
+        "y": -0.635,
+        "w": 1.55,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "7",
+        "x": 2.7,
+        "y": -0.635,
+        "w": 1.55,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "3",
+        "x": -2.7,
+        "y": 0.635,
+        "w": 1.55,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "6",
+        "x": 2.7,
+        "y": 0.635,
+        "w": 1.55,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "4",
+        "x": -2.7,
+        "y": 1.905,
+        "w": 1.55,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "5",
+        "x": 2.7,
+        "y": 1.905,
+        "w": 1.55,
+        "h": 0.6,
+        "drill": 0
+      }
+    ],
+    "status": "INHERITED_CANDIDATE_VERIFY_LAND_PATTERN",
+    "body": [
+      3.91,
+      4.9,
+      1.75
+    ]
+  },
+  "S5971_TO18_TOP": {
+    "w": 5.9,
+    "h": 5.9,
+    "z": 7.4,
+    "pads": [
+      {
+        "num": "1",
+        "x": -1.27,
+        "y": 0,
+        "w": 1.25,
+        "h": 1.25,
+        "drill": 0.7
+      },
+      {
+        "num": "2",
+        "x": 0,
+        "y": 1.27,
+        "w": 1.25,
+        "h": 1.25,
+        "drill": 0.7
+      },
+      {
+        "num": "3",
+        "x": 1.27,
+        "y": 0,
+        "w": 1.25,
+        "h": 1.25,
+        "drill": 0.7
+      }
+    ],
+    "note": "Top-view mirror of manufacturer bottom view. Pin1 K left, pin3 A right, pin2 CASE bottom; confirm tab orientation and real sample.; 3.6mm nominal lead stand-off, 3.6mm nominal can; model uses max3.8mm can for clearance. Photosensitive surface is 2.8mm above flange; NOT the package top.",
+    "status": "INHERITED_CANDIDATE_VERIFY_LAND_PATTERN",
+    "body": [
+      5.6,
+      5.6,
+      3.8
+    ]
+  },
+  "TP1": {
+    "w": 1.3,
+    "h": 1.3,
+    "z": 0.1,
+    "pads": [
+      {
+        "num": "1",
+        "x": 0,
+        "y": 0,
+        "w": 1.0,
+        "h": 1.0,
+        "drill": 0
+      }
+    ],
+    "status": "INHERITED_CANDIDATE_VERIFY_LAND_PATTERN"
+  },
+  "HDR1": {
+    "w": 2.4,
+    "h": 3.54,
+    "z": 6,
+    "pads": [
+      {
+        "num": "1",
+        "x": 0,
+        "y": 0.0,
+        "w": 1.8,
+        "h": 1.8,
+        "drill": 1.0
+      }
+    ]
+  },
+  "HDR4": {
+    "w": 2.5,
+    "h": 5.08,
+    "z": 5.2,
+    "pads": [
+      {
+        "num": "1",
+        "x": 0,
+        "y": -1.905,
+        "w": 1.0,
+        "h": 1.0,
+        "drill": 0.66
+      },
+      {
+        "num": "2",
+        "x": 0,
+        "y": -0.635,
+        "w": 1.0,
+        "h": 1.0,
+        "drill": 0.66
+      },
+      {
+        "num": "3",
+        "x": 0,
+        "y": 0.635,
+        "w": 1.0,
+        "h": 1.0,
+        "drill": 0.66
+      },
+      {
+        "num": "4",
+        "x": 0,
+        "y": 1.905,
+        "w": 1.0,
+        "h": 1.0,
+        "drill": 0.66
+      }
+    ],
+    "status": "INHERITED_CANDIDATE_VERIFY_LAND_PATTERN",
+    "note": "Samtec TMS-104-02-L-S candidate;1.27mm pitch,0.66mm recommended finished hole. Mating socket and pull space still provisional."
+  },
+  "HDR6": {
+    "w": 5.6,
+    "h": 8.620000000000001,
+    "z": 7,
+    "pads": [
+      {
+        "num": "1",
+        "x": -1.27,
+        "y": -2.54,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "2",
+        "x": 1.27,
+        "y": -2.54,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "3",
+        "x": -1.27,
+        "y": 0.0,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "4",
+        "x": 1.27,
+        "y": 0.0,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "5",
+        "x": -1.27,
+        "y": 2.54,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "6",
+        "x": 1.27,
+        "y": 2.54,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      }
+    ],
+    "status": "INHERITED_CANDIDATE_VERIFY_LAND_PATTERN"
+  },
+  "HDR8": {
+    "w": 5.6,
+    "h": 11.16,
+    "z": 7,
+    "pads": [
+      {
+        "num": "1",
+        "x": -1.27,
+        "y": -3.81,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "2",
+        "x": 1.27,
+        "y": -3.81,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "3",
+        "x": -1.27,
+        "y": -1.27,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "4",
+        "x": 1.27,
+        "y": -1.27,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "5",
+        "x": -1.27,
+        "y": 1.27,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "6",
+        "x": 1.27,
+        "y": 1.27,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "7",
+        "x": -1.27,
+        "y": 3.81,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      },
+      {
+        "num": "8",
+        "x": 1.27,
+        "y": 3.81,
+        "w": 1.7,
+        "h": 1.7,
+        "drill": 1
+      }
+    ],
+    "status": "INHERITED_CANDIDATE_VERIFY_LAND_PATTERN"
+  },
+  "H10720_SOCKET_DRAFT": {
+    "w": 50.0,
+    "h": 25.0,
+    "z": 22,
+    "pads": [
+      {
+        "num": "1",
+        "x": -21.32,
+        "y": -7.719999999999999,
+        "w": 2,
+        "h": 2,
+        "drill": 0.9
+      },
+      {
+        "num": "2",
+        "x": 14.240000000000002,
+        "y": -7.719999999999999,
+        "w": 2,
+        "h": 2,
+        "drill": 0.9
+      },
+      {
+        "num": "3",
+        "x": 19.32,
+        "y": -7.719999999999999,
+        "w": 2,
+        "h": 2,
+        "drill": 0.9
+      },
+      {
+        "num": "8",
+        "x": -21.32,
+        "y": 7.52000000000001,
+        "w": 2,
+        "h": 2,
+        "drill": 0.9
+      },
+      {
+        "num": "7",
+        "x": -8.620000000000005,
+        "y": 7.52000000000001,
+        "w": 2,
+        "h": 2,
+        "drill": 0.9
+      },
+      {
+        "num": "6",
+        "x": -3.539999999999999,
+        "y": 7.52000000000001,
+        "w": 2,
+        "h": 2,
+        "drill": 0.9
+      },
+      {
+        "num": "5",
+        "x": 14.240000000000002,
+        "y": 7.52000000000001,
+        "w": 2,
+        "h": 2,
+        "drill": 0.9
+      },
+      {
+        "num": "4",
+        "x": 19.32,
+        "y": 7.52000000000001,
+        "w": 2,
+        "h": 2,
+        "drill": 0.9
+      }
+    ],
+    "note": "Inherited single socket holes; socket MPN and bottom/top mirror not released. 0.9mm holes are for hypothetical socket tails, NOT bare 1mm PMT pins.",
+    "status": "INHERITED_CANDIDATE_VERIFY_LAND_PATTERN"
+  },
+  "0402": {
+    "w": 1.8,
+    "h": 1.0,
+    "z": 0.55,
+    "pads": [
+      {
+        "num": "1",
+        "x": -0.5,
+        "y": 0,
+        "w": 0.6,
+        "h": 0.6,
+        "drill": 0
+      },
+      {
+        "num": "2",
+        "x": 0.5,
+        "y": 0,
+        "w": 0.6,
+        "h": 0.6,
+        "drill": 0
+      }
+    ],
+    "status": "GENERIC_LAND_PATTERN_REVIEW",
+    "body": [
+      1.0,
+      0.5,
+      0.5
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D16  功率分配、硬件互锁与散热</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">设计分配与名义几何；图中包络不等于厂商实物认证。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="55" y="180" width="265" height="135" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="187.5" y="215" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">外置24 V / 90W</text>
+<text x="67" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">不将市电放入主机</text>
+<rect x="420" y="180" width="280" height="135" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="560.0" y="215" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">B04保护与分配</text>
+<text x="432" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">保险 / 反接 / 过压 / 硬禁能</text>
+<rect x="800" y="180" width="310" height="135" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="955.0" y="215" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">负载电源域</text>
+<text x="812" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">5VD、12VM、模拟预稳压</text>
+<rect x="1200" y="180" width="330" height="135" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="1365.0" y="215" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">B03 / B02本地稳压</text>
+<text x="1212" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">5VA、±5VA、1.8VA/D</text>
+<line x1="320" y1="245" x2="410" y2="245" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<line x1="700" y1="245" x2="790" y2="245" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<line x1="1110" y1="245" x2="1200" y2="245" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<rect x="70" y="410" width="1450" height="88" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="80" y="440" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">项目</text>
+<text x="399.0" y="440" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">预算/逻辑</text>
+<text x="979.0" y="440" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">注意</text>
+<rect x="70" y="498" width="1450" height="88" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="524" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">名义/峰值功耗</text>
+<text x="399.0" y="524" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">32.3 W / 52 W</text>
+<text x="979.0" y="524" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">不含外置ADF；不是实测</text>
+<rect x="70" y="586" width="1450" height="88" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="612" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">理想换气</text>
+<text x="399.0" y="612" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">ΔT10K约5.7CFM</text>
+<text x="979.0" y="612" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">实际风扇须考虑压损、过滤与噪声</text>
+<rect x="70" y="674" width="1450" height="88" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="700" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">失效安全</text>
+<text x="399.0" y="700" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">开盖/放辊/失扫/过温/看门狗→关光</text>
+<text x="979.0" y="700" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">硬件禁能＋失电关快门</text>
+<rect x="70" y="762" width="1450" height="88" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="788" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">分舱</text>
+<text x="399.0" y="788" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">风流只穿电子舱，不吹胶片/积分筒</text>
+<text x="979.0" y="788" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">粉尘与热漂均进入密度误差</text>
+<rect x="70" y="850" width="1450" height="88" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="876" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">接地</text>
+<text x="399.0" y="876" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">机壳端接与连续返回平面分清</text>
+<text x="979.0" y="876" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">不能用割裂地平面替代回流设计</text>
+<text x="90" y="955" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#cb462e" font-weight="400" text-anchor="start">未给Class 1、EMC或电气安全合格结论；硬件失效注入和整机无片泄漏必须实测。</text>
+</svg>

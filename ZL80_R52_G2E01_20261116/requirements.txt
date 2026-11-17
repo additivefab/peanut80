@@ -1,0 +1,7 @@
+numpy>=2.0,<3
+scipy>=1.14,<2
+# PDF rebuilding only:
+reportlab>=4,<5
+# Optional plots and CAD envelopes:
+matplotlib>=3.8,<4
+cadquery>=2.5,<3

@@ -1,0 +1,25 @@
+ZL80 B01 TIA equivalent model -- UNVALIDATED BY SPICE ENGINE
+VP VP 0 5
+VN VN 0 -5
+IPMT SUM 0 DC 0 AC 1 PULSE(0 10u 1u 1n 1n 4u 8u)
+CIN SUM 0 20p
+RF SUM TIA 100k
+CF SUM TIA 2.2p
+XU1 0 SUM TIA VP VN AMP_1P A0=1e6 GBW=45e6
+* FDA omitted: differential ideal-gain and external RC modeled separately in Python.
+* NOT a manufacturer macro; NOT bench evidence. No overload/slew/supply behavior.
+.options reltol=1e-5 abstol=1e-14
+
+* Educational finite open-loop model. Power pins are NOT modeled.
+.subckt AMP_1P P M O VP VN params: A0=1e5 GBW=200e6
+EERR NERR 0 P M {A0}
+RP NERR NPOLE 1k
+CP NPOLE 0 {A0/(6.283185307179586*GBW*1000)}
+EBUF O 0 NPOLE 0 1
+.ends AMP_1P
+
+.ac dec 60 10 1e9
+.tran 2n 20u
+.print ac vm(TIA) vp(TIA)
+.print tran v(TIA)
+.end

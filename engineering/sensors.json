@@ -1,0 +1,240 @@
+[
+  {
+    "id": "S_SOS",
+    "type": "S5971+反射片",
+    "center": [
+      -46,
+      12,
+      112
+    ],
+    "envelope": [
+      10,
+      16,
+      12
+    ],
+    "board": "B06",
+    "install": "片外左端；镜片点[-46,0,112]；看向-Y",
+    "role": "SOS+校准X=-46mm"
+  },
+  {
+    "id": "S_EOS",
+    "type": "S5971+反射片",
+    "center": [
+      46,
+      12,
+      112
+    ],
+    "envelope": [
+      10,
+      16,
+      12
+    ],
+    "board": "B07",
+    "install": "片外右端；镜片点[46,0,112]",
+    "role": "EOS+校准X=46mm"
+  },
+  {
+    "id": "S_REF",
+    "type": "S5971取样",
+    "center": [
+      -62,
+      -24,
+      245
+    ],
+    "envelope": [
+      12,
+      10,
+      12
+    ],
+    "board": "B08",
+    "install": "光源衰减之后1%级取样，系数待标定",
+    "role": "双通道ADC参考"
+  },
+  {
+    "id": "S_ENT_L",
+    "type": "入口对射",
+    "center": [
+      -25,
+      -110,
+      110
+    ],
+    "envelope": [
+      15,
+      10,
+      24
+    ],
+    "board": "B05",
+    "install": "上下头各8mm，中间片道净隙8mm",
+    "role": "前沿/偏斜tL"
+  },
+  {
+    "id": "S_ENT_R",
+    "type": "入口对射",
+    "center": [
+      25,
+      -110,
+      110
+    ],
+    "envelope": [
+      15,
+      10,
+      24
+    ],
+    "board": "B05",
+    "install": "两头横向间距50mm，时间差估偏斜",
+    "role": "前沿/偏斜tR"
+  },
+  {
+    "id": "S_EXIT",
+    "type": "出口对射",
+    "center": [
+      0,
+      110,
+      110
+    ],
+    "envelope": [
+      15,
+      10,
+      24
+    ],
+    "board": "B05",
+    "install": "IR仅非采集时间发光，双张不能只看OD",
+    "role": "片尾/卡片"
+  },
+  {
+    "id": "S_ENC_M",
+    "type": "入口计量编码器",
+    "center": [
+      -100,
+      -42,
+      99.9
+    ],
+    "envelope": [
+      22,
+      36,
+      46
+    ],
+    "board": "B05",
+    "install": "轴向X；位移角度误差标定",
+    "role": "实际Y位置"
+  },
+  {
+    "id": "S_ENC_D",
+    "type": "出口复核编码器",
+    "center": [
+      -100,
+      42,
+      99.9
+    ],
+    "envelope": [
+      22,
+      36,
+      46
+    ],
+    "board": "B05",
+    "install": "比较轮速/滑移；不能证明两轮共滑不存在",
+    "role": "Y速度复核"
+  },
+  {
+    "id": "S_LID_1",
+    "type": "NC开盖",
+    "center": [
+      -145,
+      100,
+      278
+    ],
+    "envelope": [
+      22,
+      16,
+      20
+    ],
+    "board": "B04",
+    "install": "上盖释放前先断激光驱动",
+    "role": "硬件允许链"
+  },
+  {
+    "id": "S_LID_2",
+    "type": "NC开盖",
+    "center": [
+      145,
+      100,
+      278
+    ],
+    "envelope": [
+      22,
+      16,
+      20
+    ],
+    "board": "B04",
+    "install": "第二位置独立回路",
+    "role": "硬件允许链"
+  },
+  {
+    "id": "S_RELEASE",
+    "type": "NC放辊",
+    "center": [
+      95,
+      -42,
+      147
+    ],
+    "envelope": [
+      22,
+      16,
+      20
+    ],
+    "board": "B04",
+    "install": "上辊抬起立即禁能；不与片道接触",
+    "role": "硬件允许链"
+  },
+  {
+    "id": "S_TEMP_P",
+    "type": "TMP117",
+    "center": [
+      48,
+      -75,
+      82
+    ],
+    "envelope": [
+      10,
+      12,
+      3
+    ],
+    "board": "B03",
+    "install": "贴PMT舱内支架，不触HV",
+    "role": "温漂遥测"
+  },
+  {
+    "id": "S_TEMP_O",
+    "type": "TMP117",
+    "center": [
+      72,
+      57.2,
+      220
+    ],
+    "envelope": [
+      10,
+      12,
+      3
+    ],
+    "board": "B05",
+    "install": "光学基座温度",
+    "role": "温漂遥测"
+  },
+  {
+    "id": "S_TEMP_D",
+    "type": "TMP117",
+    "center": [
+      -115,
+      50,
+      46
+    ],
+    "envelope": [
+      10,
+      12,
+      3
+    ],
+    "board": "B05",
+    "install": "驱动板铜区附近",
+    "role": "过温停机"
+  }
+]

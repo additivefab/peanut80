@@ -1,0 +1,106 @@
+{
+  "release": "ADF50-V0.2-PDR",
+  "date": "2026-11-16",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1449,
+      "sha256": "a89a0b9471b8b9c059ae30635318d4107143f4c78893e3704e9a2a0628498113"
+    },
+    {
+      "path": "cad/ADF50_V02_envelope.step",
+      "bytes": 146544,
+      "sha256": "906c361cdd996865f76de55c0d054335f0c186d540d0c61bb5d4770506e93918"
+    },
+    {
+      "path": "cad/build_envelope.py",
+      "bytes": 3840,
+      "sha256": "20e09d072e92a2246d462317150a4466ff0f5663cd89501b5691f969e6dd74a7"
+    },
+    {
+      "path": "control/batch_reference.py",
+      "bytes": 4492,
+      "sha256": "df9d87a10cc6e050f7d1102ba620e811722abb8ad7ccd05ad1abc9b2b3688d9d"
+    },
+    {
+      "path": "control/state_transition_table.csv",
+      "bytes": 1835,
+      "sha256": "9a64ad9fce490c2a6ff045a52143ad959f4e1b1d00d677c7471fd8ff43ac0c56"
+    },
+    {
+      "path": "docs/ADF50_V02_布局.png",
+      "bytes": 121665,
+      "sha256": "33311b6099bc88c25ab6fb30ed7c1289e149776e0d7e311c8c5c852a35ecd4d0"
+    },
+    {
+      "path": "docs/ADF50_V02_布局.svg",
+      "bytes": 2771,
+      "sha256": "1a5d497869e07d30f6b2e791f1984f29055c41f36cac3ae334a461d4a5359968"
+    },
+    {
+      "path": "docs/ZL80_ADF50_V02_评估与重新设计.md",
+      "bytes": 9187,
+      "sha256": "d104bce6f601a5f7e56f9fc61ae47813f26c0d0ff383f8e1febc9c9f5292fb81"
+    },
+    {
+      "path": "docs/ZL80_ADF50_V02_评估与重新设计.pdf",
+      "bytes": 157749,
+      "sha256": "82f00a48bdd852fb06fe9f8b0d8a092d6e3899d95e555f0a24dcf4e3d014bc0d"
+    },
+    {
+      "path": "docs/build_pdf.py",
+      "bytes": 2558,
+      "sha256": "53fe380366b9a8948e4f52ab7dd768a71e864179fa3c783a8fe2cc7580b5633f"
+    },
+    {
+      "path": "engineering/V01_V02_对比.csv",
+      "bytes": 844,
+      "sha256": "1ef5b265faaec61e6e6abdbd920cf34e23e0a1c314d02a4415a6a9d1b9f0ebc9"
+    },
+    {
+      "path": "engineering/calculate.py",
+      "bytes": 7238,
+      "sha256": "2ae7f255a167a8eef97d9f27c6cbe6081a9f16bf4824a1b66181add4a7059957"
+    },
+    {
+      "path": "engineering/calculated_results.json",
+      "bytes": 6574,
+      "sha256": "e3a9a54f778927eb10626b00791eef3847bc3e0302a0fec1fb0ffe59abb918c9"
+    },
+    {
+      "path": "engineering/draw_layout.py",
+      "bytes": 3912,
+      "sha256": "d629ccdbb9c9c7a0bac35eabe1c76029ba281a4163a7bf04f20d6479c71a6dff"
+    },
+    {
+      "path": "engineering/parameters.json",
+      "bytes": 3624,
+      "sha256": "f61e95409acb98fd0987dd1a6bb5e68d352a476d7c148ebaedfb879fc9814ae8"
+    },
+    {
+      "path": "engineering/risks_and_gates.csv",
+      "bytes": 962,
+      "sha256": "7448796e5656758662635580a7301f160b4214c83c0a91fe0c689db712e8d0e5"
+    },
+    {
+      "path": "engineering/分片配方.csv",
+      "bytes": 527,
+      "sha256": "309133a52a2b6b151b3b2b542cd1b5bc855d2f1368697c07670662383cb5123e"
+    },
+    {
+      "path": "engineering/节拍.csv",
+      "bytes": 377,
+      "sha256": "f7fb48cca4e93124ad31cfd4f96a3393a148dd554576c80eaf7a6946d35011c4"
+    },
+    {
+      "path": "tests/envelope_interference.json",
+      "bytes": 816,
+      "sha256": "6ea774424d1e31509abb925f662efefdf8b0340ba384dc64c7b6c66feffb583a"
+    },
+    {
+      "path": "tests/test_adf50_v02.py",
+      "bytes": 3041,
+      "sha256": "fc86548d28d7f395c3a19dea20b35ff744ae0cd3efe3db6c251ca4ca7d368e00"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "per_thickness": [
+    {
+      "thickness_mm": 0.15,
+      "single_mass_g": 5.039999999999999,
+      "stack_mass_g": 251.99999999999994,
+      "stack_thickness_mm": 7.5,
+      "pick_interface_force_full_stack_n": 0.5494424,
+      "pick_interface_force_last_sheet_n": 0.5494424,
+      "dam_angle_deg": 60,
+      "dam_lift_factor": 0.23640391073885794,
+      "push_needed_nominal_n": 0.1827380937353468,
+      "push_needed_worst_level_n": 0.21928571248241616,
+      "top_sheet_push_available_n": 0.35,
+      "top_sheet_margin_nominal": 1.915309462004637,
+      "top_sheet_margin_worst_level": 1.5960912183371974,
+      "second_sheet_adhesion_allowed_n": 0.14619047498827745,
+      "feed_nip_force_n": 0.8,
+      "retard_window_n": [
+        0.29,
+        0.7000000000000001
+      ],
+      "retard_window_width_n": 0.4100000000000001,
+      "retard_torque_mid_mNm": 4.95,
+      "tail_drag_on_stack_max_n": 0.014832719999999999,
+      "lift_force_at_front_full_n": 1.97181
+    },
+    {
+      "thickness_mm": 0.2,
+      "single_mass_g": 6.7200000000000015,
+      "stack_mass_g": 336.00000000000006,
+      "stack_thickness_mm": 10.0,
+      "pick_interface_force_full_stack_n": 0.8659232000000001,
+      "pick_interface_force_last_sheet_n": 0.8659232000000001,
+      "dam_angle_deg": 55,
+      "dam_lift_factor": 0.33073301346153555,
+      "push_needed_nominal_n": 0.3096152964237094,
+      "push_needed_worst_level_n": 0.37153835570845134,
+      "top_sheet_push_available_n": 0.5599999999999999,
+      "top_sheet_margin_nominal": 1.8086961673677724,
+      "top_sheet_margin_worst_level": 1.50724680613981,
+      "second_sheet_adhesion_allowed_n": 0.24769223713896754,
+      "feed_nip_force_n": 1.0,
+      "retard_window_n": [
+        0.35,
+        0.9
+      ],
+      "retard_window_width_n": 0.55,
+      "retard_torque_mid_mNm": 6.25,
+      "tail_drag_on_stack_max_n": 0.019776960000000003,
+      "lift_force_at_front_full_n": 2.3838300000000006
+    },
+    {
+      "thickness_mm": 0.35,
+      "single_mass_g": 11.760000000000002,
+      "stack_mass_g": 588.0000000000001,
+      "stack_thickness_mm": 17.5,
+      "pick_interface_force_full_stack_n": 1.9153656000000001,
+      "pick_interface_force_last_sheet_n": 1.9153656000000001,
+      "dam_angle_deg": 35,
+      "dam_lift_factor": 0.789773830290273,
+      "push_needed_nominal_n": 0.6948824827460973,
+      "push_needed_worst_level_n": 0.8338589792953168,
+      "top_sheet_push_available_n": 1.26,
+      "top_sheet_margin_nominal": 1.8132562430133825,
+      "top_sheet_margin_worst_level": 1.5110468691778187,
+      "second_sheet_adhesion_allowed_n": 0.5559059861968778,
+      "feed_nip_force_n": 1.5,
+      "retard_window_n": [
+        0.49999999999999994,
+        1.4
+      ],
+      "retard_window_width_n": 0.8999999999999999,
+      "retard_torque_mid_mNm": 9.5,
+      "tail_drag_on_stack_max_n": 0.034609680000000004,
+      "lift_force_at_front_full_n": 3.6198900000000003
+    }
+  ],
+  "path": {
+    "stations_y_mm": {
+      "magazine_rear_y": -500,
+      "pick_contact_y": -183,
+      "dam_top_y": -158,
+      "front_panel_y": -150,
+      "feed_nip_y": -138,
+      "double_sheet_sensor_y": -120,
+      "film_sensor_entry_y": -110,
+      "input_scan_nip_y": -42,
+      "scan_line_y": 0,
+      "output_scan_nip_y": 42,
+      "film_sensor_exit_y": 110,
+      "eject_nip_y": 138,
+      "rear_panel_y": 150,
+      "output_tray_end_y": 494.8346360241507
+    },
+    "bends": 0,
+    "max_guided_turn_deg": 0,
+    "film_bending_strain": 0.0,
+    "stack_top_ramp_deg": 3.554715366679658,
+    "lift_travel_mm": 20.5,
+    "dam_to_feed_nip_mm": 20,
+    "feed_nip_to_scan_nip_mm": 96,
+    "unsupported_span_max_mm": 96,
+    "tail_on_stack_when_scan_starts_mm": 177,
+    "sensor_to_park_mm": 85,
+    "precheck_forward_travel_mm": 225,
+    "precheck_lead_max_y_mm": 190,
+    "tail_clear_of_exit_nip_when_lead_at_y_mm": 365
+  },
+  "architecture_options": [
+    {
+      "option": "A V0.1 外置模块，片仓80°，R60弯道，整张缓冲",
+      "envelope_mm_WDH": [
+        350,
+        1100,
+        550
+      ],
+      "footprint_m2": 0.385,
+      "volume_m3": 0.21175,
+      "guided_bend_deg": 100,
+      "scanner_core_change": "无",
+      "long_film_through_same_path": false
+    },
+    {
+      "option": "B V0.2 片仓65°折回扫描仪上方，R60弯道",
+      "envelope_mm_WDH": [
+        320,
+        785,
+        639
+      ],
+      "footprint_m2": 0.2512,
+      "volume_m3": 0.1605168,
+      "guided_bend_deg": 115,
+      "scanner_core_change": "无",
+      "long_film_through_same_path": false
+    },
+    {
+      "option": "C 整机倾斜60°直通（估算）",
+      "envelope_mm_WDH": [
+        320,
+        653,
+        658
+      ],
+      "footprint_m2": 0.20909272990025063,
+      "volume_m3": 0.13756555963668962,
+      "guided_bend_deg": 0,
+      "scanner_core_change": "光学核心整体旋转，新机架和机箱",
+      "long_film_through_same_path": false
+    },
+    {
+      "option": "D V0.3 同平面直通，分离器并入前面板",
+      "envelope_mm_WDH": [
+        320,
+        995,
+        300
+      ],
+      "footprint_m2": 0.3183470835277282,
+      "volume_m3": 0.09550412505831847,
+      "guided_bend_deg": 0,
+      "scanner_core_change": "前后面板开口，迷宫换成辊组",
+      "long_film_through_same_path": true
+    }
+  ],
+  "envelope": {
+    "working_envelope_mm_WDH": [
+      320,
+      994.8346360241508,
+      300
+    ],
+    "front_y_mm": -500,
+    "rear_y_mm": 494.8346360241507,
+    "top_z_mm": 300,
+    "footprint_m2": 0.3183470835277282,
+    "volume_m3": 0.09550412505831847,
+    "added_height_over_scanner_mm": 0,
+    "magazine_lid_top_z_mm": 165
+  },
+  "batch_time": [
+    {
+      "mode": "快速",
+      "line_average": 1,
+      "feed_mm_s": 15.0,
+      "density_to": 2.5,
+      "precheck": false,
+      "precheck_s": 0.0,
+      "per_sheet_min": 0.6037777777777779,
+      "batch_hours": 0.5031481481481482,
+      "sheets_per_8h": 794,
+      "worst_loss_if_double_found_at_tail_min": 0.3333333333333333
+    },
+    {
+      "mode": "标准",
+      "line_average": 8,
+      "feed_mm_s": 1.875,
+      "density_to": 3.5,
+      "precheck": true,
+      "precheck_s": 9.0,
+      "per_sheet_min": 3.087111111111111,
+      "batch_hours": 2.572592592592592,
+      "sheets_per_8h": 155,
+      "worst_loss_if_double_found_at_tail_min": 0.0
+    },
+    {
+      "mode": "高黑度(PMT增益1000待确认)",
+      "line_average": 16,
+      "feed_mm_s": 0.9375,
+      "density_to": 4.5,
+      "precheck": true,
+      "precheck_s": 9.0,
+      "per_sheet_min": 5.7537777777777785,
+      "batch_hours": 4.794814814814815,
+      "sheets_per_8h": 83,
+      "worst_loss_if_double_found_at_tail_min": 0.0
+    },
+    {
+      "mode": "高黑度(PMT增益5000)",
+      "line_average": 64,
+      "feed_mm_s": 0.234375,
+      "density_to": 4.5,
+      "precheck": true,
+      "precheck_s": 9.0,
+      "per_sheet_min": 21.753777777777778,
+      "batch_hours": 18.12814814814815,
+      "sheets_per_8h": 22,
+      "worst_loss_if_double_found_at_tail_min": 0.0
+    }
+  ],
+  "independent_per_sheet_success_required": 0.9997990134834266,
+  "note": "All values are calculated from assumed inputs. Nothing here is a measurement."
+}

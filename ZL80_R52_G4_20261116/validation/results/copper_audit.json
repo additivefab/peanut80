@@ -1,0 +1,73 @@
+[
+  {
+    "board": "B06",
+    "segments": 336,
+    "vias": 25,
+    "pads": 58,
+    "track_length_mm": 194.984,
+    "clearance_violations": 0,
+    "unconnected_min_links": 0,
+    "unconnected_nets": [],
+    "pad_parity_pass": true,
+    "zones_filled": false,
+    "native_drc": "NOT_RUN",
+    "scope": "geometric copper audit only; not electrical/thermal/EMC correctness"
+  },
+  {
+    "board": "B07",
+    "segments": 354,
+    "vias": 33,
+    "pads": 58,
+    "track_length_mm": 194.698,
+    "clearance_violations": 0,
+    "unconnected_min_links": 0,
+    "unconnected_nets": [],
+    "pad_parity_pass": true,
+    "zones_filled": false,
+    "native_drc": "NOT_RUN",
+    "scope": "geometric copper audit only; not electrical/thermal/EMC correctness"
+  },
+  {
+    "board": "B08",
+    "segments": 212,
+    "vias": 9,
+    "pads": 34,
+    "track_length_mm": 126.656,
+    "clearance_violations": 0,
+    "unconnected_min_links": 0,
+    "unconnected_nets": [],
+    "pad_parity_pass": true,
+    "zones_filled": false,
+    "native_drc": "NOT_RUN",
+    "scope": "geometric copper audit only; not electrical/thermal/EMC correctness"
+  },
+  {
+    "board": "B01",
+    "segments": 72,
+    "vias": 0,
+    "pads": 72,
+    "track_length_mm": 46.336,
+    "clearance_violations": 0,
+    "unconnected_min_links": 43,
+    "unconnected_nets": [
+      "PMT_VREF",
+      "PMT_VCONT",
+      "AGND",
+      "5VA_PMT",
+      "+5VA",
+      "-5VA",
+      "FDA_N",
+      "FDA_P",
+      "ADC_VCM",
+      "D_A_P",
+      "D_A_N",
+      "OFFSET_0V5",
+      "ADC_A_P",
+      "ADC_A_N"
+    ],
+    "pad_parity_pass": true,
+    "zones_filled": false,
+    "native_drc": "NOT_RUN",
+    "scope": "geometric copper audit only; not electrical/thermal/EMC correctness"
+  }
+]

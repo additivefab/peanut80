@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "requested_roi": [
+    0,
+    300
+  ],
+  "result": "REJECTED",
+  "reason": "requested ROI outside measured transport window [47,253]; no silent cropping"
+}

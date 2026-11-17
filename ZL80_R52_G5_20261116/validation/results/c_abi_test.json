@@ -1,0 +1,7 @@
+{
+  "scope": "NATIVE_C_ABI_ONLY_NOT_FPGA",
+  "status": "PASS",
+  "compiler": "gcc (Debian 14.2.0-19) 14.2.0",
+  "test": "test_raw_c.c",
+  "note": "C encoder/decoder ABI only; not DMA driver or HDL execution"
+}

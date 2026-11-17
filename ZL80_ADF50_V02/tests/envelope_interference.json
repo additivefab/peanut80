@@ -1,0 +1,48 @@
+{
+  "scope": "ADF50 V0.2 nominal envelope solids vs all R5-PDR1 instances except A01/A02 (replaced). Rigid, nominal, no tolerances; ADF solids are space envelopes, not parts.",
+  "r5_instances": 149,
+  "pairs_intersected": 2,
+  "overlaps": [],
+  "envelopes_aabb": {
+    "ADF_turn_housing": [
+      -75.0,
+      -290.0,
+      80.0,
+      75.0,
+      -152.0,
+      205.9
+    ],
+    "ADF_separation_head": [
+      -75.0,
+      -287.0,
+      182.7,
+      75.0,
+      -179.5,
+      318.6
+    ],
+    "ADF_magazine": [
+      -75.0,
+      -256.6,
+      282.7,
+      75.0,
+      -40.1,
+      617.7
+    ],
+    "ADF_dock_guide": [
+      -45.0,
+      -200.0,
+      104.0,
+      45.0,
+      -152.0,
+      116.0
+    ],
+    "ADF_output_tray": [
+      -58.0,
+      160.0,
+      12.0,
+      58.0,
+      494.8,
+      106.0
+    ]
+  }
+}

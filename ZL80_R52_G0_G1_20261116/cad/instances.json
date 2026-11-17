@@ -1,0 +1,583 @@
+[
+  {
+    "part": "C01",
+    "name": "Cavity_shell",
+    "position": [
+      0,
+      0,
+      83.1
+    ],
+    "group": "collector",
+    "rotation": null,
+    "aabb": [
+      -63.0,
+      -30.0,
+      57.099999999999994,
+      63.0,
+      26.0,
+      109.1
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "C05",
+    "name": "Slot_lip",
+    "position": [
+      0,
+      0,
+      109.25
+    ],
+    "group": "collector",
+    "rotation": null,
+    "aabb": [
+      -57.0,
+      -7.0,
+      109.1,
+      57.0,
+      7.0,
+      109.4
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "M14",
+    "name": "Optic_post-72",
+    "position": [
+      -72,
+      65,
+      188.5
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -78.0,
+      58.0,
+      143.0,
+      -66.0,
+      72.0,
+      234.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "M14",
+    "name": "Optic_post72",
+    "position": [
+      72,
+      65,
+      188.5
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      66.0,
+      58.0,
+      143.0,
+      78.0,
+      72.0,
+      234.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "M15",
+    "name": "Optics_backbone",
+    "position": [
+      -32,
+      64,
+      237
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -146.0,
+      54.0,
+      234.0,
+      82.0,
+      74.0,
+      240.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "M16",
+    "name": "Laser_cantilever",
+    "position": [
+      -120,
+      25,
+      231.5
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -137.0,
+      -20.0,
+      229.0,
+      -103.0,
+      70.0,
+      234.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "M17",
+    "name": "Laser_mount",
+    "position": [
+      -120,
+      0,
+      240
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -136.0,
+      -11.0,
+      234.0,
+      -104.0,
+      11.0,
+      246.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "O01",
+    "name": "Laser",
+    "position": [
+      -120,
+      0,
+      245
+    ],
+    "group": "optics",
+    "rotation": null,
+    "aabb": [
+      -145.0,
+      -6.0,
+      239.0,
+      -95.0,
+      6.0,
+      251.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "O02",
+    "name": "Beam_shaper",
+    "position": [
+      -82,
+      0,
+      245
+    ],
+    "group": "glass",
+    "rotation": null,
+    "aabb": [
+      -90.0,
+      -8.0,
+      237.0,
+      -74.0,
+      8.0,
+      253.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "O03",
+    "name": "ND_pickoff",
+    "position": [
+      -62,
+      0,
+      245
+    ],
+    "group": "optics",
+    "rotation": null,
+    "aabb": [
+      -69.0,
+      -9.0,
+      236.0,
+      -55.0,
+      9.0,
+      254.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "O04",
+    "name": "Shutter",
+    "position": [
+      -43,
+      0,
+      245
+    ],
+    "group": "optics",
+    "rotation": null,
+    "aabb": [
+      -52.0,
+      -12.0,
+      233.0,
+      -34.0,
+      12.0,
+      257.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "O05",
+    "name": "Polygon",
+    "position": [
+      12.247,
+      0,
+      257.247
+    ],
+    "group": "optics",
+    "rotation": null,
+    "aabb": [
+      -7.071516525781363,
+      -6.0,
+      237.92848347421864,
+      31.565516525781366,
+      6.0,
+      276.5655165257814
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "O06",
+    "name": "Polygon_motor",
+    "position": [
+      12.247,
+      32,
+      257.247
+    ],
+    "group": "motor",
+    "rotation": null,
+    "aabb": [
+      -5.753,
+      12.0,
+      239.247,
+      30.247,
+      52.0,
+      275.247
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "M18",
+    "name": "Spindle_cradle",
+    "position": [
+      12.247,
+      42,
+      247.247
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -9.753,
+      34.0,
+      235.247,
+      34.247,
+      50.0,
+      259.247
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "O07",
+    "name": "Ftheta",
+    "position": [
+      0,
+      0,
+      210
+    ],
+    "group": "glass",
+    "rotation": null,
+    "aabb": [
+      -48.0,
+      -22.0,
+      195.0,
+      48.0,
+      22.0,
+      225.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "M19",
+    "name": "Lens_frame",
+    "position": [
+      0,
+      0,
+      198
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -55.0,
+      -30.0,
+      195.0,
+      55.0,
+      30.0,
+      201.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "M20L",
+    "name": "Lens_arm-64",
+    "position": [
+      -64,
+      46,
+      204
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -76.0,
+      22.0,
+      201.0,
+      -52.0,
+      70.0,
+      207.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "M20R",
+    "name": "Lens_arm64",
+    "position": [
+      64,
+      46,
+      204
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      52.0,
+      22.0,
+      201.0,
+      76.0,
+      70.0,
+      207.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "S01",
+    "name": "PD_sync-46",
+    "position": [
+      -46,
+      12,
+      112
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      -49.0,
+      8.0,
+      109.0,
+      -43.0,
+      16.0,
+      115.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "S01",
+    "name": "PD_sync46",
+    "position": [
+      46,
+      12,
+      112
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      43.0,
+      8.0,
+      109.0,
+      49.0,
+      16.0,
+      115.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "S01",
+    "name": "PD_reference",
+    "position": [
+      -62,
+      -24,
+      245
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      -65.0,
+      -28.0,
+      242.0,
+      -59.0,
+      -20.0,
+      248.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "S02",
+    "name": "Sync_pickoff-46",
+    "position": [
+      -46,
+      0,
+      112
+    ],
+    "group": "optics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      45
+    ],
+    "aabb": [
+      -47.0,
+      -1.308147545195113,
+      110.69185245480489,
+      -45.0,
+      1.308147545195113,
+      113.30814754519511
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "S02",
+    "name": "Sync_pickoff46",
+    "position": [
+      46,
+      0,
+      112
+    ],
+    "group": "optics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      45
+    ],
+    "aabb": [
+      45.0,
+      -1.308147545195113,
+      110.69185245480489,
+      47.0,
+      1.308147545195113,
+      113.30814754519511
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "B06",
+    "name": "SOS接收小板",
+    "position": [
+      -52.0,
+      20,
+      118.0
+    ],
+    "group": "electronics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "aabb": [
+      -61.0,
+      19.199999999999996,
+      108.0,
+      -43.0,
+      20.8,
+      128.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "B07",
+    "name": "EOS接收小板",
+    "position": [
+      52.0,
+      20,
+      118.0
+    ],
+    "group": "electronics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "aabb": [
+      43.0,
+      19.199999999999996,
+      108.0,
+      61.0,
+      20.8,
+      128.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  },
+  {
+    "part": "B08",
+    "name": "激光参考PD小板",
+    "position": [
+      -62.5,
+      -32,
+      245.0
+    ],
+    "group": "electronics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "aabb": [
+      -75.0,
+      -32.800000000000004,
+      235.0,
+      -50.0,
+      -31.2,
+      255.0
+    ],
+    "source_revision": "R5/R5.1",
+    "model_state": "INHERITED_NOMINAL_NOT_RELEASED"
+  }
+]

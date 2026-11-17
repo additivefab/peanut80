@@ -1,0 +1,28 @@
+{
+  "revision": "R52-G4-E02-D01",
+  "files_excluding_self": 452,
+  "extension_counts": {
+    ".html": 1,
+    ".md": 14,
+    ".txt": 1,
+    ".pdf": 3,
+    ".svg": 2,
+    ".dxf": 4,
+    ".json": 29,
+    ".csv": 18,
+    ".xlsx": 1,
+    ".py": 22,
+    ".log": 1,
+    ".step": 202,
+    ".kicad_sym": 2,
+    ".kicad_mod": 96,
+    ".kicad_pcb": 8,
+    "": 16,
+    ".kicad_dru": 4,
+    ".kicad_sch": 18,
+    ".kicad_pro": 8,
+    ".fcmacro": 1
+  },
+  "release": "BLOCKED",
+  "zip_members_prefix": "ZL80_R52_G4_20261116"
+}

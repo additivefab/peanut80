@@ -1,0 +1,104 @@
+[
+  {
+    "board": "B06",
+    "connector": "J1",
+    "tip_world_mm": [
+      -58.7,
+      14.0,
+      116.5
+    ],
+    "pull_direction": [
+      0,
+      -1,
+      0
+    ],
+    "budget_pull_mm": 10,
+    "mpn": "TMS-104-02-L-S",
+    "status": "MATE_AND_CABLE_TBD"
+  },
+  {
+    "board": "B07",
+    "connector": "J1",
+    "tip_world_mm": [
+      58.7,
+      14.0,
+      116.5
+    ],
+    "pull_direction": [
+      0,
+      -1,
+      0
+    ],
+    "budget_pull_mm": 10,
+    "mpn": "TMS-104-02-L-S",
+    "status": "MATE_AND_CABLE_TBD"
+  },
+  {
+    "board": "B08",
+    "connector": "J1",
+    "tip_world_mm": [
+      -53.0,
+      -25.999999999999996,
+      245.0
+    ],
+    "pull_direction": [
+      0,
+      1,
+      0
+    ],
+    "budget_pull_mm": 10,
+    "mpn": "TMS-104-02-L-S",
+    "status": "MATE_AND_CABLE_TBD"
+  },
+  {
+    "board": "B01",
+    "connector": "JPMT1",
+    "tip_world_mm": [
+      15.0,
+      -68.19999999999999,
+      83.0
+    ],
+    "pull_direction": [
+      0,
+      1,
+      0
+    ],
+    "budget_pull_mm": 10,
+    "mpn": "H10720-20",
+    "status": "MATE_AND_CABLE_TBD"
+  },
+  {
+    "board": "B01",
+    "connector": "J1",
+    "tip_world_mm": [
+      51.0,
+      -83.2,
+      66.0
+    ],
+    "pull_direction": [
+      0,
+      1,
+      0
+    ],
+    "budget_pull_mm": 10,
+    "mpn": "",
+    "status": "MATE_AND_CABLE_TBD"
+  },
+  {
+    "board": "B01",
+    "connector": "J2",
+    "tip_world_mm": [
+      -17.0,
+      -83.2,
+      63.0
+    ],
+    "pull_direction": [
+      0,
+      1,
+      0
+    ],
+    "budget_pull_mm": 10,
+    "mpn": "",
+    "status": "MATE_AND_CABLE_TBD"
+  }
+]

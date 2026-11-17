@@ -1,0 +1,181 @@
+{
+  "scope": "ADF50 V0.6 part-level nominal model. Rigid, no tolerances; fasteners, bearings, belts, springs and cables are not modelled. Purchased items are envelope solids.",
+  "part_numbers": 86,
+  "instances": 154,
+  "fabricated_part_numbers": 78,
+  "all_parts_valid": true,
+  "self_pairs_intersected": 246,
+  "self_overlaps": [],
+  "scanner_pairs_intersected": 7,
+  "scanner_overlaps": [],
+  "scanner_context": "G3 integrated context + R5.2 layout B, panel cut-outs applied",
+  "keepout_aabb_overlaps": [
+    {
+      "adf": "喉口光陷阱板#2",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        100.0,
+        10.0,
+        2.0
+      ]
+    },
+    {
+      "adf": "入口辊颊板#1",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        3.0,
+        21.0,
+        30.5
+      ]
+    },
+    {
+      "adf": "入口辊下横梁#1",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        90.0,
+        21.0,
+        4.0
+      ]
+    },
+    {
+      "adf": "入口上胶辊#1",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        74.0,
+        20.0,
+        2.4
+      ]
+    },
+    {
+      "adf": "入口下辊轴#1",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        88.0,
+        6.0,
+        6.0
+      ]
+    },
+    {
+      "adf": "入口下胶辊#1",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        74.0,
+        20.0,
+        20.0
+      ]
+    },
+    {
+      "adf": "入口下辊摆杆#1",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        2.0,
+        16.5,
+        17.5
+      ]
+    },
+    {
+      "adf": "入口下辊摆轴#1",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        98.0,
+        5.0,
+        5.0
+      ]
+    },
+    {
+      "adf": "入口脱开曲柄#1",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        3.0,
+        8.0,
+        26.0
+      ]
+    },
+    {
+      "adf": "侧密封块#1",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        16.0,
+        18.0,
+        5.0
+      ]
+    },
+    {
+      "adf": "微型减速电机 12×10×34#2",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        2.0,
+        12.0,
+        10.0
+      ]
+    },
+    {
+      "adf": "GT2 20 齿带轮#2",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        5.0,
+        16.0,
+        0.4
+      ]
+    },
+    {
+      "adf": "入口电机座#1",
+      "keepout": "KO_PMT",
+      "keepout_name": "PMT窗口/AFE维护拆出空间",
+      "kind": "service_only",
+      "aabb_overlap_mm": [
+        7.0,
+        28.0,
+        12.5
+      ]
+    }
+  ],
+  "scanner_modifications_required": [
+    "前面板 G3-H01：开口 x −72…112、z 54…166（184×112），装喉口卡匣，卡匣法兰压在外侧；取消入口迷宫 H08",
+    "前、后面板下沿各开 62×7 缺口（x −41…21，z 10.5–17.5）让对接舌板通过",
+    "底板 G3-M01 前后缘各加 2×M5 螺孔和 2×φ6 销孔固定舌板",
+    "开口后 1.5 mm 薄板的刚度和遮光需复核"
+  ],
+  "overall_aabb": [
+    -90.0,
+    -353.8,
+    -8.0,
+    120.0,
+    326.6,
+    559.4
+  ],
+  "working_envelope_mm_WDH": [
+    320,
+    680.4,
+    567.4
+  ],
+  "fabricated_mass_g_by_group": {
+    "MAG": 3432,
+    "ENT": 476,
+    "BIN": 2061
+  }
+}

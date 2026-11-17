@@ -1,0 +1,11 @@
+﻿test_id,purpose,conditions,method,criterion,raw_fields,status
+TC-01,扫描范围与孔径,"全部候选转速；每个facet；X=-50,-46,-40,0,40,46,50",可追溯标尺/功率探测器/相位记录；至少3次重复,记录边缘截光和主轴角度；验收100mm场，数值功率阈值待批准,"field_mm,facet_id,power_uW,clipping",NOT_RUN
+TC-02,激光稳定性/使能,ND后；片面功率单独量测；厂家规定预热后,功率计+波形记录；建议30min，采样1Hz且另测瞬态,(Pmax-Pmin)/Pmean≤1%建议；启停稳定时间实测决定保护窗,"power_time,temperature,enable_response",NOT_RUN
+TC-03,SOS/EOS抖动与时走,各facet；高低参考光；每档转速,共同基准示波/时间间隔仪；不少于1000行/条件,等效X RMS≤5um建议；分离速度波动、阈值时走、捕获误差,"sos_ns,eos_ns,reference_phase_ns",NOT_RUN
+TC-04,全场光斑与离焦,"X=0,±20,±40；±46/±50边界检查；Z=-.1,0,+.1mm",刀口/光束分析仪或经验证显微系统；X/Y分别测,80mm内1/e2≤35um建议；50um采样不替代该测试,"spot_1e2_x,spot_1e2_y,fwhm_x,fwhm_y",NOT_RUN
+TC-05,片面主光线角,"X=0,±20,±40及范围边缘",供应商处方+不同Z平面位置变化；Δx/Δz方法需说明光束定义,CRA≤5deg建议；无法辨识需输出无法判定,"z1,z2,x1,x2,chief_ray_deg",NOT_RUN
+TC-06,facet/几何标定,六面分别校准；热启动/掉电/index丢失,独立几何靶；不得用同一靶同时拟合和验收,X残差max≤10um建议；绝对面号失效必须打invalid,"index_epoch,facet_id,x_truth,x_raw,x_corrected",NOT_RUN
+TC-07,装拆重复性,扫描头至少3次拆装；保留基准/螺钉扭矩记录,同光靶/同焦点条件,阈值待量产策略冻结；未满足时要求重新标定,"before_after_shift,focus_shift",NOT_RUN
+TC-08,温升/热稳定,冷态→热稳定；各转速；环境条件记录,激光/基座/主轴温度与SOS/EOS同时记录,厂家温度限制及几何预算；不以单一室温结果放行,"temperature,time,facet,geometry",NOT_RUN
+TC-09,杂散光/鬼像/下游兼容,片外同步照明与有效区；无片/高OD边界,G2探测链或独立光功率探测,不能以开放式演示确定无杂散光；量化阈值待G2预算,"stray_ratio,position,condition",NOT_RUN
+TC-10,失扫/开盖/故障禁能,先仿真/假负载；再经批准的封闭台架,断线/锁速丢失/超时/复位/电源掉电,故障默认禁能且需受控复位；响应时限由安全评审批准,"fault,time_to_off,shutter_feedback",NOT_RUN

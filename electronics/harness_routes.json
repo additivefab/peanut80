@@ -1,0 +1,422 @@
+[
+  {
+    "id": "W01",
+    "start": "B01差分输出",
+    "end": "B02模拟输入",
+    "points": [
+      [
+        56,
+        -91,
+        65
+      ],
+      [
+        80,
+        -93,
+        60
+      ],
+      [
+        80,
+        -60,
+        45
+      ],
+      [
+        90,
+        -45,
+        38
+      ]
+    ],
+    "type": "屏蔽双绞模拟对",
+    "diameter": 6,
+    "min_bend": 12,
+    "cut_length_budget_mm": 250.0,
+    "notes": "模拟回路短；屏蔽接壳策略经EMC验证",
+    "polyline_length_mm": 80.2,
+    "length_margin_mm": 169.8,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  },
+  {
+    "id": "W02",
+    "start": "B02 DATA/DCO",
+    "end": "SP2 J6",
+    "points": [
+      [
+        110,
+        -45,
+        28
+      ],
+      [
+        110,
+        -60,
+        34
+      ],
+      [
+        105,
+        -73,
+        35
+      ]
+    ],
+    "type": "短受控阻抗转接/接地伴线",
+    "diameter": 3,
+    "min_bend": 8,
+    "cut_length_budget_mm": 70.0,
+    "notes": "1.8V；J6实际位置复核；长排线方案不得直接放行",
+    "polyline_length_mm": 30.1,
+    "length_margin_mm": 39.9,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  },
+  {
+    "id": "W03",
+    "start": "B05",
+    "end": "入口编码器",
+    "points": [
+      [
+        -120,
+        10,
+        38
+      ],
+      [
+        -125,
+        -42,
+        52
+      ],
+      [
+        -100,
+        -42,
+        90
+      ]
+    ],
+    "type": "屏蔽ABZ+5V",
+    "diameter": 4,
+    "min_bend": 15,
+    "cut_length_budget_mm": 180.0,
+    "notes": "5V输入经3.3V容忍缓冲；远离驱动相线",
+    "polyline_length_mm": 99.6,
+    "length_margin_mm": 80.4,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  },
+  {
+    "id": "W04",
+    "start": "B05",
+    "end": "出口编码器",
+    "points": [
+      [
+        -120,
+        30,
+        38
+      ],
+      [
+        -125,
+        42,
+        52
+      ],
+      [
+        -100,
+        42,
+        90
+      ]
+    ],
+    "type": "屏蔽ABZ+5V",
+    "diameter": 4,
+    "min_bend": 15,
+    "cut_length_budget_mm": 160.0,
+    "notes": "与W03独立束",
+    "polyline_length_mm": 64.6,
+    "length_margin_mm": 95.4,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  },
+  {
+    "id": "W05",
+    "start": "B05",
+    "end": "牵引电机",
+    "points": [
+      [
+        -130,
+        82,
+        40
+      ],
+      [
+        -130,
+        130,
+        65
+      ],
+      [
+        130,
+        130,
+        65
+      ],
+      [
+        130,
+        42,
+        90
+      ],
+      [
+        120,
+        42,
+        99.9
+      ]
+    ],
+    "type": "两对绞合电机线",
+    "diameter": 6,
+    "min_bend": 18,
+    "cut_length_budget_mm": 600.0,
+    "notes": "走后侧功率通道；不跨AFE输入上方",
+    "polyline_length_mm": 419.7,
+    "length_margin_mm": 180.3,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  },
+  {
+    "id": "W06",
+    "start": "B04",
+    "end": "SP2 5V",
+    "points": [
+      [
+        50,
+        120,
+        40
+      ],
+      [
+        145,
+        120,
+        60
+      ],
+      [
+        145,
+        -110,
+        60
+      ],
+      [
+        130,
+        -110,
+        38
+      ]
+    ],
+    "type": "20AWG电源对",
+    "diameter": 5,
+    "min_bend": 15,
+    "cut_length_budget_mm": 450.0,
+    "notes": "后面板接头和接地独立；不把24V接入SP2",
+    "polyline_length_mm": 353.7,
+    "length_margin_mm": 96.3,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  },
+  {
+    "id": "W07",
+    "start": "B03",
+    "end": "PMT偏置控制",
+    "points": [
+      [
+        -100,
+        -105,
+        38
+      ],
+      [
+        -60,
+        -110,
+        45
+      ],
+      [
+        -20,
+        -100,
+        65
+      ]
+    ],
+    "type": "低噪声5V+控制/屏蔽",
+    "diameter": 4,
+    "min_bend": 12,
+    "cut_length_budget_mm": 200.0,
+    "notes": "VCONT限幅/拉低；增益变更等待稳定",
+    "polyline_length_mm": 86.7,
+    "length_margin_mm": 113.3,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  },
+  {
+    "id": "W08",
+    "start": "B08参考输出",
+    "end": "B02模拟B",
+    "points": [
+      [
+        -62,
+        -32,
+        245
+      ],
+      [
+        -90,
+        -60,
+        245
+      ],
+      [
+        -90,
+        -60,
+        170
+      ],
+      [
+        -90,
+        -135,
+        60
+      ],
+      [
+        70,
+        -135,
+        60
+      ],
+      [
+        80,
+        -60,
+        45
+      ]
+    ],
+    "type": "屏蔽缓冲电压信号",
+    "diameter": 4,
+    "min_bend": 15,
+    "cut_length_budget_mm": 650.0,
+    "notes": "参考PD原始电流不长线传输；需带宽及延迟校准",
+    "polyline_length_mm": 484.9,
+    "length_margin_mm": 165.1,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  },
+  {
+    "id": "W09",
+    "start": "SOS/EOS",
+    "end": "B05",
+    "points": [
+      [
+        52,
+        20,
+        118
+      ],
+      [
+        60,
+        45,
+        135
+      ],
+      [
+        60,
+        65,
+        170
+      ],
+      [
+        -110,
+        65,
+        170
+      ],
+      [
+        -120,
+        65,
+        45
+      ]
+    ],
+    "type": "屏蔽同步/回流成对",
+    "diameter": 4,
+    "min_bend": 12,
+    "cut_length_budget_mm": 450.0,
+    "notes": "硬件时间戳；图中为EOS主路径，SOS并入同走线槽",
+    "polyline_length_mm": 367.0,
+    "length_margin_mm": 83.0,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  },
+  {
+    "id": "W10",
+    "start": "B04",
+    "end": "激光驱动/快门",
+    "points": [
+      [
+        0,
+        120,
+        40
+      ],
+      [
+        -140,
+        120,
+        60
+      ],
+      [
+        -140,
+        80,
+        260
+      ],
+      [
+        -120,
+        0,
+        245
+      ]
+    ],
+    "type": "硬禁能+功率独立线束",
+    "diameter": 5,
+    "min_bend": 15,
+    "cut_length_budget_mm": 550.0,
+    "notes": "常闭安全回路；快门失电关闭；不可软件单点允许",
+    "polyline_length_mm": 429.2,
+    "length_margin_mm": 120.8,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  },
+  {
+    "id": "W11",
+    "start": "左侧24V锁紧口",
+    "end": "B04保护输入",
+    "points": [
+      [
+        -159,
+        110,
+        42
+      ],
+      [
+        -140,
+        110,
+        42
+      ],
+      [
+        -140,
+        100,
+        42
+      ],
+      [
+        -50,
+        95,
+        40
+      ]
+    ],
+    "type": "18-20AWG供电/机壳端接",
+    "diameter": 6,
+    "min_bend": 18,
+    "cut_length_budget_mm": 180,
+    "notes": "外置24V适配器；面板到保险前尽量短；端子温升需测",
+    "polyline_length_mm": 119.2,
+    "length_margin_mm": 60.8,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  },
+  {
+    "id": "W11",
+    "start": "左侧24V锁紧口",
+    "end": "B04保护输入",
+    "points": [
+      [
+        -159,
+        110,
+        42
+      ],
+      [
+        -140,
+        110,
+        42
+      ],
+      [
+        -140,
+        100,
+        42
+      ],
+      [
+        -50,
+        95,
+        40
+      ]
+    ],
+    "type": "18-20AWG供电/机壳端接",
+    "diameter": 6,
+    "min_bend": 18,
+    "cut_length_budget_mm": 180,
+    "notes": "外置24V适配器；面板到保险前尽量短；端子温升需测",
+    "polyline_length_mm": 119.2,
+    "length_margin_mm": 60.8,
+    "qualification": "中心线概念路线；拐角未圆滑，不等于弯曲半径或整束干涉通过"
+  }
+]

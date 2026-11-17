@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   E01  B01 PMT线性TIA前端卡：外形、布局与接插件</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">关键布局与功能占位：未布线；器件高度纳入安装预算。原理针脚图见electronics/schematics。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="80" y="220" width="820.0" height="455.55555555555554" rx="0" fill="#e1eee8" stroke="#20826c" stroke-width="3"/>
+<circle cx="107.33333333333333" cy="247.33333333333334" r="14.577777777777778" fill="white" stroke="#226da6" stroke-width="2"/>
+<circle cx="872.6666666666666" cy="247.33333333333334" r="14.577777777777778" fill="white" stroke="#226da6" stroke-width="2"/>
+<circle cx="872.6666666666666" cy="648.2222222222222" r="14.577777777777778" fill="white" stroke="#226da6" stroke-width="2"/>
+<circle cx="107.33333333333333" cy="648.2222222222222" r="14.577777777777778" fill="white" stroke="#226da6" stroke-width="2"/>
+<rect x="257.4844444444444" y="293.6177777777778" width="21.866666666666664" height="21.866666666666664" rx="0" fill="#f1d9b6" stroke="#5e7180" stroke-width="1"/>
+<text x="268.41777777777776" y="308.55111111111114" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">JP1</text>
+<rect x="581.4755555555555" y="293.6177777777778" width="21.866666666666664" height="21.866666666666664" rx="0" fill="#f1d9b6" stroke="#5e7180" stroke-width="1"/>
+<text x="592.4088888888889" y="308.55111111111114" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">JP2</text>
+<rect x="627.76" y="293.6177777777778" width="21.866666666666664" height="21.866666666666664" rx="0" fill="#f1d9b6" stroke="#5e7180" stroke-width="1"/>
+<text x="638.6933333333333" y="308.55111111111114" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">JP3</text>
+<rect x="257.4844444444444" y="432.4711111111112" width="21.866666666666664" height="21.866666666666664" rx="0" fill="#f1d9b6" stroke="#5e7180" stroke-width="1"/>
+<text x="268.41777777777776" y="447.4044444444445" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">JP8</text>
+<rect x="373.1955555555555" y="432.4711111111112" width="21.866666666666664" height="21.866666666666664" rx="0" fill="#f1d9b6" stroke="#5e7180" stroke-width="1"/>
+<text x="384.1288888888888" y="447.4044444444445" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">JP7</text>
+<rect x="419.47999999999996" y="432.4711111111112" width="21.866666666666664" height="21.866666666666664" rx="0" fill="#f1d9b6" stroke="#5e7180" stroke-width="1"/>
+<text x="430.4133333333333" y="447.4044444444445" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">JP6</text>
+<rect x="581.4755555555555" y="432.4711111111112" width="21.866666666666664" height="21.866666666666664" rx="0" fill="#f1d9b6" stroke="#5e7180" stroke-width="1"/>
+<text x="592.4088888888889" y="447.4044444444445" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">JP5</text>
+<rect x="627.76" y="432.4711111111112" width="21.866666666666664" height="21.866666666666664" rx="0" fill="#f1d9b6" stroke="#5e7180" stroke-width="1"/>
+<text x="638.6933333333333" y="447.4044444444445" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">JP4</text>
+<rect x="361.5333333333333" y="492.4222222222222" width="45.55555555555556" height="56.48888888888889" rx="0" fill="#d7e0e6" stroke="#5e7180" stroke-width="1"/>
+<text x="384.3111111111111" y="524.6666666666666" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">U1</text>
+<rect x="323.26666666666665" y="498.8" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="330.55555555555554" y="506.44444444444446" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">R1</text>
+<rect x="323.26666666666665" y="526.1333333333333" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="330.55555555555554" y="533.7777777777778" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">C1</text>
+<rect x="432.6" y="489.68888888888887" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="439.88888888888886" y="497.3333333333333" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">C2</text>
+<rect x="432.6" y="544.3555555555556" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="439.88888888888886" y="552.0" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">C3</text>
+<rect x="594.7777777777777" y="492.4222222222222" width="45.55555555555556" height="56.48888888888889" rx="0" fill="#d7e0e6" stroke="#5e7180" stroke-width="1"/>
+<text x="617.5555555555555" y="524.6666666666666" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">U2</text>
+<rect x="528.2666666666667" y="480.5777777777778" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="535.5555555555555" y="488.22222222222223" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">R2</text>
+<rect x="519.1555555555556" y="425.91111111111115" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="526.4444444444443" y="433.55555555555554" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">R3</text>
+<rect x="528.2666666666667" y="544.3555555555556" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="535.5555555555555" y="552.0" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">R4</text>
+<rect x="573.8222222222223" y="589.911111111111" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="581.1111111111111" y="597.5555555555555" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">R5</text>
+<rect x="692.2666666666667" y="489.68888888888887" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="699.5555555555555" y="497.3333333333333" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">R6</text>
+<rect x="692.2666666666667" y="544.3555555555556" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="699.5555555555555" y="552.0" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">R7</text>
+<rect x="655.8222222222222" y="444.1333333333333" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="663.1111111111111" y="451.77777777777777" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">C4</text>
+<rect x="655.8222222222222" y="589.911111111111" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="663.1111111111111" y="597.5555555555555" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">C5</text>
+<rect x="746.9333333333333" y="517.0222222222222" width="14.577777777777778" height="7.288888888888889" rx="0" fill="#edf2f5" stroke="#5e7180" stroke-width="1"/>
+<text x="754.2222222222222" y="524.6666666666666" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">C6</text>
+<rect x="804.3333333333333" y="488.77777777777777" width="63.77777777777777" height="100.22222222222221" rx="0" fill="#f1d9b6" stroke="#5e7180" stroke-width="1"/>
+<text x="836.2222222222222" y="542.8888888888889" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">J1</text>
+<rect x="740.5555555555555" y="265.55555555555554" width="63.77777777777777" height="127.55555555555554" rx="0" fill="#f1d9b6" stroke="#5e7180" stroke-width="1"/>
+<text x="772.4444444444445" y="333.3333333333333" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="700" text-anchor="middle">J2</text>
+<line x1="80" y1="185" x2="900.0" y2="185" stroke="#226da6" stroke-width="2" />
+<text x="490.0" y="170" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#226da6" font-weight="700" text-anchor="middle">90 mm</text>
+<text x="915.0" y="447.77777777777777" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#226da6" font-weight="400" text-anchor="start">50 mm</text>
+<rect x="1010" y="185" width="540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="1020" y="215" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="white" font-weight="700" text-anchor="start">约束</text>
+<text x="1198.2" y="215" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="white" font-weight="700" text-anchor="start">值</text>
+<rect x="1010" y="259" width="540" height="74" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="285" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">板厚/层数</text>
+<text x="1198.2" y="285" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">1.6 / 4层建议</text>
+<rect x="1010" y="333" width="540" height="74" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="359" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">装联高度</text>
+<text x="1198.2" y="359" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">正面6；背面3</text>
+<rect x="1010" y="407" width="540" height="74" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="433" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">世界原点</text>
+<text x="1198.2" y="433" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[-27, -91, 50]</text>
+<rect x="1010" y="481" width="540" height="74" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="507" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">平面/器件侧</text>
+<text x="1198.2" y="507" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">XZ / +Y</text>
+<rect x="1010" y="555" width="540" height="74" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="581" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">安装孔</text>
+<text x="1198.2" y="581" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">4×φ3.2</text>
+<rect x="1010" y="629" width="540" height="74" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="655" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">状态</text>
+<text x="1198.2" y="655" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">布置草稿，不是投板文件</text>
+<text x="1010" y="700" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">90×50外形固定；RF/CF用焊接选档，不逐像素切换；PMT</text>
+<text x="1010" y="731" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">信号不跨机箱拉线</text>
+<text x="1010" y="880" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#cb462e" font-weight="400" text-anchor="start">外围/保护/参考/阻抗/地返回及完整元件尚需细化。厂家</text>
+<text x="1010" y="911" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#cb462e" font-weight="400" text-anchor="start">焊盘、针脚镜像、插拔行程应复核。</text>
+<text x="80" y="1000" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">板上(u,v)坐标与世界坐标变换见electronics/README；XZ板须注意焊接面镜像。</text>
+</svg>

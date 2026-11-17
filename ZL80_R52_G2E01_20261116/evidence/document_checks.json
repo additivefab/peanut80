@@ -1,0 +1,16 @@
+[
+  {
+    "file": "docs/ZL80_G2E01_原理图与PCB空间审查.pdf",
+    "pages": 8,
+    "text_extracted": true,
+    "rendered": true,
+    "native_KiCad_render": false
+  },
+  {
+    "file": "docs/ZL80_G2E01_设计说明与证据.pdf",
+    "pages": 11,
+    "text_extracted": true,
+    "rendered": true,
+    "native_KiCad_render": false
+  }
+]

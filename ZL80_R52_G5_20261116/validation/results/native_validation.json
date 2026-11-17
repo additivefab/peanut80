@@ -1,0 +1,53 @@
+{
+  "scope": "ACTUAL_IVERILOG_RTL_SIMULATION",
+  "status": "NOT_RUN",
+  "tools": {
+    "iverilog": null,
+    "vvp": null
+  },
+  "tests": [
+    {
+      "test": "tb_async_fifo",
+      "status": "NOT_RUN",
+      "reason": "iverilog/vvp unavailable"
+    },
+    {
+      "test": "tb_capture_core",
+      "status": "NOT_RUN",
+      "reason": "iverilog/vvp unavailable"
+    },
+    {
+      "test": "tb_capture_overflow",
+      "status": "NOT_RUN",
+      "reason": "iverilog/vvp unavailable"
+    },
+    {
+      "test": "tb_fifo",
+      "status": "NOT_RUN",
+      "reason": "iverilog/vvp unavailable"
+    },
+    {
+      "test": "tb_packetizer",
+      "status": "NOT_RUN",
+      "reason": "iverilog/vvp unavailable"
+    },
+    {
+      "test": "tb_pair_guard",
+      "status": "NOT_RUN",
+      "reason": "iverilog/vvp unavailable"
+    },
+    {
+      "test": "tb_quad",
+      "status": "NOT_RUN",
+      "reason": "iverilog/vvp unavailable"
+    },
+    {
+      "test": "tb_spi",
+      "status": "NOT_RUN",
+      "reason": "iverilog/vvp unavailable"
+    }
+  ],
+  "vivado_synthesis": "NOT_RUN",
+  "vivado_implementation_timing": "NOT_RUN",
+  "physical_bench": "NOT_RUN"
+}

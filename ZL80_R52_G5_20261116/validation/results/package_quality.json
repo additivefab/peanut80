@@ -1,0 +1,14 @@
+{
+  "status": "PASS_PACKAGE_CHECKS_NOT_HARDWARE",
+  "python_files_ast_parsed": 11,
+  "rtl_source_files": 11,
+  "rtl_self_check_benches": 8,
+  "offline_links_verified": 52,
+  "pdf_pages": 11,
+  "pdf_visual_review": "11 rendered pages inspected",
+  "c_byte_format_test": "PASS",
+  "rtl_compile": "NOT_RUN",
+  "vivado": "NOT_RUN",
+  "bench": "NOT_RUN",
+  "bitstream_count": 0
+}

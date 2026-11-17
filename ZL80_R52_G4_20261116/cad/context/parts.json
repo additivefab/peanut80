@@ -1,0 +1,1318 @@
+[
+  {
+    "id": "G3-M01",
+    "name": "共同基准底板 300×288×6",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Datum A = upper surface; frame holes 4.5, two-sided dowel strategy requires process approval",
+    "size": [
+      300.0,
+      288.0,
+      6.0
+    ],
+    "volume_mm3": 514917.6140157621,
+    "valid": true
+  },
+  {
+    "id": "G3-M02",
+    "name": "片道侧框／轴承台阶孔与浮动槽",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Global Z retained in local model; right frame nominal. Left mirrored. M2/M4 are pilot-hole representation.",
+    "size": [
+      8.0,
+      128.0,
+      126.0
+    ],
+    "volume_mm3": 84725.76546795688,
+    "valid": true
+  },
+  {
+    "id": "G3-M02L",
+    "name": "左片道侧框（X镜像）",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      8.0,
+      128.0,
+      126.0
+    ],
+    "volume_mm3": 84725.76546795688,
+    "valid": true
+  },
+  {
+    "id": "G3-M03",
+    "name": "侧框安装脚／定位衬块",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      14.0,
+      18.0,
+      6.0
+    ],
+    "volume_mm3": 1374.1626223237474,
+    "valid": true
+  },
+  {
+    "id": "G3-R01",
+    "name": "入口测量辊芯／长端编码器轴",
+    "material": "304不锈钢",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "OD14 core L100, journals at +/-72; left extension for AMT. Bonded coating final grind.",
+    "size": [
+      189.0,
+      14.0,
+      14.0
+    ],
+    "volume_mm3": 18499.58249992886,
+    "valid": true
+  },
+  {
+    "id": "G3-R02",
+    "name": "出口牵引辊芯／5-6联轴器轴",
+    "material": "304不锈钢",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Right shaft tip X91, coupling insertion10mm; all fits on drawing require supplier approval.",
+    "size": [
+      196.0,
+      14.0,
+      14.0
+    ],
+    "volume_mm3": 18697.502837105014,
+    "valid": true
+  },
+  {
+    "id": "G3-R03",
+    "name": "上压辊芯／M5定位端",
+    "material": "304不锈钢",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Left M5x0.8 thread not helical in CAD; fixed inner race against shoulder, nut+washer.",
+    "size": [
+      168.0,
+      14.0,
+      14.0
+    ],
+    "volume_mm3": 17819.427690426663,
+    "valid": true
+  },
+  {
+    "id": "G3-R04",
+    "name": "包胶层：硫化／粘结后整辊磨削",
+    "material": "PU50A或后硫化硅胶50A试样",
+    "status": "DOE_MATERIAL",
+    "note": "Not a freely sliding sleeve: compound+adhesive qualification required; full-face contact at 80mm film.",
+    "size": [
+      100.0,
+      20.0,
+      20.0
+    ],
+    "volume_mm3": 16022.122533307947,
+    "valid": true
+  },
+  {
+    "id": "G3-P01",
+    "name": "NMB L-1260ZZ 6×12×4",
+    "material": "轴承钢",
+    "status": "PURCHASE_ENVELOPE",
+    "note": "C=831 N, C0=363 N; no internal balls; fit/lubricant/grade requires RFQ",
+    "size": [
+      4.0,
+      12.0,
+      12.0
+    ],
+    "volume_mm3": 339.29200658769764,
+    "valid": true
+  },
+  {
+    "id": "G3-M04",
+    "name": "上辊浮动轴承滑块",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Guide clearance 0.15 in Y nominal; no claim of anti-stiction performance; axial retainer on both sides.",
+    "size": [
+      8.0000002,
+      18.0,
+      18.0000001
+    ],
+    "volume_mm3": 1655.424022368559,
+    "valid": true
+  },
+  {
+    "id": "G3-M04L",
+    "name": "左上辊浮动块（X镜像）",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      8.0000002,
+      18.0,
+      18.0000001
+    ],
+    "volume_mm3": 1655.424022368559,
+    "valid": true
+  },
+  {
+    "id": "G3-M05",
+    "name": "左侧定位轴承压盖",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Face to inner pocket forms ~4.05 chamber for bearing4; shim endplay after measuring actual bearing width",
+    "size": [
+      3.95,
+      24.0,
+      18.0
+    ],
+    "volume_mm3": 704.0843888002616,
+    "valid": true
+  },
+  {
+    "id": "G3-M06",
+    "name": "右侧游动轴承压盖",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Outer race axial room ~0.4mm; do not clamp both rings by screw force",
+    "size": [
+      3.6,
+      24.0,
+      18.0
+    ],
+    "volume_mm3": 695.6503434987284,
+    "valid": true
+  },
+  {
+    "id": "G3-M07",
+    "name": "上辊内侧导向挡片",
+    "material": "304不锈钢",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Guide plate contacts side frame sliding face only; 0.10mm nominal axial running clearance",
+    "size": [
+      1.5,
+      24.0,
+      24.0
+    ],
+    "volume_mm3": 758.0654957209522,
+    "valid": true
+  },
+  {
+    "id": "G3-P02",
+    "name": "6mm夹紧轴环／MCL-6-A本体限界",
+    "material": "铝",
+    "status": "PURCHASE_ENVELOPE",
+    "note": "Hardware swept diameter20.8 reserved separately; never place this collar on both opposing rollers at same X",
+    "size": [
+      9.0,
+      16.0,
+      16.0
+    ],
+    "volume_mm3": 1555.088363526948,
+    "valid": true
+  },
+  {
+    "id": "G3-M08",
+    "name": "定位内圈垫套 6.1/7.4×5.1",
+    "material": "304不锈钢",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      5.1,
+      7.4,
+      7.4
+    ],
+    "volume_mm3": 70.29706261488862,
+    "valid": true
+  },
+  {
+    "id": "G3-M09",
+    "name": "上辊定位垫片 5.3/7.4×0.5",
+    "material": "304不锈钢",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      0.5,
+      7.4,
+      7.4
+    ],
+    "volume_mm3": 10.473284508904971,
+    "valid": true
+  },
+  {
+    "id": "G3-P03",
+    "name": "M5薄锁紧螺母包络",
+    "material": "钢",
+    "status": "PURCHASE_ENVELOPE",
+    "note": "M5 prevailing torque type / locking method to be approved; CAD minor bore only",
+    "size": [
+      5.0,
+      9.24,
+      8.002074730968214
+    ],
+    "volume_mm3": 207.99977141639368,
+    "valid": true
+  },
+  {
+    "id": "G3-M10",
+    "name": "弹簧与释放顶座",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "M4 preload adjust pilot3.3; M3 lift clearance3.4; fix screws separate from moving lift rod",
+    "size": [
+      24.0,
+      30.0,
+      10.0
+    ],
+    "volume_mm3": 6766.06751472291,
+    "valid": true
+  },
+  {
+    "id": "G3-M10L",
+    "name": "左弹簧与释放顶座（X镜像）",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      24.0,
+      30.0,
+      10.0
+    ],
+    "volume_mm3": 6766.06751472291,
+    "valid": true
+  },
+  {
+    "id": "G3-P04",
+    "name": "压簧工作包络 OD5×13.9",
+    "material": "弹簧钢",
+    "status": "PURCHASE_SPRING_ENVELOPE",
+    "note": "k0.5 N/mm, free18, installed13.9; supplier solid length<=7.5mm and fatigue proof required; tube is not a real spring",
+    "size": [
+      5.0,
+      5.0,
+      13.9
+    ],
+    "volume_mm3": 174.67255153959252,
+    "valid": true
+  },
+  {
+    "id": "G3-M16",
+    "name": "M4调压隔离压垫 OD5.2×1",
+    "material": "304不锈钢",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Moves with preload screw; avoids spring contacting screw threads",
+    "size": [
+      5.2,
+      5.2,
+      1.0
+    ],
+    "volume_mm3": 21.237166338267006,
+    "valid": true
+  },
+  {
+    "id": "G3-P05",
+    "name": "M4调压螺钉／防松标记",
+    "material": "钢",
+    "status": "PURCHASE_ENVELOPE",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      8.0,
+      8.0,
+      19.0
+    ],
+    "volume_mm3": 351.85837720205683,
+    "valid": true
+  },
+  {
+    "id": "G3-P06",
+    "name": "M3双端提辊螺杆限界",
+    "material": "钢",
+    "status": "PURCHASE_ENVELOPE",
+    "note": "two ends linked by crossbar; do not twist roller during loading",
+    "size": [
+      6.0,
+      6.0,
+      48.0
+    ],
+    "volume_mm3": 381.7035074111599,
+    "valid": true
+  },
+  {
+    "id": "G3-M11",
+    "name": "双端提辊联动横杆",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Lift travel5 mm; hold open only after motor/laser disabled. Provisional mechanism, ergonomic test pending.",
+    "size": [
+      164.0,
+      8.0,
+      4.0
+    ],
+    "volume_mm3": 5175.3663778490045,
+    "valid": true
+  },
+  {
+    "id": "G3-P07",
+    "name": "NBK MJC-20CS-WH-5-6",
+    "material": "铝＋弹性体",
+    "status": "PURCHASE_ENVELOPE",
+    "note": "OD20,W30; CAD has insertion bores but not proprietary jaw detail; nominal grip10mm each side",
+    "size": [
+      30.0,
+      20.0,
+      20.0
+    ],
+    "volume_mm3": 8443.030256522568,
+    "valid": true
+  },
+  {
+    "id": "G3-P08",
+    "name": "14HS10-0404S 尺寸候选",
+    "material": "采购",
+    "status": "PURCHASE_ENVELOPE",
+    "note": "Origin at front mounting face. D-flat omitted. Source verifies shaft20.5, body26; holes26pitch require signed supplier drawing",
+    "size": [
+      46.5,
+      35.2,
+      35.2
+    ],
+    "volume_mm3": 33250.194779357844,
+    "valid": true
+  },
+  {
+    "id": "G3-M12",
+    "name": "出口电机直立支座",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Global coordinates in part; 4x4.5 foot holes at X130/142 Y36/59. D-flat/clamp screw interface to confirm",
+    "size": [
+      31.0,
+      48.0,
+      113.0
+    ],
+    "volume_mm3": 19624.951534202548,
+    "valid": true
+  },
+  {
+    "id": "G3-M13",
+    "name": "联轴器旋转防护筒",
+    "material": "铝",
+    "status": "PROTOTYPE_GUARD",
+    "note": "Support clamp/fasteners not frozen; guard must be retained before powered test",
+    "size": [
+      36.1,
+      25.0,
+      25.0
+    ],
+    "volume_mm3": 3494.208154621374,
+    "valid": true
+  },
+  {
+    "id": "G3-P09",
+    "name": "AMT112S带轴孔包络",
+    "material": "采购",
+    "status": "PURCHASE_ENVELOPE",
+    "note": "R5 overall envelope; mounting-hole detail must be checked against supplier drawing; no 3.3V direct connect",
+    "size": [
+      10.34,
+      28.58,
+      37.25
+    ],
+    "volume_mm3": 10695.84380615368,
+    "valid": true
+  },
+  {
+    "id": "G3-M14",
+    "name": "编码器可换安装板",
+    "material": "6061-T6",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "4 prototype holes ±16Y,-12/+12Z are adapter interface, not claimed AMT factory pattern; supplier hole insert pending",
+    "size": [
+      3.0,
+      40.0,
+      46.0
+    ],
+    "volume_mm3": 4837.6460756402985,
+    "valid": true
+  },
+  {
+    "id": "G3-M15",
+    "name": "编码器支柱 6OD×12.5L",
+    "material": "黄铜",
+    "status": "NEW_REVIEW_GEOMETRY",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      12.5,
+      6.0,
+      6.0
+    ],
+    "volume_mm3": 239.93913891792053,
+    "valid": true
+  },
+  {
+    "id": "G3-H01",
+    "name": "前片口平板 320×297×1.5",
+    "material": "5052-H32",
+    "status": "FLAT_SHEET_REVIEW",
+    "note": "Y=-149.25,Z150; 86x5 slot. Light labyrinth inherited, not laser safety certification",
+    "size": [
+      320.0,
+      1.5,
+      297.0
+    ],
+    "volume_mm3": 141833.28717508007,
+    "valid": true
+  },
+  {
+    "id": "G3-H02",
+    "name": "后片口与风道平板",
+    "material": "5052-H32",
+    "status": "FLAT_SHEET_REVIEW",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      320.0,
+      1.5,
+      297.0
+    ],
+    "volume_mm3": 138929.28717508004,
+    "valid": true
+  },
+  {
+    "id": "G3-H03",
+    "name": "右检修侧板／SP2插拔窗",
+    "material": "5052-H32",
+    "status": "FLAT_SHEET_REVIEW",
+    "note": "Window64x35 for replaceable I/O insert, actual SP2 port pattern not frozen",
+    "size": [
+      1.5,
+      297.0,
+      297.0
+    ],
+    "volume_mm3": 128871.78717508013,
+    "valid": true
+  },
+  {
+    "id": "G3-H04",
+    "name": "左侧板／24V入口",
+    "material": "5052-H32",
+    "status": "FLAT_SHEET_REVIEW",
+    "note": "12.2 inlet hole is placeholder, MPN of power connector required",
+    "size": [
+      1.5,
+      297.0,
+      297.0
+    ],
+    "volume_mm3": 132056.43918112002,
+    "valid": true
+  },
+  {
+    "id": "G3-H05",
+    "name": "顶盖平板",
+    "material": "5052-H32",
+    "status": "FLAT_SHEET_REVIEW",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      320.0,
+      300.0,
+      1.5
+    ],
+    "volume_mm3": 143945.5247833867,
+    "valid": true
+  },
+  {
+    "id": "G3-H06",
+    "name": "底盖平板",
+    "material": "5052-H32",
+    "status": "FLAT_SHEET_REVIEW",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      320.0,
+      300.0,
+      1.5
+    ],
+    "volume_mm3": 143850.09890653394,
+    "valid": true
+  },
+  {
+    "id": "G3-H07",
+    "name": "10×10×2机箱角撑型材",
+    "material": "铝型材",
+    "status": "EXTRUSION_REVIEW",
+    "note": "Panel hole positions on drawings; thread pilot not repeated in CAD; end caps not load datum",
+    "size": [
+      10.0,
+      10.0,
+      297.0
+    ],
+    "volume_mm3": 10692.0,
+    "valid": true
+  },
+  {
+    "id": "G3-F01",
+    "name": "M2×5压盖螺钉",
+    "material": "钢",
+    "status": "FASTENER_ENVELOPE",
+    "note": "No helix; shank/minor-hole overlap represents thread engagement",
+    "size": [
+      7.0,
+      3.8,
+      3.8
+    ],
+    "volume_mm3": 38.39026222686726,
+    "valid": true
+  },
+  {
+    "id": "G3-F02",
+    "name": "M3×15顶座螺钉",
+    "material": "钢",
+    "status": "FASTENER_ENVELOPE",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      5.5,
+      5.5,
+      18.0
+    ],
+    "volume_mm3": 177.30363538697395,
+    "valid": true
+  },
+  {
+    "id": "G3-F03",
+    "name": "M4×20基座紧固螺钉",
+    "material": "钢",
+    "status": "FASTENER_ENVELOPE",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      7.0,
+      7.0,
+      24.0
+    ],
+    "volume_mm3": 405.2654523130833,
+    "valid": true
+  },
+  {
+    "id": "G3-P10",
+    "name": "可换弹性脚垫 OD16×8",
+    "material": "弹性体",
+    "status": "PURCHASE_ENVELOPE",
+    "note": "M4 through mounting; load rating to be checked",
+    "size": [
+      16.0,
+      16.0,
+      8.0
+    ],
+    "volume_mm3": 1481.2609361675873,
+    "valid": true
+  },
+  {
+    "id": "REF_FILM",
+    "name": "80mm胶片基准面",
+    "material": "film",
+    "status": "REFERENCE_ONLY",
+    "note": "Unreleased nominal geometry",
+    "size": [
+      80.0,
+      270.0,
+      0.2
+    ],
+    "volume_mm3": 4320.0,
+    "valid": true
+  },
+  {
+    "id": "REF_B01",
+    "name": "B01 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      90.0,
+      50.0,
+      1.6
+    ],
+    "volume_mm3": 7148.528145963584,
+    "valid": true
+  },
+  {
+    "id": "REF_B02",
+    "name": "B02 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      60.0,
+      80.0,
+      1.6
+    ],
+    "volume_mm3": 7628.528145963584,
+    "valid": true
+  },
+  {
+    "id": "REF_B03",
+    "name": "B03 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      60.0,
+      50.0,
+      1.6
+    ],
+    "volume_mm3": 4748.528145963585,
+    "valid": true
+  },
+  {
+    "id": "REF_B04",
+    "name": "B04 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      120.0,
+      65.0,
+      1.6
+    ],
+    "volume_mm3": 12428.528145963586,
+    "valid": true
+  },
+  {
+    "id": "REF_B05",
+    "name": "B05 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      65.0,
+      100.0,
+      1.6
+    ],
+    "volume_mm3": 10348.528145963584,
+    "valid": true
+  },
+  {
+    "id": "REF_B06",
+    "name": "B06 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      18.0,
+      20.0,
+      1.6
+    ],
+    "volume_mm3": 551.6715064906009,
+    "valid": true
+  },
+  {
+    "id": "REF_B07",
+    "name": "B07 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      18.0,
+      20.0,
+      1.6
+    ],
+    "volume_mm3": 551.6715064905994,
+    "valid": true
+  },
+  {
+    "id": "REF_B08",
+    "name": "B08 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      25.0,
+      20.0,
+      1.6
+    ],
+    "volume_mm3": 775.6715064906,
+    "valid": true
+  },
+  {
+    "id": "REF_B09",
+    "name": "B09 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      120.0,
+      70.0,
+      2.0
+    ],
+    "volume_mm3": 16735.660182454485,
+    "valid": true
+  },
+  {
+    "id": "REF_C01",
+    "name": "C01 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      126.0,
+      56.0,
+      52.0
+    ],
+    "volume_mm3": 49119.14013257588,
+    "valid": true
+  },
+  {
+    "id": "REF_C02",
+    "name": "C02 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      120.0,
+      46.8,
+      46.8
+    ],
+    "volume_mm3": 53103.07131915999,
+    "valid": true
+  },
+  {
+    "id": "REF_C03",
+    "name": "C03 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      5.5,
+      58.0,
+      58.0
+    ],
+    "volume_mm3": 13068.440317302253,
+    "valid": true
+  },
+  {
+    "id": "REF_C04",
+    "name": "C04 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      1.5,
+      46.8,
+      46.8
+    ],
+    "volume_mm3": 2580.315710099441,
+    "valid": true
+  },
+  {
+    "id": "REF_C05",
+    "name": "C05 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      114.0,
+      14.0,
+      0.30000000000000004
+    ],
+    "volume_mm3": 438.63623916933756,
+    "valid": true
+  },
+  {
+    "id": "REF_C06",
+    "name": "C06 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      8.0000002,
+      32.0000002,
+      10.0000002
+    ],
+    "volume_mm3": 1640.96,
+    "valid": true
+  },
+  {
+    "id": "REF_C07",
+    "name": "C07 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      22.0,
+      23.3,
+      12.4
+    ],
+    "volume_mm3": 3859.4120000000003,
+    "valid": true
+  },
+  {
+    "id": "REF_C08",
+    "name": "C08 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      26.0,
+      3.0,
+      29.0
+    ],
+    "volume_mm3": 1941.557549333831,
+    "valid": true
+  },
+  {
+    "id": "REF_C09",
+    "name": "C09 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      12.0,
+      70.0,
+      50.1
+    ],
+    "volume_mm3": 40272.844946162484,
+    "valid": true
+  },
+  {
+    "id": "REF_EP_10p2",
+    "name": "EP_10p2 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      6.0,
+      6.0,
+      10.2
+    ],
+    "volume_mm3": 206.36493822901087,
+    "valid": true
+  },
+  {
+    "id": "REF_EP_6p0",
+    "name": "EP_6p0 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      6.0,
+      6.0,
+      6.0
+    ],
+    "volume_mm3": 121.39114013471229,
+    "valid": true
+  },
+  {
+    "id": "REF_EP_6p2",
+    "name": "EP_6p2 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      6.0,
+      6.0,
+      6.2
+    ],
+    "volume_mm3": 125.43751147253604,
+    "valid": true
+  },
+  {
+    "id": "REF_EP_VERT",
+    "name": "EP_VERT R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      6.0,
+      6.7,
+      6.0
+    ],
+    "volume_mm3": 135.55343981709538,
+    "valid": true
+  },
+  {
+    "id": "REF_H01",
+    "name": "H01 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      96.0,
+      46.0,
+      54.0
+    ],
+    "volume_mm3": 33158.52478338676,
+    "valid": true
+  },
+  {
+    "id": "REF_H07",
+    "name": "H07 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      40.0,
+      10.0,
+      40.0
+    ],
+    "volume_mm3": 15999.999999999996,
+    "valid": true
+  },
+  {
+    "id": "REF_H08",
+    "name": "H08 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      94.0,
+      30.0,
+      16.0
+    ],
+    "volume_mm3": 32220.0,
+    "valid": true
+  },
+  {
+    "id": "REF_M09",
+    "name": "M09 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      84.0,
+      2.0,
+      0.5
+    ],
+    "volume_mm3": 84.0,
+    "valid": true
+  },
+  {
+    "id": "REF_M10",
+    "name": "M10 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      3.0,
+      25.0,
+      3.0
+    ],
+    "volume_mm3": 225.0,
+    "valid": true
+  },
+  {
+    "id": "REF_M14",
+    "name": "M14 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      12.0,
+      14.0,
+      91.0
+    ],
+    "volume_mm3": 15288.0,
+    "valid": true
+  },
+  {
+    "id": "REF_M15",
+    "name": "M15 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      228.0,
+      20.0,
+      6.0
+    ],
+    "volume_mm3": 27360.0,
+    "valid": true
+  },
+  {
+    "id": "REF_M16",
+    "name": "M16 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      34.0,
+      90.0,
+      5.0
+    ],
+    "volume_mm3": 15300.0,
+    "valid": true
+  },
+  {
+    "id": "REF_M17",
+    "name": "M17 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      32.0,
+      22.0,
+      12.000000000000025
+    ],
+    "volume_mm3": 6188.977149241451,
+    "valid": true
+  },
+  {
+    "id": "REF_M18",
+    "name": "M18 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      44.0,
+      16.0,
+      24.00000000000083
+    ],
+    "volume_mm3": 7408.57938261475,
+    "valid": true
+  },
+  {
+    "id": "REF_M19",
+    "name": "M19 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      110.0,
+      60.0,
+      6.0
+    ],
+    "volume_mm3": 13919.04,
+    "valid": true
+  },
+  {
+    "id": "REF_M20L",
+    "name": "M20L R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      24.0,
+      48.0,
+      6.0
+    ],
+    "volume_mm3": 6192.0,
+    "valid": true
+  },
+  {
+    "id": "REF_M20R",
+    "name": "M20R R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      24.0,
+      48.0,
+      6.0
+    ],
+    "volume_mm3": 6192.0,
+    "valid": true
+  },
+  {
+    "id": "REF_O01",
+    "name": "O01 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      50.0,
+      12.0,
+      12.0
+    ],
+    "volume_mm3": 5654.866776461628,
+    "valid": true
+  },
+  {
+    "id": "REF_O02",
+    "name": "O02 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      16.0,
+      16.0,
+      16.0
+    ],
+    "volume_mm3": 3216.9908772759477,
+    "valid": true
+  },
+  {
+    "id": "REF_O03",
+    "name": "O03 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      14.0,
+      18.0,
+      18.0
+    ],
+    "volume_mm3": 4536.0,
+    "valid": true
+  },
+  {
+    "id": "REF_O04",
+    "name": "O04 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      18.0,
+      24.0,
+      24.0
+    ],
+    "volume_mm3": 9859.061990118436,
+    "valid": true
+  },
+  {
+    "id": "REF_O05",
+    "name": "O05 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      38.63703305157992,
+      12.0,
+      38.637033051561005
+    ],
+    "volume_mm3": 12470.765814494167,
+    "valid": true
+  },
+  {
+    "id": "REF_O06",
+    "name": "O06 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      36.0,
+      40.0,
+      36.0
+    ],
+    "volume_mm3": 40715.04079052373,
+    "valid": true
+  },
+  {
+    "id": "REF_O07",
+    "name": "O07 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      96.0,
+      44.0,
+      30.0
+    ],
+    "volume_mm3": 126720.0,
+    "valid": true
+  },
+  {
+    "id": "REF_P03",
+    "name": "P03 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      50.0,
+      19.5,
+      25.0
+    ],
+    "volume_mm3": 22617.809724509618,
+    "valid": true
+  },
+  {
+    "id": "REF_P04",
+    "name": "P04 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      1.0,
+      12.0,
+      1.0
+    ],
+    "volume_mm3": 9.42477796076938,
+    "valid": true
+  },
+  {
+    "id": "REF_P05",
+    "name": "P05 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      110.0,
+      60.0,
+      25.0
+    ],
+    "volume_mm3": 165000.0,
+    "valid": true
+  },
+  {
+    "id": "REF_S01",
+    "name": "S01 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      6.0,
+      8.0,
+      6.0
+    ],
+    "volume_mm3": 226.1946710584651,
+    "valid": true
+  },
+  {
+    "id": "REF_S02",
+    "name": "S02 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      2.0,
+      3.0,
+      0.7
+    ],
+    "volume_mm3": 4.2,
+    "valid": true
+  },
+  {
+    "id": "REF_S03",
+    "name": "S03 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      15.0,
+      10.0,
+      8.0
+    ],
+    "volume_mm3": 1200.0,
+    "valid": true
+  },
+  {
+    "id": "REF_S04",
+    "name": "S04 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      16.0,
+      8.0,
+      12.0
+    ],
+    "volume_mm3": 1536.0,
+    "valid": true
+  },
+  {
+    "id": "REF_S05",
+    "name": "S05 R5继承接口",
+    "material": "inherited",
+    "status": "INHERITED_NOT_REVALIDATED",
+    "note": "Optical/purchased/PCB geometry inherited; G2 native board remains electrical authority",
+    "size": [
+      10.0,
+      12.0,
+      1.6
+    ],
+    "volume_mm3": 192.0,
+    "valid": true
+  }
+]

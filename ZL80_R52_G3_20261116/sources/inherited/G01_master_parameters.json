@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "revision": "R52-G01-D01",
+  "date": "2026-11-16",
+  "status": "DRAFT_FOR_REVIEW",
+  "laser_enable_default": false,
+  "parameters": {
+    "film_width_mm": {
+      "value": 80,
+      "unit": "mm",
+      "status": "USER_FIXED",
+      "source_id": "U01",
+      "note": "有效成像幅宽，不等于标准等级"
+    },
+    "scan_span_mm": {
+      "value": 100,
+      "unit": "mm",
+      "status": "USER_FIXED",
+      "source_id": "U01",
+      "note": "光学扫描预留，非100mm宽胶片能力"
+    },
+    "sync_span_mm": {
+      "value": 92,
+      "unit": "mm",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U02",
+      "note": "标称SOS/EOS投影到名义片面间距"
+    },
+    "slot_length_mm": {
+      "value": 104,
+      "unit": "mm",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U02",
+      "note": "实体狭缝长度"
+    },
+    "slot_width_mm": {
+      "value": 1.2,
+      "unit": "mm",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U02",
+      "note": "沿Y方向开口"
+    },
+    "cavity_id_mm": {
+      "value": 40,
+      "unit": "mm",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U02",
+      "note": "G2接口边界"
+    },
+    "cavity_length_mm": {
+      "value": 120,
+      "unit": "mm",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U02",
+      "note": "G2接口边界"
+    },
+    "wavelength_nm": {
+      "value": 635,
+      "unit": "nm",
+      "status": "DESIGN_BASELINE",
+      "source_id": "U02",
+      "note": "最终公差/温漂需RFQ"
+    },
+    "facet_count": {
+      "value": 6,
+      "unit": "count",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U02",
+      "note": "候选面数，不是原机实测确认"
+    },
+    "rpm_nominal": {
+      "value": 3000,
+      "unit": "rpm",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U02",
+      "note": "转速算例，非采购承诺"
+    },
+    "efl_mm": {
+      "value": 100,
+      "unit": "mm",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U02",
+      "note": "仅扫描公式用，不等于工作距离"
+    },
+    "pixel_x_um": {
+      "value": 50,
+      "unit": "um",
+      "status": "PROPOSED_TARGET",
+      "source_id": "U03",
+      "note": "首轮采样间距，不是SRbD"
+    },
+    "pixel_y_um": {
+      "value": 50,
+      "unit": "um",
+      "status": "PROPOSED_TARGET",
+      "source_id": "U03",
+      "note": "每个有效facet一条轨迹的算例"
+    },
+    "adc_msps": {
+      "value": 20,
+      "unit": "MSPS",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U03",
+      "note": "连续ADC时钟，仅预算不定接口模式"
+    },
+    "adc_bits": {
+      "value": 16,
+      "unit": "bit",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U03",
+      "note": "原始单通道码宽"
+    },
+    "adc_channels": {
+      "value": 2,
+      "unit": "count",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U03",
+      "note": "PMT/参考通道候选"
+    },
+    "beam_diameter_mm": {
+      "value": 5,
+      "unit": "mm",
+      "status": "PROPOSED_ASSUMPTION",
+      "source_id": "D01",
+      "note": "高斯束1/e2直径，用于理论预算"
+    },
+    "beam_m2": {
+      "value": 1.3,
+      "unit": "1",
+      "status": "PROPOSED_ASSUMPTION",
+      "source_id": "D01",
+      "note": "非激光器实测"
+    },
+    "spot_target_um": {
+      "value": 35,
+      "unit": "um",
+      "status": "PROPOSED_TARGET",
+      "source_id": "D01",
+      "note": "有效80mm全场1/e2光斑直径目标，待批准"
+    },
+    "chief_ray_target_deg": {
+      "value": 5,
+      "unit": "deg",
+      "status": "INHERITED_TARGET",
+      "source_id": "U03",
+      "note": "片面主光线角目标，非模型结果"
+    },
+    "jitter_target_um": {
+      "value": 5,
+      "unit": "um",
+      "status": "PROPOSED_TARGET",
+      "source_id": "D01",
+      "note": "同步等效位置RMS目标，待批准"
+    },
+    "line_geo_target_um": {
+      "value": 10,
+      "unit": "um",
+      "status": "PROPOSED_TARGET",
+      "source_id": "D01",
+      "note": "校准后X位置残差最大绝对值目标"
+    },
+    "laser_stability_pct": {
+      "value": 1,
+      "unit": "percent",
+      "status": "INHERITED_TARGET",
+      "source_id": "U03",
+      "note": "预热后指定时窗试验目标"
+    },
+    "film_power_uW": {
+      "value": 50,
+      "unit": "uW",
+      "status": "INHERITED_ASSUMPTION",
+      "source_id": "U02",
+      "note": "片面功率预算，不是裸激光器额定功率"
+    },
+    "polygon_radius_mm": {
+      "value": 20,
+      "unit": "mm",
+      "status": "INHERITED_GEOMETRY",
+      "source_id": "U03",
+      "note": "正六边形示意外接圆半径，禁止用于转子加工"
+    },
+    "polygon_hit_z_mm": {
+      "value": 135,
+      "unit": "mm",
+      "status": "INHERITED_GEOMETRY",
+      "source_id": "U03",
+      "note": "局部片面坐标；反射点的名义高度"
+    },
+    "lens_reference_z_mm": {
+      "value": 100,
+      "unit": "mm",
+      "status": "INHERITED_GEOMETRY",
+      "source_id": "U03",
+      "note": "镜组中心几何参考面；不认定为主平面"
+    },
+    "global_film_z_mm": {
+      "value": 110,
+      "unit": "mm",
+      "status": "INHERITED_GEOMETRY",
+      "source_id": "U03",
+      "note": "R5片面名义Z；局部原点映射至此"
+    },
+    "roller_diameter_mm": {
+      "value": 20,
+      "unit": "mm",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U03",
+      "note": "G3接口预算"
+    },
+    "encoder_ppr": {
+      "value": 4096,
+      "unit": "count/rev",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U03",
+      "note": "编码器线数，不等于机械精度"
+    },
+    "quadrature_factor": {
+      "value": 4,
+      "unit": "1",
+      "status": "INHERITED_PROVISIONAL",
+      "source_id": "U03",
+      "note": "计数量化倍率"
+    }
+  },
+  "unresolved": {
+    "lens_working_distance_mm": null,
+    "lens_back_focal_length_mm": null,
+    "lens_pupil_position_mm": null,
+    "polygon_min_stable_rpm": null,
+    "polygon_index_interface": null,
+    "laser_part_number": null,
+    "laser_enable_electrical_levels": null,
+    "sync_comparator_part_number": null,
+    "adc_output_mode": null,
+    "sp2_actual_dimensions": null,
+    "approved_pixel_y_um": null
+  }
+}

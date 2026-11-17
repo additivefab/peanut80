@@ -1,0 +1,8 @@
+﻿id,title,url,use,retrieved,type
+V_G4_01,OPA356 datasheet,https://www.ti.com/lit/ds/symlink/opa356.pdf,"SOT23 pin definition, feedback and supply layout guidance",2026-11-16,OFFICIAL_PRIMARY
+V_G4_02,TLV3501 datasheet,https://www.ti.com/lit/ds/symlink/tlv3501.pdf,Comparator pin definition; propagation delay is not full-system jitter,2026-11-16,OFFICIAL_PRIMARY
+V_G4_03,S5971 datasheet,https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/s5971_etc_kpin1025e.pdf,"p4 package5.4±0.2, sensitive plane2.8, TO18 bottom pin view; optical alignment requires sample",2026-11-16,OFFICIAL_PRIMARY
+V_G4_04,Samtec TMS-104-02-L-S,https://www.samtec.com/products/tms-104-02-l-s,"4 pins,1.27mm pitch,.46mm square post; mating assembly still TBD",2026-11-16,OFFICIAL_PRIMARY
+V_G4_05,Samtec TMS-S footprint,https://suddendocs.samtec.com/prints/tms-s%20footprint-mkt.pdf,Recommended finished hole0.66mm,2026-11-16,OFFICIAL_PRIMARY
+V_G4_06,KiCad CLI9 reference,https://docs.kicad.org/9.0/en/cli/cli.html,"sch erc, pcb drc, netlist/STEP; commands must run in actual installed app",2026-11-16,OFFICIAL_PRIMARY
+V_G4_07,KiCad PCB file format,https://dev-docs.kicad.org/en/file-formats/sexpr-pcb/,Candidate file syntax; text parse is not native validation,2026-11-16,OFFICIAL_PRIMARY

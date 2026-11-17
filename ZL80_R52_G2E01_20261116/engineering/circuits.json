@@ -1,0 +1,2438 @@
+{
+  "revision": "R52-G2E01-D01",
+  "symbols": {
+    "R_H": {
+      "shape": "res_h",
+      "pins": [
+        {
+          "num": "1",
+          "name": "~",
+          "type": "passive",
+          "x": -7.62,
+          "y": 0,
+          "angle": 0
+        },
+        {
+          "num": "2",
+          "name": "~",
+          "type": "passive",
+          "x": 7.62,
+          "y": 0,
+          "angle": 180
+        }
+      ],
+      "fp": "0603"
+    },
+    "R_V": {
+      "shape": "res_v",
+      "pins": [
+        {
+          "num": "1",
+          "name": "~",
+          "type": "passive",
+          "x": 0,
+          "y": 7.62,
+          "angle": 270
+        },
+        {
+          "num": "2",
+          "name": "~",
+          "type": "passive",
+          "x": 0,
+          "y": -7.62,
+          "angle": 90
+        }
+      ],
+      "fp": "0603"
+    },
+    "C_H": {
+      "shape": "cap_h",
+      "pins": [
+        {
+          "num": "1",
+          "name": "~",
+          "type": "passive",
+          "x": -7.62,
+          "y": 0,
+          "angle": 0
+        },
+        {
+          "num": "2",
+          "name": "~",
+          "type": "passive",
+          "x": 7.62,
+          "y": 0,
+          "angle": 180
+        }
+      ],
+      "fp": "0603"
+    },
+    "C_V": {
+      "shape": "cap_v",
+      "pins": [
+        {
+          "num": "1",
+          "name": "~",
+          "type": "passive",
+          "x": 0,
+          "y": 7.62,
+          "angle": 270
+        },
+        {
+          "num": "2",
+          "name": "~",
+          "type": "passive",
+          "x": 0,
+          "y": -7.62,
+          "angle": 90
+        }
+      ],
+      "fp": "0603"
+    },
+    "S5971": {
+      "shape": "pd",
+      "pins": [
+        {
+          "num": "1",
+          "name": "K",
+          "type": "passive",
+          "x": 10.16,
+          "y": 0,
+          "angle": 180
+        },
+        {
+          "num": "3",
+          "name": "A",
+          "type": "passive",
+          "x": -10.16,
+          "y": 0,
+          "angle": 0
+        },
+        {
+          "num": "2",
+          "name": "CASE",
+          "type": "passive",
+          "x": 0,
+          "y": -10.16,
+          "angle": 90
+        }
+      ],
+      "fp": "S5971_TO18_TOP",
+      "source": "V03"
+    },
+    "OPA356_DBV": {
+      "shape": "opamp",
+      "pins": [
+        {
+          "num": "3",
+          "name": "IN+",
+          "type": "input",
+          "x": -12.7,
+          "y": 5.08,
+          "angle": 0
+        },
+        {
+          "num": "4",
+          "name": "IN-",
+          "type": "input",
+          "x": -12.7,
+          "y": -5.08,
+          "angle": 0
+        },
+        {
+          "num": "1",
+          "name": "OUT",
+          "type": "output",
+          "x": 12.7,
+          "y": 0,
+          "angle": 180
+        },
+        {
+          "num": "5",
+          "name": "V+",
+          "type": "power_in",
+          "x": 0,
+          "y": 12.7,
+          "angle": 270
+        },
+        {
+          "num": "2",
+          "name": "V-",
+          "type": "power_in",
+          "x": 0,
+          "y": -12.7,
+          "angle": 90
+        }
+      ],
+      "fp": "SOT23_5",
+      "source": "V01"
+    },
+    "OPA828_SOIC": {
+      "shape": "opamp",
+      "pins": [
+        {
+          "num": "3",
+          "name": "IN+",
+          "type": "input",
+          "x": -12.7,
+          "y": 5.08,
+          "angle": 0
+        },
+        {
+          "num": "2",
+          "name": "IN-",
+          "type": "input",
+          "x": -12.7,
+          "y": -5.08,
+          "angle": 0
+        },
+        {
+          "num": "6",
+          "name": "OUT",
+          "type": "output",
+          "x": 12.7,
+          "y": 0,
+          "angle": 180
+        },
+        {
+          "num": "7",
+          "name": "V+",
+          "type": "power_in",
+          "x": 0,
+          "y": 12.7,
+          "angle": 270
+        },
+        {
+          "num": "4",
+          "name": "V-",
+          "type": "power_in",
+          "x": 0,
+          "y": -12.7,
+          "angle": 90
+        },
+        {
+          "num": "1",
+          "name": "NC",
+          "type": "no_connect",
+          "x": 5.08,
+          "y": -17.78,
+          "angle": 90
+        },
+        {
+          "num": "5",
+          "name": "NC",
+          "type": "no_connect",
+          "x": 7.62,
+          "y": -17.78,
+          "angle": 90
+        },
+        {
+          "num": "8",
+          "name": "NC",
+          "type": "no_connect",
+          "x": 10.16,
+          "y": -17.78,
+          "angle": 90
+        }
+      ],
+      "fp": "SOIC8",
+      "source": "V05"
+    },
+    "TLV3501_DBV": {
+      "shape": "comp",
+      "pins": [
+        {
+          "num": "3",
+          "name": "IN+",
+          "type": "input",
+          "x": -12.7,
+          "y": 5.08,
+          "angle": 0
+        },
+        {
+          "num": "1",
+          "name": "IN-",
+          "type": "input",
+          "x": -12.7,
+          "y": -5.08,
+          "angle": 0
+        },
+        {
+          "num": "5",
+          "name": "OUT",
+          "type": "output",
+          "x": 12.7,
+          "y": 0,
+          "angle": 180
+        },
+        {
+          "num": "4",
+          "name": "V+",
+          "type": "power_in",
+          "x": 0,
+          "y": 12.7,
+          "angle": 270
+        },
+        {
+          "num": "2",
+          "name": "V-",
+          "type": "power_in",
+          "x": 0,
+          "y": -12.7,
+          "angle": 90
+        },
+        {
+          "num": "6",
+          "name": "SHDN",
+          "type": "input",
+          "x": 5.08,
+          "y": -12.7,
+          "angle": 90
+        }
+      ],
+      "fp": "SOT23_6",
+      "source": "V02"
+    },
+    "TLV75533_DBV": {
+      "shape": "box",
+      "pins": [
+        {
+          "num": "1",
+          "name": "IN",
+          "type": "power_in",
+          "x": -15.24,
+          "y": 5.08,
+          "angle": 0
+        },
+        {
+          "num": "3",
+          "name": "EN",
+          "type": "input",
+          "x": -15.24,
+          "y": -5.08,
+          "angle": 0
+        },
+        {
+          "num": "2",
+          "name": "GND",
+          "type": "power_in",
+          "x": 0,
+          "y": -15.24,
+          "angle": 90
+        },
+        {
+          "num": "5",
+          "name": "OUT",
+          "type": "power_out",
+          "x": 15.24,
+          "y": 5.08,
+          "angle": 180
+        },
+        {
+          "num": "4",
+          "name": "NC",
+          "type": "no_connect",
+          "x": 15.24,
+          "y": -5.08,
+          "angle": 180
+        }
+      ],
+      "fp": "SOT23_5",
+      "source": "V04"
+    },
+    "AD8138_SOIC": {
+      "shape": "fda",
+      "pins": [
+        {
+          "num": "8",
+          "name": "IN+",
+          "type": "input",
+          "x": -15.24,
+          "y": 5.08,
+          "angle": 0
+        },
+        {
+          "num": "1",
+          "name": "IN-",
+          "type": "input",
+          "x": -15.24,
+          "y": -5.08,
+          "angle": 0
+        },
+        {
+          "num": "4",
+          "name": "OUT+",
+          "type": "output",
+          "x": 15.24,
+          "y": 5.08,
+          "angle": 180
+        },
+        {
+          "num": "5",
+          "name": "OUT-",
+          "type": "output",
+          "x": 15.24,
+          "y": -5.08,
+          "angle": 180
+        },
+        {
+          "num": "2",
+          "name": "VOCM",
+          "type": "input",
+          "x": -5.08,
+          "y": -17.78,
+          "angle": 90
+        },
+        {
+          "num": "3",
+          "name": "V+",
+          "type": "power_in",
+          "x": 0,
+          "y": 17.78,
+          "angle": 270
+        },
+        {
+          "num": "6",
+          "name": "V-",
+          "type": "power_in",
+          "x": 5.08,
+          "y": -17.78,
+          "angle": 90
+        },
+        {
+          "num": "7",
+          "name": "NC",
+          "type": "no_connect",
+          "x": 10.16,
+          "y": -17.78,
+          "angle": 90
+        }
+      ],
+      "fp": "SOIC8",
+      "source": "V06"
+    },
+    "TP": {
+      "shape": "tp",
+      "pins": [
+        {
+          "num": "1",
+          "name": "TP",
+          "type": "passive",
+          "x": 0,
+          "y": -5.08,
+          "angle": 90
+        }
+      ],
+      "fp": "TP1"
+    },
+    "PWR_FLAG": {
+      "shape": "flag",
+      "pins": [
+        {
+          "num": "1",
+          "name": "pwr",
+          "type": "power_out",
+          "x": 0,
+          "y": 0,
+          "angle": 90
+        }
+      ],
+      "fp": null
+    },
+    "CONN1": {
+      "shape": "connector",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "type": "passive",
+          "x": 12.7,
+          "y": 0.0,
+          "angle": 180
+        }
+      ],
+      "fp": "HDR1"
+    },
+    "CONN4": {
+      "shape": "connector",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "type": "passive",
+          "x": 12.7,
+          "y": 7.62,
+          "angle": 180
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "type": "passive",
+          "x": 12.7,
+          "y": 2.54,
+          "angle": 180
+        },
+        {
+          "num": "3",
+          "name": "3",
+          "type": "passive",
+          "x": 12.7,
+          "y": -2.54,
+          "angle": 180
+        },
+        {
+          "num": "4",
+          "name": "4",
+          "type": "passive",
+          "x": 12.7,
+          "y": -7.62,
+          "angle": 180
+        }
+      ],
+      "fp": "HDR4"
+    },
+    "CONN6": {
+      "shape": "connector",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "type": "passive",
+          "x": 12.7,
+          "y": 12.7,
+          "angle": 180
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "type": "passive",
+          "x": 12.7,
+          "y": 7.62,
+          "angle": 180
+        },
+        {
+          "num": "3",
+          "name": "3",
+          "type": "passive",
+          "x": 12.7,
+          "y": 2.54,
+          "angle": 180
+        },
+        {
+          "num": "4",
+          "name": "4",
+          "type": "passive",
+          "x": 12.7,
+          "y": -2.54,
+          "angle": 180
+        },
+        {
+          "num": "5",
+          "name": "5",
+          "type": "passive",
+          "x": 12.7,
+          "y": -7.62,
+          "angle": 180
+        },
+        {
+          "num": "6",
+          "name": "6",
+          "type": "passive",
+          "x": 12.7,
+          "y": -12.7,
+          "angle": 180
+        }
+      ],
+      "fp": "HDR6"
+    },
+    "CONN8": {
+      "shape": "connector",
+      "pins": [
+        {
+          "num": "1",
+          "name": "1",
+          "type": "passive",
+          "x": 12.7,
+          "y": 17.78,
+          "angle": 180
+        },
+        {
+          "num": "2",
+          "name": "2",
+          "type": "passive",
+          "x": 12.7,
+          "y": 12.7,
+          "angle": 180
+        },
+        {
+          "num": "3",
+          "name": "3",
+          "type": "passive",
+          "x": 12.7,
+          "y": 7.62,
+          "angle": 180
+        },
+        {
+          "num": "4",
+          "name": "4",
+          "type": "passive",
+          "x": 12.7,
+          "y": 2.54,
+          "angle": 180
+        },
+        {
+          "num": "5",
+          "name": "5",
+          "type": "passive",
+          "x": 12.7,
+          "y": -2.54,
+          "angle": 180
+        },
+        {
+          "num": "6",
+          "name": "6",
+          "type": "passive",
+          "x": 12.7,
+          "y": -7.62,
+          "angle": 180
+        },
+        {
+          "num": "7",
+          "name": "7",
+          "type": "passive",
+          "x": 12.7,
+          "y": -12.7,
+          "angle": 180
+        },
+        {
+          "num": "8",
+          "name": "8",
+          "type": "passive",
+          "x": 12.7,
+          "y": -17.78,
+          "angle": 180
+        }
+      ],
+      "fp": "HDR8"
+    },
+    "H10720_MODULE": {
+      "shape": "connector",
+      "pins": [
+        {
+          "num": "1",
+          "name": "NC",
+          "type": "no_connect",
+          "x": 12.7,
+          "y": 17.78,
+          "angle": 180
+        },
+        {
+          "num": "2",
+          "name": "VREF",
+          "type": "output",
+          "x": 12.7,
+          "y": 12.7,
+          "angle": 180
+        },
+        {
+          "num": "3",
+          "name": "VCONT",
+          "type": "input",
+          "x": 12.7,
+          "y": 7.62,
+          "angle": 180
+        },
+        {
+          "num": "4",
+          "name": "V+",
+          "type": "power_in",
+          "x": 12.7,
+          "y": 2.54,
+          "angle": 180
+        },
+        {
+          "num": "5",
+          "name": "GND",
+          "type": "power_in",
+          "x": 12.7,
+          "y": -2.54,
+          "angle": 180
+        },
+        {
+          "num": "6",
+          "name": "SGND",
+          "type": "power_in",
+          "x": 12.7,
+          "y": -7.62,
+          "angle": 180
+        },
+        {
+          "num": "7",
+          "name": "IOUT",
+          "type": "output",
+          "x": 12.7,
+          "y": -12.7,
+          "angle": 180
+        },
+        {
+          "num": "8",
+          "name": "NC",
+          "type": "no_connect",
+          "x": 12.7,
+          "y": -17.78,
+          "angle": 180
+        }
+      ],
+      "fp": "H10720_SOCKET_DRAFT",
+      "source": "V08"
+    }
+  },
+  "boards": [
+    {
+      "id": "B06",
+      "name": "SOS/EOS receiver: current -> TIA -> comparator -> 3V3 logic",
+      "size_mm": [
+        18,
+        20
+      ],
+      "holes": [
+        [
+          2.5,
+          2.5
+        ],
+        [
+          9,
+          2.5
+        ],
+        [
+          15.5,
+          17.5
+        ],
+        [
+          2.5,
+          17.5
+        ]
+      ],
+      "thickness_mm": 1.6,
+      "layers": 4,
+      "components": [
+        {
+          "ref": "D1",
+          "value": "S5971",
+          "kind": "S5971",
+          "xy": [
+            38.1,
+            81.28
+          ],
+          "nets": {
+            "1": "PD_SUM",
+            "3": "GND",
+            "2": "GND"
+          },
+          "mpn": "S5971",
+          "source": "V03",
+          "pcb_anchor": [
+            14,
+            6
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "OPA356AIDBVR",
+          "kind": "OPA356_DBV",
+          "xy": [
+            116.84,
+            81.28
+          ],
+          "nets": {
+            "3": "VBIAS",
+            "4": "PD_SUM",
+            "1": "TIA_OUT",
+            "5": "3V3",
+            "2": "GND"
+          },
+          "mpn": "OPA356AIDBVR",
+          "source": "V01",
+          "pcb_anchor": [
+            8.5,
+            7.5
+          ]
+        },
+        {
+          "ref": "R1",
+          "value": "10k 0.1%",
+          "kind": "R_H",
+          "xy": [
+            116.84,
+            40.64
+          ],
+          "nets": {
+            "1": "PD_SUM",
+            "2": "TIA_OUT"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C1",
+          "value": "2.2p C0G",
+          "kind": "C_H",
+          "xy": [
+            116.84,
+            22.86
+          ],
+          "nets": {
+            "1": "PD_SUM",
+            "2": "TIA_OUT"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "U2",
+          "value": "TLV3501AIDBVR",
+          "kind": "TLV3501_DBV",
+          "xy": [
+            251.46,
+            81.28
+          ],
+          "nets": {
+            "3": "CMP_P",
+            "1": "THRESH",
+            "5": "CMP_OUT",
+            "4": "3V3",
+            "2": "GND",
+            "6": "GND"
+          },
+          "mpn": "TLV3501AIDBVR",
+          "source": "V02",
+          "pcb_anchor": [
+            12,
+            12
+          ]
+        },
+        {
+          "ref": "R2",
+          "value": "1k 1%",
+          "kind": "R_H",
+          "xy": [
+            190.5,
+            76.2
+          ],
+          "nets": {
+            "1": "TIA_OUT",
+            "2": "CMP_P"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R3",
+          "value": "1M 1%",
+          "kind": "R_H",
+          "xy": [
+            251.46,
+            40.64
+          ],
+          "nets": {
+            "1": "CMP_P",
+            "2": "CMP_OUT"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R4",
+          "value": "33R 1%",
+          "kind": "R_H",
+          "xy": [
+            307.34,
+            81.28
+          ],
+          "nets": {
+            "1": "CMP_OUT",
+            "2": "SYNC"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R5",
+          "value": "100k 1%",
+          "kind": "R_V",
+          "xy": [
+            345.44,
+            127
+          ],
+          "nets": {
+            "1": "SYNC",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "J1",
+          "value": "HEADER 1x4 P1.27",
+          "kind": "CONN4",
+          "xy": [
+            360.68,
+            76.2
+          ],
+          "nets": {
+            "1": "5VA_IN",
+            "2": "GND",
+            "3": "SYNC",
+            "4": "GND"
+          },
+          "mpn": "",
+          "source": "R51_HEADER_INTERFACE_UNCHANGED",
+          "pcb_anchor": [
+            2.3,
+            8.5
+          ]
+        },
+        {
+          "ref": "R6",
+          "value": "232R 0.1%",
+          "kind": "R_V",
+          "xy": [
+            30.48,
+            175.26
+          ],
+          "nets": {
+            "1": "3V3",
+            "2": "VBIAS"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R7",
+          "value": "100R 0.1%",
+          "kind": "R_V",
+          "xy": [
+            30.48,
+            213.36
+          ],
+          "nets": {
+            "1": "VBIAS",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C2",
+          "value": "1u X7R 10V",
+          "kind": "C_V",
+          "xy": [
+            60.96,
+            213.36
+          ],
+          "nets": {
+            "1": "VBIAS",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R8",
+          "value": "100k 0.1%",
+          "kind": "R_V",
+          "xy": [
+            106.68,
+            175.26
+          ],
+          "nets": {
+            "1": "3V3",
+            "2": "THRESH"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R9",
+          "value": "1k 0.1%",
+          "kind": "R_V",
+          "xy": [
+            106.68,
+            213.36
+          ],
+          "nets": {
+            "1": "THRESH",
+            "2": "VBIAS"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C3",
+          "value": "10n C0G",
+          "kind": "C_V",
+          "xy": [
+            137.16,
+            213.36
+          ],
+          "nets": {
+            "1": "THRESH",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "U3",
+          "value": "TLV75533PDBVR",
+          "kind": "TLV75533_DBV",
+          "xy": [
+            228.6,
+            190.5
+          ],
+          "nets": {
+            "1": "5VA_IN",
+            "3": "5VA_IN",
+            "2": "GND",
+            "5": "3V3",
+            "4": ""
+          },
+          "mpn": "TLV75533PDBVR",
+          "source": "V04",
+          "pcb_anchor": [
+            5,
+            13
+          ]
+        },
+        {
+          "ref": "C4",
+          "value": "2.2u X7R 10V",
+          "kind": "C_V",
+          "xy": [
+            177.8,
+            213.36
+          ],
+          "nets": {
+            "1": "5VA_IN",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C5",
+          "value": "2.2u X7R 10V",
+          "kind": "C_V",
+          "xy": [
+            279.4,
+            213.36
+          ],
+          "nets": {
+            "1": "3V3",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C6",
+          "value": "100n X7R 10V",
+          "kind": "C_V",
+          "xy": [
+            309.88,
+            213.36
+          ],
+          "nets": {
+            "1": "3V3",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C7",
+          "value": "100n X7R 10V",
+          "kind": "C_V",
+          "xy": [
+            340.36,
+            213.36
+          ],
+          "nets": {
+            "1": "3V3",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "TP1",
+          "value": "TIA_OUT",
+          "kind": "TP",
+          "xy": [
+            76.2,
+            116.84
+          ],
+          "nets": {
+            "1": "TIA_OUT"
+          },
+          "mpn": ""
+        },
+        {
+          "ref": "TP2",
+          "value": "THRESH",
+          "kind": "TP",
+          "xy": [
+            195.58,
+            116.84
+          ],
+          "nets": {
+            "1": "THRESH"
+          },
+          "mpn": ""
+        },
+        {
+          "ref": "TP3",
+          "value": "SYNC",
+          "kind": "TP",
+          "xy": [
+            299.72,
+            116.84
+          ],
+          "nets": {
+            "1": "SYNC"
+          },
+          "mpn": ""
+        },
+        {
+          "ref": "#FLG1",
+          "value": "5VA_IN",
+          "kind": "PWR_FLAG",
+          "xy": [
+            25.4,
+            261.62
+          ],
+          "nets": {
+            "1": "5VA_IN"
+          },
+          "mpn": "",
+          "in_bom": false
+        },
+        {
+          "ref": "#FLG2",
+          "value": "GND",
+          "kind": "PWR_FLAG",
+          "xy": [
+            60.96,
+            261.62
+          ],
+          "nets": {
+            "1": "GND"
+          },
+          "mpn": "",
+          "in_bom": false
+        }
+      ],
+      "routes": [],
+      "notes": [
+        "3V3 push-pull SYNC; J1 pin1 remains +5V input, NOT 3V3 input.",
+        "S5971: 1=K, 3=A, 2=CASE. Case tied GND. Reverse bias ~1V; no 100MHz claim.",
+        "R3 adds positive feedback; TLV3501 SHDN tied low. Full light pulse is outside image ROI.",
+        "Threshold/optical amplitude not measured. 5um timing budget is NOT yet passed.",
+        "C6 at U1 and C7 at U2. Keep PD_SUM/feedback short; do not connect a long test lead to PD_SUM.",
+        "Use short grounded harness for PoC. Long cable requires a differential link change request."
+      ],
+      "external_drivers": {},
+      "stage": "SCHEMATIC_CANDIDATE_NOT_RELEASED",
+      "model": {
+        "rf_ohm": 10000.0,
+        "cf_F": 2.2e-12,
+        "a0": 100000.0,
+        "gbw_Hz": 200000000.0,
+        "cin_F": 1.5e-11,
+        "vcc": 3.3,
+        "vbias_Rtop": 232,
+        "vbias_Rbottom": 100,
+        "threshold_Rtop": 100000.0,
+        "threshold_Rbottom": 1000,
+        "cmp_series_R": 1000,
+        "cmp_feedback_R": 1000000.0,
+        "cmp_hysteresis_V": 0.006,
+        "cmp_delay_s": 4.5e-09
+      }
+    },
+    {
+      "id": "B07",
+      "name": "SOS/EOS receiver: current -> TIA -> comparator -> 3V3 logic",
+      "size_mm": [
+        18,
+        20
+      ],
+      "holes": [
+        [
+          9,
+          2.5
+        ],
+        [
+          15.5,
+          2.5
+        ],
+        [
+          15.5,
+          17.5
+        ],
+        [
+          2.5,
+          17.5
+        ]
+      ],
+      "thickness_mm": 1.6,
+      "layers": 4,
+      "components": [
+        {
+          "ref": "D1",
+          "value": "S5971",
+          "kind": "S5971",
+          "xy": [
+            38.1,
+            81.28
+          ],
+          "nets": {
+            "1": "PD_SUM",
+            "3": "GND",
+            "2": "GND"
+          },
+          "mpn": "S5971",
+          "source": "V03",
+          "pcb_anchor": [
+            14,
+            7.5
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "OPA356AIDBVR",
+          "kind": "OPA356_DBV",
+          "xy": [
+            116.84,
+            81.28
+          ],
+          "nets": {
+            "3": "VBIAS",
+            "4": "PD_SUM",
+            "1": "TIA_OUT",
+            "5": "3V3",
+            "2": "GND"
+          },
+          "mpn": "OPA356AIDBVR",
+          "source": "V01",
+          "pcb_anchor": [
+            8.5,
+            7.5
+          ]
+        },
+        {
+          "ref": "R1",
+          "value": "10k 0.1%",
+          "kind": "R_H",
+          "xy": [
+            116.84,
+            40.64
+          ],
+          "nets": {
+            "1": "PD_SUM",
+            "2": "TIA_OUT"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C1",
+          "value": "2.2p C0G",
+          "kind": "C_H",
+          "xy": [
+            116.84,
+            22.86
+          ],
+          "nets": {
+            "1": "PD_SUM",
+            "2": "TIA_OUT"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "U2",
+          "value": "TLV3501AIDBVR",
+          "kind": "TLV3501_DBV",
+          "xy": [
+            251.46,
+            81.28
+          ],
+          "nets": {
+            "3": "CMP_P",
+            "1": "THRESH",
+            "5": "CMP_OUT",
+            "4": "3V3",
+            "2": "GND",
+            "6": "GND"
+          },
+          "mpn": "TLV3501AIDBVR",
+          "source": "V02",
+          "pcb_anchor": [
+            12,
+            12
+          ]
+        },
+        {
+          "ref": "R2",
+          "value": "1k 1%",
+          "kind": "R_H",
+          "xy": [
+            190.5,
+            76.2
+          ],
+          "nets": {
+            "1": "TIA_OUT",
+            "2": "CMP_P"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R3",
+          "value": "1M 1%",
+          "kind": "R_H",
+          "xy": [
+            251.46,
+            40.64
+          ],
+          "nets": {
+            "1": "CMP_P",
+            "2": "CMP_OUT"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R4",
+          "value": "33R 1%",
+          "kind": "R_H",
+          "xy": [
+            307.34,
+            81.28
+          ],
+          "nets": {
+            "1": "CMP_OUT",
+            "2": "SYNC"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R5",
+          "value": "100k 1%",
+          "kind": "R_V",
+          "xy": [
+            345.44,
+            127
+          ],
+          "nets": {
+            "1": "SYNC",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "J1",
+          "value": "HEADER 1x4 P1.27",
+          "kind": "CONN4",
+          "xy": [
+            360.68,
+            76.2
+          ],
+          "nets": {
+            "1": "5VA_IN",
+            "2": "GND",
+            "3": "SYNC",
+            "4": "GND"
+          },
+          "mpn": "",
+          "source": "R51_HEADER_INTERFACE_UNCHANGED",
+          "pcb_anchor": [
+            2.3,
+            8.5
+          ]
+        },
+        {
+          "ref": "R6",
+          "value": "232R 0.1%",
+          "kind": "R_V",
+          "xy": [
+            30.48,
+            175.26
+          ],
+          "nets": {
+            "1": "3V3",
+            "2": "VBIAS"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R7",
+          "value": "100R 0.1%",
+          "kind": "R_V",
+          "xy": [
+            30.48,
+            213.36
+          ],
+          "nets": {
+            "1": "VBIAS",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C2",
+          "value": "1u X7R 10V",
+          "kind": "C_V",
+          "xy": [
+            60.96,
+            213.36
+          ],
+          "nets": {
+            "1": "VBIAS",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R8",
+          "value": "100k 0.1%",
+          "kind": "R_V",
+          "xy": [
+            106.68,
+            175.26
+          ],
+          "nets": {
+            "1": "3V3",
+            "2": "THRESH"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R9",
+          "value": "1k 0.1%",
+          "kind": "R_V",
+          "xy": [
+            106.68,
+            213.36
+          ],
+          "nets": {
+            "1": "THRESH",
+            "2": "VBIAS"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C3",
+          "value": "10n C0G",
+          "kind": "C_V",
+          "xy": [
+            137.16,
+            213.36
+          ],
+          "nets": {
+            "1": "THRESH",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "U3",
+          "value": "TLV75533PDBVR",
+          "kind": "TLV75533_DBV",
+          "xy": [
+            228.6,
+            190.5
+          ],
+          "nets": {
+            "1": "5VA_IN",
+            "3": "5VA_IN",
+            "2": "GND",
+            "5": "3V3",
+            "4": ""
+          },
+          "mpn": "TLV75533PDBVR",
+          "source": "V04",
+          "pcb_anchor": [
+            5,
+            13
+          ]
+        },
+        {
+          "ref": "C4",
+          "value": "2.2u X7R 10V",
+          "kind": "C_V",
+          "xy": [
+            177.8,
+            213.36
+          ],
+          "nets": {
+            "1": "5VA_IN",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C5",
+          "value": "2.2u X7R 10V",
+          "kind": "C_V",
+          "xy": [
+            279.4,
+            213.36
+          ],
+          "nets": {
+            "1": "3V3",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C6",
+          "value": "100n X7R 10V",
+          "kind": "C_V",
+          "xy": [
+            309.88,
+            213.36
+          ],
+          "nets": {
+            "1": "3V3",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C7",
+          "value": "100n X7R 10V",
+          "kind": "C_V",
+          "xy": [
+            340.36,
+            213.36
+          ],
+          "nets": {
+            "1": "3V3",
+            "2": "GND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "TP1",
+          "value": "TIA_OUT",
+          "kind": "TP",
+          "xy": [
+            76.2,
+            116.84
+          ],
+          "nets": {
+            "1": "TIA_OUT"
+          },
+          "mpn": ""
+        },
+        {
+          "ref": "TP2",
+          "value": "THRESH",
+          "kind": "TP",
+          "xy": [
+            195.58,
+            116.84
+          ],
+          "nets": {
+            "1": "THRESH"
+          },
+          "mpn": ""
+        },
+        {
+          "ref": "TP3",
+          "value": "SYNC",
+          "kind": "TP",
+          "xy": [
+            299.72,
+            116.84
+          ],
+          "nets": {
+            "1": "SYNC"
+          },
+          "mpn": ""
+        },
+        {
+          "ref": "#FLG1",
+          "value": "5VA_IN",
+          "kind": "PWR_FLAG",
+          "xy": [
+            25.4,
+            261.62
+          ],
+          "nets": {
+            "1": "5VA_IN"
+          },
+          "mpn": "",
+          "in_bom": false
+        },
+        {
+          "ref": "#FLG2",
+          "value": "GND",
+          "kind": "PWR_FLAG",
+          "xy": [
+            60.96,
+            261.62
+          ],
+          "nets": {
+            "1": "GND"
+          },
+          "mpn": "",
+          "in_bom": false
+        }
+      ],
+      "routes": [],
+      "notes": [
+        "3V3 push-pull SYNC; J1 pin1 remains +5V input, NOT 3V3 input.",
+        "S5971: 1=K, 3=A, 2=CASE. Case tied GND. Reverse bias ~1V; no 100MHz claim.",
+        "R3 adds positive feedback; TLV3501 SHDN tied low. Full light pulse is outside image ROI.",
+        "Threshold/optical amplitude not measured. 5um timing budget is NOT yet passed.",
+        "C6 at U1 and C7 at U2. Keep PD_SUM/feedback short; do not connect a long test lead to PD_SUM.",
+        "Use short grounded harness for PoC. Long cable requires a differential link change request."
+      ],
+      "external_drivers": {},
+      "stage": "SCHEMATIC_CANDIDATE_NOT_RELEASED",
+      "model": {
+        "rf_ohm": 10000.0,
+        "cf_F": 2.2e-12,
+        "a0": 100000.0,
+        "gbw_Hz": 200000000.0,
+        "cin_F": 1.5e-11,
+        "vcc": 3.3,
+        "vbias_Rtop": 232,
+        "vbias_Rbottom": 100,
+        "threshold_Rtop": 100000.0,
+        "threshold_Rbottom": 1000,
+        "cmp_series_R": 1000,
+        "cmp_feedback_R": 1000000.0,
+        "cmp_hysteresis_V": 0.006,
+        "cmp_delay_s": 4.5e-09
+      }
+    },
+    {
+      "id": "B08",
+      "name": "Post-ND reference photodiode and low-pass current amplifier",
+      "size_mm": [
+        25,
+        20
+      ],
+      "holes": [
+        [
+          2.5,
+          2.5
+        ],
+        [
+          22.5,
+          2.5
+        ],
+        [
+          22.5,
+          17.5
+        ],
+        [
+          2.5,
+          17.5
+        ]
+      ],
+      "thickness_mm": 1.6,
+      "layers": 4,
+      "components": [
+        {
+          "ref": "D1",
+          "value": "S5971",
+          "kind": "S5971",
+          "xy": [
+            45.72,
+            83.82
+          ],
+          "nets": {
+            "1": "REF_SUM",
+            "3": "PD_NBIAS",
+            "2": "AGND"
+          },
+          "mpn": "S5971",
+          "source": "V03",
+          "pcb_anchor": [
+            7,
+            8
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "OPA828ID",
+          "kind": "OPA828_SOIC",
+          "xy": [
+            132.08,
+            83.82
+          ],
+          "nets": {
+            "1": "",
+            "2": "REF_SUM",
+            "3": "AGND",
+            "4": "-5VA",
+            "5": "",
+            "6": "REF_TIA",
+            "7": "+5VA",
+            "8": ""
+          },
+          "mpn": "OPA828ID",
+          "source": "V05",
+          "pcb_anchor": [
+            15,
+            8
+          ]
+        },
+        {
+          "ref": "R1",
+          "value": "10k 0.1%",
+          "kind": "R_H",
+          "xy": [
+            132.08,
+            40.64
+          ],
+          "nets": {
+            "1": "REF_SUM",
+            "2": "REF_TIA"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C1",
+          "value": "100p C0G",
+          "kind": "C_H",
+          "xy": [
+            132.08,
+            22.86
+          ],
+          "nets": {
+            "1": "REF_SUM",
+            "2": "REF_TIA"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R2",
+          "value": "33R 1%",
+          "kind": "R_H",
+          "xy": [
+            223.52,
+            83.82
+          ],
+          "nets": {
+            "1": "REF_TIA",
+            "2": "REF_V"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R3",
+          "value": "1k 1%",
+          "kind": "R_H",
+          "xy": [
+            55.88,
+            170.18
+          ],
+          "nets": {
+            "1": "-5VA",
+            "2": "PD_NBIAS"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C2",
+          "value": "100n X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            91.44,
+            195.58
+          ],
+          "nets": {
+            "1": "PD_NBIAS",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C3",
+          "value": "100n X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            175.26,
+            180.34
+          ],
+          "nets": {
+            "1": "+5VA",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C4",
+          "value": "100n X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            215.9,
+            180.34
+          ],
+          "nets": {
+            "1": "-5VA",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C5",
+          "value": "2.2u X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            256.54,
+            180.34
+          ],
+          "nets": {
+            "1": "+5VA",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C6",
+          "value": "2.2u X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            297.18,
+            180.34
+          ],
+          "nets": {
+            "1": "-5VA",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "J1",
+          "value": "HEADER 1x4 P1.27",
+          "kind": "CONN4",
+          "xy": [
+            317.5,
+            76.2
+          ],
+          "nets": {
+            "1": "+5VA",
+            "2": "AGND",
+            "3": "-5VA",
+            "4": "REF_V"
+          },
+          "mpn": "",
+          "source": "R51_HEADER_UNCHANGED",
+          "pcb_anchor": [
+            22,
+            10
+          ]
+        },
+        {
+          "ref": "TP1",
+          "value": "REF_V",
+          "kind": "TP",
+          "xy": [
+            254,
+            116.84
+          ],
+          "nets": {
+            "1": "REF_V"
+          },
+          "mpn": ""
+        },
+        {
+          "ref": "#FLG1",
+          "value": "+5VA",
+          "kind": "PWR_FLAG",
+          "xy": [
+            25.4,
+            261.62
+          ],
+          "nets": {
+            "1": "+5VA"
+          },
+          "mpn": "",
+          "in_bom": false
+        },
+        {
+          "ref": "#FLG2",
+          "value": "-5VA",
+          "kind": "PWR_FLAG",
+          "xy": [
+            60.96,
+            261.62
+          ],
+          "nets": {
+            "1": "-5VA"
+          },
+          "mpn": "",
+          "in_bom": false
+        },
+        {
+          "ref": "#FLG3",
+          "value": "AGND",
+          "kind": "PWR_FLAG",
+          "xy": [
+            96.52000000000001,
+            261.62
+          ],
+          "nets": {
+            "1": "AGND"
+          },
+          "mpn": "",
+          "in_bom": false
+        }
+      ],
+      "routes": [],
+      "notes": [
+        "Preserves R51 four-pin interface; bipolar supply required.",
+        "Photodiode nominal reverse bias 5V. Current into cathode is sunk to negative bias; output is positive.",
+        "0..100uA input corresponds approximately 0..1V output. Confirm pickoff power before connecting.",
+        "RF=10k / CF=100p is a ~159kHz feedback pole; reference and PMT channel delays must be aligned.",
+        "This reference signal feeds B02 channel B through its own FDA; not directly a differential ADC input."
+      ],
+      "external_drivers": {},
+      "stage": "SCHEMATIC_CANDIDATE_NOT_RELEASED",
+      "model": {
+        "rf_ohm": 10000.0,
+        "cf_F": 1e-10,
+        "a0": 1000000.0,
+        "gbw_Hz": 45000000.0,
+        "cin_F": 2e-11
+      }
+    },
+    {
+      "id": "B01",
+      "name": "H10720-20 current TIA and DC-coupled differential ADC driver",
+      "size_mm": [
+        90,
+        50
+      ],
+      "holes": [
+        [
+          3,
+          3
+        ],
+        [
+          87,
+          3
+        ],
+        [
+          87,
+          47
+        ],
+        [
+          3,
+          47
+        ]
+      ],
+      "thickness_mm": 1.6,
+      "layers": 4,
+      "components": [
+        {
+          "ref": "JPMT1",
+          "value": "H10720-20 MODULE",
+          "kind": "H10720_MODULE",
+          "xy": [
+            33.02,
+            81.28
+          ],
+          "nets": {
+            "1": "",
+            "2": "PMT_VREF",
+            "3": "PMT_VCONT",
+            "4": "5VA_PMT",
+            "5": "AGND",
+            "6": "AGND",
+            "7": "PMT_I",
+            "8": ""
+          },
+          "mpn": "H10720-20",
+          "source": "V08; socket MPN/land pattern TBD",
+          "pcb_anchor": [
+            42,
+            17
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "OPA828ID",
+          "kind": "OPA828_SOIC",
+          "xy": [
+            132.08,
+            91.44
+          ],
+          "nets": {
+            "1": "",
+            "2": "PMT_I",
+            "3": "AGND",
+            "4": "-5VA",
+            "5": "",
+            "6": "TIA_OUT",
+            "7": "+5VA",
+            "8": ""
+          },
+          "mpn": "OPA828ID",
+          "source": "V05",
+          "pcb_anchor": [
+            34,
+            33
+          ]
+        },
+        {
+          "ref": "R1",
+          "value": "100k 0.1%",
+          "kind": "R_H",
+          "xy": [
+            132.08,
+            48.26
+          ],
+          "nets": {
+            "1": "PMT_I",
+            "2": "TIA_OUT"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C1",
+          "value": "2.2p C0G",
+          "kind": "C_H",
+          "xy": [
+            132.08,
+            30.48
+          ],
+          "nets": {
+            "1": "PMT_I",
+            "2": "TIA_OUT"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "U2",
+          "value": "AD8138ARZ",
+          "kind": "AD8138_SOIC",
+          "xy": [
+            281.94,
+            91.44
+          ],
+          "nets": {
+            "1": "FDA_N",
+            "2": "ADC_VCM",
+            "3": "+5VA",
+            "4": "D_A_P",
+            "5": "D_A_N",
+            "6": "-5VA",
+            "7": "",
+            "8": "FDA_P"
+          },
+          "mpn": "AD8138ARZ",
+          "source": "V06",
+          "pcb_anchor": [
+            61,
+            33
+          ]
+        },
+        {
+          "ref": "R2",
+          "value": "499R 0.1%",
+          "kind": "R_H",
+          "xy": [
+            218.44,
+            76.2
+          ],
+          "nets": {
+            "1": "TIA_OUT",
+            "2": "FDA_P"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R3",
+          "value": "806R 0.1%",
+          "kind": "R_H",
+          "xy": [
+            281.94,
+            35.56
+          ],
+          "nets": {
+            "1": "D_A_N",
+            "2": "FDA_P"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R4",
+          "value": "499R 0.1%",
+          "kind": "R_H",
+          "xy": [
+            218.44,
+            116.84
+          ],
+          "nets": {
+            "1": "OFFSET_0V5",
+            "2": "FDA_N"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R5",
+          "value": "806R 0.1%",
+          "kind": "R_H",
+          "xy": [
+            281.94,
+            149.86
+          ],
+          "nets": {
+            "1": "D_A_P",
+            "2": "FDA_N"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R6",
+          "value": "33R 1%",
+          "kind": "R_H",
+          "xy": [
+            335.28,
+            81.28
+          ],
+          "nets": {
+            "1": "D_A_P",
+            "2": "ADC_A_P"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "R7",
+          "value": "33R 1%",
+          "kind": "R_H",
+          "xy": [
+            335.28,
+            111.76
+          ],
+          "nets": {
+            "1": "D_A_N",
+            "2": "ADC_A_N"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C2",
+          "value": "330p C0G",
+          "kind": "C_V",
+          "xy": [
+            370.84,
+            96.52
+          ],
+          "nets": {
+            "1": "ADC_A_P",
+            "2": "ADC_A_N"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "J1",
+          "value": "HEADER 2x3 P2.54",
+          "kind": "CONN6",
+          "xy": [
+            378.46,
+            190.5
+          ],
+          "nets": {
+            "1": "ADC_A_P",
+            "2": "AGND",
+            "3": "ADC_A_N",
+            "4": "AGND",
+            "5": "ADC_VCM",
+            "6": "AGND"
+          },
+          "mpn": "",
+          "source": "R51_INTERFACE",
+          "pcb_anchor": [
+            78,
+            34
+          ]
+        },
+        {
+          "ref": "J2",
+          "value": "HEADER 2x4 P2.54",
+          "kind": "CONN8",
+          "xy": [
+            38.1,
+            210.82
+          ],
+          "nets": {
+            "1": "+5VA",
+            "2": "AGND",
+            "3": "-5VA",
+            "4": "5VA_PMT",
+            "5": "PMT_VCONT",
+            "6": "AGND",
+            "7": "OFFSET_0V5",
+            "8": "PMT_VREF"
+          },
+          "mpn": "",
+          "source": "R51_INTERFACE",
+          "pcb_anchor": [
+            14,
+            35
+          ]
+        },
+        {
+          "ref": "C3",
+          "value": "100n X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            99.06,
+            210.82
+          ],
+          "nets": {
+            "1": "+5VA",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C4",
+          "value": "100n X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            129.54,
+            210.82
+          ],
+          "nets": {
+            "1": "-5VA",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C5",
+          "value": "100n X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            160.02,
+            210.82
+          ],
+          "nets": {
+            "1": "+5VA",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C6",
+          "value": "100n X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            190.5,
+            210.82
+          ],
+          "nets": {
+            "1": "-5VA",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C7",
+          "value": "2.2u X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            220.98,
+            210.82
+          ],
+          "nets": {
+            "1": "+5VA",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C8",
+          "value": "2.2u X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            251.46,
+            210.82
+          ],
+          "nets": {
+            "1": "-5VA",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "C9",
+          "value": "2.2u X7R 16V",
+          "kind": "C_V",
+          "xy": [
+            281.94,
+            210.82
+          ],
+          "nets": {
+            "1": "5VA_PMT",
+            "2": "AGND"
+          },
+          "mpn": "",
+          "source": "DESIGN_PROPOSED"
+        },
+        {
+          "ref": "TP1",
+          "value": "TIA_OUT",
+          "kind": "TP",
+          "xy": [
+            170.18,
+            134.62
+          ],
+          "nets": {
+            "1": "TIA_OUT"
+          },
+          "mpn": ""
+        },
+        {
+          "ref": "TP2",
+          "value": "ADC_VCM",
+          "kind": "TP",
+          "xy": [
+            322.58,
+            157.48
+          ],
+          "nets": {
+            "1": "ADC_VCM"
+          },
+          "mpn": ""
+        },
+        {
+          "ref": "#FLG1",
+          "value": "+5VA",
+          "kind": "PWR_FLAG",
+          "xy": [
+            25.4,
+            261.62
+          ],
+          "nets": {
+            "1": "+5VA"
+          },
+          "mpn": "",
+          "in_bom": false
+        },
+        {
+          "ref": "#FLG2",
+          "value": "-5VA",
+          "kind": "PWR_FLAG",
+          "xy": [
+            60.96,
+            261.62
+          ],
+          "nets": {
+            "1": "-5VA"
+          },
+          "mpn": "",
+          "in_bom": false
+        },
+        {
+          "ref": "#FLG3",
+          "value": "5VA_PMT",
+          "kind": "PWR_FLAG",
+          "xy": [
+            96.52000000000001,
+            261.62
+          ],
+          "nets": {
+            "1": "5VA_PMT"
+          },
+          "mpn": "",
+          "in_bom": false
+        },
+        {
+          "ref": "#FLG4",
+          "value": "AGND",
+          "kind": "PWR_FLAG",
+          "xy": [
+            132.08,
+            261.62
+          ],
+          "nets": {
+            "1": "AGND"
+          },
+          "mpn": "",
+          "in_bom": false
+        }
+      ],
+      "routes": [],
+      "notes": [
+        "PMT current is modeled as a sink at PMT_I; verify output polarity with manufacturer/sample.",
+        "RF/CF are solder-selected gain pairs: baseline100k/2.2p; alternatives10k/6.8p and1k/22p.",
+        "AD8138 differential gain=806/499=1.6152, offset=0.5V. 0..1V TIA maps to +/-0.8076V differential.",
+        "ADC full scale assumed2Vpp differential, SENSE=GND. ADC_VCM is supplied by B02 (nominal0.9V).",
+        "OPA828 and FDA decouplers must sit at their power pins. Do not parallel a LOG amplifier at PMT_I.",
+        "PMT socket mechanical pattern is provisional: inherited pads are NOT manufacturer-approved sockets."
+      ],
+      "external_drivers": {},
+      "stage": "SCHEMATIC_CANDIDATE_NOT_RELEASED",
+      "model": {
+        "rf_ohm": 100000.0,
+        "cf_F": 2.2e-12,
+        "a0": 1000000.0,
+        "gbw_Hz": 45000000.0,
+        "cin_F": 2e-11,
+        "fda_gain": 1.6152304609218437,
+        "offset_V": 0.5,
+        "adc_vcm_V": 0.9,
+        "adc_diff_fullspan_V": 2.0,
+        "r_series_each_ohm": 33,
+        "c_diff_F": 3.3e-10
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "method": "custom S-expression hierarchy and net reference checks, NOT KiCad native parser/ERC/DRC",
+  "checks": [
+    {
+      "file": "B07_R5_placement.kicad_pcb",
+      "root": "kicad_pcb",
+      "footprints": 7,
+      "pads": 8,
+      "no_top_level_pads": true,
+      "net_references_consistent": true
+    },
+    {
+      "file": "B05_R5_placement.kicad_pcb",
+      "root": "kicad_pcb",
+      "footprints": 12,
+      "pads": 67,
+      "no_top_level_pads": true,
+      "net_references_consistent": true
+    },
+    {
+      "file": "B02_R5_placement.kicad_pcb",
+      "root": "kicad_pcb",
+      "footprints": 32,
+      "pads": 179,
+      "no_top_level_pads": true,
+      "net_references_consistent": true
+    },
+    {
+      "file": "B01_R5_placement.kicad_pcb",
+      "root": "kicad_pcb",
+      "footprints": 29,
+      "pads": 68,
+      "no_top_level_pads": true,
+      "net_references_consistent": true
+    },
+    {
+      "file": "B03_R5_placement.kicad_pcb",
+      "root": "kicad_pcb",
+      "footprints": 10,
+      "pads": 16,
+      "no_top_level_pads": true,
+      "net_references_consistent": true
+    },
+    {
+      "file": "B08_R5_placement.kicad_pcb",
+      "root": "kicad_pcb",
+      "footprints": 7,
+      "pads": 8,
+      "no_top_level_pads": true,
+      "net_references_consistent": true
+    },
+    {
+      "file": "B06_R5_placement.kicad_pcb",
+      "root": "kicad_pcb",
+      "footprints": 7,
+      "pads": 8,
+      "no_top_level_pads": true,
+      "net_references_consistent": true
+    },
+    {
+      "file": "B04_R5_placement.kicad_pcb",
+      "root": "kicad_pcb",
+      "footprints": 12,
+      "pads": 20,
+      "no_top_level_pads": true,
+      "net_references_consistent": true
+    }
+  ]
+}

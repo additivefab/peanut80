@@ -1,0 +1,126 @@
+{
+  "variant": "A",
+  "scope": "rigid nominal B-rep intersections of the R5-PDR1 core with the R5.2 collector change; no tolerances, cables, fasteners; boards and purchased items are envelopes",
+  "core_instances": 136,
+  "core_overlaps": [
+    {
+      "a": "AFE_post_-24_97",
+      "b": "Film_sensor_-25_-110_102",
+      "a_part": "EP_VERT",
+      "b_part": "S03",
+      "volume_mm3": 42.517
+    },
+    {
+      "a": "Analog_shield",
+      "b": "Film_sensor_-25_-110_102",
+      "a_part": "H01",
+      "b_part": "S03",
+      "volume_mm3": 205.729
+    },
+    {
+      "a": "Analog_shield",
+      "b": "Film_sensor_25_-110_102",
+      "a_part": "H01",
+      "b_part": "S03",
+      "volume_mm3": 222.75
+    }
+  ],
+  "g3_parts_checked": 129,
+  "overlaps_vs_g3": [],
+  "clearances": [
+    {
+      "a": "Guide_shroud_R52",
+      "b": "Roller_rubber_-42_99.9",
+      "min_distance_mm": 2.3
+    },
+    {
+      "a": "Guide_plate_R52",
+      "b": "Guide_shroud_R52",
+      "min_distance_mm": 0.38
+    },
+    {
+      "a": "Guide_shroud_R52",
+      "b": "Analog_shield",
+      "min_distance_mm": 5.35
+    },
+    {
+      "a": "Guide_plate_R52",
+      "b": "PMT",
+      "min_distance_mm": 0.35
+    },
+    {
+      "a": "Analog_shield",
+      "b": "Film_sensor_-25_-110_102",
+      "min_distance_mm": 0.0
+    },
+    {
+      "a": "Analog_shield",
+      "b": "Film_sensor_25_-110_102",
+      "min_distance_mm": 0.0
+    },
+    {
+      "a": "Analog_shield",
+      "b": "Labyrinth-132",
+      "min_distance_mm": 4.6
+    },
+    {
+      "a": "Analog_shield",
+      "b": "SP2_envelope",
+      "min_distance_mm": 3.0
+    },
+    {
+      "a": "PMT线性TIA前端卡",
+      "b": "Film_sensor_-25_-110_102",
+      "min_distance_mm": 0.8
+    },
+    {
+      "a": "PMT线性TIA前端卡",
+      "b": "Film_sensor_25_-110_102",
+      "min_distance_mm": 0.8
+    },
+    {
+      "a": "AFE_post_-24_97",
+      "b": "Film_sensor_-25_-110_102",
+      "min_distance_mm": 0.0
+    },
+    {
+      "a": "Guide_shroud_R52",
+      "b": "Cavity_shell",
+      "min_distance_mm": 0.5
+    },
+    {
+      "a": "Guide_shroud_R52",
+      "b": "Saddle_48",
+      "min_distance_mm": 17.5
+    },
+    {
+      "a": "PMT",
+      "b": "Roller_rubber_-42_99.9",
+      "min_distance_mm": 18.03
+    },
+    {
+      "a": "Guide_shroud_R52",
+      "b": "G3:LOWER_COVER_-42",
+      "min_distance_mm": 2.3
+    },
+    {
+      "a": "Guide_shroud_R52",
+      "b": "G3:LOWER_CORE_-42",
+      "min_distance_mm": 5.3
+    }
+  ],
+  "g3_nearest_to_shroud": [
+    {
+      "name": "LOWER_COVER_-42",
+      "min_distance_mm": 2.3
+    },
+    {
+      "name": "LOWER_CORE_-42",
+      "min_distance_mm": 5.3
+    },
+    {
+      "name": "UPPER_COVER_-42",
+      "min_distance_mm": 22.5
+    }
+  ]
+}

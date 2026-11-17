@@ -1,0 +1,2 @@
+﻿run_id,facet_id,sample_index,reference_time_s,rise_time_s,fall_time_s,peak_tia_V,threshold_V,temperature_C,laser_or_LED_setting,valid,raw_path,status
+,,,,,,,,,,,,NOT_RUN

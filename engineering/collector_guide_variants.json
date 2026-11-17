@@ -1,0 +1,183 @@
+[
+ {
+  "name": "R5现状 锥棒8x10→5.2x5.2 L32 出端气隙0.4",
+  "kind": "guide",
+  "port": [
+   8,
+   10
+  ],
+  "guide": [
+   8,
+   10,
+   5.2,
+   5.2,
+   32
+  ],
+  "grease": false,
+  "gap": 0.4
+ },
+ {
+  "name": "对照 PMT直贴Ø7.5口(无导光件)",
+  "kind": "direct",
+  "port": [
+   7.5,
+   7.5
+  ]
+ },
+ {
+  "name": "对照 锥棒8x10→5.6x5.6 L32 出端光学耦合",
+  "kind": "guide",
+  "port": [
+   8,
+   10
+  ],
+  "guide": [
+   8,
+   10,
+   5.6,
+   5.6,
+   32
+  ],
+  "grease": true,
+  "gap": 0
+ },
+ {
+  "name": "R5.2前稿 梯形板100x5→6.2x5 L50 出端光学耦合",
+  "kind": "guide",
+  "port": [
+   100,
+   5
+  ],
+  "guide": [
+   100,
+   5,
+   6.2,
+   5,
+   50
+  ],
+  "grease": true,
+  "gap": 0
+ },
+ {
+  "name": "R5.2前稿L50+散射片σ20°",
+  "kind": "guide",
+  "port": [
+   100,
+   5
+  ],
+  "guide": [
+   100,
+   5,
+   6.2,
+   5,
+   50
+  ],
+  "grease": true,
+  "gap": 0,
+  "src_sigma_deg": 20
+ },
+ {
+  "name": "R5.2试样B 梯形板L50 侧面空气隙反射膜",
+  "kind": "guide",
+  "port": [
+   100,
+   5
+  ],
+  "guide": [
+   100,
+   5,
+   6.2,
+   5,
+   50
+  ],
+  "grease": true,
+  "gap": 0,
+  "mirror_sides": true
+ },
+ {
+  "name": "R5.2退化 梯形板L50 出端留气隙0.4",
+  "kind": "guide",
+  "port": [
+   100,
+   5
+  ],
+  "guide": [
+   100,
+   5,
+   6.2,
+   5,
+   50
+  ],
+  "grease": false,
+  "gap": 0.4
+ },
+ {
+  "name": "R5.2试样C 梯形板100x5→6.2x5 L80 出端光学耦合",
+  "kind": "guide",
+  "port": [
+   100,
+   5
+  ],
+  "guide": [
+   100,
+   5,
+   6.2,
+   5,
+   80
+  ],
+  "grease": true,
+  "gap": 0
+ },
+ {
+  "name": "R5.2基线 梯形板100x5→6.2x5 L48 出端光学耦合",
+  "kind": "guide",
+  "port": [
+   100,
+   5
+  ],
+  "guide": [
+   100,
+   5,
+   6.2,
+   5,
+   48
+  ],
+  "grease": true,
+  "gap": 0
+ },
+ {
+  "name": "R5.2基线L48+散射片σ20°",
+  "kind": "guide",
+  "port": [
+   100,
+   5
+  ],
+  "guide": [
+   100,
+   5,
+   6.2,
+   5,
+   48
+  ],
+  "grease": true,
+  "gap": 0,
+  "src_sigma_deg": 20
+ },
+ {
+  "name": "R5.2基线L48 出端留气隙0.4",
+  "kind": "guide",
+  "port": [
+   100,
+   5
+  ],
+  "guide": [
+   100,
+   5,
+   6.2,
+   5,
+   48
+  ],
+  "grease": false,
+  "gap": 0.4
+ }
+]

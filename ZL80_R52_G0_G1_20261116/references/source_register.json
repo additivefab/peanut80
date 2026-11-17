@@ -1,0 +1,75 @@
+[
+  {
+    "id": "U01",
+    "kind": "USER_REQUIREMENT",
+    "name": "本项目用户2026-11-14与2026-11-15明确要求",
+    "locator": "80mm底片、100mm扫描预留；旋转棱镜；横置矩形狭缝积分筒侧窗输出",
+    "path": null
+  },
+  {
+    "id": "U02",
+    "kind": "EXISTING_GENERATED_DRAFT",
+    "name": "R5.2 README_总览.md",
+    "locator": "1核心方案；8关键假设",
+    "path": "references/R52_README_original.md"
+  },
+  {
+    "id": "U03",
+    "kind": "EXISTING_GENERATED_DRAFT",
+    "name": "R5.1配置和R5 CAD/选型依据",
+    "locator": "config/parameters.json; parts/instances; 选型CSV",
+    "path": "references/R51_parameters.json"
+  },
+  {
+    "id": "U04",
+    "kind": "ORIGINAL_USER_OBSERVATION",
+    "name": "激光扫描仪调研学习记录.docx",
+    "locator": "第1页棱镜/f-场镜；第2页PMT/对数前端；第3页ADC/FPGA",
+    "sha256": "ffe7e5858e0b1953993718cfbd5d87049a36d4ba19359b51902865be1d786887"
+  },
+  {
+    "id": "U05",
+    "kind": "PROJECT_SYNTHESIS_NOT_MEASUREMENT",
+    "name": "激光PMT工业底片扫描仪结构原理与自动馈片设计评估.pptx",
+    "locator": "第2-9页架构/扫描/同步；第28页边界",
+    "sha256": "d6a7bac9e14454d2226783f86d7d8a487f8c5e2a83db4f82905f1123579d8875"
+  },
+  {
+    "id": "V01",
+    "kind": "VENDOR_PRIMARY",
+    "name": "Sill Optics F-theta technical guide",
+    "url": "https://www.silloptics.de/en/service/sill-technical-guide/laser-optics/f-theta-lenses",
+    "checked": "2026-11-16",
+    "use": "角度映射、入瞳距离、渐晕与黑盒模型；不是已选镜头"
+  },
+  {
+    "id": "V02",
+    "kind": "VENDOR_PRIMARY",
+    "name": "Novanta Ball Bearing Polygon Scanners",
+    "url": "https://novanta.com/precision-manufacturing/product/ball-bearing-polygon-scanners/",
+    "checked": "2026-11-16",
+    "use": "产品族能力及编码器选项；不证明单型号覆盖全部转速"
+  },
+  {
+    "id": "V03",
+    "kind": "VENDOR_PRIMARY",
+    "name": "Hamamatsu S5971",
+    "url": "https://www.hamamatsu.com/jp/en/product/optical-sensors/photodiodes/si-photodiodes/S5971.html",
+    "checked": "2026-11-16",
+    "use": "候选同步PD，100MHz规格有偏置条件；系统抖动未验证"
+  },
+  {
+    "id": "V04",
+    "kind": "VENDOR_PRIMARY",
+    "name": "Hamamatsu H10720-20",
+    "url": "https://www.hamamatsu.com/us/en/product/optical-sensors/pmt/pmt-module/current-output-type/H10720-20.html",
+    "checked": "2026-11-16",
+    "use": "针脚模块；与H10721电缆模块区分，仅G2接口"
+  },
+  {
+    "id": "D01",
+    "kind": "NEW_ENGINEERING_PROPOSAL",
+    "name": "本交付包新建议与自行推导",
+    "locator": "所有PROPOSED项及ideal模型；未实测、未审批"
+  }
+]

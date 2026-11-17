@@ -1,0 +1,110 @@
+{
+ "basis": "assumptions, not measurements",
+ "coverage": [
+  {
+   "length_mm": 260,
+   "entry_follower_valid_mm": [
+    0,
+    213
+   ],
+   "exit_follower_valid_mm": [
+    47,
+    260
+   ],
+   "union_mm": [
+    0,
+    260
+   ],
+   "gap_mm": 0,
+   "cross_check_overlap_mm": 166,
+   "g3_unchanged_window_mm": [
+    47,
+    213
+   ]
+  },
+  {
+   "length_mm": 280,
+   "entry_follower_valid_mm": [
+    0,
+    233
+   ],
+   "exit_follower_valid_mm": [
+    47,
+    280
+   ],
+   "union_mm": [
+    0,
+    280
+   ],
+   "gap_mm": 0,
+   "cross_check_overlap_mm": 186,
+   "g3_unchanged_window_mm": [
+    47,
+    233
+   ]
+  },
+  {
+   "length_mm": 300,
+   "entry_follower_valid_mm": [
+    0,
+    253
+   ],
+   "exit_follower_valid_mm": [
+    47,
+    300
+   ],
+   "union_mm": [
+    0,
+    300
+   ],
+   "gap_mm": 0,
+   "cross_check_overlap_mm": 206,
+   "g3_unchanged_window_mm": [
+    47,
+    253
+   ]
+  }
+ ],
+ "resolution": {
+  "counts_per_rev": 16384,
+  "step_um": 3.834951969714103,
+  "pixel_pitch_um": 50,
+  "step_over_pixel_pct": 7.669903939428206,
+  "rim_equivalent_of_0p2deg_um": 34.90658503988659,
+  "note": "14-bit class ABI sensor assumed; the datasheet accuracy of the candidate part is not verified here, the budget keeps the 0.2 deg used for the G3 encoders"
+ },
+ "counts_rate": [
+  {
+   "mode": "快速",
+   "feed_mm_s": 15.0,
+   "counts_per_s": 3911.39188142642
+  },
+  {
+   "mode": "标准",
+   "feed_mm_s": 1.875,
+   "counts_per_s": 488.9239851783025
+  },
+  {
+   "mode": "高黑度(PMT增益1000待确认)",
+   "feed_mm_s": 0.9375,
+   "counts_per_s": 244.46199258915124
+  },
+  {
+   "mode": "高黑度(PMT增益5000)",
+   "feed_mm_s": 0.234375,
+   "counts_per_s": 61.11549814728781
+  }
+ ],
+ "preload": {
+  "added_moving_mass_g": 4.44,
+  "g3_assumed_moving_mass_g": 200.0,
+  "added_pct": 2.22,
+  "added_weight_n": 0.04355640000000001,
+  "preload_n": 6.06,
+  "preload_change_pct": 0.718752475247525
+ },
+ "cross_check": {
+  "provisional_limit_mm": 0.05,
+  "basis": "provisional; set on the bench from the measured scatter of the two followers on a calibration target; the controller faults FOLLOWER_MISMATCH when the check input is false in the overlap zone"
+ }
+}

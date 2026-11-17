@@ -1,0 +1,22 @@
+{
+  "scope": "IDEAL_GEOMETRY_AND_DIGITAL_BUDGET_NOT_PERFORMANCE",
+  "line_frequency_hz": 300.0,
+  "scan_speed_mm_s": 62831.853071795864,
+  "sync_window_us": 1464.2254764454372,
+  "image_window_us": 1273.2395447351628,
+  "pixel_dwell_us": 0.7957747154594768,
+  "instantaneous_pixel_rate_hz": 1256637.0614359172,
+  "feed_mm_s": 15.0,
+  "adc_pipeline_ns": 600.0,
+  "adc_pipeline_logic_ticks": 60.0,
+  "raw_adc_bytes_s": 80000000,
+  "tagged_sample_bytes_s": 320000000,
+  "axis_peak_bytes_s": 800000000,
+  "single_channel_image_bytes_s": 960000,
+  "sample_fifo_full_stall_us": 51.199999999999996,
+  "nominal_5ms_tagged_burst_bytes": 1600000,
+  "encoder_quantization_um": 3.834951969714103,
+  "event_one_tick_x_um": 0.6283185307179586,
+  "event_3_ticks_x_um": 1.8849555921538759,
+  "warning": "10ns clock quantization is not total synchronization accuracy; amplifier/comparator timewalk and phase remain"
+}

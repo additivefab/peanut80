@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "filename": "B01_G2E01.kicad_pro",
+    "version": 1
+  },
+  "text_variables": {
+    "DESIGN_STATUS": "NOT_RELEASED"
+  },
+  "schematic": {
+    "meta": {
+      "version": 1
+    }
+  }
+}

@@ -1,0 +1,12 @@
+﻿board,connector,pin,signal,direction,level,rule
+B06/B07,J1,1,5VA_IN,INPUT,外部5V,旧接口保留；电源合格后LDO生成3.3V
+B06/B07,J1,"2,4",GND,RETURN,0V,短回流；不当作远距离抗干扰差分接口
+B06/B07,J1,3,SYNC,OUTPUT,3.3V push-pull,接收端必须3.3V兼容；不能接1.8V Bank33
+B08,J1,"1,2,3,4","+5VA,AGND,-5VA,REF_V",MIXED,±5V / 0..1V nominal,REF_V单端；由B02专用FDA转差分
+B01,J1,"1,3","ADC_A_P,ADC_A_N",OUTPUT,0.9V共模 / ±0.8076V差分,禁止交流耦合；外部ADC需2Vpp范围
+B01,J1,5,ADC_VCM,INPUT,来自B02，候选0.9V,不是B01自生电源；本次B02未完成
+B01,J2,"1,3,4","+5VA,-5VA,5VA_PMT",POWER_INPUT,按各器件范围核对,PMT与AFE供电分支分别滤波
+B01,J2,5,PMT_VCONT,INPUT,推荐0.5..1.1V,限制/启动/故障控制由未闭合B03负责
+B01,J2,7,OFFSET_0V5,INPUT,0.5V精密低噪声参考,测试可由限流、校准过的台架提供；未设计B03发生器
+B01,J2,8,PMT_VREF,OUTPUT,模块参考，约1.2V,先核对最大负载，禁止外部强驱动
+B02,AD9268,32data+2DCO,CMOS_BUS,OUTPUT,1.8V,必须与SP2 Vadj和真实板卡版本核对；非LVDS

@@ -1,0 +1,177 @@
+{
+  "scope": "Nominal STEP bodies and provisional mating corridors versus R5.2 core and ADF envelopes. Excludes case, detailed ADF, harnesses, tolerances and new B01 artwork.",
+  "volume_threshold_mm3": 0.01,
+  "boards_and_components": 123,
+  "context_objects": 135,
+  "removed_duplicate_proxies": [
+    "084_S01_PD_sync-46",
+    "085_S01_PD_sync46",
+    "086_S01_PD_reference",
+    "101_B01",
+    "122_B06",
+    "123_B07",
+    "124_B08"
+  ],
+  "b01_y_shift_mm": -12.4,
+  "as_delivered_bodies": [
+    {
+      "object": "B01_PCB",
+      "context": "055_P04_PMT_pin_1",
+      "mm3": 1.257,
+      "status": "REVIEW"
+    },
+    {
+      "object": "B01_PCB",
+      "context": "056_P04_PMT_pin_2",
+      "mm3": 1.257,
+      "status": "REVIEW"
+    },
+    {
+      "object": "B01_PCB",
+      "context": "057_P04_PMT_pin_3",
+      "mm3": 1.257,
+      "status": "REVIEW"
+    },
+    {
+      "object": "B01_PCB",
+      "context": "058_P04_PMT_pin_8",
+      "mm3": 1.257,
+      "status": "REVIEW"
+    },
+    {
+      "object": "B01_PCB",
+      "context": "059_P04_PMT_pin_7",
+      "mm3": 1.257,
+      "status": "REVIEW"
+    },
+    {
+      "object": "B01_PCB",
+      "context": "060_P04_PMT_pin_6",
+      "mm3": 1.257,
+      "status": "REVIEW"
+    },
+    {
+      "object": "B01_PCB",
+      "context": "061_P04_PMT_pin_5",
+      "mm3": 1.257,
+      "status": "REVIEW"
+    },
+    {
+      "object": "B01_PCB",
+      "context": "062_P04_PMT_pin_4",
+      "mm3": 1.257,
+      "status": "REVIEW"
+    },
+    {
+      "object": "B01_PCB",
+      "context": "098_S05_Temp_PMT",
+      "mm3": 25.6,
+      "status": "REVIEW"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "054_P03_PMT",
+      "mm3": 27.238,
+      "status": "REVIEW"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "055_P04_PMT_pin_1",
+      "mm3": 1.963,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "056_P04_PMT_pin_2",
+      "mm3": 1.963,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "057_P04_PMT_pin_3",
+      "mm3": 1.963,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "058_P04_PMT_pin_8",
+      "mm3": 1.963,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "059_P04_PMT_pin_7",
+      "mm3": 1.963,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "060_P04_PMT_pin_6",
+      "mm3": 1.963,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "061_P04_PMT_pin_5",
+      "mm3": 1.963,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "062_P04_PMT_pin_4",
+      "mm3": 1.963,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    }
+  ],
+  "aligned_bodies": [
+    {
+      "object": "B01_JPMT1",
+      "context": "055_P04_PMT_pin_1",
+      "mm3": 0.864,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "056_P04_PMT_pin_2",
+      "mm3": 0.864,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "057_P04_PMT_pin_3",
+      "mm3": 0.864,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "058_P04_PMT_pin_8",
+      "mm3": 0.864,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "059_P04_PMT_pin_7",
+      "mm3": 0.864,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "060_P04_PMT_pin_6",
+      "mm3": 0.864,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "061_P04_PMT_pin_5",
+      "mm3": 0.864,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    },
+    {
+      "object": "B01_JPMT1",
+      "context": "062_P04_PMT_pin_4",
+      "mm3": 0.864,
+      "status": "SOCKET_PIN_OCCUPANCY"
+    }
+  ],
+  "aligned_mating_corridors": []
+}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D12  编码器精度预算与安装</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">设计分配与名义几何；图中包络不等于厂商实物认证。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="70" y="205" width="420" height="140" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="280.0" y="240" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">AMT112S-V ×2</text>
+<text x="82" y="270" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">5V供电；4096PPR编程；ABZ → 3.3V缓冲</text>
+<rect x="580" y="205" width="420" height="140" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="790.0" y="240" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">直径20 mm测量辊</text>
+<text x="592" y="270" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">有效直径随压紧、磨损和温度变化</text>
+<rect x="1080" y="205" width="450" height="140" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="1305.0" y="240" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">FPGA位置标记</text>
+<text x="1092" y="270" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">入口计量＋出口复核，不把电机步数当片长</text>
+<line x1="490" y1="275" x2="570" y2="275" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<line x1="1000" y1="275" x2="1070" y2="275" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<rect x="90" y="420" width="1420" height="92" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="100" y="450" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="white" font-weight="700" text-anchor="start">量</text>
+<text x="455.0" y="450" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="white" font-weight="700" text-anchor="start">结果</text>
+<text x="810.0" y="450" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="white" font-weight="700" text-anchor="start">工程解释</text>
+<rect x="90" y="512" width="1420" height="92" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="100" y="538" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">四倍频计数</text>
+<text x="455.0" y="538" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">16,384 count/rev</text>
+<text x="810.0" y="538" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">量化步距 = π×20/16384</text>
+<rect x="90" y="604" width="1420" height="92" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="100" y="630" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">名义位移步距</text>
+<text x="455.0" y="630" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">3.835 μm</text>
+<text x="810.0" y="630" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">不是实际测量精度</text>
+<rect x="90" y="696" width="1420" height="92" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="100" y="722" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">典型角度误差</text>
+<text x="455.0" y="722" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">0.2° → 34.9 μm弧长</text>
+<text x="810.0" y="722" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">未经LUT标定，不支持5μm精度声明</text>
+<rect x="90" y="788" width="1420" height="92" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="100" y="814" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">外部基准验证</text>
+<text x="455.0" y="814" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">全周轮角LUT + 长度/滑移试验</text>
+<text x="810.0" y="814" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">两轮一致也可能共同打滑</text>
+<rect x="90" y="880" width="1420" height="92" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="100" y="906" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">更高精度路线</text>
+<text x="455.0" y="906" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">精密光学编码器/直接位移参考</text>
+<text x="810.0" y="906" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#172d3f" font-weight="400" text-anchor="start">重新核算体积、成本、计量链</text>
+<text x="100" y="1000" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">主机上电时轴静止等待编码器初始化；运行时同步监测非法AB跳变、丢脉冲、反转和两轮差值。</text>
+</svg>

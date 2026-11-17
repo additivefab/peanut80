@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D06  光学顺序与二维扫描几何</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">多条红线表示不同时刻的飞点路径，不表示同时照亮整条线。光学处方与真实工作距仍待联合RFQ。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="70" y="185" width="180" height="115" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="160.0" y="220" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">635nm激光</text>
+<text x="82" y="250" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">APC / 硬件禁能</text>
+<rect x="290" y="185" width="190" height="115" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="385.0" y="220" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">整形+ND</text>
+<text x="302" y="250" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">参考光取样</text>
+<rect x="530" y="185" width="210" height="115" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="635.0" y="220" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">六面polygon</text>
+<text x="542" y="250" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">单方向周期扫点</text>
+<line x1="250" y1="245" x2="285" y2="245" stroke="#cb462e" stroke-width="4" marker-end="url(#arr)" />
+<line x1="480" y1="245" x2="525" y2="245" stroke="#cb462e" stroke-width="4" marker-end="url(#arr)" />
+<polygon points="630,320 800,520 460,520" fill="#fff0eb" stroke="#cb462e" stroke-width="1"/>
+<rect x="450" y="390" width="370" height="48" rx="0" fill="#d4edf4" stroke="#226da6" stroke-width="2"/>
+<text x="860" y="420" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#226da6" font-weight="700" text-anchor="start">f-θ镜组：RFQ 96×44×30</text>
+<rect x="380" y="520" width="500" height="15" rx="0" fill="#d5d9dc" stroke="#5e7180" stroke-width="1.5"/>
+<text x="910" y="540" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#172d3f" font-weight="400" text-anchor="start">80mm胶片，Y连续运动</text>
+<line x1="450" y1="555" x2="820" y2="555" stroke="#226da6" stroke-width="3" />
+<text x="635" y="590" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#226da6" font-weight="700" text-anchor="middle">100 mm扫描预留 / ROI ±40</text>
+<rect x="445" y="635" width="390" height="105" rx="12" fill="#e8edf0" stroke="#226da6" stroke-width="2"/>
+<rect x="460" y="625" width="360" height="8" rx="0" fill="white" stroke="#cb462e" stroke-width="2"/>
+<text x="640" y="685" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#226da6" font-weight="700" text-anchor="middle">横置积分筒 / 顶部104×1.2狭缝</text>
+<line x1="600" y1="535" x2="600" y2="625" stroke="#cb462e" stroke-width="4" marker-end="url(#arr)" />
+<line x1="445" y1="690" x2="440" y2="690" stroke="#226da6" stroke-width="5" marker-end="url(#arr)" />
+<rect x="245" y="640" width="190" height="110" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="340.0" y="675" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">PMMA导光</text>
+<text x="257" y="705" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">侧窗8×10 → 5.2</text>
+<text x="257" y="730" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">方</text>
+<line x1="245" y1="690" x2="200" y2="690" stroke="#226da6" stroke-width="5" marker-end="url(#arr)" />
+<rect x="45" y="640" width="150" height="110" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="120.0" y="675" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">单PMT</text>
+<text x="57" y="705" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">先透片后收光</text>
+<text x="1000" y="200" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#172d3f" font-weight="400" text-anchor="start">X=快扫描，Y=连续送片，Z=高度。</text>
+<text x="1000" y="238" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#172d3f" font-weight="400" text-anchor="start">光斑在一行内经过不同Y位置，不能把整条轨迹写成同一Y</text>
+<text x="1000" y="276" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#172d3f" font-weight="400" text-anchor="start">。</text>
+<text x="1000" y="314" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#172d3f" font-weight="400" text-anchor="start">有效图像80mm≠镜组可只覆盖80mm。</text>
+<text x="1000" y="352" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#172d3f" font-weight="400" text-anchor="start">EFL100mm仅算例，不等于胶片与镜片机械间距。</text>
+<rect x="970" y="695" width="570" height="115" rx="5" fill="#edf4f8" stroke="none" stroke-width="1.5"/>
+<text x="988" y="727" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">参考光不是第二个图像探测器</text>
+<text x="988" y="760" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">参考PD用于归一化光源变化；PMT负责透射光计量。SOS/EO</text>
+<text x="988" y="787" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">S是片外定时点。</text>
+</svg>

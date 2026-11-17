@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D15  线性TIA与对数前端的分支决策</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">资料冲突不静默合并：原机照片显示LOG；新增PPT提出TIA。R5明确选择线性TIA为基线，LOG保留替换卡。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="60" y="235" width="240" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="180.0" y="270" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">PMT电流</text>
+<text x="72" y="300" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">阳极接口短连接</text>
+<rect x="390" y="235" width="300" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="540.0" y="270" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">OPA828线性TIA</text>
+<text x="402" y="300" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">Rf100k / Cf1.5p起算</text>
+<rect x="780" y="235" width="300" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="930.0" y="270" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">AD8138差分驱动</text>
+<text x="792" y="300" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">偏置/VCM；保留DC</text>
+<rect x="1170" y="235" width="300" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="1320.0" y="270" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">AD9268通道A</text>
+<text x="1182" y="300" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">20MSPS / 饱和标志</text>
+<line x1="300" y1="300" x2="380" y2="300" stroke="#226da6" stroke-width="4" marker-end="url(#arr)" />
+<line x1="690" y1="300" x2="770" y2="300" stroke="#226da6" stroke-width="4" marker-end="url(#arr)" />
+<line x1="1080" y1="300" x2="1160" y2="300" stroke="#226da6" stroke-width="4" marker-end="url(#arr)" />
+<rect x="75" y="470" width="1450" height="85" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="85" y="500" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">档位/分支</text>
+<text x="418.5" y="500" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">初步参数</text>
+<text x="882.5" y="500" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">验证要求</text>
+<rect x="75" y="555" width="1450" height="85" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="85" y="581" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">低跨阻试样</text>
+<text x="418.5" y="581" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">10k / 4.7p</text>
+<text x="882.5" y="581" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">亮端饱和、输入寄生、阶跃</text>
+<rect x="75" y="640" width="1450" height="85" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="85" y="666" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">标准跨阻试样</text>
+<text x="418.5" y="666" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">100k / 1.5p</text>
+<text x="882.5" y="666" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">非最终补偿值；全链幅相测试</text>
+<rect x="75" y="725" width="1450" height="85" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="85" y="751" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">高跨阻试样</text>
+<text x="418.5" y="751" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">1M / 0.5p</text>
+<text x="882.5" y="751" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">不能只因Rf大就认为高OD可用</text>
+<rect x="75" y="810" width="1450" height="85" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="85" y="836" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">LOG替换</text>
+<text x="418.5" y="836" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">同90×50空间，不与TIA并联</text>
+<text x="882.5" y="836" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">电流极性转换与低光响应待定</text>
+<rect x="75" y="895" width="1450" height="85" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="85" y="921" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">动态边界</text>
+<text x="418.5" y="921" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">纵向过采样 ≠ 横向拖尾修复</text>
+<text x="882.5" y="921" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">高低OD邻边、不同速度A/B</text>
+<text x="85" y="990" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#cb462e" font-weight="400" text-anchor="start">PDR原理草图与部分针脚网表见 electronics；正式抗混叠滤波、偏置、保护和噪声预算尚未闭合。</text>
+</svg>

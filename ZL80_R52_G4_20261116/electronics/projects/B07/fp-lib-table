@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "ZL80_G4") (type "KiCad") (uri "${KIPRJMOD}/../../libraries/ZL80_G4.pretty") (options "") (descr "G4 candidate land patterns")))

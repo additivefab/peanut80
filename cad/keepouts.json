@@ -1,0 +1,197 @@
+[
+  {
+    "id": "B01_KO",
+    "name": "PMT线性TIA前端卡装联净空",
+    "center": [
+      18.0,
+      -89.5,
+      75.0
+    ],
+    "size": [
+      90,
+      10.6,
+      50
+    ],
+    "kind": "board_assembly"
+  },
+  {
+    "id": "B02_KO",
+    "name": "AD9268双通道采集板器件高/焊脚净空",
+    "center": [
+      110.0,
+      -15.0,
+      24.0
+    ],
+    "size": [
+      60,
+      80,
+      21.6
+    ],
+    "kind": "board_assembly"
+  },
+  {
+    "id": "B03_KO",
+    "name": "PMT控制与低噪声电源板器件高/焊脚净空",
+    "center": [
+      -115.0,
+      -105.0,
+      28.5
+    ],
+    "size": [
+      60,
+      50,
+      20.6
+    ],
+    "kind": "board_assembly"
+  },
+  {
+    "id": "B04_KO",
+    "name": "电源分配与硬件禁能板器件高/焊脚净空",
+    "center": [
+      0.0,
+      110.5,
+      32.0
+    ],
+    "size": [
+      120,
+      65,
+      29.6
+    ],
+    "kind": "board_assembly"
+  },
+  {
+    "id": "B05_KO",
+    "name": "运动驱动与传感接口板器件高/焊脚净空",
+    "center": [
+      -115.0,
+      35.0,
+      30.0
+    ],
+    "size": [
+      65,
+      100,
+      25.6
+    ],
+    "kind": "board_assembly"
+  },
+  {
+    "id": "B06_KO",
+    "name": "SOS接收小板装联净空",
+    "center": [
+      -52.0,
+      15.5,
+      118.0
+    ],
+    "size": [
+      18,
+      16.6,
+      20
+    ],
+    "kind": "board_assembly"
+  },
+  {
+    "id": "B07_KO",
+    "name": "EOS接收小板装联净空",
+    "center": [
+      52.0,
+      15.5,
+      118.0
+    ],
+    "size": [
+      18,
+      16.6,
+      20
+    ],
+    "kind": "board_assembly"
+  },
+  {
+    "id": "B08_KO",
+    "name": "激光参考PD小板装联净空",
+    "center": [
+      -62.5,
+      -27.5,
+      245.0
+    ],
+    "size": [
+      25,
+      16.6,
+      20
+    ],
+    "kind": "board_assembly"
+  },
+  {
+    "id": "B09_KO",
+    "name": "SP2可调安装托板器件高/焊脚净空",
+    "center": [
+      90.0,
+      -103.0,
+      30.0
+    ],
+    "size": [
+      120,
+      70,
+      32
+    ],
+    "kind": "board_assembly"
+  },
+  {
+    "id": "KO_SP2_IO",
+    "name": "SP2外接RJ45/USB插拔空间",
+    "center": [
+      147,
+      -103,
+      37
+    ],
+    "size": [
+      30,
+      62,
+      35
+    ],
+    "kind": "external_service"
+  },
+  {
+    "id": "KO_ADC",
+    "name": "ADC/FPGA转接净空",
+    "center": [
+      106,
+      -59,
+      34
+    ],
+    "size": [
+      54,
+      31,
+      12
+    ],
+    "kind": "connector"
+  },
+  {
+    "id": "KO_PMT",
+    "name": "PMT窗口/AFE维护拆出空间",
+    "center": [
+      18,
+      -125,
+      80
+    ],
+    "size": [
+      100,
+      50,
+      65
+    ],
+    "kind": "service_only"
+  },
+  {
+    "id": "KO_OPTICS",
+    "name": "镜组焦距调节±15和工具",
+    "center": [
+      0,
+      0,
+      210
+    ],
+    "size": [
+      112,
+      64,
+      62
+    ],
+    "kind": "adjustment"
+  }
+]

@@ -1,0 +1,1920 @@
+[
+  {
+    "part": "M09",
+    "name": "Scan_support_-5",
+    "position": [
+      0,
+      -5,
+      109.65
+    ],
+    "group": "transport",
+    "rotation": null,
+    "aabb": [
+      -42.0,
+      -6.0,
+      109.4,
+      42.0,
+      -4.0,
+      109.9
+    ]
+  },
+  {
+    "part": "M09",
+    "name": "Scan_support_5",
+    "position": [
+      0,
+      5,
+      109.65
+    ],
+    "group": "transport",
+    "rotation": null,
+    "aabb": [
+      -42.0,
+      4.0,
+      109.4,
+      42.0,
+      6.0,
+      109.9
+    ]
+  },
+  {
+    "part": "M10",
+    "name": "Guide_-43_-90",
+    "position": [
+      -43,
+      -90,
+      111.5
+    ],
+    "group": "transport",
+    "rotation": null,
+    "aabb": [
+      -44.5,
+      -102.5,
+      110.0,
+      -41.5,
+      -77.5,
+      113.0
+    ]
+  },
+  {
+    "part": "M10",
+    "name": "Guide_-43_90",
+    "position": [
+      -43,
+      90,
+      111.5
+    ],
+    "group": "transport",
+    "rotation": null,
+    "aabb": [
+      -44.5,
+      77.5,
+      110.0,
+      -41.5,
+      102.5,
+      113.0
+    ]
+  },
+  {
+    "part": "M10",
+    "name": "Guide_43_-90",
+    "position": [
+      43,
+      -90,
+      111.5
+    ],
+    "group": "transport",
+    "rotation": null,
+    "aabb": [
+      41.5,
+      -102.5,
+      110.0,
+      44.5,
+      -77.5,
+      113.0
+    ]
+  },
+  {
+    "part": "M10",
+    "name": "Guide_43_90",
+    "position": [
+      43,
+      90,
+      111.5
+    ],
+    "group": "transport",
+    "rotation": null,
+    "aabb": [
+      41.5,
+      77.5,
+      110.0,
+      44.5,
+      102.5,
+      113.0
+    ]
+  },
+  {
+    "part": "C01",
+    "name": "Cavity_shell",
+    "position": [
+      0,
+      0,
+      83.1
+    ],
+    "group": "collector",
+    "rotation": null,
+    "aabb": [
+      -63.0,
+      -30.0,
+      57.099999999999994,
+      63.0,
+      26.0,
+      109.1
+    ]
+  },
+  {
+    "part": "C02",
+    "name": "Liner",
+    "position": [
+      0,
+      0,
+      83.1
+    ],
+    "group": "liner",
+    "rotation": null,
+    "aabb": [
+      -60.0,
+      -23.4,
+      59.699999999999996,
+      60.0,
+      23.4,
+      106.5
+    ]
+  },
+  {
+    "part": "C03",
+    "name": "Cap_R",
+    "position": [
+      63,
+      0,
+      83.1
+    ],
+    "group": "collector",
+    "rotation": null,
+    "aabb": [
+      61.5,
+      -29.0,
+      54.099999999999994,
+      67.0,
+      29.0,
+      112.1
+    ]
+  },
+  {
+    "part": "C03",
+    "name": "Cap_L",
+    "position": [
+      -63,
+      0,
+      83.1
+    ],
+    "group": "collector",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "aabb": [
+      -67.0,
+      -29.0,
+      54.099999999999994,
+      -61.5,
+      29.0,
+      112.1
+    ]
+  },
+  {
+    "part": "C04",
+    "name": "End_liner-60.75",
+    "position": [
+      -60.75,
+      0,
+      83.1
+    ],
+    "group": "liner",
+    "rotation": null,
+    "aabb": [
+      -61.5,
+      -23.4,
+      59.699999999999996,
+      -60.0,
+      23.4,
+      106.5
+    ]
+  },
+  {
+    "part": "C04",
+    "name": "End_liner60.75",
+    "position": [
+      60.75,
+      0,
+      83.1
+    ],
+    "group": "liner",
+    "rotation": null,
+    "aabb": [
+      60.0,
+      -23.4,
+      59.699999999999996,
+      61.5,
+      23.4,
+      106.5
+    ]
+  },
+  {
+    "part": "C05",
+    "name": "Slot_lip",
+    "position": [
+      0,
+      0,
+      109.25
+    ],
+    "group": "collector",
+    "rotation": null,
+    "aabb": [
+      -57.0,
+      -7.0,
+      109.1,
+      57.0,
+      7.0,
+      109.4
+    ]
+  },
+  {
+    "part": "C06",
+    "name": "Taper_lightguide",
+    "position": [
+      0,
+      -23.4,
+      83.1
+    ],
+    "group": "glass",
+    "rotation": null,
+    "aabb": [
+      -4.0000001,
+      -55.4000001,
+      78.0999999,
+      4.0000001,
+      -23.399999899999997,
+      88.10000009999999
+    ]
+  },
+  {
+    "part": "C07",
+    "name": "Guide_sleeve",
+    "position": [
+      0,
+      -41.85,
+      83.1
+    ],
+    "group": "collector",
+    "rotation": null,
+    "aabb": [
+      -11.0,
+      -53.5,
+      76.89999999999999,
+      11.0,
+      -30.2,
+      89.3
+    ]
+  },
+  {
+    "part": "C08",
+    "name": "PMT_flange",
+    "position": [
+      0,
+      -55.8,
+      83.1
+    ],
+    "group": "collector",
+    "rotation": null,
+    "aabb": [
+      -13.0,
+      -57.3,
+      68.6,
+      13.0,
+      -54.3,
+      97.6
+    ]
+  },
+  {
+    "part": "C09",
+    "name": "Saddle_-48",
+    "position": [
+      -48,
+      0,
+      36.05
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -54.0,
+      -35.0,
+      10.999999999999996,
+      -42.0,
+      35.0,
+      61.1
+    ]
+  },
+  {
+    "part": "C09",
+    "name": "Saddle_48",
+    "position": [
+      48,
+      0,
+      36.05
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      42.0,
+      -35.0,
+      10.999999999999996,
+      54.0,
+      35.0,
+      61.1
+    ]
+  },
+  {
+    "part": "P03",
+    "name": "PMT",
+    "position": [
+      0,
+      -66.3,
+      83.1
+    ],
+    "group": "pmt",
+    "rotation": null,
+    "aabb": [
+      -11.0,
+      -75.3,
+      70.6,
+      39.0,
+      -55.8,
+      95.6
+    ]
+  },
+  {
+    "part": "P04",
+    "name": "PMT_pin_1",
+    "position": [
+      -6.32,
+      -81.3,
+      90.72
+    ],
+    "group": "pmt_pin",
+    "rotation": null,
+    "aabb": [
+      -6.82,
+      -87.3,
+      90.22,
+      -5.82,
+      -75.3,
+      91.22
+    ]
+  },
+  {
+    "part": "P04",
+    "name": "PMT_pin_2",
+    "position": [
+      29.240000000000002,
+      -81.3,
+      90.72
+    ],
+    "group": "pmt_pin",
+    "rotation": null,
+    "aabb": [
+      28.740000000000002,
+      -87.3,
+      90.22,
+      29.740000000000002,
+      -75.3,
+      91.22
+    ]
+  },
+  {
+    "part": "P04",
+    "name": "PMT_pin_3",
+    "position": [
+      34.32,
+      -81.3,
+      90.72
+    ],
+    "group": "pmt_pin",
+    "rotation": null,
+    "aabb": [
+      33.82,
+      -87.3,
+      90.22,
+      34.82,
+      -75.3,
+      91.22
+    ]
+  },
+  {
+    "part": "P04",
+    "name": "PMT_pin_8",
+    "position": [
+      -6.32,
+      -81.3,
+      75.47999999999999
+    ],
+    "group": "pmt_pin",
+    "rotation": null,
+    "aabb": [
+      -6.82,
+      -87.3,
+      74.97999999999999,
+      -5.82,
+      -75.3,
+      75.97999999999999
+    ]
+  },
+  {
+    "part": "P04",
+    "name": "PMT_pin_7",
+    "position": [
+      6.379999999999999,
+      -81.3,
+      75.47999999999999
+    ],
+    "group": "pmt_pin",
+    "rotation": null,
+    "aabb": [
+      5.879999999999999,
+      -87.3,
+      74.97999999999999,
+      6.879999999999999,
+      -75.3,
+      75.97999999999999
+    ]
+  },
+  {
+    "part": "P04",
+    "name": "PMT_pin_6",
+    "position": [
+      11.46,
+      -81.3,
+      75.47999999999999
+    ],
+    "group": "pmt_pin",
+    "rotation": null,
+    "aabb": [
+      10.96,
+      -87.3,
+      74.97999999999999,
+      11.96,
+      -75.3,
+      75.97999999999999
+    ]
+  },
+  {
+    "part": "P04",
+    "name": "PMT_pin_5",
+    "position": [
+      29.240000000000002,
+      -81.3,
+      75.47999999999999
+    ],
+    "group": "pmt_pin",
+    "rotation": null,
+    "aabb": [
+      28.740000000000002,
+      -87.3,
+      74.97999999999999,
+      29.740000000000002,
+      -75.3,
+      75.97999999999999
+    ]
+  },
+  {
+    "part": "P04",
+    "name": "PMT_pin_4",
+    "position": [
+      34.32,
+      -81.3,
+      75.47999999999999
+    ],
+    "group": "pmt_pin",
+    "rotation": null,
+    "aabb": [
+      33.82,
+      -87.3,
+      74.97999999999999,
+      34.82,
+      -75.3,
+      75.97999999999999
+    ]
+  },
+  {
+    "part": "EP_VERT",
+    "name": "AFE_post_-24_53",
+    "position": [
+      -24,
+      -95.15,
+      53
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -27.0,
+      -98.5,
+      50.0,
+      -21.0,
+      -91.8,
+      56.0
+    ]
+  },
+  {
+    "part": "EP_VERT",
+    "name": "AFE_post_-24_97",
+    "position": [
+      -24,
+      -95.15,
+      97
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -27.0,
+      -98.5,
+      94.0,
+      -21.0,
+      -91.8,
+      100.0
+    ]
+  },
+  {
+    "part": "EP_VERT",
+    "name": "AFE_post_60_53",
+    "position": [
+      60,
+      -95.15,
+      53
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      57.0,
+      -98.5,
+      50.0,
+      63.0,
+      -91.8,
+      56.0
+    ]
+  },
+  {
+    "part": "EP_VERT",
+    "name": "AFE_post_60_97",
+    "position": [
+      60,
+      -95.15,
+      97
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      57.0,
+      -98.5,
+      94.0,
+      63.0,
+      -91.8,
+      100.0
+    ]
+  },
+  {
+    "part": "H01",
+    "name": "Analog_shield",
+    "position": [
+      18,
+      -77,
+      75
+    ],
+    "group": "shield",
+    "rotation": null,
+    "aabb": [
+      -30.0,
+      -100.0,
+      48.0,
+      66.0,
+      -54.0,
+      102.0
+    ]
+  },
+  {
+    "part": "M14",
+    "name": "Optic_post-72",
+    "position": [
+      -72,
+      65,
+      188.5
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -78.0,
+      58.0,
+      143.0,
+      -66.0,
+      72.0,
+      234.0
+    ]
+  },
+  {
+    "part": "M14",
+    "name": "Optic_post72",
+    "position": [
+      72,
+      65,
+      188.5
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      66.0,
+      58.0,
+      143.0,
+      78.0,
+      72.0,
+      234.0
+    ]
+  },
+  {
+    "part": "M15",
+    "name": "Optics_backbone",
+    "position": [
+      -32,
+      64,
+      237
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -146.0,
+      54.0,
+      234.0,
+      82.0,
+      74.0,
+      240.0
+    ]
+  },
+  {
+    "part": "M16",
+    "name": "Laser_cantilever",
+    "position": [
+      -120,
+      25,
+      231.5
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -137.0,
+      -20.0,
+      229.0,
+      -103.0,
+      70.0,
+      234.0
+    ]
+  },
+  {
+    "part": "M17",
+    "name": "Laser_mount",
+    "position": [
+      -120,
+      0,
+      240
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -136.0,
+      -11.0,
+      234.0,
+      -104.0,
+      11.0,
+      246.0
+    ]
+  },
+  {
+    "part": "O01",
+    "name": "Laser",
+    "position": [
+      -120,
+      0,
+      245
+    ],
+    "group": "optics",
+    "rotation": null,
+    "aabb": [
+      -145.0,
+      -6.0,
+      239.0,
+      -95.0,
+      6.0,
+      251.0
+    ]
+  },
+  {
+    "part": "O02",
+    "name": "Beam_shaper",
+    "position": [
+      -82,
+      0,
+      245
+    ],
+    "group": "glass",
+    "rotation": null,
+    "aabb": [
+      -90.0,
+      -8.0,
+      237.0,
+      -74.0,
+      8.0,
+      253.0
+    ]
+  },
+  {
+    "part": "O03",
+    "name": "ND_pickoff",
+    "position": [
+      -62,
+      0,
+      245
+    ],
+    "group": "optics",
+    "rotation": null,
+    "aabb": [
+      -69.0,
+      -9.0,
+      236.0,
+      -55.0,
+      9.0,
+      254.0
+    ]
+  },
+  {
+    "part": "O04",
+    "name": "Shutter",
+    "position": [
+      -43,
+      0,
+      245
+    ],
+    "group": "optics",
+    "rotation": null,
+    "aabb": [
+      -52.0,
+      -12.0,
+      233.0,
+      -34.0,
+      12.0,
+      257.0
+    ]
+  },
+  {
+    "part": "O05",
+    "name": "Polygon",
+    "position": [
+      12.247,
+      0,
+      257.247
+    ],
+    "group": "optics",
+    "rotation": null,
+    "aabb": [
+      -7.071516525781363,
+      -6.0,
+      237.92848347421864,
+      31.565516525781366,
+      6.0,
+      276.5655165257814
+    ]
+  },
+  {
+    "part": "O06",
+    "name": "Polygon_motor",
+    "position": [
+      12.247,
+      32,
+      257.247
+    ],
+    "group": "motor",
+    "rotation": null,
+    "aabb": [
+      -5.753,
+      12.0,
+      239.247,
+      30.247,
+      52.0,
+      275.247
+    ]
+  },
+  {
+    "part": "M18",
+    "name": "Spindle_cradle",
+    "position": [
+      12.247,
+      42,
+      247.247
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -9.753,
+      34.0,
+      235.247,
+      34.247,
+      50.0,
+      259.247
+    ]
+  },
+  {
+    "part": "O07",
+    "name": "Ftheta",
+    "position": [
+      0,
+      0,
+      210
+    ],
+    "group": "glass",
+    "rotation": null,
+    "aabb": [
+      -48.0,
+      -22.0,
+      195.0,
+      48.0,
+      22.0,
+      225.0
+    ]
+  },
+  {
+    "part": "M19",
+    "name": "Lens_frame",
+    "position": [
+      0,
+      0,
+      198
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -55.0,
+      -30.0,
+      195.0,
+      55.0,
+      30.0,
+      201.0
+    ]
+  },
+  {
+    "part": "M20L",
+    "name": "Lens_arm-64",
+    "position": [
+      -64,
+      46,
+      204
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      -76.0,
+      22.0,
+      201.0,
+      -52.0,
+      70.0,
+      207.0
+    ]
+  },
+  {
+    "part": "M20R",
+    "name": "Lens_arm64",
+    "position": [
+      64,
+      46,
+      204
+    ],
+    "group": "structure",
+    "rotation": null,
+    "aabb": [
+      52.0,
+      22.0,
+      201.0,
+      76.0,
+      70.0,
+      207.0
+    ]
+  },
+  {
+    "part": "S01",
+    "name": "PD_sync-46",
+    "position": [
+      -46,
+      12,
+      112
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      -49.0,
+      8.0,
+      109.0,
+      -43.0,
+      16.0,
+      115.0
+    ]
+  },
+  {
+    "part": "S01",
+    "name": "PD_sync46",
+    "position": [
+      46,
+      12,
+      112
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      43.0,
+      8.0,
+      109.0,
+      49.0,
+      16.0,
+      115.0
+    ]
+  },
+  {
+    "part": "S01",
+    "name": "PD_reference",
+    "position": [
+      -62,
+      -24,
+      245
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      -65.0,
+      -28.0,
+      242.0,
+      -59.0,
+      -20.0,
+      248.0
+    ]
+  },
+  {
+    "part": "S02",
+    "name": "Sync_pickoff-46",
+    "position": [
+      -46,
+      0,
+      112
+    ],
+    "group": "optics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      45
+    ],
+    "aabb": [
+      -47.0,
+      -1.308147545195113,
+      110.69185245480489,
+      -45.0,
+      1.308147545195113,
+      113.30814754519511
+    ]
+  },
+  {
+    "part": "S02",
+    "name": "Sync_pickoff46",
+    "position": [
+      46,
+      0,
+      112
+    ],
+    "group": "optics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      45
+    ],
+    "aabb": [
+      45.0,
+      -1.308147545195113,
+      110.69185245480489,
+      47.0,
+      1.308147545195113,
+      113.30814754519511
+    ]
+  },
+  {
+    "part": "S03",
+    "name": "Film_sensor_-25_-110_102",
+    "position": [
+      -25,
+      -110,
+      102
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      -32.5,
+      -115.0,
+      98.0,
+      -17.5,
+      -105.0,
+      106.0
+    ]
+  },
+  {
+    "part": "S03",
+    "name": "Film_sensor_-25_-110_118",
+    "position": [
+      -25,
+      -110,
+      118
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      -32.5,
+      -115.0,
+      114.0,
+      -17.5,
+      -105.0,
+      122.0
+    ]
+  },
+  {
+    "part": "S03",
+    "name": "Film_sensor_25_-110_102",
+    "position": [
+      25,
+      -110,
+      102
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      17.5,
+      -115.0,
+      98.0,
+      32.5,
+      -105.0,
+      106.0
+    ]
+  },
+  {
+    "part": "S03",
+    "name": "Film_sensor_25_-110_118",
+    "position": [
+      25,
+      -110,
+      118
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      17.5,
+      -115.0,
+      114.0,
+      32.5,
+      -105.0,
+      122.0
+    ]
+  },
+  {
+    "part": "S03",
+    "name": "Film_sensor_0_110_102",
+    "position": [
+      0,
+      110,
+      102
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      -7.5,
+      105.0,
+      98.0,
+      7.5,
+      115.0,
+      106.0
+    ]
+  },
+  {
+    "part": "S03",
+    "name": "Film_sensor_0_110_118",
+    "position": [
+      0,
+      110,
+      118
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      -7.5,
+      105.0,
+      114.0,
+      7.5,
+      115.0,
+      122.0
+    ]
+  },
+  {
+    "part": "S04",
+    "name": "Lid_switch-145",
+    "position": [
+      -145,
+      100,
+      278
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      -153.0,
+      96.0,
+      272.0,
+      -137.0,
+      104.0,
+      284.0
+    ]
+  },
+  {
+    "part": "S04",
+    "name": "Lid_switch145",
+    "position": [
+      145,
+      100,
+      278
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      137.0,
+      96.0,
+      272.0,
+      153.0,
+      104.0,
+      284.0
+    ]
+  },
+  {
+    "part": "S04",
+    "name": "Roller_release_switch",
+    "position": [
+      95,
+      -42,
+      147
+    ],
+    "group": "sensor",
+    "rotation": null,
+    "aabb": [
+      87.0,
+      -46.0,
+      141.0,
+      103.0,
+      -38.0,
+      153.0
+    ]
+  },
+  {
+    "part": "S05",
+    "name": "Temp_PMT",
+    "position": [
+      48,
+      -75,
+      82
+    ],
+    "group": "electronics",
+    "rotation": null,
+    "aabb": [
+      43.0,
+      -81.0,
+      81.2,
+      53.0,
+      -69.0,
+      82.8
+    ]
+  },
+  {
+    "part": "S05",
+    "name": "Temp_Optics",
+    "position": [
+      72,
+      57.2,
+      220
+    ],
+    "group": "electronics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "aabb": [
+      67.0,
+      56.4,
+      214.0,
+      77.0,
+      58.0,
+      226.0
+    ]
+  },
+  {
+    "part": "S05",
+    "name": "Temp_Drive",
+    "position": [
+      -115,
+      50,
+      46
+    ],
+    "group": "electronics",
+    "rotation": null,
+    "aabb": [
+      -120.0,
+      44.0,
+      45.2,
+      -110.0,
+      56.0,
+      46.800000000000004
+    ]
+  },
+  {
+    "part": "B01",
+    "name": "PMT线性TIA前端卡",
+    "position": [
+      18.0,
+      -91,
+      75.0
+    ],
+    "group": "electronics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "aabb": [
+      -27.0,
+      -91.8,
+      50.0,
+      63.0,
+      -90.2,
+      100.0
+    ]
+  },
+  {
+    "part": "EP_6p2",
+    "name": "B02_post0",
+    "position": [
+      83,
+      -52,
+      14.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      80.0,
+      -55.0,
+      11.0,
+      86.0,
+      -49.0,
+      17.2
+    ]
+  },
+  {
+    "part": "EP_6p2",
+    "name": "B02_post1",
+    "position": [
+      137,
+      -52,
+      14.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      134.0,
+      -55.0,
+      11.0,
+      140.0,
+      -49.0,
+      17.2
+    ]
+  },
+  {
+    "part": "EP_6p2",
+    "name": "B02_post2",
+    "position": [
+      137,
+      22,
+      14.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      134.0,
+      19.0,
+      11.0,
+      140.0,
+      25.0,
+      17.2
+    ]
+  },
+  {
+    "part": "EP_6p2",
+    "name": "B02_post3",
+    "position": [
+      83,
+      22,
+      14.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      80.0,
+      19.0,
+      11.0,
+      86.0,
+      25.0,
+      17.2
+    ]
+  },
+  {
+    "part": "B02",
+    "name": "AD9268双通道采集板",
+    "position": [
+      110.0,
+      -15.0,
+      18
+    ],
+    "group": "electronics",
+    "rotation": null,
+    "aabb": [
+      80.0,
+      -55.0,
+      17.2,
+      140.0,
+      25.0,
+      18.8
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B03_post0",
+    "position": [
+      -142,
+      -127,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -145.0,
+      -130.0,
+      11.000000000000002,
+      -139.0,
+      -124.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B03_post1",
+    "position": [
+      -88,
+      -127,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -91.0,
+      -130.0,
+      11.000000000000002,
+      -85.0,
+      -124.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B03_post2",
+    "position": [
+      -88,
+      -83,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -91.0,
+      -86.0,
+      11.000000000000002,
+      -85.0,
+      -80.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B03_post3",
+    "position": [
+      -142,
+      -83,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -145.0,
+      -86.0,
+      11.000000000000002,
+      -139.0,
+      -80.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "B03",
+    "name": "PMT控制与低噪声电源板",
+    "position": [
+      -115.0,
+      -105.0,
+      22
+    ],
+    "group": "electronics",
+    "rotation": null,
+    "aabb": [
+      -145.0,
+      -130.0,
+      21.2,
+      -85.0,
+      -80.0,
+      22.8
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B04_post0",
+    "position": [
+      -56,
+      82,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -59.0,
+      79.0,
+      11.000000000000002,
+      -53.0,
+      85.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B04_post1",
+    "position": [
+      56,
+      82,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      53.0,
+      79.0,
+      11.000000000000002,
+      59.0,
+      85.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B04_post2",
+    "position": [
+      56,
+      139,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      53.0,
+      136.0,
+      11.000000000000002,
+      59.0,
+      142.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B04_post3",
+    "position": [
+      -56,
+      139,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -59.0,
+      136.0,
+      11.000000000000002,
+      -53.0,
+      142.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "B04",
+    "name": "电源分配与硬件禁能板",
+    "position": [
+      0.0,
+      110.5,
+      22
+    ],
+    "group": "electronics",
+    "rotation": null,
+    "aabb": [
+      -60.0,
+      78.0,
+      21.2,
+      60.0,
+      143.0,
+      22.8
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B05_post0",
+    "position": [
+      -144.5,
+      -12,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -147.5,
+      -15.0,
+      11.000000000000002,
+      -141.5,
+      -9.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B05_post1",
+    "position": [
+      -85.5,
+      -12,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -88.5,
+      -15.0,
+      11.000000000000002,
+      -82.5,
+      -9.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B05_post2",
+    "position": [
+      -85.5,
+      82,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -88.5,
+      79.0,
+      11.000000000000002,
+      -82.5,
+      85.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "EP_10p2",
+    "name": "B05_post3",
+    "position": [
+      -144.5,
+      82,
+      16.1
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      -147.5,
+      79.0,
+      11.000000000000002,
+      -141.5,
+      85.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "B05",
+    "name": "运动驱动与传感接口板",
+    "position": [
+      -115.0,
+      35.0,
+      22
+    ],
+    "group": "electronics",
+    "rotation": null,
+    "aabb": [
+      -147.5,
+      -15.0,
+      21.2,
+      -82.5,
+      85.0,
+      22.8
+    ]
+  },
+  {
+    "part": "B06",
+    "name": "SOS接收小板",
+    "position": [
+      -52.0,
+      20,
+      118.0
+    ],
+    "group": "electronics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "aabb": [
+      -61.0,
+      19.199999999999996,
+      108.0,
+      -43.0,
+      20.8,
+      128.0
+    ]
+  },
+  {
+    "part": "B07",
+    "name": "EOS接收小板",
+    "position": [
+      52.0,
+      20,
+      118.0
+    ],
+    "group": "electronics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "aabb": [
+      43.0,
+      19.199999999999996,
+      108.0,
+      61.0,
+      20.8,
+      128.0
+    ]
+  },
+  {
+    "part": "B08",
+    "name": "激光参考PD小板",
+    "position": [
+      -62.5,
+      -32,
+      245.0
+    ],
+    "group": "electronics",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "aabb": [
+      -75.0,
+      -32.800000000000004,
+      235.0,
+      -50.0,
+      -31.2,
+      255.0
+    ]
+  },
+  {
+    "part": "EP_6p0",
+    "name": "B09_post0",
+    "position": [
+      34,
+      -134,
+      14.0
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      31.0,
+      -137.0,
+      11.0,
+      37.0,
+      -131.0,
+      17.0
+    ]
+  },
+  {
+    "part": "EP_6p0",
+    "name": "B09_post1",
+    "position": [
+      146,
+      -134,
+      14.0
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      143.0,
+      -137.0,
+      11.0,
+      149.0,
+      -131.0,
+      17.0
+    ]
+  },
+  {
+    "part": "EP_6p0",
+    "name": "B09_post2",
+    "position": [
+      146,
+      -72,
+      14.0
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      143.0,
+      -75.0,
+      11.0,
+      149.0,
+      -69.0,
+      17.0
+    ]
+  },
+  {
+    "part": "EP_6p0",
+    "name": "B09_post3",
+    "position": [
+      34,
+      -72,
+      14.0
+    ],
+    "group": "mount_hardware",
+    "rotation": null,
+    "aabb": [
+      31.0,
+      -75.0,
+      11.0,
+      37.0,
+      -69.0,
+      17.0
+    ]
+  },
+  {
+    "part": "B09",
+    "name": "SP2可调安装托板",
+    "position": [
+      90.0,
+      -103.0,
+      18
+    ],
+    "group": "electronics",
+    "rotation": null,
+    "aabb": [
+      30.0,
+      -138.0,
+      17.0,
+      150.0,
+      -68.0,
+      19.0
+    ]
+  },
+  {
+    "part": "P05",
+    "name": "SP2_envelope",
+    "position": [
+      90,
+      -103,
+      32.5
+    ],
+    "group": "purchased_envelope",
+    "rotation": null,
+    "aabb": [
+      35.0,
+      -133.0,
+      20.0,
+      145.0,
+      -73.0,
+      45.0
+    ]
+  },
+  {
+    "part": "H07",
+    "name": "Fan",
+    "position": [
+      -115,
+      135,
+      70
+    ],
+    "group": "electronics",
+    "rotation": null,
+    "aabb": [
+      -135.0,
+      130.0,
+      50.0,
+      -95.0,
+      140.0,
+      90.0
+    ]
+  },
+  {
+    "part": "H08",
+    "name": "Labyrinth-132",
+    "position": [
+      0,
+      -132,
+      110
+    ],
+    "group": "shield",
+    "rotation": null,
+    "aabb": [
+      -47.0,
+      -147.0,
+      102.0,
+      47.0,
+      -117.0,
+      118.0
+    ]
+  },
+  {
+    "part": "H08",
+    "name": "Labyrinth132",
+    "position": [
+      0,
+      132,
+      110
+    ],
+    "group": "shield",
+    "rotation": null,
+    "aabb": [
+      -47.0,
+      117.0,
+      102.0,
+      47.0,
+      147.0,
+      118.0
+    ]
+  }
+]

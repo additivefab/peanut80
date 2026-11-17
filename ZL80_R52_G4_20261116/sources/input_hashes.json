@@ -1,0 +1,17 @@
+[
+  {
+    "filename": "ZL80_R52_G2_Electronics_Closure_Delivery.zip",
+    "sha256": "a41fc60e62df92bc1df6905f6d03521d599989964fbb1f7c8b3eb725775701b8",
+    "bytes": 1709269
+  },
+  {
+    "filename": "ZL80_R52_G3_Mechanical_Delivery.zip",
+    "sha256": "e8ca096dce86ca2c939268566d533aecc5f346d4ba61e2ba2236a7b2c8b8c9d6",
+    "bytes": 7669164
+  },
+  {
+    "filename": "ZL80_R52_G0_G1_Delivery.zip",
+    "sha256": "3c510fd84b6abc566026af12b7fbf06da854246ccca60edd1fec1aada6d48010",
+    "bytes": 5390599
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "session_id": 1,
+  "record_counts": {
+    "0x70": 1,
+    "0x20": 35,
+    "0x21": 35,
+    "0x01": 176378,
+    "0x10": 3,
+    "0x11": 3,
+    "0x12": 3,
+    "0x13": 3,
+    "0x71": 1,
+    "0x72": 1,
+    "0x7F": 1
+  },
+  "status_word": 0,
+  "dropped_records": 0,
+  "sample_time_errors": 0,
+  "uncalibrated_samples": 0,
+  "unverified_pairs": 0,
+  "test_pattern_samples": 0,
+  "upstream_loss_samples": 0,
+  "rail_samples_preserved": 18,
+  "digital_integrity_eligible": true,
+  "synthetic": true,
+  "metrology_release": false,
+  "note": "CRC/digital checks do not prove optical, geometric or safety qualification"
+}

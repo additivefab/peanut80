@@ -1,0 +1,14 @@
+{
+  "G0": {
+    "status": "PENDING",
+    "reviewer": null,
+    "approved_parameters": [],
+    "open_items": []
+  },
+  "G1": {
+    "status": "NOT_PASSED",
+    "reviewer": null,
+    "evidence": []
+  },
+  "manufacturing_release": false
+}

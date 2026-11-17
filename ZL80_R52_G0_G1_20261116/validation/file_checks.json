@@ -1,0 +1,37 @@
+{
+  "source_step_hashes": "22/22 match R5.1 source",
+  "python_syntax": "PASS",
+  "portal_links": "PASS",
+  "workbook": {
+    "sheets": 10,
+    "formulas": 77,
+    "error_cells": 0
+  },
+  "pdf_bounds": "PASS",
+  "visual_QA": "All 18 DOCX pages and 4 drawing pages rendered and visually inspected; no observed clipping/overlap",
+  "pdfs": [
+    {
+      "path": "drawings/ZL80_G0_G1_接口与时序图册.pdf",
+      "pages": 4
+    },
+    {
+      "path": "docs/ZL80_G0_G1_工程交付总册.pdf",
+      "pages": 22
+    },
+    {
+      "path": "docs/ZL80_G0_需求与接口基线.pdf",
+      "pages": 7
+    },
+    {
+      "path": "docs/ZL80_G1_扫描光学头预设计.pdf",
+      "pages": 8
+    },
+    {
+      "path": "rfq/ZL80_G1_扫描头联合询价书.pdf",
+      "pages": 3
+    }
+  ],
+  "native_FreeCAD": "NOT_RUN",
+  "real_lens_raytrace": "NOT_RUN",
+  "bench": "NOT_RUN"
+}

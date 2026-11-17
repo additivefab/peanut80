@@ -1,0 +1,4 @@
+﻿board,ref,x_mm,y_mm,side,coordinate_origin,status
+B06,D1,14,6,F,"board outline origin(0,0); +X right,+Y down; NOT chassis frame",DRAFT_NEEDS_G1_REVIEW
+B07,D1,14,7.5,F,"board outline origin(0,0); +X right,+Y down; NOT chassis frame",DRAFT_NEEDS_G1_REVIEW
+B08,D1,7,8,F,"board outline origin(0,0); +X right,+Y down; NOT chassis frame",DRAFT_NEEDS_G1_REVIEW

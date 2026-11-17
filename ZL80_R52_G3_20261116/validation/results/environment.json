@@ -1,0 +1,16 @@
+{
+  "tested_python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "libraries": {
+    "cadquery": "2.8.0",
+    "ezdxf": "1.4.4",
+    "reportlab": "4.4.9",
+    "svglib": "1.6.0",
+    "numpy": "2.3.5",
+    "Pillow": "12.3.0"
+  },
+  "FreeCAD": "not executed",
+  "KiCad": "not executed",
+  "Blender": "not executed",
+  "artifact_tool": "used only for XLSX export and formula verification",
+  "executable": "/opt/pyvenv/bin/python"
+}

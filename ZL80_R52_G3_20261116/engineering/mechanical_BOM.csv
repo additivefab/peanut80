@@ -1,0 +1,46 @@
+﻿id,name,qty,material,status,model_path,notes
+G3-M01,共同基准底板 300×288×6,1,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M01.step,"Datum A = upper surface; frame holes 4.5, two-sided dowel strategy requires process approval"
+G3-M02,片道侧框／轴承台阶孔与浮动槽,1,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M02.step,Global Z retained in local model; right frame nominal. Left mirrored. M2/M4 are pilot-hole representation.
+G3-M02L,左片道侧框（X镜像）,1,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M02L.step,Unreleased nominal geometry
+G3-M03,侧框安装脚／定位衬块,4,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M03.step,Unreleased nominal geometry
+G3-R01,入口测量辊芯／长端编码器轴,1,304不锈钢,NEW_REVIEW_GEOMETRY,cad/parts/G3-R01.step,"OD14 core L100, journals at +/-72; left extension for AMT. Bonded coating final grind."
+G3-R02,出口牵引辊芯／5-6联轴器轴,1,304不锈钢,NEW_REVIEW_GEOMETRY,cad/parts/G3-R02.step,"Right shaft tip X91, coupling insertion10mm; all fits on drawing require supplier approval."
+G3-R03,上压辊芯／M5定位端,2,304不锈钢,NEW_REVIEW_GEOMETRY,cad/parts/G3-R03.step,"Left M5x0.8 thread not helical in CAD; fixed inner race against shoulder, nut+washer."
+G3-R04,包胶层：硫化／粘结后整辊磨削,4,PU50A或后硫化硅胶50A试样,DOE_MATERIAL,cad/parts/G3-R04.step,Not a freely sliding sleeve: compound+adhesive qualification required; full-face contact at 80mm film.
+G3-P01,NMB L-1260ZZ 6×12×4,8,轴承钢,PURCHASE_ENVELOPE,cad/parts/G3-P01.step,"C=831 N, C0=363 N; no internal balls; fit/lubricant/grade requires RFQ"
+G3-M04,上辊浮动轴承滑块,2,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M04.step,Guide clearance 0.15 in Y nominal; no claim of anti-stiction performance; axial retainer on both sides.
+G3-M04L,左上辊浮动块（X镜像）,2,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M04L.step,Unreleased nominal geometry
+G3-M05,左侧定位轴承压盖,4,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M05.step,Face to inner pocket forms ~4.05 chamber for bearing4; shim endplay after measuring actual bearing width
+G3-M06,右侧游动轴承压盖,4,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M06.step,Outer race axial room ~0.4mm; do not clamp both rings by screw force
+G3-M07,上辊内侧导向挡片,4,304不锈钢,NEW_REVIEW_GEOMETRY,cad/parts/G3-M07.step,Guide plate contacts side frame sliding face only; 0.10mm nominal axial running clearance
+G3-P02,6mm夹紧轴环／MCL-6-A本体限界,2,铝,PURCHASE_ENVELOPE,cad/parts/G3-P02.step,Hardware swept diameter20.8 reserved separately; never place this collar on both opposing rollers at same X
+G3-M08,定位内圈垫套 6.1/7.4×5.1,2,304不锈钢,NEW_REVIEW_GEOMETRY,cad/parts/G3-M08.step,Unreleased nominal geometry
+G3-M09,上辊定位垫片 5.3/7.4×0.5,2,304不锈钢,NEW_REVIEW_GEOMETRY,cad/parts/G3-M09.step,Unreleased nominal geometry
+G3-P03,M5薄锁紧螺母包络,2,钢,PURCHASE_ENVELOPE,cad/parts/G3-P03.step,M5 prevailing torque type / locking method to be approved; CAD minor bore only
+G3-M10,弹簧与释放顶座,2,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M10.step,M4 preload adjust pilot3.3; M3 lift clearance3.4; fix screws separate from moving lift rod
+G3-M10L,左弹簧与释放顶座（X镜像）,2,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M10L.step,Unreleased nominal geometry
+G3-P04,压簧工作包络 OD5×13.9,4,弹簧钢,PURCHASE_SPRING_ENVELOPE,cad/parts/G3-P04.step,"k0.5 N/mm, free18, installed13.9; supplier solid length<=7.5mm and fatigue proof required; tube is not a real spring"
+G3-M16,M4调压隔离压垫 OD5.2×1,4,304不锈钢,NEW_REVIEW_GEOMETRY,cad/parts/G3-M16.step,Moves with preload screw; avoids spring contacting screw threads
+G3-P05,M4调压螺钉／防松标记,4,钢,PURCHASE_ENVELOPE,cad/parts/G3-P05.step,Unreleased nominal geometry
+G3-P06,M3双端提辊螺杆限界,4,钢,PURCHASE_ENVELOPE,cad/parts/G3-P06.step,two ends linked by crossbar; do not twist roller during loading
+G3-M11,双端提辊联动横杆,2,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M11.step,"Lift travel5 mm; hold open only after motor/laser disabled. Provisional mechanism, ergonomic test pending."
+G3-P07,NBK MJC-20CS-WH-5-6,1,铝＋弹性体,PURCHASE_ENVELOPE,cad/parts/G3-P07.step,"OD20,W30; CAD has insertion bores but not proprietary jaw detail; nominal grip10mm each side"
+G3-P08,14HS10-0404S 尺寸候选,1,采购,PURCHASE_ENVELOPE,cad/parts/G3-P08.step,"Origin at front mounting face. D-flat omitted. Source verifies shaft20.5, body26; holes26pitch require signed supplier drawing"
+G3-M12,出口电机直立支座,1,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M12.step,Global coordinates in part; 4x4.5 foot holes at X130/142 Y36/59. D-flat/clamp screw interface to confirm
+G3-M13,联轴器旋转防护筒,1,铝,PROTOTYPE_GUARD,cad/parts/G3-M13.step,Support clamp/fasteners not frozen; guard must be retained before powered test
+G3-P09,AMT112S带轴孔包络,2,采购,PURCHASE_ENVELOPE,cad/parts/G3-P09.step,R5 overall envelope; mounting-hole detail must be checked against supplier drawing; no 3.3V direct connect
+G3-M14,编码器可换安装板,2,6061-T6,NEW_REVIEW_GEOMETRY,cad/parts/G3-M14.step,"4 prototype holes ±16Y,-12/+12Z are adapter interface, not claimed AMT factory pattern; supplier hole insert pending"
+G3-M15,编码器支柱 6OD×12.5L,4,黄铜,NEW_REVIEW_GEOMETRY,cad/parts/G3-M15.step,Unreleased nominal geometry
+G3-H01,前片口平板 320×297×1.5,1,5052-H32,FLAT_SHEET_REVIEW,cad/parts/G3-H01.step,"Y=-149.25,Z150; 86x5 slot. Light labyrinth inherited, not laser safety certification"
+G3-H02,后片口与风道平板,1,5052-H32,FLAT_SHEET_REVIEW,cad/parts/G3-H02.step,Unreleased nominal geometry
+G3-H03,右检修侧板／SP2插拔窗,1,5052-H32,FLAT_SHEET_REVIEW,cad/parts/G3-H03.step,"Window64x35 for replaceable I/O insert, actual SP2 port pattern not frozen"
+G3-H04,左侧板／24V入口,1,5052-H32,FLAT_SHEET_REVIEW,cad/parts/G3-H04.step,"12.2 inlet hole is placeholder, MPN of power connector required"
+G3-H05,顶盖平板,1,5052-H32,FLAT_SHEET_REVIEW,cad/parts/G3-H05.step,Unreleased nominal geometry
+G3-H06,底盖平板,1,5052-H32,FLAT_SHEET_REVIEW,cad/parts/G3-H06.step,Unreleased nominal geometry
+G3-H07,10×10×2机箱角撑型材,4,铝型材,EXTRUSION_REVIEW,cad/parts/G3-H07.step,Panel hole positions on drawings; thread pilot not repeated in CAD; end caps not load datum
+G3-F01,M2×5压盖螺钉,32,钢,FASTENER_ENVELOPE,cad/parts/G3-F01.step,No helix; shank/minor-hole overlap represents thread engagement
+G3-F02,M3×15顶座螺钉,8,钢,FASTENER_ENVELOPE,cad/parts/G3-F02.step,Unreleased nominal geometry
+G3-F03,M4×20基座紧固螺钉,4,钢,FASTENER_ENVELOPE,cad/parts/G3-F03.step,Unreleased nominal geometry
+G3-P10,可换弹性脚垫 OD16×8,4,弹性体,PURCHASE_ENVELOPE,cad/parts/G3-P10.step,M4 through mounting; load rating to be checked
+HW-OPEN-01,电机/护罩/编码器/机箱其他紧固件,TBD,标准件,NOT_FULLY_MODELED,,应按装配实物完成长度/防松/扳手空间；不能把当前STEP称为全部标准件已齐全
+MFG-OPEN-01,端盖垫片、胶辊粘结工艺、传感器安装小件,TBD,工艺件,DFM_REQUIRED,,按台架及签署图补齐

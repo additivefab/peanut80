@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-11-16T10:54:27.543899+00:00",
+  "tests_run": 30,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "scope": "calculation/data consistency and static geometry audit; includes synthetic analyzer unit test, NOT physical transport evidence",
+  "native_FreeCAD": "NOT_AVAILABLE",
+  "bench": "NOT_RUN",
+  "manufacturing_release": "BLOCKED"
+}

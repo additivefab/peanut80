@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D20  扫描、数据率与光子预算</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">下列为显式假设的计算例，不是OD、MTF或速度验收结果。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="60" y="175" width="1480" height="80" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="70" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">量</text>
+<text x="440.0" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">计算值</text>
+<text x="913.6" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">含义</text>
+<rect x="60" y="255" width="1480" height="80" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="281" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">物理行频</text>
+<text x="440.0" y="281" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">300 line/s</text>
+<text x="913.6" y="281" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">6面 × 3000rpm / 60</text>
+<rect x="60" y="335" width="1480" height="80" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="361" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">100mm / 80mm窗口</text>
+<text x="440.0" y="361" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">1.5915ms / 1.2732ms</text>
+<text x="913.6" y="361" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">有效视场占比由几何计算，不任取80%</text>
+<rect x="60" y="415" width="1480" height="80" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="441" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">50μm驻留</text>
+<text x="440.0" y="441" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">0.7958μs；约15.92个ADC样本</text>
+<text x="913.6" y="441" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">数字过采不等于新增入射光子</text>
+<rect x="60" y="495" width="1480" height="80" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="521" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">连续走片</text>
+<text x="440.0" y="521" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">15mm/s；16倍Y过采时0.9375mm/s</text>
+<text x="913.6" y="521" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">不能宣称这些模式达到相同MTF/OD</text>
+<rect x="60" y="575" width="1480" height="80" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="601" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">原始双通道流</text>
+<text x="440.0" y="601" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">80MB/s</text>
+<text x="913.6" y="601" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">需DMA缓存与回压，不依赖PC时间戳</text>
+<rect x="60" y="655" width="1480" height="80" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="681" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">16位50μm图像</text>
+<text x="440.0" y="681" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">64MB/m；正常行频0.96MB/s</text>
+<text x="913.6" y="681" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">元数据、参考与原始片段另算</text>
+<rect x="60" y="790" width="1480" height="48" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="70" y="820" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="white" font-weight="700" text-anchor="start">OD算例</text>
+<text x="440.0" y="820" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="white" font-weight="700" text-anchor="start">初级光电子/像素</text>
+<text x="958.0" y="820" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="white" font-weight="700" text-anchor="start">仅统计噪声 σD</text>
+<rect x="60" y="838" width="1480" height="48" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="864" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">0.5</text>
+<text x="440.0" y="864" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">301660.47</text>
+<text x="958.0" y="864" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">0.00090 D</text>
+<rect x="60" y="886" width="1480" height="48" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="912" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">3.5</text>
+<text x="440.0" y="912" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">301.66</text>
+<text x="958.0" y="912" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">0.02851 D</text>
+<rect x="60" y="934" width="1480" height="48" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="960" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">4.5</text>
+<text x="440.0" y="960" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">30.17</text>
+<text x="958.0" y="960" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">0.09016 D</text>
+<text x="75" y="1038" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#cb462e" font-weight="400" text-anchor="start">假设：片面50μW、收光5%、QE15%、635nm、额外噪声因子1.3；真实噪声只会叠加。</text>
+</svg>

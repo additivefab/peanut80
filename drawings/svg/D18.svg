@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D18  扫描时序、数据与位置标签延迟</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">六面/3000rpm与EFL100仅用于预算，实际扫频/视场占空比由扫描头规格与标定决定。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<text x="60" y="230" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">FACET/SOS</text>
+<line x1="280" y1="250" x2="1480" y2="250" stroke="#5e7180" stroke-width="1" />
+<line x1="280" y1="250" x2="280" y2="200" stroke="#226da6" stroke-width="3" />
+<line x1="280" y1="200" x2="295" y2="200" stroke="#226da6" stroke-width="3" />
+<line x1="295" y1="200" x2="295" y2="250" stroke="#226da6" stroke-width="3" />
+<line x1="820" y1="250" x2="820" y2="200" stroke="#226da6" stroke-width="3" />
+<line x1="820" y1="200" x2="835" y2="200" stroke="#226da6" stroke-width="3" />
+<line x1="835" y1="200" x2="835" y2="250" stroke="#226da6" stroke-width="3" />
+<line x1="1360" y1="250" x2="1360" y2="200" stroke="#226da6" stroke-width="3" />
+<line x1="1360" y1="200" x2="1375" y2="200" stroke="#226da6" stroke-width="3" />
+<line x1="1375" y1="200" x2="1375" y2="250" stroke="#226da6" stroke-width="3" />
+<text x="60" y="345" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">ROI_VALID</text>
+<line x1="280" y1="365" x2="1480" y2="365" stroke="#5e7180" stroke-width="1" />
+<rect x="350" y="315" width="205" height="50" rx="0" fill="#d7eaf5" stroke="#226da6" stroke-width="2"/>
+<rect x="890" y="315" width="205" height="50" rx="0" fill="#d7eaf5" stroke="#226da6" stroke-width="2"/>
+<text x="60" y="460" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">ADC_CLK</text>
+<line x1="280" y1="480" x2="1480" y2="480" stroke="#5e7180" stroke-width="1" />
+<line x1="280" y1="480" x2="280" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="280" y1="445" x2="290" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="290" y1="445" x2="290" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="300" y1="480" x2="300" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="300" y1="445" x2="310" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="310" y1="445" x2="310" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="320" y1="480" x2="320" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="320" y1="445" x2="330" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="330" y1="445" x2="330" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="340" y1="480" x2="340" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="340" y1="445" x2="350" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="350" y1="445" x2="350" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="360" y1="480" x2="360" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="360" y1="445" x2="370" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="370" y1="445" x2="370" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="380" y1="480" x2="380" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="380" y1="445" x2="390" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="390" y1="445" x2="390" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="400" y1="480" x2="400" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="400" y1="445" x2="410" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="410" y1="445" x2="410" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="420" y1="480" x2="420" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="420" y1="445" x2="430" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="430" y1="445" x2="430" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="440" y1="480" x2="440" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="440" y1="445" x2="450" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="450" y1="445" x2="450" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="460" y1="480" x2="460" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="460" y1="445" x2="470" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="470" y1="445" x2="470" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="480" y1="480" x2="480" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="480" y1="445" x2="490" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="490" y1="445" x2="490" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="500" y1="480" x2="500" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="500" y1="445" x2="510" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="510" y1="445" x2="510" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="520" y1="480" x2="520" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="520" y1="445" x2="530" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="530" y1="445" x2="530" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="540" y1="480" x2="540" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="540" y1="445" x2="550" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="550" y1="445" x2="550" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="560" y1="480" x2="560" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="560" y1="445" x2="570" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="570" y1="445" x2="570" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="580" y1="480" x2="580" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="580" y1="445" x2="590" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="590" y1="445" x2="590" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="600" y1="480" x2="600" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="600" y1="445" x2="610" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="610" y1="445" x2="610" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="620" y1="480" x2="620" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="620" y1="445" x2="630" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="630" y1="445" x2="630" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="640" y1="480" x2="640" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="640" y1="445" x2="650" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="650" y1="445" x2="650" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="660" y1="480" x2="660" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="660" y1="445" x2="670" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="670" y1="445" x2="670" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="680" y1="480" x2="680" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="680" y1="445" x2="690" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="690" y1="445" x2="690" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="700" y1="480" x2="700" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="700" y1="445" x2="710" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="710" y1="445" x2="710" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="720" y1="480" x2="720" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="720" y1="445" x2="730" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="730" y1="445" x2="730" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="740" y1="480" x2="740" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="740" y1="445" x2="750" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="750" y1="445" x2="750" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="760" y1="480" x2="760" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="760" y1="445" x2="770" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="770" y1="445" x2="770" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="780" y1="480" x2="780" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="780" y1="445" x2="790" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="790" y1="445" x2="790" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="800" y1="480" x2="800" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="800" y1="445" x2="810" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="810" y1="445" x2="810" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="820" y1="480" x2="820" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="820" y1="445" x2="830" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="830" y1="445" x2="830" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="840" y1="480" x2="840" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="840" y1="445" x2="850" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="850" y1="445" x2="850" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="860" y1="480" x2="860" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="860" y1="445" x2="870" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="870" y1="445" x2="870" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="880" y1="480" x2="880" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="880" y1="445" x2="890" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="890" y1="445" x2="890" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="900" y1="480" x2="900" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="900" y1="445" x2="910" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="910" y1="445" x2="910" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="920" y1="480" x2="920" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="920" y1="445" x2="930" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="930" y1="445" x2="930" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="940" y1="480" x2="940" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="940" y1="445" x2="950" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="950" y1="445" x2="950" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="960" y1="480" x2="960" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="960" y1="445" x2="970" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="970" y1="445" x2="970" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="980" y1="480" x2="980" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="980" y1="445" x2="990" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="990" y1="445" x2="990" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1000" y1="480" x2="1000" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1000" y1="445" x2="1010" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1010" y1="445" x2="1010" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1020" y1="480" x2="1020" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1020" y1="445" x2="1030" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1030" y1="445" x2="1030" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1040" y1="480" x2="1040" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1040" y1="445" x2="1050" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1050" y1="445" x2="1050" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1060" y1="480" x2="1060" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1060" y1="445" x2="1070" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1070" y1="445" x2="1070" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1080" y1="480" x2="1080" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1080" y1="445" x2="1090" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1090" y1="445" x2="1090" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1100" y1="480" x2="1100" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1100" y1="445" x2="1110" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1110" y1="445" x2="1110" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1120" y1="480" x2="1120" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1120" y1="445" x2="1130" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1130" y1="445" x2="1130" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1140" y1="480" x2="1140" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1140" y1="445" x2="1150" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1150" y1="445" x2="1150" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1160" y1="480" x2="1160" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1160" y1="445" x2="1170" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1170" y1="445" x2="1170" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1180" y1="480" x2="1180" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1180" y1="445" x2="1190" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1190" y1="445" x2="1190" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1200" y1="480" x2="1200" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1200" y1="445" x2="1210" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1210" y1="445" x2="1210" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1220" y1="480" x2="1220" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1220" y1="445" x2="1230" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1230" y1="445" x2="1230" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1240" y1="480" x2="1240" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1240" y1="445" x2="1250" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1250" y1="445" x2="1250" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1260" y1="480" x2="1260" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1260" y1="445" x2="1270" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1270" y1="445" x2="1270" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1280" y1="480" x2="1280" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1280" y1="445" x2="1290" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1290" y1="445" x2="1290" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1300" y1="480" x2="1300" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1300" y1="445" x2="1310" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1310" y1="445" x2="1310" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1320" y1="480" x2="1320" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1320" y1="445" x2="1330" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1330" y1="445" x2="1330" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1340" y1="480" x2="1340" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1340" y1="445" x2="1350" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1350" y1="445" x2="1350" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1360" y1="480" x2="1360" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1360" y1="445" x2="1370" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1370" y1="445" x2="1370" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1380" y1="480" x2="1380" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1380" y1="445" x2="1390" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1390" y1="445" x2="1390" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1400" y1="480" x2="1400" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1400" y1="445" x2="1410" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1410" y1="445" x2="1410" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1420" y1="480" x2="1420" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1420" y1="445" x2="1430" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1430" y1="445" x2="1430" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1440" y1="480" x2="1440" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1440" y1="445" x2="1450" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1450" y1="445" x2="1450" y2="480" stroke="#226da6" stroke-width="1.4" />
+<line x1="1460" y1="480" x2="1460" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1460" y1="445" x2="1470" y2="445" stroke="#226da6" stroke-width="1.4" />
+<line x1="1470" y1="445" x2="1470" y2="480" stroke="#226da6" stroke-width="1.4" />
+<text x="60" y="575" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">ADC_DATA</text>
+<line x1="280" y1="595" x2="1480" y2="595" stroke="#5e7180" stroke-width="1" />
+<rect x="375" y="545" width="205" height="50" rx="0" fill="#edf4f8" stroke="#226da6" stroke-width="2"/>
+<text x="387" y="575" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#172d3f" font-weight="400" text-anchor="start">原采样时刻标签</text>
+<rect x="915" y="545" width="205" height="50" rx="0" fill="#edf4f8" stroke="#226da6" stroke-width="2"/>
+<text x="927" y="575" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#172d3f" font-weight="400" text-anchor="start">原采样时刻标签</text>
+<text x="60" y="690" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">TAG_ALIGNED</text>
+<line x1="280" y1="710" x2="1480" y2="710" stroke="#5e7180" stroke-width="1" />
+<rect x="395" y="660" width="205" height="50" rx="0" fill="#edf4f8" stroke="#226da6" stroke-width="2"/>
+<text x="407" y="690" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#172d3f" font-weight="400" text-anchor="start">原采样时刻标签</text>
+<rect x="935" y="660" width="205" height="50" rx="0" fill="#edf4f8" stroke="#226da6" stroke-width="2"/>
+<text x="947" y="690" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#172d3f" font-weight="400" text-anchor="start">原采样时刻标签</text>
+<text x="60" y="805" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">ENCODER_Y</text>
+<line x1="280" y1="825" x2="1480" y2="825" stroke="#5e7180" stroke-width="1" />
+<line x1="280" y1="825" x2="280" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="280" y1="790" x2="300" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="329" y1="825" x2="329" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="329" y1="790" x2="349" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="378" y1="825" x2="378" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="378" y1="790" x2="398" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="427" y1="825" x2="427" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="427" y1="790" x2="447" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="476" y1="825" x2="476" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="476" y1="790" x2="496" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="525" y1="825" x2="525" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="525" y1="790" x2="545" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="574" y1="825" x2="574" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="574" y1="790" x2="594" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="623" y1="825" x2="623" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="623" y1="790" x2="643" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="672" y1="825" x2="672" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="672" y1="790" x2="692" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="721" y1="825" x2="721" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="721" y1="790" x2="741" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="770" y1="825" x2="770" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="770" y1="790" x2="790" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="819" y1="825" x2="819" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="819" y1="790" x2="839" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="868" y1="825" x2="868" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="868" y1="790" x2="888" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="917" y1="825" x2="917" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="917" y1="790" x2="937" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="966" y1="825" x2="966" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="966" y1="790" x2="986" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1015" y1="825" x2="1015" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1015" y1="790" x2="1035" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1064" y1="825" x2="1064" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1064" y1="790" x2="1084" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1113" y1="825" x2="1113" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1113" y1="790" x2="1133" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1162" y1="825" x2="1162" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1162" y1="790" x2="1182" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1211" y1="825" x2="1211" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1211" y1="790" x2="1231" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1260" y1="825" x2="1260" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1260" y1="790" x2="1280" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1309" y1="825" x2="1309" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1309" y1="790" x2="1329" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1358" y1="825" x2="1358" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1358" y1="790" x2="1378" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1407" y1="825" x2="1407" y2="790" stroke="#20826c" stroke-width="2" />
+<line x1="1407" y1="790" x2="1427" y2="790" stroke="#20826c" stroke-width="2" />
+<rect x="70" y="935" width="1450" height="115" rx="5" fill="#edf4f8" stroke="none" stroke-width="1.5"/>
+<text x="88" y="967" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">不对ADC时钟做ROI门控</text>
+<text x="88" y="1000" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">ADC连续运行；延迟的是与原采样时刻对应的ROI/位置/增益状态。600ns ADC延迟与数字滤波群延迟分开校验，不能重复错移。</text>
+</svg>

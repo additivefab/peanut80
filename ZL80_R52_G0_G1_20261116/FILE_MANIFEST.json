@@ -1,0 +1,464 @@
+{
+  "revision": "R52-G01-D01",
+  "excluded": [
+    "FILE_MANIFEST.json",
+    "__pycache__"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 772,
+      "sha256": "a9391174ffcc26050ff1f0108a1a544e9cfe4e1fb1752fa5a1cb7ccdc0b80dea"
+    },
+    {
+      "path": "G0/G0_需求与接口基线.md",
+      "bytes": 11661,
+      "sha256": "ed9deececf98704bbb3abcb4b20a3bb4f177316056948e22a25c4a863eb97e03"
+    },
+    {
+      "path": "G1/G1_扫描光学头预设计.md",
+      "bytes": 11238,
+      "sha256": "6e4d757c26e8d675bd4d581c7ff9d17092bd476d49ab16c0543731f35989e420"
+    },
+    {
+      "path": "G1/PoC台架器具清单.csv",
+      "bytes": 807,
+      "sha256": "76a5ff551957796dca3988837ae462ca80faf1519192fb5c95232d2aff4b4772"
+    },
+    {
+      "path": "G1/真实镜头模型接入要求.md",
+      "bytes": 815,
+      "sha256": "3cbd27c6e127970b26a7a549b28594408f7047915710d8a42af5d502badec974"
+    },
+    {
+      "path": "README_先读.md",
+      "bytes": 3326,
+      "sha256": "7a4e4305384eb5ef767b66f270d999689238c49e6de36a4b4bb8a08e6d25638e"
+    },
+    {
+      "path": "START_HERE.html",
+      "bytes": 3786,
+      "sha256": "952d605b29b7414346afc0788279ec11718d26b0fcaa2aaa5e3f89e39bb177a7"
+    },
+    {
+      "path": "ai/tasks/T001_G0_review.md",
+      "bytes": 327,
+      "sha256": "52f3a52b30657bbd96ca9588b04b7a644effcc42a9a107be60f75f8746535e32"
+    },
+    {
+      "path": "ai/tasks/T002_joint_RFQ.md",
+      "bytes": 340,
+      "sha256": "de28495a76166604c02f487b26289969b959b4e7ed6d1ba3962a2d1ee420da25"
+    },
+    {
+      "path": "ai/tasks/T003_native_CAD.md",
+      "bytes": 312,
+      "sha256": "6e01ab7d6d26c3c026d185372de4b033e071fec1ea562fc5aac500d2c8ce402c"
+    },
+    {
+      "path": "ai/tasks/T004_real_optics.md",
+      "bytes": 357,
+      "sha256": "cfd8bcc00d07b392d2bb50a68d1d69b468443ea1a165cea5da1b8221713369f6"
+    },
+    {
+      "path": "ai/tasks/T005_bench.md",
+      "bytes": 297,
+      "sha256": "f7dbb83c96167fe90f363a00fe24f670ccf49665be2805611b341a132d9e5439"
+    },
+    {
+      "path": "cad/G1_ChiefRay_InputGeometry.step",
+      "bytes": 68203,
+      "sha256": "12d77ec0b30c61629bbe9ecd747554f079084dfb6a15021d16ed356a3f3f3b5d"
+    },
+    {
+      "path": "cad/G1_Field_Boundaries_Interface.dxf",
+      "bytes": 18148,
+      "sha256": "f3334743f22dd9cba4f78686a7dc21b93e0c6b54f3f698924c3702b075308cb4"
+    },
+    {
+      "path": "cad/G1_Inherited_ScanHead_Review.step",
+      "bytes": 444860,
+      "sha256": "4a2418dc58b4edd3caaacb3dd9a7d3fa87cea5e87133f836061671c2fb9c0c8f"
+    },
+    {
+      "path": "cad/G1_Interface_Context_Review.step",
+      "bytes": 646855,
+      "sha256": "3a48dc26e18ab55fbb14f4479a592776e94fd22a2567c5cd9e60d39035e268ad"
+    },
+    {
+      "path": "cad/freecad/open_G1_review.FCMacro",
+      "bytes": 1404,
+      "sha256": "1bbdd5c113c561e743bc8423e43ec3b989fd714902e458329ce6edb14e4277fd"
+    },
+    {
+      "path": "cad/instances.json",
+      "bytes": 9398,
+      "sha256": "30470895a27832a19e566abfe82fc88a4283d13be7a4ce0690b6c98286fd2c24"
+    },
+    {
+      "path": "cad/parts/B06.step",
+      "bytes": 30004,
+      "sha256": "145f587ce2eac3a19b054a19c2e8b7c1fcada1e786546b136e17b4d77f7fd043"
+    },
+    {
+      "path": "cad/parts/B07.step",
+      "bytes": 30000,
+      "sha256": "396e96bf670fe7bc7cbf7c6c1d39b9edea4fb40440a2a122000f746114aeeae1"
+    },
+    {
+      "path": "cad/parts/B08.step",
+      "bytes": 30069,
+      "sha256": "4a5d729a5603129f8bbe7cc21461a5d0a27b3c243ed7583ee9655c8340212f97"
+    },
+    {
+      "path": "cad/parts/C01.step",
+      "bytes": 147167,
+      "sha256": "750e5a63087631fc329990d4462b0ea6c0b9825a281dcb60b7d848e7d61bfd17"
+    },
+    {
+      "path": "cad/parts/C05.step",
+      "bytes": 44815,
+      "sha256": "fd64e8c9e983450c2520f3d5008ac3787b2f538ef211d1ecbd77fa530c01a642"
+    },
+    {
+      "path": "cad/parts/M14.step",
+      "bytes": 15480,
+      "sha256": "4b675478870aeb4e439cbebacdfd578f3a844a9599b356cf26dd3230dfa00d37"
+    },
+    {
+      "path": "cad/parts/M15.step",
+      "bytes": 15506,
+      "sha256": "837752a67ea3f2c466343e660a8c38885346bcc1af9a3f57f6c3510c707a2869"
+    },
+    {
+      "path": "cad/parts/M16.step",
+      "bytes": 15502,
+      "sha256": "515af40bbe98cb05db014c3cdc35e577caea0fb5827d8f529cd3683cf9e9f36f"
+    },
+    {
+      "path": "cad/parts/M17.step",
+      "bytes": 22764,
+      "sha256": "3061fc7d0ea98162154670e3d3d81981d6f793d0009424f8b1c98ea655014299"
+    },
+    {
+      "path": "cad/parts/M18.step",
+      "bytes": 22771,
+      "sha256": "5f15c23018fc9401341a82b54a1377a73d0f6a586d76421779c58431db6666c5"
+    },
+    {
+      "path": "cad/parts/M19.step",
+      "bytes": 30225,
+      "sha256": "95603f8c121d4cbe48d3b0972f92cbbb57e8b9c3348e80678c0bc0db709e5da5"
+    },
+    {
+      "path": "cad/parts/M20L.step",
+      "bytes": 23001,
+      "sha256": "342e399081900dcd3dd95ce07fd06a7410e2cee22d6adb41d3e70774b9272df3"
+    },
+    {
+      "path": "cad/parts/M20R.step",
+      "bytes": 22990,
+      "sha256": "fd8593df96d98263f7df007a95ba8af10218860a435de957226115792ac88791"
+    },
+    {
+      "path": "cad/parts/O01.step",
+      "bytes": 5665,
+      "sha256": "4391a7b1f47d8af9fe72623891dc94d467f111bb4da21fa75c8aad101471eede"
+    },
+    {
+      "path": "cad/parts/O02.step",
+      "bytes": 5657,
+      "sha256": "9fea3ca1d86314c27300d6b377c65b489f0e654150bf750cefacd73bf3d494e7"
+    },
+    {
+      "path": "cad/parts/O03.step",
+      "bytes": 15428,
+      "sha256": "14ffbb517dfe34dd9d754fd3628b523fe0d8f0623f4f36b8d509bbf46b0efc78"
+    },
+    {
+      "path": "cad/parts/O04.step",
+      "bytes": 19134,
+      "sha256": "006aaae4694c8d90df01fa58037cb72adb18eac737a38feb4eea62cd5f59aedf"
+    },
+    {
+      "path": "cad/parts/O05.step",
+      "bytes": 24199,
+      "sha256": "2cb15634a9fdab8cc633d10c87393a80a481687187165c4a38ca18824dd2206f"
+    },
+    {
+      "path": "cad/parts/O06.step",
+      "bytes": 5673,
+      "sha256": "f5e18265e2e122169e409c9560f0d89e2fb5fc97688fd64410dc58df57f36f65"
+    },
+    {
+      "path": "cad/parts/O07.step",
+      "bytes": 15506,
+      "sha256": "dd8b3213ddc241c6d813e9df1f2fd5be55814d6136610b4a88d5bb667f2a3fa9"
+    },
+    {
+      "path": "cad/parts/S01.step",
+      "bytes": 5659,
+      "sha256": "184a18b8429317723885d9dd4be9a1655b6f94cb4f2221e9ae8f1a4b428c8689"
+    },
+    {
+      "path": "cad/parts/S02.step",
+      "bytes": 15498,
+      "sha256": "9ed6a6a4dd078d157c22da1fbdb282a6effa1ed114810151a37c494282634701"
+    },
+    {
+      "path": "config/change_request.template.json",
+      "bytes": 205,
+      "sha256": "54200a1ee216096978e7c908ba64a13b6f2bef521378d0ee67cfebdac1efc6da"
+    },
+    {
+      "path": "config/master_parameters.json",
+      "bytes": 6353,
+      "sha256": "1af3e132978a16375caf01ec2d3304872a01c64d1ae4f06175642d64dee349fb"
+    },
+    {
+      "path": "docs/ZL80_G0_G1_工程交付总册.pdf",
+      "bytes": 1168575,
+      "sha256": "e7a527bd2677f50ab3e4553effb391c885ad7372c105c039cbf4882078ead669"
+    },
+    {
+      "path": "docs/ZL80_G0_需求与接口基线.docx",
+      "bytes": 46465,
+      "sha256": "d451bbb59fee9dc92f1c0f0437d301f57a2d00fc9048f9a17b6595fefe02c658"
+    },
+    {
+      "path": "docs/ZL80_G0_需求与接口基线.pdf",
+      "bytes": 458915,
+      "sha256": "004ba9fde2e0e2fdc40f7efd27fe32386f841a0a550568514170a4e9a32e70dc"
+    },
+    {
+      "path": "docs/ZL80_G1_扫描光学头预设计.docx",
+      "bytes": 309899,
+      "sha256": "b3cd7f99ea76fe9d32af34b60e890862cf51a341e68f1e04b2bcf6c8412e22b3"
+    },
+    {
+      "path": "docs/ZL80_G1_扫描光学头预设计.pdf",
+      "bytes": 706401,
+      "sha256": "7d35d9cdeec4552c3a546160e337f9caaf45f6900d137abdd2feee2e87ba1f4a"
+    },
+    {
+      "path": "drawings/ZL80_G0_G1_接口与时序图册.pdf",
+      "bytes": 15613,
+      "sha256": "ad27fc5f344d0cd2fb9240029db8584ddd0ab667823d003d73dfef483d4ddd49"
+    },
+    {
+      "path": "engineering/G1_verification_matrix.csv",
+      "bytes": 2525,
+      "sha256": "39bda87e5d0a68e91c411cba6b65e6e7e92a5abb966640c65abebed93f6e10a5"
+    },
+    {
+      "path": "engineering/ZL80_G0_G1_Master_Parameters.xlsx",
+      "bytes": 29941,
+      "sha256": "c3103ca760ef65f0fad82baaafe6116e302230157ccc4530b8a8a89cd4084c16"
+    },
+    {
+      "path": "engineering/cad_part_index.csv",
+      "bytes": 3321,
+      "sha256": "defc29d7d00e1916ba0981a63cf655b57dd6f315089152d9dad77627e60fc847"
+    },
+    {
+      "path": "engineering/candidate_components.csv",
+      "bytes": 1618,
+      "sha256": "df785a074a04c5ada932b5a08fbadaaa2917e62459fe49024f0d00dea4d9211b"
+    },
+    {
+      "path": "engineering/interface_register.csv",
+      "bytes": 2109,
+      "sha256": "cd50b887ba2ed2171862f03826b20cf2712be21425655ad2c48a61d263c0c572"
+    },
+    {
+      "path": "engineering/parameter_register.csv",
+      "bytes": 2559,
+      "sha256": "ab1d21011c921a68d3f2795407ebc2e36c397173a5debc51cabe7b41d33faf18"
+    },
+    {
+      "path": "engineering/requirements.csv",
+      "bytes": 4289,
+      "sha256": "d11a9ee08b0753799023a99056b15e0fcb19a5ae8108c042cc7d97fa35eb7825"
+    },
+    {
+      "path": "engineering/risks_and_actions.csv",
+      "bytes": 2087,
+      "sha256": "da530133e32f0278620839750ceabfb5b12e8fb8e04f224ab7d1a54aaf3d0b58"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 293,
+      "sha256": "6f013f9af05c839fad4df788e75ea09516af12ba3765b0990a705485d7f52459"
+    },
+    {
+      "path": "references/Collector_User_Reference.png",
+      "bytes": 2339159,
+      "sha256": "8e098a550f9f933734854ab411c6daf0b5f1e221a936c85c14584a4ea9ed01ce"
+    },
+    {
+      "path": "references/Original_notes_text.txt",
+      "bytes": 42,
+      "sha256": "8d5cb344aaa845e9de58481b7bb38206115062ab64f96c22768b9c52ab132470"
+    },
+    {
+      "path": "references/R51_parameters.json",
+      "bytes": 1527,
+      "sha256": "4ad34ffbec01307d4e455ae7ecdce0dd9fab8afbd6d88359af957e14129fe36e"
+    },
+    {
+      "path": "references/R52_README_original.md",
+      "bytes": 4806,
+      "sha256": "010270d34487dae4a4e0f078c36d42276d962658c9936db540b8d3cb0ec364ac"
+    },
+    {
+      "path": "references/R5_instances.json",
+      "bytes": 40224,
+      "sha256": "59e824161225b51c573f007bda38121f2207844f80b4679b48e27d9fb50a9521"
+    },
+    {
+      "path": "references/R5_parts.json",
+      "bytes": 22939,
+      "sha256": "b564dc5e86e7cbc6df875898c5dc33373c1102dd292ae3251ecfccd97d79b3d6"
+    },
+    {
+      "path": "references/R5_selection_evidence.csv",
+      "bytes": 3964,
+      "sha256": "8738b1cb046106eae29f2a288fb6b85f19b496a06ecf676b48caec0c57e90d69"
+    },
+    {
+      "path": "references/source_register.json",
+      "bytes": 2724,
+      "sha256": "583e956e4f38eca1593133b2ce3a4dc437fdcc12f1b3536dc38ebfe2f2fa31fd"
+    },
+    {
+      "path": "references/参考来源.md",
+      "bytes": 2244,
+      "sha256": "87543eadc750adb013191cd68e17f17160ac3066f82e7447d267d4702ee3946e"
+    },
+    {
+      "path": "requirements-optional.txt",
+      "bytes": 46,
+      "sha256": "3b2f96ca05cd4b41e18536c8a5557da9637726c41aff14c4f9cb9ab1ebe0cd24"
+    },
+    {
+      "path": "results/calculation_summary.json",
+      "bytes": 2001,
+      "sha256": "730bf07d140aa23b55c56858e9a8b3b7e9d4295e137f3e436cc5b4dff7c31772"
+    },
+    {
+      "path": "results/ideal_mtf_budget_NOT_LENS_PERFORMANCE.csv",
+      "bytes": 3622,
+      "sha256": "658604b600053c9b4813483f9906c3874643f0eb403f2f30370671f97f3ae58c"
+    },
+    {
+      "path": "results/polygon_aperture_sensitivity.csv",
+      "bytes": 1083,
+      "sha256": "b01753afbeaef1cbc3d8836206d3aad5a145eb05606b007285ad8c39ae758919"
+    },
+    {
+      "path": "results/polygon_chief_rays.csv",
+      "bytes": 20496,
+      "sha256": "a827d7f7c80fa3123b3280a95b88105f0437d4ce747d02b1d9293041365b584a"
+    },
+    {
+      "path": "results/scan_modes.csv",
+      "bytes": 2707,
+      "sha256": "3de7d00bb57b752a396f81f55dabc2edcc942eaaf2effcab5f53bc0fc1ece263"
+    },
+    {
+      "path": "rfq/ZL80_G1_扫描头联合询价书.docx",
+      "bytes": 41918,
+      "sha256": "2c50ee7fd01fd0022ff5bc3028f7622a0f79b01c69daf84ed146d15952fadac9"
+    },
+    {
+      "path": "rfq/ZL80_G1_扫描头联合询价书.md",
+      "bytes": 4999,
+      "sha256": "542f94e3c84c369afeac3e6f4b264d64bbb3f66375cb0fa42ef65b9c4fb26df3"
+    },
+    {
+      "path": "rfq/ZL80_G1_扫描头联合询价书.pdf",
+      "bytes": 261219,
+      "sha256": "bd3eb6dc8c70b546b6b9a792389f61e14f14d1dd14a25a7763042b5a5bdf5a64"
+    },
+    {
+      "path": "rfq/field_points.csv",
+      "bytes": 941,
+      "sha256": "acc23640cc688e9c7768958f570f5ec377d85368f50caebe32c12a39523ab0d0"
+    },
+    {
+      "path": "rfq/vendor_response.csv",
+      "bytes": 127,
+      "sha256": "13e9cf93b91c5aec4706e379eff1b6e47c182a938acd0fc7fa8b11b26f5e6eab"
+    },
+    {
+      "path": "src/scan_model.py",
+      "bytes": 9158,
+      "sha256": "0edf3ac7cbd79c818ff712d3ab846f277806156abe8df90ebe6c80afa528f645"
+    },
+    {
+      "path": "tests/test_scan_model.py",
+      "bytes": 3751,
+      "sha256": "40a5d91dee3b53321c0843c51690c957c5e3e404b862139bf61937015c20e184"
+    },
+    {
+      "path": "tools/build_cad_review.py",
+      "bytes": 3042,
+      "sha256": "2ba2eefe72352b3469ed05725294f96e6ea6f17fb0e6aabdcc21eeb1f7fcab70"
+    },
+    {
+      "path": "tools/build_drawings.py",
+      "bytes": 8566,
+      "sha256": "f42f6ae4904e64ccf3f72a4886408f66d59c04d22f1a3e9608692848611ce703"
+    },
+    {
+      "path": "tools/rebuild_calculations.py",
+      "bytes": 262,
+      "sha256": "ce358dd0548528d91958b4d4502305425a8b4ddfdcbcc4b1e3a936abc8abbd7b"
+    },
+    {
+      "path": "tools/run_checks.py",
+      "bytes": 879,
+      "sha256": "6c20e78c2942d09ef3656792de1cb8c8252b0804d83b0523203d71dd0e65924e"
+    },
+    {
+      "path": "tools/verify_manifest.py",
+      "bytes": 683,
+      "sha256": "c321a7e27b6afec4724af8c2dad1a748b9a82851845d884a59c88eb0ebe04ac8"
+    },
+    {
+      "path": "validation/cad_checks.json",
+      "bytes": 3751,
+      "sha256": "c061fe5c2ff8cdf7db681bbbf190668d6f2fc19e714051379c13e37fd6adb2b2"
+    },
+    {
+      "path": "validation/file_checks.json",
+      "bytes": 875,
+      "sha256": "053c3a2e2a2cf1db2b6dc247b49616119c73e06f50b1829e9ec77120f81c78f4"
+    },
+    {
+      "path": "validation/status.json",
+      "bytes": 385,
+      "sha256": "e59361fa7038342ca6c4438f03325255687bc2bc5952dd91364551a0b09db980"
+    },
+    {
+      "path": "validation/templates/gate_signoff.json",
+      "bytes": 234,
+      "sha256": "6159bb5a04727ed16110d33a58c489699f7e011d207353d49d13928b433175bf"
+    },
+    {
+      "path": "validation/templates/test_execution.csv",
+      "bytes": 129,
+      "sha256": "c0fa20d5f905ab8b16e7a8aa255f40cc206b6ee4704477d53ef58ad04eac3032"
+    },
+    {
+      "path": "validation/unit_tests.log",
+      "bytes": 2425,
+      "sha256": "342db962f4e4d38e4a030cd6b58800bb88ec529d9b3200f0eb4b1edeecc6081f"
+    },
+    {
+      "path": "validation/verification_scope.md",
+      "bytes": 750,
+      "sha256": "b77a19fe07722e7a6edaa5a69d4f54540cc334c200c20bab98edf13775545b64"
+    }
+  ]
+}

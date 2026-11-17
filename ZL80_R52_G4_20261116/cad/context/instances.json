@@ -1,0 +1,5028 @@
+[
+  {
+    "part": "G3-M01",
+    "name": "BASE",
+    "position": [
+      0,
+      0,
+      8
+    ],
+    "group": "base",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -150.0,
+      -144.0,
+      5.0,
+      150.0,
+      144.0,
+      11.0
+    ]
+  },
+  {
+    "part": "G3-M02",
+    "name": "FRAME_R",
+    "position": [
+      72,
+      0,
+      0
+    ],
+    "group": "frame",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      68.0,
+      -64.0,
+      17.0,
+      76.0,
+      64.0,
+      143.0
+    ]
+  },
+  {
+    "part": "G3-M02L",
+    "name": "FRAME_L",
+    "position": [
+      -72,
+      0,
+      0
+    ],
+    "group": "frame",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -76.0,
+      -64.0,
+      17.0,
+      -68.0,
+      64.0,
+      143.0
+    ]
+  },
+  {
+    "part": "G3-M03",
+    "name": "FOOT_-72_-55",
+    "position": [
+      -72,
+      -55,
+      14
+    ],
+    "group": "frame",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -79.0,
+      -64.0,
+      11.0,
+      -65.0,
+      -46.0,
+      17.0
+    ]
+  },
+  {
+    "part": "G3-M03",
+    "name": "FOOT_-72_55",
+    "position": [
+      -72,
+      55,
+      14
+    ],
+    "group": "frame",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -79.0,
+      46.0,
+      11.0,
+      -65.0,
+      64.0,
+      17.0
+    ]
+  },
+  {
+    "part": "G3-M03",
+    "name": "FOOT_72_-55",
+    "position": [
+      72,
+      -55,
+      14
+    ],
+    "group": "frame",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      65.0,
+      -64.0,
+      11.0,
+      79.0,
+      -46.0,
+      17.0
+    ]
+  },
+  {
+    "part": "G3-M03",
+    "name": "FOOT_72_55",
+    "position": [
+      72,
+      55,
+      14
+    ],
+    "group": "frame",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      65.0,
+      46.0,
+      11.0,
+      79.0,
+      64.0,
+      17.0
+    ]
+  },
+  {
+    "part": "G3-R01",
+    "name": "LOWER_CORE_-42",
+    "position": [
+      0,
+      -42,
+      99.9
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -105.0,
+      -49.0,
+      92.9,
+      84.0,
+      -35.0,
+      106.9
+    ]
+  },
+  {
+    "part": "G3-R04",
+    "name": "LOWER_COVER_-42",
+    "position": [
+      0,
+      -42,
+      99.9
+    ],
+    "group": "rubber",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -50.0,
+      -52.0,
+      89.9,
+      50.0,
+      -32.0,
+      109.9
+    ]
+  },
+  {
+    "part": "G3-R03",
+    "name": "UPPER_CORE_-42",
+    "position": [
+      0,
+      -42,
+      120.1
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -84.0,
+      -49.0,
+      113.1,
+      84.0,
+      -35.0,
+      127.1
+    ]
+  },
+  {
+    "part": "G3-R04",
+    "name": "UPPER_COVER_-42",
+    "position": [
+      0,
+      -42,
+      120.1
+    ],
+    "group": "rubber",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -50.0,
+      -52.0,
+      110.1,
+      50.0,
+      -32.0,
+      130.1
+    ]
+  },
+  {
+    "part": "G3-R02",
+    "name": "LOWER_CORE_42",
+    "position": [
+      0,
+      42,
+      99.9
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -105.0,
+      35.0,
+      92.9,
+      91.0,
+      49.0,
+      106.9
+    ]
+  },
+  {
+    "part": "G3-R04",
+    "name": "LOWER_COVER_42",
+    "position": [
+      0,
+      42,
+      99.9
+    ],
+    "group": "rubber",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -50.0,
+      32.0,
+      89.9,
+      50.0,
+      52.0,
+      109.9
+    ]
+  },
+  {
+    "part": "G3-R03",
+    "name": "UPPER_CORE_42",
+    "position": [
+      0,
+      42,
+      120.1
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -84.0,
+      35.0,
+      113.1,
+      84.0,
+      49.0,
+      127.1
+    ]
+  },
+  {
+    "part": "G3-R04",
+    "name": "UPPER_COVER_42",
+    "position": [
+      0,
+      42,
+      120.1
+    ],
+    "group": "rubber",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -50.0,
+      32.0,
+      110.1,
+      50.0,
+      52.0,
+      130.1
+    ]
+  },
+  {
+    "part": "G3-P01",
+    "name": "BRG_-72_-42_99.9",
+    "position": [
+      -72,
+      -42,
+      99.9
+    ],
+    "group": "bearing",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -74.0,
+      -48.0,
+      93.9,
+      -70.0,
+      -36.0,
+      105.9
+    ]
+  },
+  {
+    "part": "G3-M05",
+    "name": "CAP_-72_-42_99.9",
+    "position": [
+      -77.1,
+      -42,
+      99.9
+    ],
+    "group": "bearing_cap",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -78.1,
+      -54.0,
+      90.9,
+      -74.14999999999999,
+      -30.0,
+      108.9
+    ]
+  },
+  {
+    "part": "G3-P01",
+    "name": "BRG_72_-42_99.9",
+    "position": [
+      72,
+      -42,
+      99.9
+    ],
+    "group": "bearing",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      70.0,
+      -48.0,
+      93.9,
+      74.0,
+      -36.0,
+      105.9
+    ]
+  },
+  {
+    "part": "G3-M06",
+    "name": "CAP_72_-42_99.9",
+    "position": [
+      77.1,
+      -42,
+      99.9
+    ],
+    "group": "bearing_cap",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      74.5,
+      -54.0,
+      90.9,
+      78.1,
+      -30.0,
+      108.9
+    ]
+  },
+  {
+    "part": "G3-P01",
+    "name": "BRG_-72_-42_120.1",
+    "position": [
+      -72,
+      -42,
+      120.1
+    ],
+    "group": "bearing",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -74.0,
+      -48.0,
+      114.1,
+      -70.0,
+      -36.0,
+      126.1
+    ]
+  },
+  {
+    "part": "G3-M05",
+    "name": "CAP_-72_-42_120.1",
+    "position": [
+      -77.1,
+      -42,
+      120.1
+    ],
+    "group": "bearing_cap",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": true,
+    "aabb": [
+      -78.1,
+      -54.0,
+      111.1,
+      -74.14999999999999,
+      -30.0,
+      129.1
+    ]
+  },
+  {
+    "part": "G3-M04L",
+    "name": "SLIDER_-72_-42",
+    "position": [
+      -72,
+      -42,
+      120.1
+    ],
+    "group": "slider",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -76.0000001,
+      -51.0,
+      111.1,
+      -67.9999999,
+      -33.0,
+      129.1000001
+    ]
+  },
+  {
+    "part": "G3-M07",
+    "name": "GUIDEPLATE_-72_-42",
+    "position": [
+      -67.15,
+      -42,
+      120.1
+    ],
+    "group": "slider",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -67.9,
+      -54.0,
+      108.1,
+      -66.4,
+      -30.0,
+      132.1
+    ]
+  },
+  {
+    "part": "G3-P01",
+    "name": "BRG_72_-42_120.1",
+    "position": [
+      72,
+      -42,
+      120.1
+    ],
+    "group": "bearing",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      70.0,
+      -48.0,
+      114.1,
+      74.0,
+      -36.0,
+      126.1
+    ]
+  },
+  {
+    "part": "G3-M06",
+    "name": "CAP_72_-42_120.1",
+    "position": [
+      77.1,
+      -42,
+      120.1
+    ],
+    "group": "bearing_cap",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      74.5,
+      -54.0,
+      111.1,
+      78.1,
+      -30.0,
+      129.1
+    ]
+  },
+  {
+    "part": "G3-M04",
+    "name": "SLIDER_72_-42",
+    "position": [
+      72,
+      -42,
+      120.1
+    ],
+    "group": "slider",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      67.9999999,
+      -51.0,
+      111.1,
+      76.0000001,
+      -33.0,
+      129.1000001
+    ]
+  },
+  {
+    "part": "G3-M07",
+    "name": "GUIDEPLATE_72_-42",
+    "position": [
+      67.15,
+      -42,
+      120.1
+    ],
+    "group": "slider",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      66.4,
+      -54.0,
+      108.1,
+      67.9,
+      -30.0,
+      132.1
+    ]
+  },
+  {
+    "part": "G3-P01",
+    "name": "BRG_-72_42_99.9",
+    "position": [
+      -72,
+      42,
+      99.9
+    ],
+    "group": "bearing",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -74.0,
+      36.0,
+      93.9,
+      -70.0,
+      48.0,
+      105.9
+    ]
+  },
+  {
+    "part": "G3-M05",
+    "name": "CAP_-72_42_99.9",
+    "position": [
+      -77.1,
+      42,
+      99.9
+    ],
+    "group": "bearing_cap",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -78.1,
+      30.0,
+      90.9,
+      -74.14999999999999,
+      54.0,
+      108.9
+    ]
+  },
+  {
+    "part": "G3-P01",
+    "name": "BRG_72_42_99.9",
+    "position": [
+      72,
+      42,
+      99.9
+    ],
+    "group": "bearing",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      70.0,
+      36.0,
+      93.9,
+      74.0,
+      48.0,
+      105.9
+    ]
+  },
+  {
+    "part": "G3-M06",
+    "name": "CAP_72_42_99.9",
+    "position": [
+      77.1,
+      42,
+      99.9
+    ],
+    "group": "bearing_cap",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      74.5,
+      30.0,
+      90.9,
+      78.1,
+      54.0,
+      108.9
+    ]
+  },
+  {
+    "part": "G3-P01",
+    "name": "BRG_-72_42_120.1",
+    "position": [
+      -72,
+      42,
+      120.1
+    ],
+    "group": "bearing",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -74.0,
+      36.0,
+      114.1,
+      -70.0,
+      48.0,
+      126.1
+    ]
+  },
+  {
+    "part": "G3-M05",
+    "name": "CAP_-72_42_120.1",
+    "position": [
+      -77.1,
+      42,
+      120.1
+    ],
+    "group": "bearing_cap",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": true,
+    "aabb": [
+      -78.1,
+      30.0,
+      111.1,
+      -74.14999999999999,
+      54.0,
+      129.1
+    ]
+  },
+  {
+    "part": "G3-M04L",
+    "name": "SLIDER_-72_42",
+    "position": [
+      -72,
+      42,
+      120.1
+    ],
+    "group": "slider",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -76.0000001,
+      33.0,
+      111.1,
+      -67.9999999,
+      51.0,
+      129.1000001
+    ]
+  },
+  {
+    "part": "G3-M07",
+    "name": "GUIDEPLATE_-72_42",
+    "position": [
+      -67.15,
+      42,
+      120.1
+    ],
+    "group": "slider",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -67.9,
+      30.0,
+      108.1,
+      -66.4,
+      54.0,
+      132.1
+    ]
+  },
+  {
+    "part": "G3-P01",
+    "name": "BRG_72_42_120.1",
+    "position": [
+      72,
+      42,
+      120.1
+    ],
+    "group": "bearing",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      70.0,
+      36.0,
+      114.1,
+      74.0,
+      48.0,
+      126.1
+    ]
+  },
+  {
+    "part": "G3-M06",
+    "name": "CAP_72_42_120.1",
+    "position": [
+      77.1,
+      42,
+      120.1
+    ],
+    "group": "bearing_cap",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      74.5,
+      30.0,
+      111.1,
+      78.1,
+      54.0,
+      129.1
+    ]
+  },
+  {
+    "part": "G3-M04",
+    "name": "SLIDER_72_42",
+    "position": [
+      72,
+      42,
+      120.1
+    ],
+    "group": "slider",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      67.9999999,
+      33.0,
+      111.1,
+      76.0000001,
+      51.0,
+      129.1000001
+    ]
+  },
+  {
+    "part": "G3-M07",
+    "name": "GUIDEPLATE_72_42",
+    "position": [
+      67.15,
+      42,
+      120.1
+    ],
+    "group": "slider",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      66.4,
+      30.0,
+      108.1,
+      67.9,
+      54.0,
+      132.1
+    ]
+  },
+  {
+    "part": "G3-M08",
+    "name": "SPACER_L_-42",
+    "position": [
+      -76.55,
+      -42,
+      99.9
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -79.1,
+      -45.7,
+      96.2,
+      -74.0,
+      -38.3,
+      103.60000000000001
+    ]
+  },
+  {
+    "part": "G3-P02",
+    "name": "COLLAR_L_-42",
+    "position": [
+      -83.6,
+      -42,
+      99.9
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -88.1,
+      -50.0,
+      91.9,
+      -79.1,
+      -34.0,
+      107.9
+    ]
+  },
+  {
+    "part": "G3-M09",
+    "name": "UPPER_WASHER_-42",
+    "position": [
+      -74.25,
+      -42,
+      120.1
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -74.5,
+      -45.7,
+      116.39999999999999,
+      -74.0,
+      -38.3,
+      123.8
+    ]
+  },
+  {
+    "part": "G3-P03",
+    "name": "UPPER_NUT_-42",
+    "position": [
+      -77,
+      -42,
+      120.1
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -79.5,
+      -46.620000000000005,
+      116.09896263451589,
+      -74.5,
+      -37.379999999999995,
+      124.1010373654841
+    ]
+  },
+  {
+    "part": "G3-M08",
+    "name": "SPACER_L_42",
+    "position": [
+      -76.55,
+      42,
+      99.9
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -79.1,
+      38.3,
+      96.2,
+      -74.0,
+      45.7,
+      103.60000000000001
+    ]
+  },
+  {
+    "part": "G3-P02",
+    "name": "COLLAR_L_42",
+    "position": [
+      -83.6,
+      42,
+      99.9
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -88.1,
+      34.0,
+      91.9,
+      -79.1,
+      50.0,
+      107.9
+    ]
+  },
+  {
+    "part": "G3-M09",
+    "name": "UPPER_WASHER_42",
+    "position": [
+      -74.25,
+      42,
+      120.1
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -74.5,
+      38.3,
+      116.39999999999999,
+      -74.0,
+      45.7,
+      123.8
+    ]
+  },
+  {
+    "part": "G3-P03",
+    "name": "UPPER_NUT_42",
+    "position": [
+      -77,
+      42,
+      120.1
+    ],
+    "group": "transport",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -79.5,
+      37.379999999999995,
+      116.09896263451589,
+      -74.5,
+      46.620000000000005,
+      124.1010373654841
+    ]
+  },
+  {
+    "part": "G3-M10L",
+    "name": "TOP_-72_-42",
+    "position": [
+      -72,
+      -42,
+      148
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -84.0,
+      -57.0,
+      143.0,
+      -60.0,
+      -27.0,
+      153.0
+    ]
+  },
+  {
+    "part": "G3-P04",
+    "name": "SPRING_-72_-42",
+    "position": [
+      -72,
+      -45,
+      136.05
+    ],
+    "group": "spring",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -74.5,
+      -47.5,
+      129.10000000000002,
+      -69.5,
+      -42.5,
+      143.00000000000003
+    ]
+  },
+  {
+    "part": "G3-P05",
+    "name": "ADJUST_-72_-42",
+    "position": [
+      -72,
+      -45,
+      152
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -76.0,
+      -49.0,
+      144.0,
+      -68.0,
+      -41.0,
+      163.0
+    ]
+  },
+  {
+    "part": "G3-M16",
+    "name": "PRESSPAD_-72_-42",
+    "position": [
+      -72,
+      -45,
+      143.5
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -74.6,
+      -47.6,
+      143.0,
+      -69.4,
+      -42.4,
+      144.0
+    ]
+  },
+  {
+    "part": "G3-P06",
+    "name": "LIFT_ROD_-72_-42",
+    "position": [
+      -71,
+      -36,
+      148.1
+    ],
+    "group": "release",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -74.0,
+      -39.0,
+      125.1,
+      -68.0,
+      -33.0,
+      173.1
+    ]
+  },
+  {
+    "part": "G3-M10",
+    "name": "TOP_72_-42",
+    "position": [
+      72,
+      -42,
+      148
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      60.0,
+      -57.0,
+      143.0,
+      84.0,
+      -27.0,
+      153.0
+    ]
+  },
+  {
+    "part": "G3-P04",
+    "name": "SPRING_72_-42",
+    "position": [
+      72,
+      -45,
+      136.05
+    ],
+    "group": "spring",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      69.5,
+      -47.5,
+      129.10000000000002,
+      74.5,
+      -42.5,
+      143.00000000000003
+    ]
+  },
+  {
+    "part": "G3-P05",
+    "name": "ADJUST_72_-42",
+    "position": [
+      72,
+      -45,
+      152
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      68.0,
+      -49.0,
+      144.0,
+      76.0,
+      -41.0,
+      163.0
+    ]
+  },
+  {
+    "part": "G3-M16",
+    "name": "PRESSPAD_72_-42",
+    "position": [
+      72,
+      -45,
+      143.5
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      69.4,
+      -47.6,
+      143.0,
+      74.6,
+      -42.4,
+      144.0
+    ]
+  },
+  {
+    "part": "G3-P06",
+    "name": "LIFT_ROD_72_-42",
+    "position": [
+      71,
+      -36,
+      148.1
+    ],
+    "group": "release",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      68.0,
+      -39.0,
+      125.1,
+      74.0,
+      -33.0,
+      173.1
+    ]
+  },
+  {
+    "part": "G3-M11",
+    "name": "LIFT_BAR_-42",
+    "position": [
+      0,
+      -36,
+      168.1
+    ],
+    "group": "release",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -82.0,
+      -40.0,
+      166.1,
+      82.0,
+      -32.0,
+      170.1
+    ]
+  },
+  {
+    "part": "G3-M10L",
+    "name": "TOP_-72_42",
+    "position": [
+      -72,
+      42,
+      148
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -84.0,
+      27.0,
+      143.0,
+      -60.0,
+      57.0,
+      153.0
+    ]
+  },
+  {
+    "part": "G3-P04",
+    "name": "SPRING_-72_42",
+    "position": [
+      -72,
+      39,
+      136.05
+    ],
+    "group": "spring",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -74.5,
+      36.5,
+      129.10000000000002,
+      -69.5,
+      41.5,
+      143.00000000000003
+    ]
+  },
+  {
+    "part": "G3-P05",
+    "name": "ADJUST_-72_42",
+    "position": [
+      -72,
+      39,
+      152
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -76.0,
+      35.0,
+      144.0,
+      -68.0,
+      43.0,
+      163.0
+    ]
+  },
+  {
+    "part": "G3-M16",
+    "name": "PRESSPAD_-72_42",
+    "position": [
+      -72,
+      39,
+      143.5
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -74.6,
+      36.4,
+      143.0,
+      -69.4,
+      41.6,
+      144.0
+    ]
+  },
+  {
+    "part": "G3-P06",
+    "name": "LIFT_ROD_-72_42",
+    "position": [
+      -71,
+      48,
+      148.1
+    ],
+    "group": "release",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -74.0,
+      45.0,
+      125.1,
+      -68.0,
+      51.0,
+      173.1
+    ]
+  },
+  {
+    "part": "G3-M10",
+    "name": "TOP_72_42",
+    "position": [
+      72,
+      42,
+      148
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      60.0,
+      27.0,
+      143.0,
+      84.0,
+      57.0,
+      153.0
+    ]
+  },
+  {
+    "part": "G3-P04",
+    "name": "SPRING_72_42",
+    "position": [
+      72,
+      39,
+      136.05
+    ],
+    "group": "spring",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      69.5,
+      36.5,
+      129.10000000000002,
+      74.5,
+      41.5,
+      143.00000000000003
+    ]
+  },
+  {
+    "part": "G3-P05",
+    "name": "ADJUST_72_42",
+    "position": [
+      72,
+      39,
+      152
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      68.0,
+      35.0,
+      144.0,
+      76.0,
+      43.0,
+      163.0
+    ]
+  },
+  {
+    "part": "G3-M16",
+    "name": "PRESSPAD_72_42",
+    "position": [
+      72,
+      39,
+      143.5
+    ],
+    "group": "preload",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      69.4,
+      36.4,
+      143.0,
+      74.6,
+      41.6,
+      144.0
+    ]
+  },
+  {
+    "part": "G3-P06",
+    "name": "LIFT_ROD_72_42",
+    "position": [
+      71,
+      48,
+      148.1
+    ],
+    "group": "release",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      68.0,
+      45.0,
+      125.1,
+      74.0,
+      51.0,
+      173.1
+    ]
+  },
+  {
+    "part": "G3-M11",
+    "name": "LIFT_BAR_42",
+    "position": [
+      0,
+      48,
+      168.1
+    ],
+    "group": "release",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      -82.0,
+      44.0,
+      166.1,
+      82.0,
+      52.0,
+      170.1
+    ]
+  },
+  {
+    "part": "G3-P07",
+    "name": "COUPLING",
+    "position": [
+      96,
+      42,
+      99.9
+    ],
+    "group": "drive",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      81.0,
+      32.0,
+      89.9,
+      111.0,
+      52.0,
+      109.9
+    ]
+  },
+  {
+    "part": "G3-P08",
+    "name": "DRIVE_MOTOR",
+    "position": [
+      121.5,
+      42,
+      99.9
+    ],
+    "group": "drive",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      101.0,
+      24.4,
+      82.30000000000001,
+      147.5,
+      59.6,
+      117.50000000000001
+    ]
+  },
+  {
+    "part": "G3-M12",
+    "name": "MOTOR_BRACKET",
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "group": "frame",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      116.5,
+      18.0,
+      11.0,
+      147.5,
+      66.0,
+      124.0
+    ]
+  },
+  {
+    "part": "G3-M13",
+    "name": "COUPLER_GUARD",
+    "position": [
+      98.35,
+      42,
+      99.9
+    ],
+    "group": "guard",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      80.3,
+      29.5,
+      87.4,
+      116.4,
+      54.5,
+      112.4
+    ]
+  },
+  {
+    "part": "G3-P09",
+    "name": "ENCODER_-42",
+    "position": [
+      -98,
+      -42,
+      99.9
+    ],
+    "group": "encoder",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -103.17,
+      -56.29,
+      77.98,
+      -92.83,
+      -27.71,
+      115.23
+    ]
+  },
+  {
+    "part": "G3-M14",
+    "name": "ENC_PLATE_-42",
+    "position": [
+      -90,
+      -42,
+      99.9
+    ],
+    "group": "encoder_mount",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -91.5,
+      -62.0,
+      76.9,
+      -88.5,
+      -22.0,
+      122.9
+    ]
+  },
+  {
+    "part": "G3-M15",
+    "name": "ENC_POST_-42_-16",
+    "position": [
+      -82.25,
+      -58,
+      87.9
+    ],
+    "group": "encoder_mount",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -88.5,
+      -61.0,
+      84.9,
+      -76.0,
+      -55.0,
+      90.9
+    ]
+  },
+  {
+    "part": "G3-M15",
+    "name": "ENC_POST_-42_16",
+    "position": [
+      -82.25,
+      -26,
+      87.9
+    ],
+    "group": "encoder_mount",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -88.5,
+      -29.0,
+      84.9,
+      -76.0,
+      -23.0,
+      90.9
+    ]
+  },
+  {
+    "part": "G3-P09",
+    "name": "ENCODER_42",
+    "position": [
+      -98,
+      42,
+      99.9
+    ],
+    "group": "encoder",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -103.17,
+      27.71,
+      77.98,
+      -92.83,
+      56.29,
+      115.23
+    ]
+  },
+  {
+    "part": "G3-M14",
+    "name": "ENC_PLATE_42",
+    "position": [
+      -90,
+      42,
+      99.9
+    ],
+    "group": "encoder_mount",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -91.5,
+      22.0,
+      76.9,
+      -88.5,
+      62.0,
+      122.9
+    ]
+  },
+  {
+    "part": "G3-M15",
+    "name": "ENC_POST_42_-16",
+    "position": [
+      -82.25,
+      26,
+      87.9
+    ],
+    "group": "encoder_mount",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -88.5,
+      23.0,
+      84.9,
+      -76.0,
+      29.0,
+      90.9
+    ]
+  },
+  {
+    "part": "G3-M15",
+    "name": "ENC_POST_42_16",
+    "position": [
+      -82.25,
+      58,
+      87.9
+    ],
+    "group": "encoder_mount",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -88.5,
+      55.0,
+      84.9,
+      -76.0,
+      61.0,
+      90.9
+    ]
+  },
+  {
+    "part": "G3-H01",
+    "name": "FRONT",
+    "position": [
+      0,
+      -149.25,
+      150
+    ],
+    "group": "enclosure",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -160.0,
+      -150.0,
+      1.5,
+      160.0,
+      -148.5,
+      298.5
+    ]
+  },
+  {
+    "part": "G3-H02",
+    "name": "REAR",
+    "position": [
+      0,
+      149.25,
+      150
+    ],
+    "group": "enclosure",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -160.0,
+      148.5,
+      1.5,
+      160.0,
+      150.0,
+      298.5
+    ]
+  },
+  {
+    "part": "G3-H03",
+    "name": "RIGHT",
+    "position": [
+      159.25,
+      0,
+      150
+    ],
+    "group": "enclosure",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      158.5,
+      -148.5,
+      1.5,
+      160.0,
+      148.5,
+      298.5
+    ]
+  },
+  {
+    "part": "G3-H04",
+    "name": "LEFT",
+    "position": [
+      -159.25,
+      0,
+      150
+    ],
+    "group": "enclosure",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -160.0,
+      -148.5,
+      1.5,
+      -158.5,
+      148.5,
+      298.5
+    ]
+  },
+  {
+    "part": "G3-H05",
+    "name": "TOP",
+    "position": [
+      0,
+      0,
+      299.25
+    ],
+    "group": "enclosure",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -160.0,
+      -150.0,
+      298.5,
+      160.0,
+      150.0,
+      300.0
+    ]
+  },
+  {
+    "part": "G3-H06",
+    "name": "BOTTOM",
+    "position": [
+      0,
+      0,
+      0.75
+    ],
+    "group": "enclosure",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -160.0,
+      -150.0,
+      0.0,
+      160.0,
+      150.0,
+      1.5
+    ]
+  },
+  {
+    "part": "G3-H07",
+    "name": "CORNER_-153.5_-143.5",
+    "position": [
+      -153.5,
+      -143.5,
+      150
+    ],
+    "group": "enclosure",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -158.5,
+      -148.5,
+      1.5,
+      -148.5,
+      -138.5,
+      298.5
+    ]
+  },
+  {
+    "part": "G3-H07",
+    "name": "CORNER_-153.5_143.5",
+    "position": [
+      -153.5,
+      143.5,
+      150
+    ],
+    "group": "enclosure",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      90
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -158.5,
+      138.5,
+      1.5,
+      -148.5,
+      148.5,
+      298.5
+    ]
+  },
+  {
+    "part": "G3-H07",
+    "name": "CORNER_153.5_-143.5",
+    "position": [
+      153.5,
+      -143.5,
+      150
+    ],
+    "group": "enclosure",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      270
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      148.5,
+      -148.5,
+      1.5,
+      158.5,
+      -138.5,
+      298.5
+    ]
+  },
+  {
+    "part": "G3-H07",
+    "name": "CORNER_153.5_143.5",
+    "position": [
+      153.5,
+      143.5,
+      150
+    ],
+    "group": "enclosure",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      0
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      148.5,
+      138.5,
+      1.5,
+      158.5,
+      148.5,
+      298.5
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_-42_99.9_-7_-7",
+    "position": [
+      -78.1,
+      -49,
+      92.9
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -80.1,
+      -50.9,
+      91.0,
+      -73.1,
+      -47.1,
+      94.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_-42_99.9_-7_7",
+    "position": [
+      -78.1,
+      -49,
+      106.9
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -80.1,
+      -50.9,
+      105.0,
+      -73.1,
+      -47.1,
+      108.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_-42_99.9_7_-7",
+    "position": [
+      -78.1,
+      -35,
+      92.9
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -80.1,
+      -36.9,
+      91.0,
+      -73.1,
+      -33.1,
+      94.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_-42_99.9_7_7",
+    "position": [
+      -78.1,
+      -35,
+      106.9
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -80.1,
+      -36.9,
+      105.0,
+      -73.1,
+      -33.1,
+      108.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_-42_99.9_-7_-7",
+    "position": [
+      78.1,
+      -49,
+      92.9
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      73.1,
+      -50.9,
+      91.0,
+      80.1,
+      -47.1,
+      94.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_-42_99.9_-7_7",
+    "position": [
+      78.1,
+      -49,
+      106.9
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      73.1,
+      -50.9,
+      105.0,
+      80.1,
+      -47.1,
+      108.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_-42_99.9_7_-7",
+    "position": [
+      78.1,
+      -35,
+      92.9
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      73.1,
+      -36.9,
+      91.0,
+      80.1,
+      -33.1,
+      94.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_-42_99.9_7_7",
+    "position": [
+      78.1,
+      -35,
+      106.9
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      73.1,
+      -36.9,
+      105.0,
+      80.1,
+      -33.1,
+      108.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_-42_120.1_-7_-7",
+    "position": [
+      -78.1,
+      -49,
+      113.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": true,
+    "aabb": [
+      -80.1,
+      -50.9,
+      111.19999999999999,
+      -73.1,
+      -47.1,
+      115.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_-42_120.1_-7_7",
+    "position": [
+      -78.1,
+      -49,
+      127.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": true,
+    "aabb": [
+      -80.1,
+      -50.9,
+      125.19999999999999,
+      -73.1,
+      -47.1,
+      129.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_-42_120.1_7_-7",
+    "position": [
+      -78.1,
+      -35,
+      113.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": true,
+    "aabb": [
+      -80.1,
+      -36.9,
+      111.19999999999999,
+      -73.1,
+      -33.1,
+      115.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_-42_120.1_7_7",
+    "position": [
+      -78.1,
+      -35,
+      127.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": true,
+    "aabb": [
+      -80.1,
+      -36.9,
+      125.19999999999999,
+      -73.1,
+      -33.1,
+      129.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_-42_120.1_-7_-7",
+    "position": [
+      78.1,
+      -49,
+      113.1
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      73.1,
+      -50.9,
+      111.19999999999999,
+      80.1,
+      -47.1,
+      115.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_-42_120.1_-7_7",
+    "position": [
+      78.1,
+      -49,
+      127.1
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      73.1,
+      -50.9,
+      125.19999999999999,
+      80.1,
+      -47.1,
+      129.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_-42_120.1_7_-7",
+    "position": [
+      78.1,
+      -35,
+      113.1
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      73.1,
+      -36.9,
+      111.19999999999999,
+      80.1,
+      -33.1,
+      115.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_-42_120.1_7_7",
+    "position": [
+      78.1,
+      -35,
+      127.1
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      73.1,
+      -36.9,
+      125.19999999999999,
+      80.1,
+      -33.1,
+      129.0
+    ]
+  },
+  {
+    "part": "G3-F02",
+    "name": "TOP_SCREW_-72_-42_-12",
+    "position": [
+      -72,
+      -54,
+      153
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -74.75,
+      -56.75,
+      138.0,
+      -69.25,
+      -51.25,
+      156.0
+    ]
+  },
+  {
+    "part": "G3-F02",
+    "name": "TOP_SCREW_-72_-42_12",
+    "position": [
+      -72,
+      -30,
+      153
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -74.75,
+      -32.75,
+      138.0,
+      -69.25,
+      -27.25,
+      156.0
+    ]
+  },
+  {
+    "part": "G3-F02",
+    "name": "TOP_SCREW_72_-42_-12",
+    "position": [
+      72,
+      -54,
+      153
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      69.25,
+      -56.75,
+      138.0,
+      74.75,
+      -51.25,
+      156.0
+    ]
+  },
+  {
+    "part": "G3-F02",
+    "name": "TOP_SCREW_72_-42_12",
+    "position": [
+      72,
+      -30,
+      153
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      69.25,
+      -32.75,
+      138.0,
+      74.75,
+      -27.25,
+      156.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_42_99.9_-7_-7",
+    "position": [
+      -78.1,
+      35,
+      92.9
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -80.1,
+      33.1,
+      91.0,
+      -73.1,
+      36.9,
+      94.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_42_99.9_-7_7",
+    "position": [
+      -78.1,
+      35,
+      106.9
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -80.1,
+      33.1,
+      105.0,
+      -73.1,
+      36.9,
+      108.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_42_99.9_7_-7",
+    "position": [
+      -78.1,
+      49,
+      92.9
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -80.1,
+      47.1,
+      91.0,
+      -73.1,
+      50.9,
+      94.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_42_99.9_7_7",
+    "position": [
+      -78.1,
+      49,
+      106.9
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -80.1,
+      47.1,
+      105.0,
+      -73.1,
+      50.9,
+      108.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_42_99.9_-7_-7",
+    "position": [
+      78.1,
+      35,
+      92.9
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      73.1,
+      33.1,
+      91.0,
+      80.1,
+      36.9,
+      94.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_42_99.9_-7_7",
+    "position": [
+      78.1,
+      35,
+      106.9
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      73.1,
+      33.1,
+      105.0,
+      80.1,
+      36.9,
+      108.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_42_99.9_7_-7",
+    "position": [
+      78.1,
+      49,
+      92.9
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      73.1,
+      47.1,
+      91.0,
+      80.1,
+      50.9,
+      94.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_42_99.9_7_7",
+    "position": [
+      78.1,
+      49,
+      106.9
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      73.1,
+      47.1,
+      105.0,
+      80.1,
+      50.9,
+      108.80000000000001
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_42_120.1_-7_-7",
+    "position": [
+      -78.1,
+      35,
+      113.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": true,
+    "aabb": [
+      -80.1,
+      33.1,
+      111.19999999999999,
+      -73.1,
+      36.9,
+      115.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_42_120.1_-7_7",
+    "position": [
+      -78.1,
+      35,
+      127.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": true,
+    "aabb": [
+      -80.1,
+      33.1,
+      125.19999999999999,
+      -73.1,
+      36.9,
+      129.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_42_120.1_7_-7",
+    "position": [
+      -78.1,
+      49,
+      113.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": true,
+    "aabb": [
+      -80.1,
+      47.1,
+      111.19999999999999,
+      -73.1,
+      50.9,
+      115.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_-72_42_120.1_7_7",
+    "position": [
+      -78.1,
+      49,
+      127.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": true,
+    "aabb": [
+      -80.1,
+      47.1,
+      125.19999999999999,
+      -73.1,
+      50.9,
+      129.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_42_120.1_-7_-7",
+    "position": [
+      78.1,
+      35,
+      113.1
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      73.1,
+      33.1,
+      111.19999999999999,
+      80.1,
+      36.9,
+      115.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_42_120.1_-7_7",
+    "position": [
+      78.1,
+      35,
+      127.1
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      73.1,
+      33.1,
+      125.19999999999999,
+      80.1,
+      36.9,
+      129.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_42_120.1_7_-7",
+    "position": [
+      78.1,
+      49,
+      113.1
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      73.1,
+      47.1,
+      111.19999999999999,
+      80.1,
+      50.9,
+      115.0
+    ]
+  },
+  {
+    "part": "G3-F01",
+    "name": "CAP_SCREW_72_42_120.1_7_7",
+    "position": [
+      78.1,
+      49,
+      127.1
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": true,
+    "aabb": [
+      73.1,
+      47.1,
+      125.19999999999999,
+      80.1,
+      50.9,
+      129.0
+    ]
+  },
+  {
+    "part": "G3-F02",
+    "name": "TOP_SCREW_-72_42_-12",
+    "position": [
+      -72,
+      30,
+      153
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -74.75,
+      27.25,
+      138.0,
+      -69.25,
+      32.75,
+      156.0
+    ]
+  },
+  {
+    "part": "G3-F02",
+    "name": "TOP_SCREW_-72_42_12",
+    "position": [
+      -72,
+      54,
+      153
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -74.75,
+      51.25,
+      138.0,
+      -69.25,
+      56.75,
+      156.0
+    ]
+  },
+  {
+    "part": "G3-F02",
+    "name": "TOP_SCREW_72_42_-12",
+    "position": [
+      72,
+      30,
+      153
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      69.25,
+      27.25,
+      138.0,
+      74.75,
+      32.75,
+      156.0
+    ]
+  },
+  {
+    "part": "G3-F02",
+    "name": "TOP_SCREW_72_42_12",
+    "position": [
+      72,
+      54,
+      153
+    ],
+    "group": "fastener",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      69.25,
+      51.25,
+      138.0,
+      74.75,
+      56.75,
+      156.0
+    ]
+  },
+  {
+    "part": "G3-F03",
+    "name": "FRAME_SCREW_-72_-55",
+    "position": [
+      -72,
+      -55,
+      7.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -75.5,
+      -58.5,
+      3.099999999999999,
+      -68.5,
+      -51.5,
+      27.1
+    ]
+  },
+  {
+    "part": "G3-F03",
+    "name": "FRAME_SCREW_-72_55",
+    "position": [
+      -72,
+      55,
+      7.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -75.5,
+      51.5,
+      3.099999999999999,
+      -68.5,
+      58.5,
+      27.1
+    ]
+  },
+  {
+    "part": "G3-F03",
+    "name": "FRAME_SCREW_72_-55",
+    "position": [
+      72,
+      -55,
+      7.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      68.5,
+      -58.5,
+      3.099999999999999,
+      75.5,
+      -51.5,
+      27.1
+    ]
+  },
+  {
+    "part": "G3-F03",
+    "name": "FRAME_SCREW_72_55",
+    "position": [
+      72,
+      55,
+      7.1
+    ],
+    "group": "fastener",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      68.5,
+      51.5,
+      3.099999999999999,
+      75.5,
+      58.5,
+      27.1
+    ]
+  },
+  {
+    "part": "G3-P10",
+    "name": "RUBBER_FOOT_-132_-120",
+    "position": [
+      -132,
+      -120,
+      -4
+    ],
+    "group": "external_foot",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -140.0,
+      -128.0,
+      -8.0,
+      -124.0,
+      -112.0,
+      0.0
+    ]
+  },
+  {
+    "part": "G3-P10",
+    "name": "RUBBER_FOOT_-132_120",
+    "position": [
+      -132,
+      120,
+      -4
+    ],
+    "group": "external_foot",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -140.0,
+      112.0,
+      -8.0,
+      -124.0,
+      128.0,
+      0.0
+    ]
+  },
+  {
+    "part": "G3-P10",
+    "name": "RUBBER_FOOT_132_-120",
+    "position": [
+      132,
+      -120,
+      -4
+    ],
+    "group": "external_foot",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      124.0,
+      -128.0,
+      -8.0,
+      140.0,
+      -112.0,
+      0.0
+    ]
+  },
+  {
+    "part": "G3-P10",
+    "name": "RUBBER_FOOT_132_120",
+    "position": [
+      132,
+      120,
+      -4
+    ],
+    "group": "external_foot",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      124.0,
+      112.0,
+      -8.0,
+      140.0,
+      128.0,
+      0.0
+    ]
+  },
+  {
+    "part": "REF_FILM",
+    "name": "FILM",
+    "position": [
+      0,
+      0,
+      110
+    ],
+    "group": "reference",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -40.0,
+      -135.0,
+      109.9,
+      40.0,
+      135.0,
+      110.10000000000001
+    ]
+  },
+  {
+    "part": "REF_M09",
+    "name": "R5_Scan_support_-5",
+    "position": [
+      0,
+      -5,
+      109.65
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -42.0,
+      -6.0,
+      109.4,
+      42.0,
+      -4.0,
+      109.9
+    ]
+  },
+  {
+    "part": "REF_M09",
+    "name": "R5_Scan_support_5",
+    "position": [
+      0,
+      5,
+      109.65
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -42.0,
+      4.0,
+      109.4,
+      42.0,
+      6.0,
+      109.9
+    ]
+  },
+  {
+    "part": "REF_M10",
+    "name": "R5_Guide_-43_-90",
+    "position": [
+      -43,
+      -90,
+      111.5
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -44.5,
+      -102.5,
+      110.0,
+      -41.5,
+      -77.5,
+      113.0
+    ]
+  },
+  {
+    "part": "REF_M10",
+    "name": "R5_Guide_-43_90",
+    "position": [
+      -43,
+      90,
+      111.5
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -44.5,
+      77.5,
+      110.0,
+      -41.5,
+      102.5,
+      113.0
+    ]
+  },
+  {
+    "part": "REF_M10",
+    "name": "R5_Guide_43_-90",
+    "position": [
+      43,
+      -90,
+      111.5
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      41.5,
+      -102.5,
+      110.0,
+      44.5,
+      -77.5,
+      113.0
+    ]
+  },
+  {
+    "part": "REF_M10",
+    "name": "R5_Guide_43_90",
+    "position": [
+      43,
+      90,
+      111.5
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      41.5,
+      77.5,
+      110.0,
+      44.5,
+      102.5,
+      113.0
+    ]
+  },
+  {
+    "part": "REF_C01",
+    "name": "R5_Cavity_shell",
+    "position": [
+      0,
+      0,
+      83.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -63.0,
+      -30.0,
+      57.099999999999994,
+      63.0,
+      26.0,
+      109.1
+    ]
+  },
+  {
+    "part": "REF_C02",
+    "name": "R5_Liner",
+    "position": [
+      0,
+      0,
+      83.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -60.0,
+      -23.4,
+      59.699999999999996,
+      60.0,
+      23.4,
+      106.5
+    ]
+  },
+  {
+    "part": "REF_C03",
+    "name": "R5_Cap_R",
+    "position": [
+      63,
+      0,
+      83.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      61.5,
+      -29.0,
+      54.099999999999994,
+      67.0,
+      29.0,
+      112.1
+    ]
+  },
+  {
+    "part": "REF_C03",
+    "name": "R5_Cap_L",
+    "position": [
+      -63,
+      0,
+      83.1
+    ],
+    "group": "inherited",
+    "rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      180
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -67.0,
+      -29.0,
+      54.099999999999994,
+      -61.5,
+      29.0,
+      112.1
+    ]
+  },
+  {
+    "part": "REF_C04",
+    "name": "R5_End_liner-60.75",
+    "position": [
+      -60.75,
+      0,
+      83.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -61.5,
+      -23.4,
+      59.699999999999996,
+      -60.0,
+      23.4,
+      106.5
+    ]
+  },
+  {
+    "part": "REF_C04",
+    "name": "R5_End_liner60.75",
+    "position": [
+      60.75,
+      0,
+      83.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      60.0,
+      -23.4,
+      59.699999999999996,
+      61.5,
+      23.4,
+      106.5
+    ]
+  },
+  {
+    "part": "REF_C05",
+    "name": "R5_Slot_lip",
+    "position": [
+      0,
+      0,
+      109.25
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -57.0,
+      -7.0,
+      109.1,
+      57.0,
+      7.0,
+      109.4
+    ]
+  },
+  {
+    "part": "REF_C06",
+    "name": "R5_Taper_lightguide",
+    "position": [
+      0,
+      -23.4,
+      83.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -4.0000001,
+      -55.4000001,
+      78.0999999,
+      4.0000001,
+      -23.399999899999997,
+      88.10000009999999
+    ]
+  },
+  {
+    "part": "REF_C07",
+    "name": "R5_Guide_sleeve",
+    "position": [
+      0,
+      -41.85,
+      83.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -11.0,
+      -53.5,
+      76.89999999999999,
+      11.0,
+      -30.2,
+      89.3
+    ]
+  },
+  {
+    "part": "REF_C08",
+    "name": "R5_PMT_flange",
+    "position": [
+      0,
+      -55.8,
+      83.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -13.0,
+      -57.3,
+      68.6,
+      13.0,
+      -54.3,
+      97.6
+    ]
+  },
+  {
+    "part": "REF_C09",
+    "name": "R5_Saddle_-48",
+    "position": [
+      -48,
+      0,
+      36.05
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -54.0,
+      -35.0,
+      10.999999999999996,
+      -42.0,
+      35.0,
+      61.099999999999994
+    ]
+  },
+  {
+    "part": "REF_C09",
+    "name": "R5_Saddle_48",
+    "position": [
+      48,
+      0,
+      36.05
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      42.0,
+      -35.0,
+      10.999999999999996,
+      54.0,
+      35.0,
+      61.099999999999994
+    ]
+  },
+  {
+    "part": "REF_P03",
+    "name": "R5_PMT",
+    "position": [
+      0,
+      -66.3,
+      83.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -11.0,
+      -75.3,
+      70.6,
+      39.0,
+      -55.8,
+      95.6
+    ]
+  },
+  {
+    "part": "REF_P04",
+    "name": "R5_PMT_pin_1",
+    "position": [
+      -6.32,
+      -81.3,
+      90.72
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -6.82,
+      -87.3,
+      90.22,
+      -5.82,
+      -75.3,
+      91.22
+    ]
+  },
+  {
+    "part": "REF_P04",
+    "name": "R5_PMT_pin_2",
+    "position": [
+      29.240000000000002,
+      -81.3,
+      90.72
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      28.740000000000002,
+      -87.3,
+      90.22,
+      29.740000000000002,
+      -75.3,
+      91.22
+    ]
+  },
+  {
+    "part": "REF_P04",
+    "name": "R5_PMT_pin_3",
+    "position": [
+      34.32,
+      -81.3,
+      90.72
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      33.82,
+      -87.3,
+      90.22,
+      34.82,
+      -75.3,
+      91.22
+    ]
+  },
+  {
+    "part": "REF_P04",
+    "name": "R5_PMT_pin_8",
+    "position": [
+      -6.32,
+      -81.3,
+      75.47999999999999
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -6.82,
+      -87.3,
+      74.97999999999999,
+      -5.82,
+      -75.3,
+      75.97999999999999
+    ]
+  },
+  {
+    "part": "REF_P04",
+    "name": "R5_PMT_pin_7",
+    "position": [
+      6.379999999999999,
+      -81.3,
+      75.47999999999999
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      5.879999999999999,
+      -87.3,
+      74.97999999999999,
+      6.879999999999999,
+      -75.3,
+      75.97999999999999
+    ]
+  },
+  {
+    "part": "REF_P04",
+    "name": "R5_PMT_pin_6",
+    "position": [
+      11.46,
+      -81.3,
+      75.47999999999999
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      10.96,
+      -87.3,
+      74.97999999999999,
+      11.96,
+      -75.3,
+      75.97999999999999
+    ]
+  },
+  {
+    "part": "REF_P04",
+    "name": "R5_PMT_pin_5",
+    "position": [
+      29.240000000000002,
+      -81.3,
+      75.47999999999999
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      28.740000000000002,
+      -87.3,
+      74.97999999999999,
+      29.740000000000002,
+      -75.3,
+      75.97999999999999
+    ]
+  },
+  {
+    "part": "REF_P04",
+    "name": "R5_PMT_pin_4",
+    "position": [
+      34.32,
+      -81.3,
+      75.47999999999999
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      33.82,
+      -87.3,
+      74.97999999999999,
+      34.82,
+      -75.3,
+      75.97999999999999
+    ]
+  },
+  {
+    "part": "REF_EP_VERT",
+    "name": "R5_AFE_post_-24_53",
+    "position": [
+      -24,
+      -95.15,
+      53
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -27.0,
+      -98.5,
+      50.0,
+      -21.0,
+      -91.8,
+      56.0
+    ]
+  },
+  {
+    "part": "REF_EP_VERT",
+    "name": "R5_AFE_post_-24_97",
+    "position": [
+      -24,
+      -95.15,
+      97
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -27.0,
+      -98.5,
+      94.0,
+      -21.0,
+      -91.8,
+      100.0
+    ]
+  },
+  {
+    "part": "REF_EP_VERT",
+    "name": "R5_AFE_post_60_53",
+    "position": [
+      60,
+      -95.15,
+      53
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      57.0,
+      -98.5,
+      50.0,
+      63.0,
+      -91.8,
+      56.0
+    ]
+  },
+  {
+    "part": "REF_EP_VERT",
+    "name": "R5_AFE_post_60_97",
+    "position": [
+      60,
+      -95.15,
+      97
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      57.0,
+      -98.5,
+      94.0,
+      63.0,
+      -91.8,
+      100.0
+    ]
+  },
+  {
+    "part": "REF_H01",
+    "name": "R5_Analog_shield",
+    "position": [
+      18,
+      -77,
+      75
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -30.0,
+      -100.0,
+      48.0,
+      66.0,
+      -54.0,
+      102.0
+    ]
+  },
+  {
+    "part": "REF_M14",
+    "name": "R5_Optic_post-72",
+    "position": [
+      -72,
+      65,
+      188.5
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -78.0,
+      58.0,
+      143.0,
+      -66.0,
+      72.0,
+      234.0
+    ]
+  },
+  {
+    "part": "REF_M14",
+    "name": "R5_Optic_post72",
+    "position": [
+      72,
+      65,
+      188.5
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      66.0,
+      58.0,
+      143.0,
+      78.0,
+      72.0,
+      234.0
+    ]
+  },
+  {
+    "part": "REF_M15",
+    "name": "R5_Optics_backbone",
+    "position": [
+      -32,
+      64,
+      237
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -146.0,
+      54.0,
+      234.0,
+      82.0,
+      74.0,
+      240.0
+    ]
+  },
+  {
+    "part": "REF_M16",
+    "name": "R5_Laser_cantilever",
+    "position": [
+      -120,
+      25,
+      231.5
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -137.0,
+      -20.0,
+      229.0,
+      -103.0,
+      70.0,
+      234.0
+    ]
+  },
+  {
+    "part": "REF_M17",
+    "name": "R5_Laser_mount",
+    "position": [
+      -120,
+      0,
+      240
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -136.0,
+      -11.0,
+      234.0,
+      -104.0,
+      11.0,
+      246.00000000000003
+    ]
+  },
+  {
+    "part": "REF_O01",
+    "name": "R5_Laser",
+    "position": [
+      -120,
+      0,
+      245
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -145.0,
+      -6.0,
+      239.0,
+      -95.0,
+      6.0,
+      251.0
+    ]
+  },
+  {
+    "part": "REF_O02",
+    "name": "R5_Beam_shaper",
+    "position": [
+      -82,
+      0,
+      245
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -90.0,
+      -8.0,
+      237.0,
+      -74.0,
+      8.0,
+      253.0
+    ]
+  },
+  {
+    "part": "REF_O03",
+    "name": "R5_ND_pickoff",
+    "position": [
+      -62,
+      0,
+      245
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -69.0,
+      -9.0,
+      236.0,
+      -55.0,
+      9.0,
+      254.0
+    ]
+  },
+  {
+    "part": "REF_O04",
+    "name": "R5_Shutter",
+    "position": [
+      -43,
+      0,
+      245
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -52.0,
+      -12.0,
+      233.0,
+      -34.0,
+      12.0,
+      257.0
+    ]
+  },
+  {
+    "part": "REF_O05",
+    "name": "R5_Polygon",
+    "position": [
+      12.247,
+      0,
+      257.247
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -7.0715165257895825,
+      -6.0,
+      237.92848347422,
+      31.565516525790333,
+      6.0,
+      276.56551652578105
+    ]
+  },
+  {
+    "part": "REF_O06",
+    "name": "R5_Polygon_motor",
+    "position": [
+      12.247,
+      32,
+      257.247
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -5.753,
+      12.0,
+      239.247,
+      30.247,
+      52.0,
+      275.247
+    ]
+  },
+  {
+    "part": "REF_M18",
+    "name": "R5_Spindle_cradle",
+    "position": [
+      12.247,
+      42,
+      247.247
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -9.753,
+      34.0,
+      235.247,
+      34.247,
+      50.0,
+      259.24700000000087
+    ]
+  },
+  {
+    "part": "REF_O07",
+    "name": "R5_Ftheta",
+    "position": [
+      0,
+      0,
+      210
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -48.0,
+      -22.0,
+      195.0,
+      48.0,
+      22.0,
+      225.0
+    ]
+  },
+  {
+    "part": "REF_M19",
+    "name": "R5_Lens_frame",
+    "position": [
+      0,
+      0,
+      198
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -55.0,
+      -30.0,
+      195.0,
+      55.0,
+      30.0,
+      201.0
+    ]
+  },
+  {
+    "part": "REF_M20L",
+    "name": "R5_Lens_arm-64",
+    "position": [
+      -64,
+      46,
+      204
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -76.0,
+      22.0,
+      201.0,
+      -52.0,
+      70.0,
+      207.0
+    ]
+  },
+  {
+    "part": "REF_M20R",
+    "name": "R5_Lens_arm64",
+    "position": [
+      64,
+      46,
+      204
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      52.0,
+      22.0,
+      201.0,
+      76.0,
+      70.0,
+      207.0
+    ]
+  },
+  {
+    "part": "REF_S01",
+    "name": "R5_PD_sync-46",
+    "position": [
+      -46,
+      12,
+      112
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -49.0,
+      8.0,
+      109.0,
+      -43.0,
+      16.0,
+      115.0
+    ]
+  },
+  {
+    "part": "REF_S01",
+    "name": "R5_PD_sync46",
+    "position": [
+      46,
+      12,
+      112
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      43.0,
+      8.0,
+      109.0,
+      49.0,
+      16.0,
+      115.0
+    ]
+  },
+  {
+    "part": "REF_S01",
+    "name": "R5_PD_reference",
+    "position": [
+      -62,
+      -24,
+      245
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -65.0,
+      -28.0,
+      242.0,
+      -59.0,
+      -20.0,
+      248.0
+    ]
+  },
+  {
+    "part": "REF_S02",
+    "name": "R5_Sync_pickoff-46",
+    "position": [
+      -46,
+      0,
+      112
+    ],
+    "group": "inherited",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      45
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -47.0,
+      -1.308147545195113,
+      110.69185245480489,
+      -45.0,
+      1.308147545195113,
+      113.30814754519511
+    ]
+  },
+  {
+    "part": "REF_S02",
+    "name": "R5_Sync_pickoff46",
+    "position": [
+      46,
+      0,
+      112
+    ],
+    "group": "inherited",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      45
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      45.0,
+      -1.308147545195113,
+      110.69185245480489,
+      47.0,
+      1.308147545195113,
+      113.30814754519511
+    ]
+  },
+  {
+    "part": "REF_S03",
+    "name": "R5_Film_sensor_-25_-110_102",
+    "position": [
+      -25,
+      -110,
+      102
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -32.5,
+      -115.0,
+      98.0,
+      -17.5,
+      -105.0,
+      106.0
+    ]
+  },
+  {
+    "part": "REF_S03",
+    "name": "R5_Film_sensor_-25_-110_118",
+    "position": [
+      -25,
+      -110,
+      118
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -32.5,
+      -115.0,
+      114.0,
+      -17.5,
+      -105.0,
+      122.0
+    ]
+  },
+  {
+    "part": "REF_S03",
+    "name": "R5_Film_sensor_25_-110_102",
+    "position": [
+      25,
+      -110,
+      102
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      17.5,
+      -115.0,
+      98.0,
+      32.5,
+      -105.0,
+      106.0
+    ]
+  },
+  {
+    "part": "REF_S03",
+    "name": "R5_Film_sensor_25_-110_118",
+    "position": [
+      25,
+      -110,
+      118
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      17.5,
+      -115.0,
+      114.0,
+      32.5,
+      -105.0,
+      122.0
+    ]
+  },
+  {
+    "part": "REF_S03",
+    "name": "R5_Film_sensor_0_110_102",
+    "position": [
+      0,
+      110,
+      102
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -7.5,
+      105.0,
+      98.0,
+      7.5,
+      115.0,
+      106.0
+    ]
+  },
+  {
+    "part": "REF_S03",
+    "name": "R5_Film_sensor_0_110_118",
+    "position": [
+      0,
+      110,
+      118
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -7.5,
+      105.0,
+      114.0,
+      7.5,
+      115.0,
+      122.0
+    ]
+  },
+  {
+    "part": "REF_S04",
+    "name": "R5_Lid_switch-145",
+    "position": [
+      -145,
+      100,
+      278
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -153.0,
+      96.0,
+      272.0,
+      -137.0,
+      104.0,
+      284.0
+    ]
+  },
+  {
+    "part": "REF_S04",
+    "name": "R5_Lid_switch145",
+    "position": [
+      145,
+      100,
+      278
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      137.0,
+      96.0,
+      272.0,
+      153.0,
+      104.0,
+      284.0
+    ]
+  },
+  {
+    "part": "REF_S04",
+    "name": "R5_Roller_release_switch",
+    "position": [
+      95,
+      -42,
+      147
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      87.0,
+      -46.0,
+      141.0,
+      103.0,
+      -38.0,
+      153.0
+    ]
+  },
+  {
+    "part": "REF_S05",
+    "name": "R5_Temp_PMT",
+    "position": [
+      48,
+      -75,
+      82
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      43.0,
+      -81.0,
+      81.2,
+      53.0,
+      -69.0,
+      82.8
+    ]
+  },
+  {
+    "part": "REF_S05",
+    "name": "R5_Temp_Optics",
+    "position": [
+      72,
+      57.2,
+      220
+    ],
+    "group": "inherited",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      67.0,
+      56.4,
+      214.0,
+      77.0,
+      58.0,
+      226.0
+    ]
+  },
+  {
+    "part": "REF_S05",
+    "name": "R5_Temp_Drive",
+    "position": [
+      -115,
+      50,
+      46
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -120.0,
+      44.0,
+      45.2,
+      -110.0,
+      56.0,
+      46.800000000000004
+    ]
+  },
+  {
+    "part": "REF_B01",
+    "name": "R5_PMT线性TIA前端卡",
+    "position": [
+      18.0,
+      -91,
+      75.0
+    ],
+    "group": "inherited",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -27.0,
+      -91.8,
+      50.0,
+      63.0,
+      -90.2,
+      100.0
+    ]
+  },
+  {
+    "part": "REF_EP_6p2",
+    "name": "R5_B02_post0",
+    "position": [
+      83,
+      -52,
+      14.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      80.0,
+      -55.0,
+      11.0,
+      86.0,
+      -49.0,
+      17.2
+    ]
+  },
+  {
+    "part": "REF_EP_6p2",
+    "name": "R5_B02_post1",
+    "position": [
+      137,
+      -52,
+      14.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      134.0,
+      -55.0,
+      11.0,
+      140.0,
+      -49.0,
+      17.2
+    ]
+  },
+  {
+    "part": "REF_EP_6p2",
+    "name": "R5_B02_post2",
+    "position": [
+      137,
+      22,
+      14.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      134.0,
+      19.0,
+      11.0,
+      140.0,
+      25.0,
+      17.2
+    ]
+  },
+  {
+    "part": "REF_EP_6p2",
+    "name": "R5_B02_post3",
+    "position": [
+      83,
+      22,
+      14.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      80.0,
+      19.0,
+      11.0,
+      86.0,
+      25.0,
+      17.2
+    ]
+  },
+  {
+    "part": "REF_B02",
+    "name": "R5_AD9268双通道采集板",
+    "position": [
+      110.0,
+      -15.0,
+      18
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      80.0,
+      -55.0,
+      17.2,
+      140.0,
+      25.0,
+      18.8
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B03_post0",
+    "position": [
+      -142,
+      -127,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -145.0,
+      -130.0,
+      11.000000000000002,
+      -139.0,
+      -124.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B03_post1",
+    "position": [
+      -88,
+      -127,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -91.0,
+      -130.0,
+      11.000000000000002,
+      -85.0,
+      -124.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B03_post2",
+    "position": [
+      -88,
+      -83,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -91.0,
+      -86.0,
+      11.000000000000002,
+      -85.0,
+      -80.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B03_post3",
+    "position": [
+      -142,
+      -83,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -145.0,
+      -86.0,
+      11.000000000000002,
+      -139.0,
+      -80.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_B03",
+    "name": "R5_PMT控制与低噪声电源板",
+    "position": [
+      -115.0,
+      -105.0,
+      22
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -145.0,
+      -130.0,
+      21.2,
+      -85.0,
+      -80.0,
+      22.8
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B04_post0",
+    "position": [
+      -56,
+      82,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -59.0,
+      79.0,
+      11.000000000000002,
+      -53.0,
+      85.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B04_post1",
+    "position": [
+      56,
+      82,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      53.0,
+      79.0,
+      11.000000000000002,
+      59.0,
+      85.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B04_post2",
+    "position": [
+      56,
+      139,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      53.0,
+      136.0,
+      11.000000000000002,
+      59.0,
+      142.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B04_post3",
+    "position": [
+      -56,
+      139,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -59.0,
+      136.0,
+      11.000000000000002,
+      -53.0,
+      142.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_B04",
+    "name": "R5_电源分配与硬件禁能板",
+    "position": [
+      0.0,
+      110.5,
+      22
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -60.0,
+      78.0,
+      21.2,
+      60.0,
+      143.0,
+      22.8
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B05_post0",
+    "position": [
+      -144.5,
+      -12,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -147.5,
+      -15.0,
+      11.000000000000002,
+      -141.5,
+      -9.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B05_post1",
+    "position": [
+      -85.5,
+      -12,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -88.5,
+      -15.0,
+      11.000000000000002,
+      -82.5,
+      -9.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B05_post2",
+    "position": [
+      -85.5,
+      82,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -88.5,
+      79.0,
+      11.000000000000002,
+      -82.5,
+      85.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_EP_10p2",
+    "name": "R5_B05_post3",
+    "position": [
+      -144.5,
+      82,
+      16.1
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -147.5,
+      79.0,
+      11.000000000000002,
+      -141.5,
+      85.0,
+      21.200000000000003
+    ]
+  },
+  {
+    "part": "REF_B05",
+    "name": "R5_运动驱动与传感接口板",
+    "position": [
+      -115.0,
+      35.0,
+      22
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -147.5,
+      -15.0,
+      21.2,
+      -82.5,
+      85.0,
+      22.8
+    ]
+  },
+  {
+    "part": "REF_B06",
+    "name": "R5_SOS接收小板",
+    "position": [
+      -52.0,
+      20,
+      118.0
+    ],
+    "group": "inherited",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -61.0,
+      19.199999999999996,
+      108.0,
+      -43.0,
+      20.8,
+      128.0
+    ]
+  },
+  {
+    "part": "REF_B07",
+    "name": "R5_EOS接收小板",
+    "position": [
+      52.0,
+      20,
+      118.0
+    ],
+    "group": "inherited",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      43.0,
+      19.199999999999996,
+      108.0,
+      61.0,
+      20.8,
+      128.0
+    ]
+  },
+  {
+    "part": "REF_B08",
+    "name": "R5_激光参考PD小板",
+    "position": [
+      -62.5,
+      -32,
+      245.0
+    ],
+    "group": "inherited",
+    "rotation": [
+      [
+        1,
+        0,
+        0
+      ],
+      90
+    ],
+    "moves_with_upper": false,
+    "aabb": [
+      -75.0,
+      -32.800000000000004,
+      235.0,
+      -50.0,
+      -31.2,
+      255.0
+    ]
+  },
+  {
+    "part": "REF_EP_6p0",
+    "name": "R5_B09_post0",
+    "position": [
+      34,
+      -134,
+      14.0
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      31.0,
+      -137.0,
+      11.0,
+      37.0,
+      -131.0,
+      17.0
+    ]
+  },
+  {
+    "part": "REF_EP_6p0",
+    "name": "R5_B09_post1",
+    "position": [
+      146,
+      -134,
+      14.0
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      143.0,
+      -137.0,
+      11.0,
+      149.0,
+      -131.0,
+      17.0
+    ]
+  },
+  {
+    "part": "REF_EP_6p0",
+    "name": "R5_B09_post2",
+    "position": [
+      146,
+      -72,
+      14.0
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      143.0,
+      -75.0,
+      11.0,
+      149.0,
+      -69.0,
+      17.0
+    ]
+  },
+  {
+    "part": "REF_EP_6p0",
+    "name": "R5_B09_post3",
+    "position": [
+      34,
+      -72,
+      14.0
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      31.0,
+      -75.0,
+      11.0,
+      37.0,
+      -69.0,
+      17.0
+    ]
+  },
+  {
+    "part": "REF_B09",
+    "name": "R5_SP2可调安装托板",
+    "position": [
+      90.0,
+      -103.0,
+      18
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      30.0,
+      -138.0,
+      17.0,
+      150.0,
+      -68.0,
+      19.0
+    ]
+  },
+  {
+    "part": "REF_P05",
+    "name": "R5_SP2_envelope",
+    "position": [
+      90,
+      -103,
+      32.5
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      35.0,
+      -133.0,
+      20.0,
+      145.0,
+      -73.0,
+      45.0
+    ]
+  },
+  {
+    "part": "REF_H07",
+    "name": "R5_Fan",
+    "position": [
+      -115,
+      135,
+      70
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -135.0,
+      130.0,
+      50.0,
+      -95.0,
+      140.0,
+      90.0
+    ]
+  },
+  {
+    "part": "REF_H08",
+    "name": "R5_Labyrinth-132",
+    "position": [
+      0,
+      -132,
+      110
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -47.0,
+      -147.0,
+      102.0,
+      47.0,
+      -117.0,
+      118.0
+    ]
+  },
+  {
+    "part": "REF_H08",
+    "name": "R5_Labyrinth132",
+    "position": [
+      0,
+      132,
+      110
+    ],
+    "group": "inherited",
+    "rotation": null,
+    "moves_with_upper": false,
+    "aabb": [
+      -47.0,
+      117.0,
+      102.0,
+      47.0,
+      147.0,
+      118.0
+    ]
+  }
+]

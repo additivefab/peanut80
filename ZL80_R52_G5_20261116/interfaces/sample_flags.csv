@@ -1,0 +1,7 @@
+﻿bit,name,meaning
+0,ADC_A_OR,A通道硬件越界
+1,ADC_B_OR,B通道硬件越界
+2,TIME_UNCAL,采样时基未标定
+3,PAIR_UNVERIFIED,两通道共同采样epoch未验证
+4,TEST_PATTERN,ADC测试码而非光学数据
+5,UPSTREAM_LOSS,前端发现丢样或序号错误

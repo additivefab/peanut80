@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D24  版本差异、继承关系与文件入口</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">设计分配与名义几何；图中包络不等于厂商实物认证。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="60" y="175" width="1480" height="99" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="70" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="white" font-weight="700" text-anchor="start">依据</text>
+<text x="366.0" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="white" font-weight="700" text-anchor="start">保留 / 变更</text>
+<text x="1002.4" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="white" font-weight="700" text-anchor="start">理由</text>
+<rect x="60" y="274" width="1480" height="99" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="300" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">用户纠正</text>
+<text x="366.0" y="300" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">polygon + 横置矩形狭缝筒 + 径向侧窗</text>
+<text x="1002.4" y="300" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">不再改成振镜、相机或立式积分杯</text>
+<rect x="60" y="373" width="1480" height="99" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="399" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">R4</text>
+<text x="366.0" y="399" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">80 / 100 / 104 的三重定义保留</text>
+<text x="1002.4" y="399" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">光学扫描、ROI、实体狭缝不同</text>
+<rect x="60" y="472" width="1480" height="99" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="498" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">新增PPT</text>
+<text x="366.0" y="498" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">TIA基线 / LOG作为替换分支</text>
+<text x="1002.4" y="498" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">明确两种材料的差异，不静默合并</text>
+<rect x="60" y="571" width="1480" height="99" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="597" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">器件选型</text>
+<text x="366.0" y="597" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">H10720针脚版，φ8有效窗口</text>
+<text x="1002.4" y="597" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">导光出端改5.2方，短电流连接</text>
+<rect x="60" y="670" width="1480" height="99" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="696" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">PCB集成</text>
+<text x="366.0" y="696" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">8板+SP2托板；给坐标、高度、针脚</text>
+<text x="1002.4" y="696" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">占位与已选实物外形分开</text>
+<rect x="60" y="769" width="1480" height="99" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="795" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">尺寸/重量</text>
+<text x="366.0" y="795" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">320×300×300mm展开原型</text>
+<text x="1002.4" y="795" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">尚未达到旧3.5kg便携目标，不强行缩图</text>
+<rect x="60" y="868" width="1480" height="99" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="70" y="894" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">验证</text>
+<text x="366.0" y="894" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">刚性名义几何与软件算例检查</text>
+<text x="1002.4" y="894" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">不代表布线、光学、热与性能合格</text>
+<text x="90" y="1025" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#226da6" font-weight="700" text-anchor="start">从 index.html 浏览全包；STEP / DXF / SVG / PNG / PDF / DOCX / XLSX / KiCad / CSV / 源码均可继续编辑。</text>
+</svg>

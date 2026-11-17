@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D23  验证范围与设计冻结门槛</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">设计分配与名义几何；图中包络不等于厂商实物认证。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="50" y="170" width="1500" height="55" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="60" y="200" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="white" font-weight="700" text-anchor="start">编号</text>
+<text x="210.0" y="200" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="white" font-weight="700" text-anchor="start">风险项</text>
+<text x="840.0" y="200" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="white" font-weight="700" text-anchor="start">放行门槛</text>
+<rect x="50" y="225" width="1500" height="55" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="251" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G01</text>
+<text x="210.0" y="251" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">光学头联合选型</text>
+<text x="840.0" y="251" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断机箱冻结</text>
+<rect x="50" y="280" width="1500" height="55" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="306" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G02</text>
+<text x="210.0" y="306" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">PMT工作点</text>
+<text x="840.0" y="306" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断计量性能承诺</text>
+<rect x="50" y="335" width="1500" height="55" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="361" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G03</text>
+<text x="210.0" y="361" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">积分筒与导光均匀性</text>
+<text x="840.0" y="361" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断OD定标</text>
+<rect x="50" y="390" width="1500" height="55" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="416" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G04</text>
+<text x="210.0" y="416" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">SP2实物机械尺寸</text>
+<text x="840.0" y="416" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断转接板制造</text>
+<rect x="50" y="445" width="1500" height="55" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="471" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G05</text>
+<text x="210.0" y="471" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">PCB详细电路</text>
+<text x="840.0" y="471" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断PCB投板</text>
+<rect x="50" y="500" width="1500" height="55" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="526" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G06</text>
+<text x="210.0" y="526" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">编码器精度和共滑</text>
+<text x="840.0" y="526" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断5um精度宣称</text>
+<rect x="50" y="555" width="1500" height="55" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="581" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G07</text>
+<text x="210.0" y="581" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">片面平整与无划伤</text>
+<text x="840.0" y="581" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断真实片投入</text>
+<rect x="50" y="610" width="1500" height="55" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="636" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G08</text>
+<text x="210.0" y="636" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">线束/连接器/紧固</text>
+<text x="840.0" y="636" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断装配放行</text>
+<rect x="50" y="665" width="1500" height="55" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="691" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G09</text>
+<text x="210.0" y="691" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">光安全/电气安全</text>
+<text x="840.0" y="691" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断用户使用</text>
+<rect x="50" y="720" width="1500" height="55" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="746" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G10</text>
+<text x="210.0" y="746" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">热与EMC</text>
+<text x="840.0" y="746" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断连续运行</text>
+<rect x="50" y="775" width="1500" height="55" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="801" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G11</text>
+<text x="210.0" y="801" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">外置ADF</text>
+<text x="840.0" y="801" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断自动馈片商品化</text>
+<rect x="50" y="830" width="1500" height="55" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="856" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G12</text>
+<text x="210.0" y="856" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">重量与便携</text>
+<text x="840.0" y="856" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">需下一轮优化</text>
+<rect x="50" y="885" width="1500" height="55" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="911" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G13</text>
+<text x="210.0" y="911" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">计量电路动态响应</text>
+<text x="840.0" y="911" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断高速高OD模式</text>
+<rect x="50" y="940" width="1500" height="55" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="966" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">G14</text>
+<text x="210.0" y="966" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">软件与FPGA实现</text>
+<text x="840.0" y="966" font-family="Noto Sans CJK SC, sans-serif" font-size="19" fill="#172d3f" font-weight="400" text-anchor="start">阻断整机上线</text>
+<text x="65" y="1035" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#cb462e" font-weight="400" text-anchor="start">完整关闭措施见 engineering/设计冻结门槛.csv；本页“通过”不能由图纸外观替代。</text>
+</svg>

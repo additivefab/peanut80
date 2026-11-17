@@ -1,0 +1,10 @@
+﻿field_id,x_mm,y_mm,z_mm,purpose,provenance
+F00,-50,0,0,reserve/sync/ROI boundary or center,nominal film coordinate; not real lens performance
+F01,-46,0,0,reserve/sync/ROI boundary or center,nominal film coordinate; not real lens performance
+F02,-40,0,0,reserve/sync/ROI boundary or center,nominal film coordinate; not real lens performance
+F03,-20,0,0,reserve/sync/ROI boundary or center,nominal film coordinate; not real lens performance
+F04,0,0,0,reserve/sync/ROI boundary or center,nominal film coordinate; not real lens performance
+F05,20,0,0,reserve/sync/ROI boundary or center,nominal film coordinate; not real lens performance
+F06,40,0,0,reserve/sync/ROI boundary or center,nominal film coordinate; not real lens performance
+F07,46,0,0,reserve/sync/ROI boundary or center,nominal film coordinate; not real lens performance
+F08,50,0,0,reserve/sync/ROI boundary or center,nominal film coordinate; not real lens performance

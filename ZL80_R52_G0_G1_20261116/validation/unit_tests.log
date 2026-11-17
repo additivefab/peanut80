@@ -1,0 +1,37 @@
+test_adc_samples (test_scan_model.ScanTests.test_adc_samples) ... ok
+test_average_not_instant (test_scan_model.ScanTests.test_average_not_instant) ... ok
+test_beam_walk (test_scan_model.ScanTests.test_beam_walk) ... ok
+test_default_disabled (test_scan_model.ScanTests.test_default_disabled) ... ok
+test_duty_independent_of_rpm (test_scan_model.ScanTests.test_duty_independent_of_rpm) ... ok
+test_dwell (test_scan_model.ScanTests.test_dwell) ... ok
+test_edge_clipping_is_exposed (test_scan_model.ScanTests.test_edge_clipping_is_exposed) ... ok
+test_excess_sweep (test_scan_model.ScanTests.test_excess_sweep) ... ok
+test_feed (test_scan_model.ScanTests.test_feed) ... ok
+test_gaussian_size (test_scan_model.ScanTests.test_gaussian_size) ... ok
+test_illegal_spans (test_scan_model.ScanTests.test_illegal_spans) ... ok
+test_image_rate (test_scan_model.ScanTests.test_image_rate) ... ok
+test_line_rate (test_scan_model.ScanTests.test_line_rate) ... ok
+test_m2 (test_scan_model.ScanTests.test_m2) ... ok
+test_mirror_half_angle (test_scan_model.ScanTests.test_mirror_half_angle) ... ok
+test_motion_within_line (test_scan_model.ScanTests.test_motion_within_line) ... ok
+test_mtf_dc (test_scan_model.ScanTests.test_mtf_dc) ... ok
+test_mtf_monotonic_gaussian (test_scan_model.ScanTests.test_mtf_monotonic_gaussian) ... ok
+test_negative_input (test_scan_model.ScanTests.test_negative_input) ... ok
+test_norm_preserved (test_scan_model.ScanTests.test_norm_preserved) ... ok
+test_period (test_scan_model.ScanTests.test_period) ... ok
+test_polygon_center (test_scan_model.ScanTests.test_polygon_center) ... ok
+test_radius_sensitivity (test_scan_model.ScanTests.test_radius_sensitivity) ... ok
+test_rate_duty_relation (test_scan_model.ScanTests.test_rate_duty_relation) ... ok
+test_raw_rate (test_scan_model.ScanTests.test_raw_rate) ... ok
+test_reflection (test_scan_model.ScanTests.test_reflection) ... ok
+test_roi_duration (test_scan_model.ScanTests.test_roi_duration) ... ok
+test_scan_duration (test_scan_model.ScanTests.test_scan_duration) ... ok
+test_scan_velocity (test_scan_model.ScanTests.test_scan_velocity) ... ok
+test_slow_rpm_dwell (test_scan_model.ScanTests.test_slow_rpm_dwell) ... ok
+test_sync_duration (test_scan_model.ScanTests.test_sync_duration) ... ok
+test_zero_normal (test_scan_model.ScanTests.test_zero_normal) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.006s
+
+OK

@@ -1,0 +1,147 @@
+{
+  "scope": "ADF50 V0.3 nominal envelope solids vs R5-PDR1 instances with the R5.2 layout-B PMT-group shift (shield un-notched, conservative). Excluded as replaced: A01, A02 x2, H08 x2, C06, C07. Rigid, nominal, no tolerances; ADF solids are space envelopes, not parts.",
+  "r5_instances": 149,
+  "pairs_intersected": 0,
+  "overlaps": [],
+  "tight_aabb_gaps_under_6mm": [
+    {
+      "adf": "IN_feed_roller_upper",
+      "r5": "Front_panel",
+      "aabb_gap_mm": 0.5
+    },
+    {
+      "adf": "IN_retard_roller_lower",
+      "r5": "Front_panel",
+      "aabb_gap_mm": 0.5
+    },
+    {
+      "adf": "OUT_eject_roller_upper",
+      "r5": "Rear_panel",
+      "aabb_gap_mm": 0.5
+    },
+    {
+      "adf": "OUT_eject_roller_lower",
+      "r5": "Rear_panel",
+      "aabb_gap_mm": 0.5
+    },
+    {
+      "adf": "IN_double_sensor_rx",
+      "r5": "Analog_shield",
+      "aabb_gap_mm": 2.6
+    }
+  ],
+  "panel_cutouts_required": {
+    "front_H02": {
+      "x": [
+        -70,
+        70
+      ],
+      "z": [
+        80,
+        150
+      ],
+      "note": "feed/retard roller module passes through; replaces the film slot and labyrinth H08"
+    },
+    "rear_H02R": {
+      "x": [
+        -70,
+        70
+      ],
+      "z": [
+        80,
+        150
+      ],
+      "note": "eject roller module; replaces the film slot and labyrinth H08"
+    }
+  },
+  "envelopes_aabb": {
+    "IN_feed_roller_upper": [
+      -70.0,
+      -147.5,
+      110.6,
+      70.0,
+      -127.0,
+      150.0
+    ],
+    "IN_retard_roller_lower": [
+      -70.0,
+      -147.5,
+      80.0,
+      70.0,
+      -127.0,
+      109.4
+    ],
+    "IN_double_sensor_tx": [
+      -5.0,
+      -125.0,
+      113.0,
+      5.0,
+      -115.0,
+      135.0
+    ],
+    "IN_double_sensor_rx": [
+      -5.0,
+      -125.0,
+      86.0,
+      5.0,
+      -115.0,
+      107.0
+    ],
+    "OUT_eject_roller_upper": [
+      -70.0,
+      127.0,
+      110.6,
+      70.0,
+      147.5,
+      150.0
+    ],
+    "OUT_eject_roller_lower": [
+      -70.0,
+      127.0,
+      80.0,
+      70.0,
+      147.5,
+      109.4
+    ],
+    "MAG_tray_lift_dam": [
+      -70.0,
+      -500.0,
+      70.0,
+      70.0,
+      -150.5,
+      109.4
+    ],
+    "MAG_pick_arm": [
+      -30.0,
+      -198.0,
+      110.6,
+      30.0,
+      -150.5,
+      150.0
+    ],
+    "MAG_lid": [
+      -74.0,
+      -504.0,
+      151.0,
+      74.0,
+      -150.5,
+      165.0
+    ],
+    "OUT_tray": [
+      -58.0,
+      160.0,
+      10.0,
+      58.0,
+      494.8,
+      104.0
+    ],
+    "OUT_hood": [
+      -62.0,
+      150.5,
+      151.0,
+      62.0,
+      498.8,
+      155.0
+    ]
+  }
+}

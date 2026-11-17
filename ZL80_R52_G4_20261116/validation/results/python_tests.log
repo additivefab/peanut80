@@ -1,0 +1,34 @@
+test_b01_not_concealed (test_g4.G4Tests.test_b01_not_concealed) ... ok
+test_connected_B06 (test_g4.G4Tests.test_connected_B06) ... ok
+test_connected_B07 (test_g4.G4Tests.test_connected_B07) ... ok
+test_connected_B08 (test_g4.G4Tests.test_connected_B08) ... ok
+test_connector_clearance_candidate (test_g4.G4Tests.test_connector_clearance_candidate) ... ok
+test_copper_B01 (test_g4.G4Tests.test_copper_B01) ... ok
+test_copper_B06 (test_g4.G4Tests.test_copper_B06) ... ok
+test_copper_B07 (test_g4.G4Tests.test_copper_B07) ... ok
+test_copper_B08 (test_g4.G4Tests.test_copper_B08) ... ok
+test_file_parse_B01 (test_g4.G4Tests.test_file_parse_B01) ... ok
+test_file_parse_B06 (test_g4.G4Tests.test_file_parse_B06) ... ok
+test_file_parse_B07 (test_g4.G4Tests.test_file_parse_B07) ... ok
+test_file_parse_B08 (test_g4.G4Tests.test_file_parse_B08) ... ok
+test_immutable_topology (test_g4.G4Tests.test_immutable_topology) ... ok
+test_layer_stack (test_g4.G4Tests.test_layer_stack) ... ok
+test_mcad_expected_not_hidden (test_g4.G4Tests.test_mcad_expected_not_hidden) ... ok
+test_mcad_unexpected (test_g4.G4Tests.test_mcad_unexpected) ... ok
+test_mcad_valid (test_g4.G4Tests.test_mcad_valid) ... ok
+test_native_status_explicit (test_g4.G4Tests.test_native_status_explicit) ... ok
+test_no_manufacturing_outputs (test_g4.G4Tests.test_no_manufacturing_outputs) ... ok
+test_pad_parity_B01 (test_g4.G4Tests.test_pad_parity_B01) ... ok
+test_pad_parity_B06 (test_g4.G4Tests.test_pad_parity_B06) ... ok
+test_pad_parity_B07 (test_g4.G4Tests.test_pad_parity_B07) ... ok
+test_pad_parity_B08 (test_g4.G4Tests.test_pad_parity_B08) ... ok
+test_pmt_pin_plane_mapping (test_g4.G4Tests.test_pmt_pin_plane_mapping) ... ok
+test_reject_truncated_sexpr (test_g4.G4Tests.test_reject_truncated_sexpr) ... ok
+test_right_handed_transforms (test_g4.G4Tests.test_right_handed_transforms) ... ok
+test_schematic_graph (test_g4.G4Tests.test_schematic_graph) ... ok
+test_scope_g2_g3 (test_g4.G4Tests.test_scope_g2_g3) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.152s
+
+OK

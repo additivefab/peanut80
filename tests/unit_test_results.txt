@@ -1,0 +1,40 @@
+test_accuracy_not_quantization (test_reference.Budget.test_accuracy_not_quantization) ... ok
+test_adc_continuous (test_reference.Budget.test_adc_continuous) ... ok
+test_board_count (test_reference.Budget.test_board_count) ... ok
+test_box (test_reference.Budget.test_box) ... ok
+test_cad_valid (test_reference.Budget.test_cad_valid) ... ok
+test_core_overlap (test_reference.Budget.test_core_overlap) ... ok
+test_dwell (test_reference.Budget.test_dwell) ... ok
+test_ecad_body_geometry (test_reference.Budget.test_ecad_body_geometry) ... ok
+test_ecad_text_balance (test_reference.Budget.test_ecad_text_balance) ... ok
+test_encoder_quantization (test_reference.Budget.test_encoder_quantization) ... ok
+test_facet_rate (test_reference.Budget.test_facet_rate) ... ok
+test_harness_budget (test_reference.Budget.test_harness_budget) ... ok
+test_image_size (test_reference.Budget.test_image_size) ... ok
+test_period (test_reference.Budget.test_period) ... ok
+test_photon_density (test_reference.Budget.test_photon_density) ... ok
+test_pmt_fits (test_reference.Budget.test_pmt_fits) ... ok
+test_slot_margin (test_reference.Budget.test_slot_margin) ... ok
+test_storage (test_reference.Budget.test_storage) ... ok
+test_valid_duty (test_reference.Budget.test_valid_duty) ... ok
+test_width_order (test_reference.Budget.test_width_order) ... ok
+test_bad_sync (test_reference.Signals.test_bad_sync) ... ok
+test_chunk_64bit (test_reference.Signals.test_chunk_64bit) ... ok
+test_corrupt (test_reference.Signals.test_corrupt) ... ok
+test_dark_rejection (test_reference.Signals.test_dark_rejection) ... ok
+test_density_3 (test_reference.Signals.test_density_3) ... ok
+test_flat_rejection (test_reference.Signals.test_flat_rejection) ... ok
+test_immutable (test_reference.Signals.test_immutable) ... ok
+test_invalid_range (test_reference.Signals.test_invalid_range) ... ok
+test_power_normalization (test_reference.Signals.test_power_normalization) ... ok
+test_quad_forward (test_reference.Signals.test_quad_forward) ... ok
+test_quad_illegal (test_reference.Signals.test_quad_illegal) ... ok
+test_quad_reverse (test_reference.Signals.test_quad_reverse) ... ok
+test_sync_mapping (test_reference.Signals.test_sync_mapping) ... ok
+test_tag_alignment (test_reference.Signals.test_tag_alignment) ... ok
+test_zero_density (test_reference.Signals.test_zero_density) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.009s
+
+OK

@@ -1,0 +1,2332 @@
+[
+  {
+    "board": "B06",
+    "ref": "D1",
+    "pin": "1",
+    "pin_name": "K",
+    "pin_type": "passive",
+    "net": "PD_SUM",
+    "source": "V03",
+    "symbol_uuid": "12f718f9-6a1c-5779-8a5d-b2b3f371bd52"
+  },
+  {
+    "board": "B06",
+    "ref": "D1",
+    "pin": "3",
+    "pin_name": "A",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "V03",
+    "symbol_uuid": "12f718f9-6a1c-5779-8a5d-b2b3f371bd52"
+  },
+  {
+    "board": "B06",
+    "ref": "D1",
+    "pin": "2",
+    "pin_name": "CASE",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "V03",
+    "symbol_uuid": "12f718f9-6a1c-5779-8a5d-b2b3f371bd52"
+  },
+  {
+    "board": "B06",
+    "ref": "U1",
+    "pin": "3",
+    "pin_name": "IN+",
+    "pin_type": "input",
+    "net": "VBIAS",
+    "source": "V01",
+    "symbol_uuid": "dc642e10-7c3d-5a90-b63d-bf3792f0ca37"
+  },
+  {
+    "board": "B06",
+    "ref": "U1",
+    "pin": "4",
+    "pin_name": "IN-",
+    "pin_type": "input",
+    "net": "PD_SUM",
+    "source": "V01",
+    "symbol_uuid": "dc642e10-7c3d-5a90-b63d-bf3792f0ca37"
+  },
+  {
+    "board": "B06",
+    "ref": "U1",
+    "pin": "1",
+    "pin_name": "OUT",
+    "pin_type": "output",
+    "net": "TIA_OUT",
+    "source": "V01",
+    "symbol_uuid": "dc642e10-7c3d-5a90-b63d-bf3792f0ca37"
+  },
+  {
+    "board": "B06",
+    "ref": "U1",
+    "pin": "5",
+    "pin_name": "V+",
+    "pin_type": "power_in",
+    "net": "3V3",
+    "source": "V01",
+    "symbol_uuid": "dc642e10-7c3d-5a90-b63d-bf3792f0ca37"
+  },
+  {
+    "board": "B06",
+    "ref": "U1",
+    "pin": "2",
+    "pin_name": "V-",
+    "pin_type": "power_in",
+    "net": "GND",
+    "source": "V01",
+    "symbol_uuid": "dc642e10-7c3d-5a90-b63d-bf3792f0ca37"
+  },
+  {
+    "board": "B06",
+    "ref": "R1",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "PD_SUM",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "c1813e8b-9346-5218-85db-51c784adbb9d"
+  },
+  {
+    "board": "B06",
+    "ref": "R1",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "c1813e8b-9346-5218-85db-51c784adbb9d"
+  },
+  {
+    "board": "B06",
+    "ref": "C1",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "PD_SUM",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "47696367-e589-5821-973b-53e2eba020d1"
+  },
+  {
+    "board": "B06",
+    "ref": "C1",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "47696367-e589-5821-973b-53e2eba020d1"
+  },
+  {
+    "board": "B06",
+    "ref": "U2",
+    "pin": "3",
+    "pin_name": "IN+",
+    "pin_type": "input",
+    "net": "CMP_P",
+    "source": "V02",
+    "symbol_uuid": "c1ec8e77-c874-5c73-a8d0-b9b5b58eae8d"
+  },
+  {
+    "board": "B06",
+    "ref": "U2",
+    "pin": "1",
+    "pin_name": "IN-",
+    "pin_type": "input",
+    "net": "THRESH",
+    "source": "V02",
+    "symbol_uuid": "c1ec8e77-c874-5c73-a8d0-b9b5b58eae8d"
+  },
+  {
+    "board": "B06",
+    "ref": "U2",
+    "pin": "5",
+    "pin_name": "OUT",
+    "pin_type": "output",
+    "net": "CMP_OUT",
+    "source": "V02",
+    "symbol_uuid": "c1ec8e77-c874-5c73-a8d0-b9b5b58eae8d"
+  },
+  {
+    "board": "B06",
+    "ref": "U2",
+    "pin": "4",
+    "pin_name": "V+",
+    "pin_type": "power_in",
+    "net": "3V3",
+    "source": "V02",
+    "symbol_uuid": "c1ec8e77-c874-5c73-a8d0-b9b5b58eae8d"
+  },
+  {
+    "board": "B06",
+    "ref": "U2",
+    "pin": "2",
+    "pin_name": "V-",
+    "pin_type": "power_in",
+    "net": "GND",
+    "source": "V02",
+    "symbol_uuid": "c1ec8e77-c874-5c73-a8d0-b9b5b58eae8d"
+  },
+  {
+    "board": "B06",
+    "ref": "U2",
+    "pin": "6",
+    "pin_name": "SHDN",
+    "pin_type": "input",
+    "net": "GND",
+    "source": "V02",
+    "symbol_uuid": "c1ec8e77-c874-5c73-a8d0-b9b5b58eae8d"
+  },
+  {
+    "board": "B06",
+    "ref": "R2",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "decfc7fe-9653-5bcd-af63-880871778d35"
+  },
+  {
+    "board": "B06",
+    "ref": "R2",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "CMP_P",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "decfc7fe-9653-5bcd-af63-880871778d35"
+  },
+  {
+    "board": "B06",
+    "ref": "R3",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "CMP_P",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d257058c-d885-52e8-8bcb-8b83b80da914"
+  },
+  {
+    "board": "B06",
+    "ref": "R3",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "CMP_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d257058c-d885-52e8-8bcb-8b83b80da914"
+  },
+  {
+    "board": "B06",
+    "ref": "R4",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "CMP_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "e277fd9e-17a1-5976-a26e-31d103756b47"
+  },
+  {
+    "board": "B06",
+    "ref": "R4",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "SYNC",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "e277fd9e-17a1-5976-a26e-31d103756b47"
+  },
+  {
+    "board": "B06",
+    "ref": "R5",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "SYNC",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "a2520cb1-f6f0-5c56-a4d7-9973fa966f8f"
+  },
+  {
+    "board": "B06",
+    "ref": "R5",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "a2520cb1-f6f0-5c56-a4d7-9973fa966f8f"
+  },
+  {
+    "board": "B06",
+    "ref": "J1",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "passive",
+    "net": "5VA_IN",
+    "source": "R51_HEADER_INTERFACE_UNCHANGED",
+    "symbol_uuid": "a5641f82-4fc5-577c-9fe1-80e73672e605"
+  },
+  {
+    "board": "B06",
+    "ref": "J1",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "R51_HEADER_INTERFACE_UNCHANGED",
+    "symbol_uuid": "a5641f82-4fc5-577c-9fe1-80e73672e605"
+  },
+  {
+    "board": "B06",
+    "ref": "J1",
+    "pin": "3",
+    "pin_name": "3",
+    "pin_type": "passive",
+    "net": "SYNC",
+    "source": "R51_HEADER_INTERFACE_UNCHANGED",
+    "symbol_uuid": "a5641f82-4fc5-577c-9fe1-80e73672e605"
+  },
+  {
+    "board": "B06",
+    "ref": "J1",
+    "pin": "4",
+    "pin_name": "4",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "R51_HEADER_INTERFACE_UNCHANGED",
+    "symbol_uuid": "a5641f82-4fc5-577c-9fe1-80e73672e605"
+  },
+  {
+    "board": "B06",
+    "ref": "R6",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "3V3",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d761dac1-99f4-507b-831d-ebc242ffe85a"
+  },
+  {
+    "board": "B06",
+    "ref": "R6",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "VBIAS",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d761dac1-99f4-507b-831d-ebc242ffe85a"
+  },
+  {
+    "board": "B06",
+    "ref": "R7",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "VBIAS",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "bdbe05e1-5499-52d8-86d8-f7c086900d0c"
+  },
+  {
+    "board": "B06",
+    "ref": "R7",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "bdbe05e1-5499-52d8-86d8-f7c086900d0c"
+  },
+  {
+    "board": "B06",
+    "ref": "C2",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "VBIAS",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "96be8ea7-0c1e-53e0-b9ae-b7c7cc23493b"
+  },
+  {
+    "board": "B06",
+    "ref": "C2",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "96be8ea7-0c1e-53e0-b9ae-b7c7cc23493b"
+  },
+  {
+    "board": "B06",
+    "ref": "R8",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "3V3",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "cb981f84-82c0-5069-918d-85ed6d4852af"
+  },
+  {
+    "board": "B06",
+    "ref": "R8",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "THRESH",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "cb981f84-82c0-5069-918d-85ed6d4852af"
+  },
+  {
+    "board": "B06",
+    "ref": "R9",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "THRESH",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "8ba2fbcc-8838-5a81-8144-62c533067721"
+  },
+  {
+    "board": "B06",
+    "ref": "R9",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "VBIAS",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "8ba2fbcc-8838-5a81-8144-62c533067721"
+  },
+  {
+    "board": "B06",
+    "ref": "C3",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "THRESH",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "eb6cbfde-dc7d-5b60-abd6-9413262bccae"
+  },
+  {
+    "board": "B06",
+    "ref": "C3",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "eb6cbfde-dc7d-5b60-abd6-9413262bccae"
+  },
+  {
+    "board": "B06",
+    "ref": "U3",
+    "pin": "1",
+    "pin_name": "IN",
+    "pin_type": "power_in",
+    "net": "5VA_IN",
+    "source": "V04",
+    "symbol_uuid": "7217e47a-e3e2-5260-b7e2-59f62f3a449b"
+  },
+  {
+    "board": "B06",
+    "ref": "U3",
+    "pin": "3",
+    "pin_name": "EN",
+    "pin_type": "input",
+    "net": "5VA_IN",
+    "source": "V04",
+    "symbol_uuid": "7217e47a-e3e2-5260-b7e2-59f62f3a449b"
+  },
+  {
+    "board": "B06",
+    "ref": "U3",
+    "pin": "2",
+    "pin_name": "GND",
+    "pin_type": "power_in",
+    "net": "GND",
+    "source": "V04",
+    "symbol_uuid": "7217e47a-e3e2-5260-b7e2-59f62f3a449b"
+  },
+  {
+    "board": "B06",
+    "ref": "U3",
+    "pin": "5",
+    "pin_name": "OUT",
+    "pin_type": "power_out",
+    "net": "3V3",
+    "source": "V04",
+    "symbol_uuid": "7217e47a-e3e2-5260-b7e2-59f62f3a449b"
+  },
+  {
+    "board": "B06",
+    "ref": "U3",
+    "pin": "4",
+    "pin_name": "NC",
+    "pin_type": "no_connect",
+    "net": "",
+    "source": "V04",
+    "symbol_uuid": "7217e47a-e3e2-5260-b7e2-59f62f3a449b"
+  },
+  {
+    "board": "B06",
+    "ref": "C4",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "5VA_IN",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d998d6a1-aaba-5c7f-beae-f9c07d616b15"
+  },
+  {
+    "board": "B06",
+    "ref": "C4",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d998d6a1-aaba-5c7f-beae-f9c07d616b15"
+  },
+  {
+    "board": "B06",
+    "ref": "C5",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "3V3",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "9a39dbf1-1cbd-5c71-b0a5-8b000fb6c247"
+  },
+  {
+    "board": "B06",
+    "ref": "C5",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "9a39dbf1-1cbd-5c71-b0a5-8b000fb6c247"
+  },
+  {
+    "board": "B06",
+    "ref": "C6",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "3V3",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "dc8668d9-f613-51f6-b2ed-6d472bd41461"
+  },
+  {
+    "board": "B06",
+    "ref": "C6",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "dc8668d9-f613-51f6-b2ed-6d472bd41461"
+  },
+  {
+    "board": "B06",
+    "ref": "C7",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "3V3",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d2b3273c-0d8e-595f-a375-aae90146e9af"
+  },
+  {
+    "board": "B06",
+    "ref": "C7",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d2b3273c-0d8e-595f-a375-aae90146e9af"
+  },
+  {
+    "board": "B06",
+    "ref": "TP1",
+    "pin": "1",
+    "pin_name": "TP",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "54b19203-d188-5b82-90f9-db64532511f1"
+  },
+  {
+    "board": "B06",
+    "ref": "TP2",
+    "pin": "1",
+    "pin_name": "TP",
+    "pin_type": "passive",
+    "net": "THRESH",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "ae7f8824-5a08-59c4-9dcd-a3b2c03813db"
+  },
+  {
+    "board": "B06",
+    "ref": "TP3",
+    "pin": "1",
+    "pin_name": "TP",
+    "pin_type": "passive",
+    "net": "SYNC",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "f610c044-5fb6-51b9-b0e3-8e202975a86a"
+  },
+  {
+    "board": "B06",
+    "ref": "#FLG1",
+    "pin": "1",
+    "pin_name": "pwr",
+    "pin_type": "power_out",
+    "net": "5VA_IN",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "a882e381-04d5-54ca-ae13-ea858549dc02"
+  },
+  {
+    "board": "B06",
+    "ref": "#FLG2",
+    "pin": "1",
+    "pin_name": "pwr",
+    "pin_type": "power_out",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "c3b2da1e-829e-5804-98b8-6c364e3f0b41"
+  },
+  {
+    "board": "B07",
+    "ref": "D1",
+    "pin": "1",
+    "pin_name": "K",
+    "pin_type": "passive",
+    "net": "PD_SUM",
+    "source": "V03",
+    "symbol_uuid": "b53f0432-44a5-58a1-b81c-5ac48f8f74f4"
+  },
+  {
+    "board": "B07",
+    "ref": "D1",
+    "pin": "3",
+    "pin_name": "A",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "V03",
+    "symbol_uuid": "b53f0432-44a5-58a1-b81c-5ac48f8f74f4"
+  },
+  {
+    "board": "B07",
+    "ref": "D1",
+    "pin": "2",
+    "pin_name": "CASE",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "V03",
+    "symbol_uuid": "b53f0432-44a5-58a1-b81c-5ac48f8f74f4"
+  },
+  {
+    "board": "B07",
+    "ref": "U1",
+    "pin": "3",
+    "pin_name": "IN+",
+    "pin_type": "input",
+    "net": "VBIAS",
+    "source": "V01",
+    "symbol_uuid": "a447676c-4840-54f0-b317-534120d286e2"
+  },
+  {
+    "board": "B07",
+    "ref": "U1",
+    "pin": "4",
+    "pin_name": "IN-",
+    "pin_type": "input",
+    "net": "PD_SUM",
+    "source": "V01",
+    "symbol_uuid": "a447676c-4840-54f0-b317-534120d286e2"
+  },
+  {
+    "board": "B07",
+    "ref": "U1",
+    "pin": "1",
+    "pin_name": "OUT",
+    "pin_type": "output",
+    "net": "TIA_OUT",
+    "source": "V01",
+    "symbol_uuid": "a447676c-4840-54f0-b317-534120d286e2"
+  },
+  {
+    "board": "B07",
+    "ref": "U1",
+    "pin": "5",
+    "pin_name": "V+",
+    "pin_type": "power_in",
+    "net": "3V3",
+    "source": "V01",
+    "symbol_uuid": "a447676c-4840-54f0-b317-534120d286e2"
+  },
+  {
+    "board": "B07",
+    "ref": "U1",
+    "pin": "2",
+    "pin_name": "V-",
+    "pin_type": "power_in",
+    "net": "GND",
+    "source": "V01",
+    "symbol_uuid": "a447676c-4840-54f0-b317-534120d286e2"
+  },
+  {
+    "board": "B07",
+    "ref": "R1",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "PD_SUM",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "eab465d9-b428-5431-916f-7b10ccb1f382"
+  },
+  {
+    "board": "B07",
+    "ref": "R1",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "eab465d9-b428-5431-916f-7b10ccb1f382"
+  },
+  {
+    "board": "B07",
+    "ref": "C1",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "PD_SUM",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "b9ddd841-8563-546f-b9ef-bfbb0dcb574b"
+  },
+  {
+    "board": "B07",
+    "ref": "C1",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "b9ddd841-8563-546f-b9ef-bfbb0dcb574b"
+  },
+  {
+    "board": "B07",
+    "ref": "U2",
+    "pin": "3",
+    "pin_name": "IN+",
+    "pin_type": "input",
+    "net": "CMP_P",
+    "source": "V02",
+    "symbol_uuid": "6d683793-ed29-5b73-9575-a7532de1222e"
+  },
+  {
+    "board": "B07",
+    "ref": "U2",
+    "pin": "1",
+    "pin_name": "IN-",
+    "pin_type": "input",
+    "net": "THRESH",
+    "source": "V02",
+    "symbol_uuid": "6d683793-ed29-5b73-9575-a7532de1222e"
+  },
+  {
+    "board": "B07",
+    "ref": "U2",
+    "pin": "5",
+    "pin_name": "OUT",
+    "pin_type": "output",
+    "net": "CMP_OUT",
+    "source": "V02",
+    "symbol_uuid": "6d683793-ed29-5b73-9575-a7532de1222e"
+  },
+  {
+    "board": "B07",
+    "ref": "U2",
+    "pin": "4",
+    "pin_name": "V+",
+    "pin_type": "power_in",
+    "net": "3V3",
+    "source": "V02",
+    "symbol_uuid": "6d683793-ed29-5b73-9575-a7532de1222e"
+  },
+  {
+    "board": "B07",
+    "ref": "U2",
+    "pin": "2",
+    "pin_name": "V-",
+    "pin_type": "power_in",
+    "net": "GND",
+    "source": "V02",
+    "symbol_uuid": "6d683793-ed29-5b73-9575-a7532de1222e"
+  },
+  {
+    "board": "B07",
+    "ref": "U2",
+    "pin": "6",
+    "pin_name": "SHDN",
+    "pin_type": "input",
+    "net": "GND",
+    "source": "V02",
+    "symbol_uuid": "6d683793-ed29-5b73-9575-a7532de1222e"
+  },
+  {
+    "board": "B07",
+    "ref": "R2",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "20f70e94-8696-5704-8326-2a97b343e5fa"
+  },
+  {
+    "board": "B07",
+    "ref": "R2",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "CMP_P",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "20f70e94-8696-5704-8326-2a97b343e5fa"
+  },
+  {
+    "board": "B07",
+    "ref": "R3",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "CMP_P",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "83824f0a-123a-5ca4-8b88-422535324732"
+  },
+  {
+    "board": "B07",
+    "ref": "R3",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "CMP_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "83824f0a-123a-5ca4-8b88-422535324732"
+  },
+  {
+    "board": "B07",
+    "ref": "R4",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "CMP_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "ed3415a1-ed5b-584d-9a25-130e7483584e"
+  },
+  {
+    "board": "B07",
+    "ref": "R4",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "SYNC",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "ed3415a1-ed5b-584d-9a25-130e7483584e"
+  },
+  {
+    "board": "B07",
+    "ref": "R5",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "SYNC",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "e2e639d5-2573-5363-8363-4782e6ad0268"
+  },
+  {
+    "board": "B07",
+    "ref": "R5",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "e2e639d5-2573-5363-8363-4782e6ad0268"
+  },
+  {
+    "board": "B07",
+    "ref": "J1",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "passive",
+    "net": "5VA_IN",
+    "source": "R51_HEADER_INTERFACE_UNCHANGED",
+    "symbol_uuid": "7e3bd905-2151-5933-8208-836a4d4acd8b"
+  },
+  {
+    "board": "B07",
+    "ref": "J1",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "R51_HEADER_INTERFACE_UNCHANGED",
+    "symbol_uuid": "7e3bd905-2151-5933-8208-836a4d4acd8b"
+  },
+  {
+    "board": "B07",
+    "ref": "J1",
+    "pin": "3",
+    "pin_name": "3",
+    "pin_type": "passive",
+    "net": "SYNC",
+    "source": "R51_HEADER_INTERFACE_UNCHANGED",
+    "symbol_uuid": "7e3bd905-2151-5933-8208-836a4d4acd8b"
+  },
+  {
+    "board": "B07",
+    "ref": "J1",
+    "pin": "4",
+    "pin_name": "4",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "R51_HEADER_INTERFACE_UNCHANGED",
+    "symbol_uuid": "7e3bd905-2151-5933-8208-836a4d4acd8b"
+  },
+  {
+    "board": "B07",
+    "ref": "R6",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "3V3",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "b8354a2d-f9e3-59b3-a3b3-8051cb061484"
+  },
+  {
+    "board": "B07",
+    "ref": "R6",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "VBIAS",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "b8354a2d-f9e3-59b3-a3b3-8051cb061484"
+  },
+  {
+    "board": "B07",
+    "ref": "R7",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "VBIAS",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "f5ff487c-e442-5277-a104-4b6b125e05b3"
+  },
+  {
+    "board": "B07",
+    "ref": "R7",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "f5ff487c-e442-5277-a104-4b6b125e05b3"
+  },
+  {
+    "board": "B07",
+    "ref": "C2",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "VBIAS",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "27b0b1e8-d001-5a52-bff5-a9632e914739"
+  },
+  {
+    "board": "B07",
+    "ref": "C2",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "27b0b1e8-d001-5a52-bff5-a9632e914739"
+  },
+  {
+    "board": "B07",
+    "ref": "R8",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "3V3",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "80824c68-79af-5df1-8547-27a574fbb60a"
+  },
+  {
+    "board": "B07",
+    "ref": "R8",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "THRESH",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "80824c68-79af-5df1-8547-27a574fbb60a"
+  },
+  {
+    "board": "B07",
+    "ref": "R9",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "THRESH",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "022f1e36-78db-501d-9204-89eb983f03f6"
+  },
+  {
+    "board": "B07",
+    "ref": "R9",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "VBIAS",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "022f1e36-78db-501d-9204-89eb983f03f6"
+  },
+  {
+    "board": "B07",
+    "ref": "C3",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "THRESH",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "cd7ca7aa-bef8-5729-b4d3-84a7aef3569a"
+  },
+  {
+    "board": "B07",
+    "ref": "C3",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "cd7ca7aa-bef8-5729-b4d3-84a7aef3569a"
+  },
+  {
+    "board": "B07",
+    "ref": "U3",
+    "pin": "1",
+    "pin_name": "IN",
+    "pin_type": "power_in",
+    "net": "5VA_IN",
+    "source": "V04",
+    "symbol_uuid": "5b13408f-5702-5997-bb2a-11946912cf77"
+  },
+  {
+    "board": "B07",
+    "ref": "U3",
+    "pin": "3",
+    "pin_name": "EN",
+    "pin_type": "input",
+    "net": "5VA_IN",
+    "source": "V04",
+    "symbol_uuid": "5b13408f-5702-5997-bb2a-11946912cf77"
+  },
+  {
+    "board": "B07",
+    "ref": "U3",
+    "pin": "2",
+    "pin_name": "GND",
+    "pin_type": "power_in",
+    "net": "GND",
+    "source": "V04",
+    "symbol_uuid": "5b13408f-5702-5997-bb2a-11946912cf77"
+  },
+  {
+    "board": "B07",
+    "ref": "U3",
+    "pin": "5",
+    "pin_name": "OUT",
+    "pin_type": "power_out",
+    "net": "3V3",
+    "source": "V04",
+    "symbol_uuid": "5b13408f-5702-5997-bb2a-11946912cf77"
+  },
+  {
+    "board": "B07",
+    "ref": "U3",
+    "pin": "4",
+    "pin_name": "NC",
+    "pin_type": "no_connect",
+    "net": "",
+    "source": "V04",
+    "symbol_uuid": "5b13408f-5702-5997-bb2a-11946912cf77"
+  },
+  {
+    "board": "B07",
+    "ref": "C4",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "5VA_IN",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d4b61254-33e4-5869-9ed4-fe03db773117"
+  },
+  {
+    "board": "B07",
+    "ref": "C4",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d4b61254-33e4-5869-9ed4-fe03db773117"
+  },
+  {
+    "board": "B07",
+    "ref": "C5",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "3V3",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "c5e3394e-1a68-5a91-8291-93a3f02ac86f"
+  },
+  {
+    "board": "B07",
+    "ref": "C5",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "c5e3394e-1a68-5a91-8291-93a3f02ac86f"
+  },
+  {
+    "board": "B07",
+    "ref": "C6",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "3V3",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "395a7bda-f6ae-5c6f-887c-b1eac5e4c72c"
+  },
+  {
+    "board": "B07",
+    "ref": "C6",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "395a7bda-f6ae-5c6f-887c-b1eac5e4c72c"
+  },
+  {
+    "board": "B07",
+    "ref": "C7",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "3V3",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "a1c8a837-8f83-5456-8ec1-a111954edaa9"
+  },
+  {
+    "board": "B07",
+    "ref": "C7",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "a1c8a837-8f83-5456-8ec1-a111954edaa9"
+  },
+  {
+    "board": "B07",
+    "ref": "TP1",
+    "pin": "1",
+    "pin_name": "TP",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "e472cd75-5cee-5ea6-b1c4-eab42880ab7f"
+  },
+  {
+    "board": "B07",
+    "ref": "TP2",
+    "pin": "1",
+    "pin_name": "TP",
+    "pin_type": "passive",
+    "net": "THRESH",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "a64f2386-470e-5a49-a19b-cfbcb21d5f18"
+  },
+  {
+    "board": "B07",
+    "ref": "TP3",
+    "pin": "1",
+    "pin_name": "TP",
+    "pin_type": "passive",
+    "net": "SYNC",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d8149908-c14d-52b2-b727-0e22db4bd7d2"
+  },
+  {
+    "board": "B07",
+    "ref": "#FLG1",
+    "pin": "1",
+    "pin_name": "pwr",
+    "pin_type": "power_out",
+    "net": "5VA_IN",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "65bfabff-07ec-5383-806d-418a37083f67"
+  },
+  {
+    "board": "B07",
+    "ref": "#FLG2",
+    "pin": "1",
+    "pin_name": "pwr",
+    "pin_type": "power_out",
+    "net": "GND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "01cb5043-8bec-57e1-ac36-9d70ed6af903"
+  },
+  {
+    "board": "B08",
+    "ref": "D1",
+    "pin": "1",
+    "pin_name": "K",
+    "pin_type": "passive",
+    "net": "REF_SUM",
+    "source": "V03",
+    "symbol_uuid": "6d1d1402-49ee-5a04-9af6-6d6b0283c828"
+  },
+  {
+    "board": "B08",
+    "ref": "D1",
+    "pin": "3",
+    "pin_name": "A",
+    "pin_type": "passive",
+    "net": "PD_NBIAS",
+    "source": "V03",
+    "symbol_uuid": "6d1d1402-49ee-5a04-9af6-6d6b0283c828"
+  },
+  {
+    "board": "B08",
+    "ref": "D1",
+    "pin": "2",
+    "pin_name": "CASE",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "V03",
+    "symbol_uuid": "6d1d1402-49ee-5a04-9af6-6d6b0283c828"
+  },
+  {
+    "board": "B08",
+    "ref": "U1",
+    "pin": "3",
+    "pin_name": "IN+",
+    "pin_type": "input",
+    "net": "AGND",
+    "source": "V05",
+    "symbol_uuid": "ae527e28-4196-53c4-b124-22a1beee78d8"
+  },
+  {
+    "board": "B08",
+    "ref": "U1",
+    "pin": "2",
+    "pin_name": "IN-",
+    "pin_type": "input",
+    "net": "REF_SUM",
+    "source": "V05",
+    "symbol_uuid": "ae527e28-4196-53c4-b124-22a1beee78d8"
+  },
+  {
+    "board": "B08",
+    "ref": "U1",
+    "pin": "6",
+    "pin_name": "OUT",
+    "pin_type": "output",
+    "net": "REF_TIA",
+    "source": "V05",
+    "symbol_uuid": "ae527e28-4196-53c4-b124-22a1beee78d8"
+  },
+  {
+    "board": "B08",
+    "ref": "U1",
+    "pin": "7",
+    "pin_name": "V+",
+    "pin_type": "power_in",
+    "net": "+5VA",
+    "source": "V05",
+    "symbol_uuid": "ae527e28-4196-53c4-b124-22a1beee78d8"
+  },
+  {
+    "board": "B08",
+    "ref": "U1",
+    "pin": "4",
+    "pin_name": "V-",
+    "pin_type": "power_in",
+    "net": "-5VA",
+    "source": "V05",
+    "symbol_uuid": "ae527e28-4196-53c4-b124-22a1beee78d8"
+  },
+  {
+    "board": "B08",
+    "ref": "U1",
+    "pin": "1",
+    "pin_name": "NC",
+    "pin_type": "no_connect",
+    "net": "",
+    "source": "V05",
+    "symbol_uuid": "ae527e28-4196-53c4-b124-22a1beee78d8"
+  },
+  {
+    "board": "B08",
+    "ref": "U1",
+    "pin": "5",
+    "pin_name": "NC",
+    "pin_type": "no_connect",
+    "net": "",
+    "source": "V05",
+    "symbol_uuid": "ae527e28-4196-53c4-b124-22a1beee78d8"
+  },
+  {
+    "board": "B08",
+    "ref": "U1",
+    "pin": "8",
+    "pin_name": "NC",
+    "pin_type": "no_connect",
+    "net": "",
+    "source": "V05",
+    "symbol_uuid": "ae527e28-4196-53c4-b124-22a1beee78d8"
+  },
+  {
+    "board": "B08",
+    "ref": "R1",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "REF_SUM",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "ace9b31e-c222-55d4-9498-a710d4bc8458"
+  },
+  {
+    "board": "B08",
+    "ref": "R1",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "REF_TIA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "ace9b31e-c222-55d4-9498-a710d4bc8458"
+  },
+  {
+    "board": "B08",
+    "ref": "C1",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "REF_SUM",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "cee7ab77-bca4-5f99-a9db-94285d04eeff"
+  },
+  {
+    "board": "B08",
+    "ref": "C1",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "REF_TIA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "cee7ab77-bca4-5f99-a9db-94285d04eeff"
+  },
+  {
+    "board": "B08",
+    "ref": "R2",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "REF_TIA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "6edc505d-0ced-5d54-8d6b-b5d06ddcf072"
+  },
+  {
+    "board": "B08",
+    "ref": "R2",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "REF_V",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "6edc505d-0ced-5d54-8d6b-b5d06ddcf072"
+  },
+  {
+    "board": "B08",
+    "ref": "R3",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "-5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "c50536dc-9194-520c-a0f8-e6d0834d8c92"
+  },
+  {
+    "board": "B08",
+    "ref": "R3",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "PD_NBIAS",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "c50536dc-9194-520c-a0f8-e6d0834d8c92"
+  },
+  {
+    "board": "B08",
+    "ref": "C2",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "PD_NBIAS",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "3bc8eb0a-7062-52f5-a9bc-f54475336f68"
+  },
+  {
+    "board": "B08",
+    "ref": "C2",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "3bc8eb0a-7062-52f5-a9bc-f54475336f68"
+  },
+  {
+    "board": "B08",
+    "ref": "C3",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "+5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "6a8e8ad0-0084-5ebf-86f7-74619b0e7b17"
+  },
+  {
+    "board": "B08",
+    "ref": "C3",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "6a8e8ad0-0084-5ebf-86f7-74619b0e7b17"
+  },
+  {
+    "board": "B08",
+    "ref": "C4",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "-5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "8234c188-ec7d-51af-9e6e-9f13c164a67a"
+  },
+  {
+    "board": "B08",
+    "ref": "C4",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "8234c188-ec7d-51af-9e6e-9f13c164a67a"
+  },
+  {
+    "board": "B08",
+    "ref": "C5",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "+5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "54aa2324-7eac-5f9a-b093-49da6c4bca45"
+  },
+  {
+    "board": "B08",
+    "ref": "C5",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "54aa2324-7eac-5f9a-b093-49da6c4bca45"
+  },
+  {
+    "board": "B08",
+    "ref": "C6",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "-5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "dc7c47c0-f9bb-53ab-99e3-0e571cad2bd7"
+  },
+  {
+    "board": "B08",
+    "ref": "C6",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "dc7c47c0-f9bb-53ab-99e3-0e571cad2bd7"
+  },
+  {
+    "board": "B08",
+    "ref": "J1",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "passive",
+    "net": "+5VA",
+    "source": "R51_HEADER_UNCHANGED",
+    "symbol_uuid": "80226b44-258f-5759-b277-c913bacbe417"
+  },
+  {
+    "board": "B08",
+    "ref": "J1",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "R51_HEADER_UNCHANGED",
+    "symbol_uuid": "80226b44-258f-5759-b277-c913bacbe417"
+  },
+  {
+    "board": "B08",
+    "ref": "J1",
+    "pin": "3",
+    "pin_name": "3",
+    "pin_type": "passive",
+    "net": "-5VA",
+    "source": "R51_HEADER_UNCHANGED",
+    "symbol_uuid": "80226b44-258f-5759-b277-c913bacbe417"
+  },
+  {
+    "board": "B08",
+    "ref": "J1",
+    "pin": "4",
+    "pin_name": "4",
+    "pin_type": "passive",
+    "net": "REF_V",
+    "source": "R51_HEADER_UNCHANGED",
+    "symbol_uuid": "80226b44-258f-5759-b277-c913bacbe417"
+  },
+  {
+    "board": "B08",
+    "ref": "TP1",
+    "pin": "1",
+    "pin_name": "TP",
+    "pin_type": "passive",
+    "net": "REF_V",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "38cb9e7a-b863-5138-9b11-762b9329f35e"
+  },
+  {
+    "board": "B08",
+    "ref": "#FLG1",
+    "pin": "1",
+    "pin_name": "pwr",
+    "pin_type": "power_out",
+    "net": "+5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "0ddca1fe-46ac-58aa-9bc4-367d5a930bbb"
+  },
+  {
+    "board": "B08",
+    "ref": "#FLG2",
+    "pin": "1",
+    "pin_name": "pwr",
+    "pin_type": "power_out",
+    "net": "-5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "1d4dcb83-a9d7-54eb-a44b-92d52e325662"
+  },
+  {
+    "board": "B08",
+    "ref": "#FLG3",
+    "pin": "1",
+    "pin_name": "pwr",
+    "pin_type": "power_out",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "39f33c99-3108-5806-8cab-94bbd9c5e46c"
+  },
+  {
+    "board": "B01",
+    "ref": "JPMT1",
+    "pin": "1",
+    "pin_name": "NC",
+    "pin_type": "no_connect",
+    "net": "",
+    "source": "V08; socket MPN/land pattern TBD",
+    "symbol_uuid": "43fdc31c-b5ca-5162-9481-338e106cd355"
+  },
+  {
+    "board": "B01",
+    "ref": "JPMT1",
+    "pin": "2",
+    "pin_name": "VREF",
+    "pin_type": "output",
+    "net": "PMT_VREF",
+    "source": "V08; socket MPN/land pattern TBD",
+    "symbol_uuid": "43fdc31c-b5ca-5162-9481-338e106cd355"
+  },
+  {
+    "board": "B01",
+    "ref": "JPMT1",
+    "pin": "3",
+    "pin_name": "VCONT",
+    "pin_type": "input",
+    "net": "PMT_VCONT",
+    "source": "V08; socket MPN/land pattern TBD",
+    "symbol_uuid": "43fdc31c-b5ca-5162-9481-338e106cd355"
+  },
+  {
+    "board": "B01",
+    "ref": "JPMT1",
+    "pin": "4",
+    "pin_name": "V+",
+    "pin_type": "power_in",
+    "net": "5VA_PMT",
+    "source": "V08; socket MPN/land pattern TBD",
+    "symbol_uuid": "43fdc31c-b5ca-5162-9481-338e106cd355"
+  },
+  {
+    "board": "B01",
+    "ref": "JPMT1",
+    "pin": "5",
+    "pin_name": "GND",
+    "pin_type": "power_in",
+    "net": "AGND",
+    "source": "V08; socket MPN/land pattern TBD",
+    "symbol_uuid": "43fdc31c-b5ca-5162-9481-338e106cd355"
+  },
+  {
+    "board": "B01",
+    "ref": "JPMT1",
+    "pin": "6",
+    "pin_name": "SGND",
+    "pin_type": "power_in",
+    "net": "AGND",
+    "source": "V08; socket MPN/land pattern TBD",
+    "symbol_uuid": "43fdc31c-b5ca-5162-9481-338e106cd355"
+  },
+  {
+    "board": "B01",
+    "ref": "JPMT1",
+    "pin": "7",
+    "pin_name": "IOUT",
+    "pin_type": "output",
+    "net": "PMT_I",
+    "source": "V08; socket MPN/land pattern TBD",
+    "symbol_uuid": "43fdc31c-b5ca-5162-9481-338e106cd355"
+  },
+  {
+    "board": "B01",
+    "ref": "JPMT1",
+    "pin": "8",
+    "pin_name": "NC",
+    "pin_type": "no_connect",
+    "net": "",
+    "source": "V08; socket MPN/land pattern TBD",
+    "symbol_uuid": "43fdc31c-b5ca-5162-9481-338e106cd355"
+  },
+  {
+    "board": "B01",
+    "ref": "U1",
+    "pin": "3",
+    "pin_name": "IN+",
+    "pin_type": "input",
+    "net": "AGND",
+    "source": "V05",
+    "symbol_uuid": "76145a87-8a17-5412-ab00-e1b7fe4b74b2"
+  },
+  {
+    "board": "B01",
+    "ref": "U1",
+    "pin": "2",
+    "pin_name": "IN-",
+    "pin_type": "input",
+    "net": "PMT_I",
+    "source": "V05",
+    "symbol_uuid": "76145a87-8a17-5412-ab00-e1b7fe4b74b2"
+  },
+  {
+    "board": "B01",
+    "ref": "U1",
+    "pin": "6",
+    "pin_name": "OUT",
+    "pin_type": "output",
+    "net": "TIA_OUT",
+    "source": "V05",
+    "symbol_uuid": "76145a87-8a17-5412-ab00-e1b7fe4b74b2"
+  },
+  {
+    "board": "B01",
+    "ref": "U1",
+    "pin": "7",
+    "pin_name": "V+",
+    "pin_type": "power_in",
+    "net": "+5VA",
+    "source": "V05",
+    "symbol_uuid": "76145a87-8a17-5412-ab00-e1b7fe4b74b2"
+  },
+  {
+    "board": "B01",
+    "ref": "U1",
+    "pin": "4",
+    "pin_name": "V-",
+    "pin_type": "power_in",
+    "net": "-5VA",
+    "source": "V05",
+    "symbol_uuid": "76145a87-8a17-5412-ab00-e1b7fe4b74b2"
+  },
+  {
+    "board": "B01",
+    "ref": "U1",
+    "pin": "1",
+    "pin_name": "NC",
+    "pin_type": "no_connect",
+    "net": "",
+    "source": "V05",
+    "symbol_uuid": "76145a87-8a17-5412-ab00-e1b7fe4b74b2"
+  },
+  {
+    "board": "B01",
+    "ref": "U1",
+    "pin": "5",
+    "pin_name": "NC",
+    "pin_type": "no_connect",
+    "net": "",
+    "source": "V05",
+    "symbol_uuid": "76145a87-8a17-5412-ab00-e1b7fe4b74b2"
+  },
+  {
+    "board": "B01",
+    "ref": "U1",
+    "pin": "8",
+    "pin_name": "NC",
+    "pin_type": "no_connect",
+    "net": "",
+    "source": "V05",
+    "symbol_uuid": "76145a87-8a17-5412-ab00-e1b7fe4b74b2"
+  },
+  {
+    "board": "B01",
+    "ref": "R1",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "PMT_I",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "0cdcc5f1-3e2b-57bf-bebc-ee7424caf923"
+  },
+  {
+    "board": "B01",
+    "ref": "R1",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "0cdcc5f1-3e2b-57bf-bebc-ee7424caf923"
+  },
+  {
+    "board": "B01",
+    "ref": "C1",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "PMT_I",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "31c17478-426d-5a72-8cb0-7dff8bc3bf83"
+  },
+  {
+    "board": "B01",
+    "ref": "C1",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "31c17478-426d-5a72-8cb0-7dff8bc3bf83"
+  },
+  {
+    "board": "B01",
+    "ref": "U2",
+    "pin": "8",
+    "pin_name": "IN+",
+    "pin_type": "input",
+    "net": "FDA_P",
+    "source": "V06",
+    "symbol_uuid": "b857521e-4618-5287-85f7-f9cebbc64170"
+  },
+  {
+    "board": "B01",
+    "ref": "U2",
+    "pin": "1",
+    "pin_name": "IN-",
+    "pin_type": "input",
+    "net": "FDA_N",
+    "source": "V06",
+    "symbol_uuid": "b857521e-4618-5287-85f7-f9cebbc64170"
+  },
+  {
+    "board": "B01",
+    "ref": "U2",
+    "pin": "4",
+    "pin_name": "OUT+",
+    "pin_type": "output",
+    "net": "D_A_P",
+    "source": "V06",
+    "symbol_uuid": "b857521e-4618-5287-85f7-f9cebbc64170"
+  },
+  {
+    "board": "B01",
+    "ref": "U2",
+    "pin": "5",
+    "pin_name": "OUT-",
+    "pin_type": "output",
+    "net": "D_A_N",
+    "source": "V06",
+    "symbol_uuid": "b857521e-4618-5287-85f7-f9cebbc64170"
+  },
+  {
+    "board": "B01",
+    "ref": "U2",
+    "pin": "2",
+    "pin_name": "VOCM",
+    "pin_type": "input",
+    "net": "ADC_VCM",
+    "source": "V06",
+    "symbol_uuid": "b857521e-4618-5287-85f7-f9cebbc64170"
+  },
+  {
+    "board": "B01",
+    "ref": "U2",
+    "pin": "3",
+    "pin_name": "V+",
+    "pin_type": "power_in",
+    "net": "+5VA",
+    "source": "V06",
+    "symbol_uuid": "b857521e-4618-5287-85f7-f9cebbc64170"
+  },
+  {
+    "board": "B01",
+    "ref": "U2",
+    "pin": "6",
+    "pin_name": "V-",
+    "pin_type": "power_in",
+    "net": "-5VA",
+    "source": "V06",
+    "symbol_uuid": "b857521e-4618-5287-85f7-f9cebbc64170"
+  },
+  {
+    "board": "B01",
+    "ref": "U2",
+    "pin": "7",
+    "pin_name": "NC",
+    "pin_type": "no_connect",
+    "net": "",
+    "source": "V06",
+    "symbol_uuid": "b857521e-4618-5287-85f7-f9cebbc64170"
+  },
+  {
+    "board": "B01",
+    "ref": "R2",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "2a4104f7-e867-5cd7-aef5-bd4f692ad8b7"
+  },
+  {
+    "board": "B01",
+    "ref": "R2",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "FDA_P",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "2a4104f7-e867-5cd7-aef5-bd4f692ad8b7"
+  },
+  {
+    "board": "B01",
+    "ref": "R3",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "D_A_N",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "9fac14c2-6548-5b8f-88c5-5354b299cade"
+  },
+  {
+    "board": "B01",
+    "ref": "R3",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "FDA_P",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "9fac14c2-6548-5b8f-88c5-5354b299cade"
+  },
+  {
+    "board": "B01",
+    "ref": "R4",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "OFFSET_0V5",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "5b44d1f2-f8d0-573f-ab2d-4b1826e64add"
+  },
+  {
+    "board": "B01",
+    "ref": "R4",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "FDA_N",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "5b44d1f2-f8d0-573f-ab2d-4b1826e64add"
+  },
+  {
+    "board": "B01",
+    "ref": "R5",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "D_A_P",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "e6dce181-cf8f-5628-b2bc-164d97be9c34"
+  },
+  {
+    "board": "B01",
+    "ref": "R5",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "FDA_N",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "e6dce181-cf8f-5628-b2bc-164d97be9c34"
+  },
+  {
+    "board": "B01",
+    "ref": "R6",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "D_A_P",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "13a0fa54-0b22-55bf-853f-ccf533a2cca2"
+  },
+  {
+    "board": "B01",
+    "ref": "R6",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "ADC_A_P",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "13a0fa54-0b22-55bf-853f-ccf533a2cca2"
+  },
+  {
+    "board": "B01",
+    "ref": "R7",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "D_A_N",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "9a0d2b49-51cd-5722-989d-033fc87e01d2"
+  },
+  {
+    "board": "B01",
+    "ref": "R7",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "ADC_A_N",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "9a0d2b49-51cd-5722-989d-033fc87e01d2"
+  },
+  {
+    "board": "B01",
+    "ref": "C2",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "ADC_A_P",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d1c994f0-3f92-577e-9ed9-1f5fcf0756c0"
+  },
+  {
+    "board": "B01",
+    "ref": "C2",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "ADC_A_N",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "d1c994f0-3f92-577e-9ed9-1f5fcf0756c0"
+  },
+  {
+    "board": "B01",
+    "ref": "J1",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "passive",
+    "net": "ADC_A_P",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "01adc2b9-582d-55ee-92bb-a7f38ec6bc8b"
+  },
+  {
+    "board": "B01",
+    "ref": "J1",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "01adc2b9-582d-55ee-92bb-a7f38ec6bc8b"
+  },
+  {
+    "board": "B01",
+    "ref": "J1",
+    "pin": "3",
+    "pin_name": "3",
+    "pin_type": "passive",
+    "net": "ADC_A_N",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "01adc2b9-582d-55ee-92bb-a7f38ec6bc8b"
+  },
+  {
+    "board": "B01",
+    "ref": "J1",
+    "pin": "4",
+    "pin_name": "4",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "01adc2b9-582d-55ee-92bb-a7f38ec6bc8b"
+  },
+  {
+    "board": "B01",
+    "ref": "J1",
+    "pin": "5",
+    "pin_name": "5",
+    "pin_type": "passive",
+    "net": "ADC_VCM",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "01adc2b9-582d-55ee-92bb-a7f38ec6bc8b"
+  },
+  {
+    "board": "B01",
+    "ref": "J1",
+    "pin": "6",
+    "pin_name": "6",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "01adc2b9-582d-55ee-92bb-a7f38ec6bc8b"
+  },
+  {
+    "board": "B01",
+    "ref": "J2",
+    "pin": "1",
+    "pin_name": "1",
+    "pin_type": "passive",
+    "net": "+5VA",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "40e12e0a-3949-534f-9f42-798edf0e3461"
+  },
+  {
+    "board": "B01",
+    "ref": "J2",
+    "pin": "2",
+    "pin_name": "2",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "40e12e0a-3949-534f-9f42-798edf0e3461"
+  },
+  {
+    "board": "B01",
+    "ref": "J2",
+    "pin": "3",
+    "pin_name": "3",
+    "pin_type": "passive",
+    "net": "-5VA",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "40e12e0a-3949-534f-9f42-798edf0e3461"
+  },
+  {
+    "board": "B01",
+    "ref": "J2",
+    "pin": "4",
+    "pin_name": "4",
+    "pin_type": "passive",
+    "net": "5VA_PMT",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "40e12e0a-3949-534f-9f42-798edf0e3461"
+  },
+  {
+    "board": "B01",
+    "ref": "J2",
+    "pin": "5",
+    "pin_name": "5",
+    "pin_type": "passive",
+    "net": "PMT_VCONT",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "40e12e0a-3949-534f-9f42-798edf0e3461"
+  },
+  {
+    "board": "B01",
+    "ref": "J2",
+    "pin": "6",
+    "pin_name": "6",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "40e12e0a-3949-534f-9f42-798edf0e3461"
+  },
+  {
+    "board": "B01",
+    "ref": "J2",
+    "pin": "7",
+    "pin_name": "7",
+    "pin_type": "passive",
+    "net": "OFFSET_0V5",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "40e12e0a-3949-534f-9f42-798edf0e3461"
+  },
+  {
+    "board": "B01",
+    "ref": "J2",
+    "pin": "8",
+    "pin_name": "8",
+    "pin_type": "passive",
+    "net": "PMT_VREF",
+    "source": "R51_INTERFACE",
+    "symbol_uuid": "40e12e0a-3949-534f-9f42-798edf0e3461"
+  },
+  {
+    "board": "B01",
+    "ref": "C3",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "+5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "6a313a64-f7d0-553f-8f43-4f00acc9fcd9"
+  },
+  {
+    "board": "B01",
+    "ref": "C3",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "6a313a64-f7d0-553f-8f43-4f00acc9fcd9"
+  },
+  {
+    "board": "B01",
+    "ref": "C4",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "-5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "8911746f-4dfd-5153-8c61-9b73da0c9d5d"
+  },
+  {
+    "board": "B01",
+    "ref": "C4",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "8911746f-4dfd-5153-8c61-9b73da0c9d5d"
+  },
+  {
+    "board": "B01",
+    "ref": "C5",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "+5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "51e13d95-e782-5f62-8317-772347ee7fcb"
+  },
+  {
+    "board": "B01",
+    "ref": "C5",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "51e13d95-e782-5f62-8317-772347ee7fcb"
+  },
+  {
+    "board": "B01",
+    "ref": "C6",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "-5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "56108c6a-4739-539a-a6c7-6bd1e969e1b9"
+  },
+  {
+    "board": "B01",
+    "ref": "C6",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "56108c6a-4739-539a-a6c7-6bd1e969e1b9"
+  },
+  {
+    "board": "B01",
+    "ref": "C7",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "+5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "1df82c1d-145e-5dc6-abdc-984272ecc0ad"
+  },
+  {
+    "board": "B01",
+    "ref": "C7",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "1df82c1d-145e-5dc6-abdc-984272ecc0ad"
+  },
+  {
+    "board": "B01",
+    "ref": "C8",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "-5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "a242904d-17fd-5f99-8963-653b4e6f39ec"
+  },
+  {
+    "board": "B01",
+    "ref": "C8",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "a242904d-17fd-5f99-8963-653b4e6f39ec"
+  },
+  {
+    "board": "B01",
+    "ref": "C9",
+    "pin": "1",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "5VA_PMT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "dafbf7dc-b62d-5ec2-bca2-9cd5ce21a876"
+  },
+  {
+    "board": "B01",
+    "ref": "C9",
+    "pin": "2",
+    "pin_name": "~",
+    "pin_type": "passive",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "dafbf7dc-b62d-5ec2-bca2-9cd5ce21a876"
+  },
+  {
+    "board": "B01",
+    "ref": "TP1",
+    "pin": "1",
+    "pin_name": "TP",
+    "pin_type": "passive",
+    "net": "TIA_OUT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "e667da0f-f492-5f44-a7d0-d25b7eac610f"
+  },
+  {
+    "board": "B01",
+    "ref": "TP2",
+    "pin": "1",
+    "pin_name": "TP",
+    "pin_type": "passive",
+    "net": "ADC_VCM",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "8419fe57-f68b-553d-b4f6-86a3bd842cff"
+  },
+  {
+    "board": "B01",
+    "ref": "#FLG1",
+    "pin": "1",
+    "pin_name": "pwr",
+    "pin_type": "power_out",
+    "net": "+5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "1dbf9078-cf82-58df-8c8b-5857f3a7cf28"
+  },
+  {
+    "board": "B01",
+    "ref": "#FLG2",
+    "pin": "1",
+    "pin_name": "pwr",
+    "pin_type": "power_out",
+    "net": "-5VA",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "f0117f2c-f921-5a7c-bdba-1ca7ab09da71"
+  },
+  {
+    "board": "B01",
+    "ref": "#FLG3",
+    "pin": "1",
+    "pin_name": "pwr",
+    "pin_type": "power_out",
+    "net": "5VA_PMT",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "1b685ce5-734e-59e1-8185-d5ec8207a3be"
+  },
+  {
+    "board": "B01",
+    "ref": "#FLG4",
+    "pin": "1",
+    "pin_name": "pwr",
+    "pin_type": "power_out",
+    "net": "AGND",
+    "source": "DESIGN_PROPOSED",
+    "symbol_uuid": "e34a6dfb-5695-5947-bbac-5a5bda5d9a0f"
+  }
+]

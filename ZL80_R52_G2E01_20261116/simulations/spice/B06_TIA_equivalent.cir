@@ -1,0 +1,31 @@
+ZL80 B06 TIA equivalent model -- UNVALIDATED BY SPICE ENGINE
+VCC 3V3 0 3.3
+RT 3V3 BIAS 232
+RB BIAS 0 100
+RTH 3V3 THRESH 100k
+RLO THRESH BIAS 1k
+CBIAS BIAS 0 1u
+CTH THRESH 0 10n
+IPD SUM 0 DC 0 AC 1 PULSE(0 20u 2u 150n 150n 1.6u 6u)
+CIN SUM 0 15p
+RF SUM TIA 10k
+CF SUM TIA 2.2p
+XU1 BIAS SUM TIA 3V3 0 AMP_1P A0=1e5 GBW=200e6
+* Comparator not included: timed hysteresis is in run_models.py.
+* SPICE PULSE is trapezoidal; Python optical test pulse has erf edges.
+* NOT a manufacturer macro; NOT bench evidence. No overload/slew/supply behavior.
+.options reltol=1e-5 abstol=1e-14
+
+* Educational finite open-loop model. Power pins are NOT modeled.
+.subckt AMP_1P P M O VP VN params: A0=1e5 GBW=200e6
+EERR NERR 0 P M {A0}
+RP NERR NPOLE 1k
+CP NPOLE 0 {A0/(6.283185307179586*GBW*1000)}
+EBUF O 0 NPOLE 0 1
+.ends AMP_1P
+
+.ac dec 60 10 1e9
+.tran 2n 20u
+.print ac vm(TIA) vp(TIA)
+.print tran v(TIA)
+.end

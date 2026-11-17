@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D17  线束通道、插拔与维护净空</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">设计分配与名义几何；图中包络不等于厂商实物认证。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="50" y="170" width="1500" height="65" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="60" y="200" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="white" font-weight="700" text-anchor="start">线束</text>
+<text x="180.0" y="200" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="white" font-weight="700" text-anchor="start">起点→终点</text>
+<text x="750.0" y="200" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="white" font-weight="700" text-anchor="start">中心线 / 下料预算</text>
+<text x="1080.0" y="200" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="white" font-weight="700" text-anchor="start">设计通道</text>
+<rect x="50" y="235" width="1500" height="65" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="261" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W01</text>
+<text x="180.0" y="261" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">B01差分输出 → B02模拟输入</text>
+<text x="750.0" y="261" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">80.2 / 250.0 mm</text>
+<text x="1080.0" y="261" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">屏蔽双绞模拟对</text>
+<rect x="50" y="300" width="1500" height="65" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="326" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W02</text>
+<text x="180.0" y="326" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">B02 DATA/DCO → SP2 J6</text>
+<text x="750.0" y="326" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">30.1 / 70.0 mm</text>
+<text x="1080.0" y="326" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">短受控阻抗转接/接地伴线</text>
+<rect x="50" y="365" width="1500" height="65" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="391" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W03</text>
+<text x="180.0" y="391" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">B05 → 入口编码器</text>
+<text x="750.0" y="391" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">99.6 / 180.0 mm</text>
+<text x="1080.0" y="391" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">屏蔽ABZ+5V</text>
+<rect x="50" y="430" width="1500" height="65" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="456" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W04</text>
+<text x="180.0" y="456" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">B05 → 出口编码器</text>
+<text x="750.0" y="456" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">64.6 / 160.0 mm</text>
+<text x="1080.0" y="456" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">屏蔽ABZ+5V</text>
+<rect x="50" y="495" width="1500" height="65" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="521" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W05</text>
+<text x="180.0" y="521" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">B05 → 牵引电机</text>
+<text x="750.0" y="521" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">419.7 / 600.0 mm</text>
+<text x="1080.0" y="521" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">两对绞合电机线</text>
+<rect x="50" y="560" width="1500" height="65" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="586" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W06</text>
+<text x="180.0" y="586" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">B04 → SP2 5V</text>
+<text x="750.0" y="586" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">353.7 / 450.0 mm</text>
+<text x="1080.0" y="586" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">20AWG电源对</text>
+<rect x="50" y="625" width="1500" height="65" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="651" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W07</text>
+<text x="180.0" y="651" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">B03 → PMT偏置控制</text>
+<text x="750.0" y="651" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">86.7 / 200.0 mm</text>
+<text x="1080.0" y="651" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">低噪声5V+控制/屏蔽</text>
+<rect x="50" y="690" width="1500" height="65" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="716" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W08</text>
+<text x="180.0" y="716" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">B08参考输出 → B02模拟B</text>
+<text x="750.0" y="716" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">484.9 / 650.0 mm</text>
+<text x="1080.0" y="716" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">屏蔽缓冲电压信号</text>
+<rect x="50" y="755" width="1500" height="65" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="781" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W09</text>
+<text x="180.0" y="781" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">SOS/EOS → B05</text>
+<text x="750.0" y="781" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">367.0 / 450.0 mm</text>
+<text x="1080.0" y="781" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">屏蔽同步/回流成对</text>
+<rect x="50" y="820" width="1500" height="65" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="846" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W10</text>
+<text x="180.0" y="846" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">B04 → 激光驱动/快门</text>
+<text x="750.0" y="846" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">429.2 / 550.0 mm</text>
+<text x="1080.0" y="846" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">硬禁能+功率独立线束</text>
+<rect x="50" y="885" width="1500" height="65" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="911" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W11</text>
+<text x="180.0" y="911" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">左侧24V锁紧口 → B04保护输入</text>
+<text x="750.0" y="911" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">119.2 / 180 mm</text>
+<text x="1080.0" y="911" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">18-20AWG供电/机壳端接</text>
+<rect x="50" y="950" width="1500" height="65" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="60" y="976" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">W11</text>
+<text x="180.0" y="976" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">左侧24V锁紧口 → B04保护输入</text>
+<text x="750.0" y="976" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">119.2 / 180 mm</text>
+<text x="1080.0" y="976" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">18-20AWG供电/机壳端接</text>
+<text x="80" y="1010" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#cb462e" font-weight="400" text-anchor="start">中心线折角未圆滑；最小弯曲半径、接头护套、理线夹和整束扫掠干涉仍须装配样机验证。</text>
+</svg>

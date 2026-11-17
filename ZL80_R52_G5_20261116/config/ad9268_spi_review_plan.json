@@ -1,0 +1,85 @@
+{
+  "status": "REVIEW_PLAN_NOT_EXECUTED",
+  "source": "AD9268 Rev.A pp35,37-39",
+  "hardware_execution_enabled": false,
+  "spi": "MSB-first, mode0, 16-bit instruction + 8-bit data",
+  "shadow_commit": "write 0x01 to 0x00FF after changing shadowed registers",
+  "steps": [
+    {
+      "op": "READ",
+      "address": "0x0001",
+      "expected": "0x32",
+      "action": "stop on mismatch; never write chip ID"
+    },
+    {
+      "op": "READ",
+      "address": "0x0002",
+      "action": "record speed grade; do not infer board speed grade from name"
+    },
+    {
+      "op": "WRITE",
+      "address": "0x0005",
+      "data": "0x03",
+      "action": "select channels A+B"
+    },
+    {
+      "op": "WRITE",
+      "address": "0x0009",
+      "data": "0x01",
+      "action": "DCS on; 20MSPS proposed baseline"
+    },
+    {
+      "op": "WRITE",
+      "address": "0x000B",
+      "data": "0x00",
+      "action": "clock divide by1"
+    },
+    {
+      "op": "WRITE",
+      "address": "0x0014",
+      "data": "0x00",
+      "action": "CMOS noninterleaved offset-binary; only after pin/electrical review"
+    },
+    {
+      "op": "WRITE",
+      "address": "0x0018",
+      "data": "0xC0",
+      "action": "2Vpp internal-reference setting; external SENSE wiring must agree"
+    },
+    {
+      "op": "WRITE",
+      "address": "0x000D",
+      "data": "0x04",
+      "action": "checkerboard diagnostic"
+    },
+    {
+      "op": "WRITE",
+      "address": "0x00FF",
+      "data": "0x01",
+      "action": "commit shadowed settings"
+    },
+    {
+      "op": "READBACK",
+      "action": "select each channel separately; verify relevant registers, DCOs and data patterns"
+    },
+    {
+      "op": "WRITE",
+      "address": "0x000D",
+      "data": "0x00",
+      "action": "disable test after verification"
+    },
+    {
+      "op": "WRITE",
+      "address": "0x00FF",
+      "data": "0x01",
+      "action": "commit; discard specified settling samples"
+    }
+  ],
+  "unresolved": [
+    "SPI power-on straps and clocking",
+    "B02 ADC SENSE/reference wiring",
+    "translator direction/enable",
+    "measured DCO/data phase",
+    "DCO delay value"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "revision": "R52-G3-M01-D01",
+  "state": "BLOCKED",
+  "design_package": "DELIVERED_REVIEW_STAGE",
+  "bench": "NOT_RUN",
+  "blockers": [
+    {
+      "id": "G3-B01",
+      "description": "基座/脚位ECR、机箱板厚变更签署",
+      "status": "OPEN"
+    },
+    {
+      "id": "G3-B02",
+      "description": "电机动态转矩/低速纹波/温升",
+      "status": "OPEN"
+    },
+    {
+      "id": "G3-B03",
+      "description": "编码器角精度与真实位置目标，厂家孔位",
+      "status": "OPEN"
+    },
+    {
+      "id": "G3-B04",
+      "description": "轴承配合/游隙与弹簧压并/疲劳",
+      "status": "OPEN"
+    },
+    {
+      "id": "G3-B05",
+      "description": "胶料粘结、无划伤、析出和有效径标定",
+      "status": "OPEN"
+    },
+    {
+      "id": "G3-B06",
+      "description": "G2板面法向/器件高度/真实连接器回装",
+      "status": "OPEN"
+    },
+    {
+      "id": "G3-B07",
+      "description": "护罩/编码器/机箱标准紧固件和提辊锁定",
+      "status": "OPEN"
+    },
+    {
+      "id": "G3-B08",
+      "description": "实测速度、张力、滑移及长片累计误差",
+      "status": "OPEN"
+    },
+    {
+      "id": "G3-B09",
+      "description": "夹点、联锁和激光漏光/结构安全",
+      "status": "OPEN"
+    }
+  ]
+}

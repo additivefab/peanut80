@@ -1,0 +1,12 @@
+﻿位置,Y_mm,Z_mm
+entry_bend_end,-152,110
+entry_bend_start,-229.3,169.3
+sensor,-231.9,179.0
+feed_nip,-235.7,193.4
+dam,-240.9,212.8
+pick,-247.4,236.9
+mag_top,-329.4,543.1
+exit_bend_start,152,110
+exit_bend_end,230.8,176.1
+eject_nip,232.2,184.0
+bin_top,292.1,523.7

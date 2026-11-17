@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D04  下层PCB空间布置与高度预算</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">二维投影须结合Z高度阅读；每块板均给本体、器件侧、焊脚侧、安装孔和拆卸方向。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<line x1="152.5" y1="257.0" x2="152.5" y2="943.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="275.0" y1="257.0" x2="275.0" y2="943.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="397.5" y1="257.0" x2="397.5" y2="943.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="520.0" y1="257.0" x2="520.0" y2="943.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="642.5" y1="257.0" x2="642.5" y2="943.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="765.0" y1="257.0" x2="765.0" y2="943.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="887.5" y1="257.0" x2="887.5" y2="943.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="152.5" y1="257.0" x2="887.5" y2="257.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="152.5" y1="355.0" x2="887.5" y2="355.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="152.5" y1="453.0" x2="887.5" y2="453.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="152.5" y1="551.0" x2="887.5" y2="551.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="152.5" y1="649.0" x2="887.5" y2="649.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="152.5" y1="747.0" x2="887.5" y2="747.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="152.5" y1="845.0" x2="887.5" y2="845.0" stroke="#e4ebef" stroke-width="1" />
+<line x1="152.5" y1="943.0" x2="887.5" y2="943.0" stroke="#e4ebef" stroke-width="1" />
+<rect x="152.5" y="257.0" width="735.0" height="686.0" rx="0" fill="none" stroke="#5e7180" stroke-width="3"/>
+<rect x="716.0" y="538.75" width="147.0" height="196.0" rx="0" fill="#dbece7" stroke="#20826c" stroke-width="2"/>
+<text x="789.5" y="636.75" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#20826c" font-weight="700" text-anchor="middle">B02</text>
+<rect x="164.75" y="796.0" width="147.0" height="122.50000000000001" rx="0" fill="#dbece7" stroke="#20826c" stroke-width="2"/>
+<text x="238.25" y="857.25" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#20826c" font-weight="700" text-anchor="middle">B03</text>
+<rect x="373.0" y="249.64999999999998" width="294.0" height="159.25" rx="0" fill="#dbece7" stroke="#20826c" stroke-width="2"/>
+<text x="520.0" y="329.275" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#20826c" font-weight="700" text-anchor="middle">B04</text>
+<rect x="158.625" y="391.75" width="159.25" height="245.00000000000003" rx="0" fill="#dbece7" stroke="#20826c" stroke-width="2"/>
+<text x="238.25" y="514.25" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#20826c" font-weight="700" text-anchor="middle">B05</text>
+<rect x="593.5" y="766.6" width="294.0" height="171.5" rx="0" fill="#dbece7" stroke="#20826c" stroke-width="2"/>
+<text x="740.5" y="852.35" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#20826c" font-weight="700" text-anchor="middle">B09</text>
+<rect x="446.5" y="732.3" width="235.20000000000002" height="112.7" rx="0" fill="#e8e3da" stroke="#a75f12" stroke-width="2"/>
+<text x="564.1" y="788.65" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#a75f12" font-weight="700" text-anchor="middle">B01 / PMT</text>
+<line x1="520" y1="250" x2="520" y2="195" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<text x="535" y="220" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">+Y送片</text>
+<rect x="1010" y="165" width="545" height="60" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="1020" y="195" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="white" font-weight="700" text-anchor="start">板号</text>
+<text x="1101.75" y="195" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="white" font-weight="700" text-anchor="start">板框mm</text>
+<text x="1308.85" y="195" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="white" font-weight="700" text-anchor="start">本版Z/方向</text>
+<rect x="1010" y="225" width="545" height="60" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="251" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">B01</text>
+<text x="1101.75" y="251" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[90, 50]</text>
+<text x="1308.85" y="251" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">50 / XZ</text>
+<rect x="1010" y="285" width="545" height="60" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="311" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">B02</text>
+<text x="1101.75" y="311" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[60, 80]</text>
+<text x="1308.85" y="311" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">18 / XY</text>
+<rect x="1010" y="345" width="545" height="60" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="371" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">B03</text>
+<text x="1101.75" y="371" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[60, 50]</text>
+<text x="1308.85" y="371" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">22 / XY</text>
+<rect x="1010" y="405" width="545" height="60" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="431" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">B04</text>
+<text x="1101.75" y="431" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[120, 65]</text>
+<text x="1308.85" y="431" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">22 / XY</text>
+<rect x="1010" y="465" width="545" height="60" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="491" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">B05</text>
+<text x="1101.75" y="491" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[65, 100]</text>
+<text x="1308.85" y="491" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">22 / XY</text>
+<rect x="1010" y="525" width="545" height="60" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="551" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">B06</text>
+<text x="1101.75" y="551" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[18, 20]</text>
+<text x="1308.85" y="551" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">108 / XZ</text>
+<rect x="1010" y="585" width="545" height="60" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="611" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">B07</text>
+<text x="1101.75" y="611" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[18, 20]</text>
+<text x="1308.85" y="611" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">108 / XZ</text>
+<rect x="1010" y="645" width="545" height="60" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="671" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">B08</text>
+<text x="1101.75" y="671" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[25, 20]</text>
+<text x="1308.85" y="671" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">235 / XZ</text>
+<rect x="1010" y="705" width="545" height="60" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="1020" y="731" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">B09</text>
+<text x="1101.75" y="731" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">[120, 70]</text>
+<text x="1308.85" y="731" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">18 / XY</text>
+<text x="1050" y="835" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#cb462e" font-weight="400" text-anchor="start">B09是SP2可调安装托板，不是第9块定制电子板。SP2</text>
+<text x="1050" y="866" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#cb462e" font-weight="400" text-anchor="start"> 110×60×25为待实测限界。</text>
+</svg>

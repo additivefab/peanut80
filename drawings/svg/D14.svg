@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D14  电气信号链与电压域</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">设计分配与名义几何；图中包络不等于厂商实物认证。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="55" y="210" width="260" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="185.0" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">PMT</text>
+<text x="67" y="275" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">5V内部高压模块</text>
+<rect x="355" y="210" width="260" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="485.0" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">B01 TIA</text>
+<text x="367" y="275" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">±5VA，短电流节点</text>
+<rect x="655" y="210" width="260" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="785.0" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">B02 ADC</text>
+<text x="667" y="275" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">AD9268 / 1.8V</text>
+<rect x="955" y="210" width="260" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="1085.0" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">SP2 FPGA</text>
+<text x="967" y="275" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">J6 Bank33=1.8V</text>
+<rect x="1255" y="210" width="260" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="1385.0" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">主机文件</text>
+<text x="1267" y="275" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">GigE / 分块Master</text>
+<line x1="315" y1="275" x2="350" y2="275" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<line x1="615" y1="275" x2="650" y2="275" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<line x1="915" y1="275" x2="950" y2="275" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<line x1="1215" y1="275" x2="1250" y2="275" stroke="#226da6" stroke-width="3" marker-end="url(#arr)" />
+<rect x="55" y="455" width="260" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="185.0" y="490" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">B08参考PD</text>
+<text x="67" y="520" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">就地TIA → ADC B</text>
+<rect x="355" y="455" width="260" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="485.0" y="490" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">B06/B07同步</text>
+<text x="367" y="520" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">SOS/EOS → J5 3.3V</text>
+<rect x="655" y="455" width="260" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="785.0" y="490" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">B05运动/传感</text>
+<text x="667" y="520" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">5V编码器缓冲为3.3V</text>
+<rect x="955" y="455" width="260" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="1085.0" y="490" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">B03静电源/增益</text>
+<text x="967" y="520" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">PMT增益慢调且记录</text>
+<rect x="1255" y="455" width="260" height="130" rx="6" fill="#edf4f8" stroke="#226da6" stroke-width="1.3"/>
+<text x="1385.0" y="490" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#226da6" font-weight="700" text-anchor="middle">B04硬件禁止链</text>
+<text x="1267" y="520" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">独立于操作系统</text>
+<rect x="70" y="715" width="1450" height="65" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="80" y="745" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="white" font-weight="700" text-anchor="start">链路</text>
+<text x="399.0" y="745" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="white" font-weight="700" text-anchor="start">电压/时间条件</text>
+<text x="1022.5" y="745" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="white" font-weight="700" text-anchor="start">关键禁忌</text>
+<rect x="70" y="780" width="1450" height="65" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="806" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">ADC数据32+DCO2</text>
+<text x="399.0" y="806" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">1.8V，持续20MHz，两DCO域处理</text>
+<text x="1022.5" y="806" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">不可接3.3V Vadj</text>
+<rect x="70" y="845" width="1450" height="65" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="871" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">ADC控制</text>
+<text x="399.0" y="871" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">J5 3.3V ↔ ADC 1.8V，SDIO双向</text>
+<text x="1022.5" y="871" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">未定型转换器不可直接跳线</text>
+<rect x="70" y="910" width="1450" height="65" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="936" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">AMT112编码</text>
+<text x="399.0" y="936" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">5V供电，输出先缓冲</text>
+<text x="1022.5" y="936" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">5V不直入Zynq IO</text>
+<rect x="70" y="975" width="1450" height="65" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="1001" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">J6电源针</text>
+<text x="399.0" y="1001" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">37/38=3.3V，39/40=5V</text>
+<text x="1022.5" y="1001" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#172d3f" font-weight="400" text-anchor="start">不因Bank33改1.8V而自动改变</text>
+</svg>

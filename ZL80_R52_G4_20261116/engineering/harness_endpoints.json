@@ -1,0 +1,82 @@
+[
+  {
+    "id": "B06_J1",
+    "start_world_mm": [
+      -58.7,
+      14.0,
+      116.5
+    ],
+    "service_point_mm": [
+      -58.7,
+      -6.0,
+      116.5
+    ],
+    "service_lead_mm": 20,
+    "mating_connector": "TBD",
+    "route_status": "ENDPOINT_ONLY;CONNECT_TO_G3_CORRIDOR_AFTER_CONNECTOR_FREEZE"
+  },
+  {
+    "id": "B07_J1",
+    "start_world_mm": [
+      58.7,
+      14.0,
+      116.5
+    ],
+    "service_point_mm": [
+      58.7,
+      -6.0,
+      116.5
+    ],
+    "service_lead_mm": 20,
+    "mating_connector": "TBD",
+    "route_status": "ENDPOINT_ONLY;CONNECT_TO_G3_CORRIDOR_AFTER_CONNECTOR_FREEZE"
+  },
+  {
+    "id": "B08_J1",
+    "start_world_mm": [
+      -53.0,
+      -25.999999999999996,
+      245.0
+    ],
+    "service_point_mm": [
+      -53.0,
+      -5.9999999999999964,
+      245.0
+    ],
+    "service_lead_mm": 20,
+    "mating_connector": "TBD",
+    "route_status": "ENDPOINT_ONLY;CONNECT_TO_G3_CORRIDOR_AFTER_CONNECTOR_FREEZE"
+  },
+  {
+    "id": "B01_J1",
+    "start_world_mm": [
+      51.0,
+      -83.2,
+      66.0
+    ],
+    "service_point_mm": [
+      51.0,
+      -63.2,
+      66.0
+    ],
+    "service_lead_mm": 20,
+    "mating_connector": "TBD",
+    "route_status": "ENDPOINT_ONLY;CONNECT_TO_G3_CORRIDOR_AFTER_CONNECTOR_FREEZE"
+  },
+  {
+    "id": "B01_J2",
+    "start_world_mm": [
+      -17.0,
+      -83.2,
+      63.0
+    ],
+    "service_point_mm": [
+      -17.0,
+      -63.2,
+      63.0
+    ],
+    "service_lead_mm": 20,
+    "mating_connector": "TBD",
+    "route_status": "ENDPOINT_ONLY;CONNECT_TO_G3_CORRIDOR_AFTER_CONNECTOR_FREEZE"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "scope": "actual PDF rendering + text bounds, not engineering performance",
+  "files": [
+    {
+      "file": "drawings/ZL80_R5_完整图册.pdf",
+      "pages": 105,
+      "text_words": 4347,
+      "outside_page_word_count": 0
+    },
+    {
+      "file": "docs/ZL80_R5_设计说明与集成评审.pdf",
+      "pages": 25,
+      "text_words": 1598,
+      "outside_page_word_count": 0
+    }
+  ]
+}

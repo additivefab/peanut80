@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D22  装调顺序与可维护设计</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">设计分配与名义几何；图中包络不等于厂商实物认证。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<rect x="70" y="175" width="1450" height="108" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="80" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">步骤</text>
+<text x="370.0" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">定位/动作</text>
+<text x="979.0" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="white" font-weight="700" text-anchor="start">验收点</text>
+<rect x="70" y="283" width="1450" height="108" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="309" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">1 基准底板</text>
+<text x="370.0" y="309" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">清洁A面；装两侧框与轴承座</text>
+<text x="979.0" y="309" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">同轴/平行、辊跳动、无卡滞</text>
+<rect x="70" y="391" width="1450" height="108" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="417" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">2 走片链</text>
+<text x="370.0" y="417" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">装胶辊、弹簧预载和释放</text>
+<text x="979.0" y="417" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">真片压力DOE、保护两面乳剂</text>
+<rect x="70" y="499" width="1450" height="108" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="525" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">3 收光组件</text>
+<text x="370.0" y="525" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">鞍座/狭缝/侧窗/导光/PMT</text>
+<text x="979.0" y="525" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">0.5mm间隙、导光端定位、遮光</text>
+<rect x="70" y="607" width="1450" height="108" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="633" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">4 光学头</text>
+<text x="370.0" y="633" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">低功率/闭盖条件对准polygon+fθ</text>
+<text x="979.0" y="633" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">全幅焦点、面倾斜、SOS/EOS</text>
+<rect x="70" y="715" width="1450" height="108" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="741" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">5 PCB与线束</text>
+<text x="370.0" y="741" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">按板位/绝缘/返回路径安装</text>
+<text x="979.0" y="741" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">1.8VBank、5V传感缓冲、接地</text>
+<rect x="70" y="823" width="1450" height="108" rx="0" fill="white" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="849" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">6 标定</text>
+<text x="370.0" y="849" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">dark/参考/平场/阶梯片/几何</text>
+<text x="979.0" y="849" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">低光阶跃与饱和恢复</text>
+<rect x="70" y="931" width="1450" height="108" rx="0" fill="#edf4f8" stroke="#d7e2eb" stroke-width="0.6"/>
+<text x="80" y="957" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">7 故障注入</text>
+<text x="370.0" y="957" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">失扫/编码断线/开盖/回压</text>
+<text x="979.0" y="957" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#172d3f" font-weight="400" text-anchor="start">关光、受控停片、质量标记</text>
+</svg>

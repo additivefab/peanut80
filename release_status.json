@@ -1,0 +1,93 @@
+{
+  "release": "ZL80 R5-PDR1",
+  "date": "2026-11-14",
+  "stage": "光机电集成初步工程设计；非加工/投板放行",
+  "case_mm": [
+    320,
+    300,
+    300
+  ],
+  "film_width_mm": 80,
+  "scan_reserve_mm": 100,
+  "slit_mm": [
+    104,
+    1.2
+  ],
+  "drawings": 105,
+  "system_drawings": 24,
+  "pcb_layout_drawings": 8,
+  "part_nominal_drawings": 73,
+  "step_files": 81,
+  "dxf_files": 12,
+  "custom_pcb_drafts": 8,
+  "pcb_and_tray_definitions": 9,
+  "component_or_function_regions": 84,
+  "sensor_definitions": 14,
+  "pin_net_schematic_sheets": 16,
+  "xlsx_sheets": 13,
+  "python_tests": 35,
+  "cad_status": {
+    "parts": 73,
+    "instances": 149,
+    "all_valid": true,
+    "scope": "B-rep validity and rigid nominal core intersections only; excludes tolerances, cables, fasteners and optics performance",
+    "raw_overlap_count": 0
+  },
+  "ecad_status": "未布线；部分功能区尚未器件级闭合；未运行KiCad原生ERC/DRC；无Gerber",
+  "optics_status": "关键polygon/f-theta/激光组合为联合RFQ接口限界，未完成镜头处方和全幅性能验证",
+  "mass_status": "基座及铝外罩名义CAD质量4.33kg；整机试制预算6–8kg待称重，早期3.5kg目标未达到",
+  "limits": [
+    "仅名义刚性核心干涉检查",
+    "关键器件/功能区域采用空间盒，不是完整厂商模型",
+    "线束中心线及预留空间未完成真实弯曲半径/柔性干涉验证",
+    "未完成全部紧固、制造公差、SI/PI、EMC及安全验证",
+    "外置自动馈片为接口/状态机/安装限界，非完整馈片制造设计"
+  ],
+  "r52_update": {
+    "date": "2026-11-17",
+    "status": "R5.2 G4/G5 工程评审；加工、投板与烧录 BLOCKED；无新设计台架实测",
+    "baseline_doc": "docs/ZL80_R52_融合评估与设计基线.md (.pdf)",
+    "supplement_atlas": "drawings/ZL80_R52_补充图册.pdf",
+    "note": "现行设计以融合文档 §8 及门槛 G22–G27 为准。主图册、补充图册和原制造相关 CAD/PCB 为各自版本的审查资料。",
+    "subpackages": [
+      "ZL80_R52_G0_G1_20261116",
+      "ZL80_R52_G2E01_20261116",
+      "ZL80_R52_G3_20261116",
+      "ZL80_ADF50_V01",
+      "ZL80_ADF50_V02",
+      "ZL80_ADF50_V03",
+      "ZL80_R52_G4_20261116",
+      "ZL80_ADF50_V04",
+      "ZL80_R52_G5_20261116",
+      "ZL80_ADF50_V06"
+    ],
+    "python_tests_main": 35,
+    "previous_manifest": "manifest_sha256_R5-PDR1.json",
+    "adf_current": "ZL80_ADF50_V06（评估第三方V05包后修改V0.4：78°前仓、7托辊、重叠交接、喉口卡匣、脚底Z=-8；320×680.4×567.4，并入本体）",
+    "g4_note": "B06/B07/B08 为布线候选；B01 单增益板仅作参考，按 R5.2 双增益重版；原生 ERC/DRC 尚未运行",
+    "g5_note": "归一化采集和 ZL80RAW1 短时离线调试；59 项 Python 与 C ABI 复核通过；8 个 HDL 动态仿真尚未运行",
+    "hardware_release": "BLOCKED",
+    "hardware_enabled": false,
+    "fit_check": "tests/cad_g4_r52_fit.json",
+    "freeze_gates": "engineering/设计冻结门槛.csv (G22–G27)",
+    "verification": {
+      "G4": {
+        "manifest_files": 451,
+        "python_tests_passed": 29,
+        "native_erc_drc": "NOT_RUN"
+      },
+      "G5": {
+        "manifest_files": 78,
+        "python_tests_passed": 59,
+        "c_raw_abi": "PASS",
+        "rtl_only_slang_errors": 0,
+        "rtl_and_testbench_slang_missing_timescale_errors": 11,
+        "dynamic_hdl_tests": "NOT_RUN",
+        "vivado": "NOT_RUN"
+      },
+      "physical_bench": "NOT_RUN"
+    },
+    "adf_third_party_reviewed": "ZL80_ADF50_V05_20261117（第三方评审输入，保留来源校验记录）",
+    "ecr_g3_01": "APPROVED 2026-11-17；设计完成，硬件未制造，计量 NOT_RUN；ZL80_ADF50_V06/ecr_g3_01"
+  }
+}

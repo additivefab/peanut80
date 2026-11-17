@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1131" viewBox="0 0 1600 1131"><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#226da6"/></marker></defs><rect width="1600" height="1131" fill="white"/>
+<rect x="30" y="25" width="1540" height="74" rx="0" fill="#143c61" stroke="none" stroke-width="1.5"/>
+<text x="55" y="74" font-family="Noto Sans CJK SC, sans-serif" font-size="31" fill="white" font-weight="700" text-anchor="start">ZL80 / R5   D19  空间重建与原始数据边界</text>
+<text x="45" y="129" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#5e7180" font-weight="400" text-anchor="start">设计分配与名义几何；图中包络不等于厂商实物认证。</text>
+<line x1="40" y1="1065" x2="1560" y2="1065" stroke="#226da6" stroke-width="2" />
+<text x="45" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#172d3f" font-weight="400" text-anchor="start">R5-PDR1  |  80 mm有效 / 100 mm扫描预留  |  2026-11-14  |  单位 mm</text>
+<text x="1080" y="1095" font-family="Noto Sans CJK SC, sans-serif" font-size="17" fill="#cb462e" font-weight="400" text-anchor="start">初步工程设计 · 非加工/PCB制造放行图</text>
+<line x1="110" y1="290" x2="175" y2="286" stroke="#226da6" stroke-width="2" />
+<line x1="175" y1="286" x2="240" y2="282" stroke="#226da6" stroke-width="2" />
+<line x1="240" y1="282" x2="305" y2="278" stroke="#226da6" stroke-width="2" />
+<line x1="305" y1="278" x2="370" y2="274" stroke="#226da6" stroke-width="2" />
+<line x1="370" y1="274" x2="435" y2="270" stroke="#226da6" stroke-width="2" />
+<line x1="435" y1="270" x2="500" y2="266" stroke="#226da6" stroke-width="2" />
+<line x1="500" y1="266" x2="565" y2="262" stroke="#226da6" stroke-width="2" />
+<circle cx="110" cy="290" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="175" cy="286" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="240" cy="282" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="305" cy="278" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="370" cy="274" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="435" cy="270" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="500" cy="266" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="565" cy="262" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<line x1="110" y1="355" x2="175" y2="351" stroke="#226da6" stroke-width="2" />
+<line x1="175" y1="351" x2="240" y2="347" stroke="#226da6" stroke-width="2" />
+<line x1="240" y1="347" x2="305" y2="343" stroke="#226da6" stroke-width="2" />
+<line x1="305" y1="343" x2="370" y2="339" stroke="#226da6" stroke-width="2" />
+<line x1="370" y1="339" x2="435" y2="335" stroke="#226da6" stroke-width="2" />
+<line x1="435" y1="335" x2="500" y2="331" stroke="#226da6" stroke-width="2" />
+<line x1="500" y1="331" x2="565" y2="327" stroke="#226da6" stroke-width="2" />
+<circle cx="110" cy="355" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="175" cy="351" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="240" cy="347" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="305" cy="343" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="370" cy="339" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="435" cy="335" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="500" cy="331" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="565" cy="327" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<line x1="110" y1="420" x2="175" y2="416" stroke="#226da6" stroke-width="2" />
+<line x1="175" y1="416" x2="240" y2="412" stroke="#226da6" stroke-width="2" />
+<line x1="240" y1="412" x2="305" y2="408" stroke="#226da6" stroke-width="2" />
+<line x1="305" y1="408" x2="370" y2="404" stroke="#226da6" stroke-width="2" />
+<line x1="370" y1="404" x2="435" y2="400" stroke="#226da6" stroke-width="2" />
+<line x1="435" y1="400" x2="500" y2="396" stroke="#226da6" stroke-width="2" />
+<line x1="500" y1="396" x2="565" y2="392" stroke="#226da6" stroke-width="2" />
+<circle cx="110" cy="420" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="175" cy="416" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="240" cy="412" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="305" cy="408" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="370" cy="404" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="435" cy="400" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="500" cy="396" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="565" cy="392" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<line x1="110" y1="485" x2="175" y2="481" stroke="#226da6" stroke-width="2" />
+<line x1="175" y1="481" x2="240" y2="477" stroke="#226da6" stroke-width="2" />
+<line x1="240" y1="477" x2="305" y2="473" stroke="#226da6" stroke-width="2" />
+<line x1="305" y1="473" x2="370" y2="469" stroke="#226da6" stroke-width="2" />
+<line x1="370" y1="469" x2="435" y2="465" stroke="#226da6" stroke-width="2" />
+<line x1="435" y1="465" x2="500" y2="461" stroke="#226da6" stroke-width="2" />
+<line x1="500" y1="461" x2="565" y2="457" stroke="#226da6" stroke-width="2" />
+<circle cx="110" cy="485" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="175" cy="481" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="240" cy="477" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="305" cy="473" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="370" cy="469" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="435" cy="465" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="500" cy="461" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="565" cy="457" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<line x1="110" y1="550" x2="175" y2="546" stroke="#226da6" stroke-width="2" />
+<line x1="175" y1="546" x2="240" y2="542" stroke="#226da6" stroke-width="2" />
+<line x1="240" y1="542" x2="305" y2="538" stroke="#226da6" stroke-width="2" />
+<line x1="305" y1="538" x2="370" y2="534" stroke="#226da6" stroke-width="2" />
+<line x1="370" y1="534" x2="435" y2="530" stroke="#226da6" stroke-width="2" />
+<line x1="435" y1="530" x2="500" y2="526" stroke="#226da6" stroke-width="2" />
+<line x1="500" y1="526" x2="565" y2="522" stroke="#226da6" stroke-width="2" />
+<circle cx="110" cy="550" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="175" cy="546" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="240" cy="542" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="305" cy="538" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="370" cy="534" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="435" cy="530" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="500" cy="526" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="565" cy="522" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<line x1="110" y1="615" x2="175" y2="611" stroke="#226da6" stroke-width="2" />
+<line x1="175" y1="611" x2="240" y2="607" stroke="#226da6" stroke-width="2" />
+<line x1="240" y1="607" x2="305" y2="603" stroke="#226da6" stroke-width="2" />
+<line x1="305" y1="603" x2="370" y2="599" stroke="#226da6" stroke-width="2" />
+<line x1="370" y1="599" x2="435" y2="595" stroke="#226da6" stroke-width="2" />
+<line x1="435" y1="595" x2="500" y2="591" stroke="#226da6" stroke-width="2" />
+<line x1="500" y1="591" x2="565" y2="587" stroke="#226da6" stroke-width="2" />
+<circle cx="110" cy="615" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="175" cy="611" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="240" cy="607" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="305" cy="603" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="370" cy="599" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="435" cy="595" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="500" cy="591" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<circle cx="565" cy="587" r="5" fill="#226da6" stroke="#226da6" stroke-width="2"/>
+<text x="110" y="750" font-family="Noto Sans CJK SC, sans-serif" font-size="25" fill="#226da6" font-weight="700" text-anchor="start">按ADC时刻采样：斜行轨迹</text>
+<line x1="700" y1="450" x2="850" y2="450" stroke="#226da6" stroke-width="6" marker-end="url(#arr)" />
+<circle cx="955" cy="290" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1020" cy="290" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1085" cy="290" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1150" cy="290" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1215" cy="290" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1280" cy="290" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1345" cy="290" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1410" cy="290" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="955" cy="355" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1020" cy="355" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1085" cy="355" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1150" cy="355" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1215" cy="355" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1280" cy="355" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1345" cy="355" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1410" cy="355" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="955" cy="420" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1020" cy="420" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1085" cy="420" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1150" cy="420" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1215" cy="420" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1280" cy="420" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1345" cy="420" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1410" cy="420" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="955" cy="485" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1020" cy="485" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1085" cy="485" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1150" cy="485" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1215" cy="485" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1280" cy="485" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1345" cy="485" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1410" cy="485" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="955" cy="550" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1020" cy="550" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1085" cy="550" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1150" cy="550" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1215" cy="550" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1280" cy="550" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1345" cy="550" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1410" cy="550" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="955" cy="615" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1020" cy="615" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1085" cy="615" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1150" cy="615" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1215" cy="615" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1280" cy="615" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1345" cy="615" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<circle cx="1410" cy="615" r="5" fill="#20826c" stroke="#20826c" stroke-width="2"/>
+<text x="960" y="750" font-family="Noto Sans CJK SC, sans-serif" font-size="25" fill="#20826c" font-weight="700" text-anchor="start">按实际(x,y)映射：矩形输出网格</text>
+<rect x="75" y="850" width="710" height="115" rx="5" fill="#edf4f8" stroke="none" stroke-width="1.5"/>
+<text x="93" y="882" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">数据与标定顺序</text>
+<text x="93" y="915" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">线性基线：dark扣除 → 参考光归一 → 平场/密度标定 → 几何映射。LO</text>
+<text x="93" y="942" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">G替换先反演到线性量。</text>
+<rect x="825" y="850" width="710" height="115" rx="5" fill="#edf4f8" stroke="none" stroke-width="1.5"/>
+<text x="843" y="882" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#226da6" font-weight="700" text-anchor="start">不填补成合格Master</text>
+<text x="843" y="915" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">保留Raw与Calibrated Master；缺行、过载、滑移、缺编码均保留质量标</text>
+<text x="843" y="942" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#172d3f" font-weight="400" text-anchor="start">记。AI只处理派生副本。</text>
+</svg>

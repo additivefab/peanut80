@@ -1,0 +1,192 @@
+{
+  "per_thickness": [
+    {
+      "thickness_mm": 0.15,
+      "single_mass_g": 5.039999999999999,
+      "stack_mass_g": 251.99999999999994,
+      "stack_thickness_mm": 7.5,
+      "stack_down_slope_on_dam_n": 2.240501606489043,
+      "stack_normal_on_tray_n": 1.0447630572144178,
+      "pick_interface_force_full_stack_n": 0.6208952611442884,
+      "pick_interface_force_last_sheet_n": 0.6208952611442884,
+      "v01_interface_force_full_stack_n": 0.9,
+      "v01_natural_normal_full_stack_n": 0.429279132973972,
+      "bending_stiffness_EI_Nm2": 8.999999999999998e-05,
+      "dam_angle_deg": 65,
+      "dam_lift_factor": 0.14589769448179313,
+      "edge_lift_force_needed_n": 0.04319999999999998,
+      "push_needed_to_climb_dam_n": 0.2960978934824155,
+      "pick_arm_force_n": 0.6,
+      "top_sheet_push_available_n": 0.46481003212978084,
+      "top_sheet_margin_ratio": 1.5697850013829455,
+      "self_feed_push_by_weight_n": 0.04481003212978086,
+      "self_feed_ratio": 0.15133519392106723,
+      "second_sheet_adhesion_allowed_n": 0.25128786135263464,
+      "retard_window_n": [
+        0.27481003212978083,
+        0.5448100321297809
+      ],
+      "retard_window_width_n": 0.27,
+      "retard_torque_mid_mNm": 4.098100321297808
+    },
+    {
+      "thickness_mm": 0.2,
+      "single_mass_g": 6.7200000000000015,
+      "stack_mass_g": 336.00000000000006,
+      "stack_thickness_mm": 10.0,
+      "stack_down_slope_on_dam_n": 2.9873354753187247,
+      "stack_normal_on_tray_n": 1.3930174096192243,
+      "pick_interface_force_full_stack_n": 1.0278603481923845,
+      "pick_interface_force_last_sheet_n": 1.0278603481923845,
+      "v01_interface_force_full_stack_n": 0.9,
+      "v01_natural_normal_full_stack_n": 0.5723721772986295,
+      "bending_stiffness_EI_Nm2": 0.0002133333333333334,
+      "dam_angle_deg": 60,
+      "dam_lift_factor": 0.23640391073885794,
+      "edge_lift_force_needed_n": 0.1024,
+      "push_needed_to_climb_dam_n": 0.4331569629282297,
+      "pick_arm_force_n": 1.0,
+      "top_sheet_push_available_n": 0.7597467095063745,
+      "top_sheet_margin_ratio": 1.7539755204910739,
+      "self_feed_push_by_weight_n": 0.05974670950637449,
+      "self_feed_ratio": 0.1379331619246624,
+      "second_sheet_adhesion_allowed_n": 0.3734102534218552,
+      "retard_window_n": [
+        0.4097467095063745,
+        0.9597467095063744
+      ],
+      "retard_window_width_n": 0.5499999999999999,
+      "retard_torque_mid_mNm": 6.8474670950637435
+    },
+    {
+      "thickness_mm": 0.35,
+      "single_mass_g": 11.760000000000002,
+      "stack_mass_g": 588.0000000000001,
+      "stack_thickness_mm": 17.5,
+      "stack_down_slope_on_dam_n": 5.227837081807768,
+      "stack_normal_on_tray_n": 2.437780466833642,
+      "pick_interface_force_full_stack_n": 2.048755609336673,
+      "pick_interface_force_last_sheet_n": 2.048755609336673,
+      "v01_interface_force_full_stack_n": 1.0016513102726015,
+      "v01_natural_normal_full_stack_n": 1.0016513102726015,
+      "bending_stiffness_EI_Nm2": 0.0011433333333333332,
+      "dam_angle_deg": 45,
+      "dam_lift_factor": 0.5384615384615385,
+      "edge_lift_force_needed_n": 0.5487999999999998,
+      "push_needed_to_climb_dam_n": 1.0191999999999994,
+      "pick_arm_force_n": 2.0,
+      "top_sheet_push_available_n": 1.5045567416361552,
+      "top_sheet_margin_ratio": 1.4762134435205612,
+      "self_feed_push_by_weight_n": 0.10455674163615536,
+      "self_feed_ratio": 0.10258706989418702,
+      "second_sheet_adhesion_allowed_n": 0.9146432583638441,
+      "retard_window_n": [
+        0.7545567416361554,
+        2.004556741636155
+      ],
+      "retard_window_width_n": 1.2499999999999998,
+      "retard_torque_mid_mNm": 13.795567416361552
+    }
+  ],
+  "path": {
+    "turn_angle_deg": 115.0,
+    "arc_length_mm": 120.42771838760873,
+    "horizontal_run_mm": 175,
+    "arc_end_yz": [
+      -264.378467222199,
+      195.35709570444197
+    ],
+    "double_station_yz": [
+      -239.02137151775702,
+      249.73556292664097
+    ],
+    "retard_nip_yz": [
+      -226.34282366553606,
+      276.92479653774046
+    ],
+    "dam_yz": [
+      -215.77736712201855,
+      299.58249121365674
+    ],
+    "magazine_top_yz": [
+      -76.31334074758774,
+      598.6640609357512
+    ],
+    "stop_budget_mm": 29.5,
+    "qualified_path_to_park_mm": 355.4277183876087,
+    "qualified_path_required_mm": 329.5,
+    "qualified_path_margin_mm": 25.927718387608707,
+    "clearance_magazine_tray_to_scanner_top_front_corner_mm": 19.438093195908074,
+    "magazine_overhang_over_scanner_mm": 73.68665925241226,
+    "film_bending_strain": [
+      0.00125,
+      0.0016666666666666668,
+      0.0029166666666666664
+    ]
+  },
+  "envelope": {
+    "working_envelope_mm_WDH": [
+      320,
+      784.8346360241508,
+      638.6640609357512
+    ],
+    "front_y_mm": -290,
+    "rear_y_mm": 494.8346360241507,
+    "top_z_mm": 638.6640609357512,
+    "front_protrusion_beyond_scanner_mm": 140,
+    "v01_envelope_mm_WDH": [
+      350,
+      1100,
+      550
+    ],
+    "footprint_m2": 0.25114708352772824,
+    "v01_footprint_m2": 0.385,
+    "footprint_reduction_pct": 34.76699129149916,
+    "volume_m3": 0.16039861625798923,
+    "v01_volume_m3": 0.21175
+  },
+  "batch_time": [
+    {
+      "mode": "快速",
+      "line_average": 1,
+      "feed_mm_s": 15.0,
+      "density_to": 2.5,
+      "per_sheet_min": 0.5277777777777778,
+      "batch_hours": 0.4398148148148149,
+      "batch_hours_if_whole_travel_at_scan_speed": 0.4398148148148149,
+      "sheets_per_8h": 909
+    },
+    {
+      "mode": "标准",
+      "line_average": 8,
+      "feed_mm_s": 1.875,
+      "density_to": 3.5,
+      "per_sheet_min": 2.861111111111111,
+      "batch_hours": 2.384259259259259,
+      "batch_hours_if_whole_travel_at_scan_speed": 3.032407407407408,
+      "sheets_per_8h": 167
+    },
+    {
+      "mode": "高黑度(PMT增益1000待确认)",
+      "line_average": 16,
+      "feed_mm_s": 0.9375,
+      "density_to": 4.5,
+      "per_sheet_min": 5.527777777777778,
+      "batch_hours": 4.606481481481482,
+      "batch_hours_if_whole_travel_at_scan_speed": 5.995370370370371,
+      "sheets_per_8h": 86
+    },
+    {
+      "mode": "高黑度(PMT增益5000)",
+      "line_average": 64,
+      "feed_mm_s": 0.234375,
+      "density_to": 4.5,
+      "per_sheet_min": 21.52777777777778,
+      "batch_hours": 17.939814814814817,
+      "batch_hours_if_whole_travel_at_scan_speed": 23.773148148148152,
+      "sheets_per_8h": 22
+    }
+  ],
+  "independent_per_sheet_success_required": 0.9997990134834266,
+  "note": "All values are calculated from assumed inputs. Nothing here is a measurement."
+}

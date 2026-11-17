@@ -1,0 +1,39 @@
+{
+  "revision": "R52-G3-M01-D01",
+  "stage": "G3 mechanical transport",
+  "manufacturing": "BLOCKED",
+  "bench": "NOT_RUN",
+  "cad_part_shapes": 94,
+  "cad_instances": 238,
+  "four_roller_instances": 125,
+  "assembly_step_files": 6,
+  "local_part_step_files": 94,
+  "drawing_pdf_pages": 23,
+  "design_report_pages": 11,
+  "validation_report_pages": 7,
+  "dxf_cut_profiles": 7,
+  "workbook_sheets": 13,
+  "workbook_formulas": 116,
+  "selection_rows": 12,
+  "critical_tolerances": 17,
+  "stack_terms": 5,
+  "material_doe_combinations": 18,
+  "material_replicates_per_combination": 3,
+  "bench_protocols": 14,
+  "harness_routes": 12,
+  "python_tests_passed": 30,
+  "static_candidate_pairs": 324,
+  "expected_thread_intersections": 54,
+  "unexplained_static_intersections": 0,
+  "upper_lift_positions_checked_mm": [
+    0,
+    2.5,
+    5
+  ],
+  "notes": [
+    "Supplier parts remain dimensional envelopes",
+    "Some standard fasteners and locking details are not frozen",
+    "Native FreeCAD not executed",
+    "G2 board-face mapping remains open"
+  ]
+}

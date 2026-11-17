@@ -1,0 +1,13 @@
+{
+  "status": "BLOCKED",
+  "reasons": [
+    "B01 only critical nets routed; 43 remaining connectivity links in current audit",
+    "B02/B03/B04/B05 circuits not closed",
+    "Native KiCad parse/ERC/DRC and filled zones not verified",
+    "Real MPNs, mating connectors and PMT socket not frozen",
+    "G1 photodiode alignment changes need sign-off",
+    "No physical bench, EMC, thermal or DFM qualification",
+    "No responsible human manufacturing approval"
+  ],
+  "scope": "Engineering review package only. No manufacturing release implied."
+}

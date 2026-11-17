@@ -1,0 +1,332 @@
+{
+  "scope": "new physical part pair overlaps and inherited context; envelope collisions may be intentional. No full interference certificate.",
+  "candidate_pairs": 324,
+  "intersections": [
+    {
+      "a": "FRAME_R",
+      "b": "CAP_SCREW_72_-42_99.9_-7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "CAP_SCREW_72_-42_99.9_-7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "CAP_SCREW_72_-42_99.9_7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "CAP_SCREW_72_-42_99.9_7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "TOP_SCREW_72_-42_-12",
+      "volume_mm3": 10.79922,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "TOP_SCREW_72_-42_12",
+      "volume_mm3": 10.79922,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "CAP_SCREW_72_42_99.9_-7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "CAP_SCREW_72_42_99.9_-7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "CAP_SCREW_72_42_99.9_7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "CAP_SCREW_72_42_99.9_7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "TOP_SCREW_72_42_-12",
+      "volume_mm3": 10.79922,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "TOP_SCREW_72_42_12",
+      "volume_mm3": 10.79922,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "FRAME_SCREW_72_-55",
+      "volume_mm3": 40.53518,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_R",
+      "b": "FRAME_SCREW_72_55",
+      "volume_mm3": 40.53518,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "CAP_SCREW_-72_-42_99.9_-7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "CAP_SCREW_-72_-42_99.9_-7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "CAP_SCREW_-72_-42_99.9_7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "CAP_SCREW_-72_-42_99.9_7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "TOP_SCREW_-72_-42_-12",
+      "volume_mm3": 10.79922,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "TOP_SCREW_-72_-42_12",
+      "volume_mm3": 10.79922,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "CAP_SCREW_-72_42_99.9_-7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "CAP_SCREW_-72_42_99.9_-7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "CAP_SCREW_-72_42_99.9_7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "CAP_SCREW_-72_42_99.9_7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "TOP_SCREW_-72_42_-12",
+      "volume_mm3": 10.79922,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "TOP_SCREW_-72_42_12",
+      "volume_mm3": 10.79922,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "FRAME_SCREW_-72_-55",
+      "volume_mm3": 40.53518,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "FRAME_L",
+      "b": "FRAME_SCREW_-72_55",
+      "volume_mm3": 40.53518,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "UPPER_CORE_-42",
+      "b": "UPPER_NUT_-42",
+      "volume_mm3": 28.90265,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "UPPER_CORE_42",
+      "b": "UPPER_NUT_42",
+      "volume_mm3": 28.90265,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_-72_-42",
+      "b": "LIFT_ROD_-72_-42",
+      "volume_mm3": 7.27151,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_-72_-42",
+      "b": "CAP_SCREW_-72_-42_120.1_-7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_-72_-42",
+      "b": "CAP_SCREW_-72_-42_120.1_-7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_-72_-42",
+      "b": "CAP_SCREW_-72_-42_120.1_7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_-72_-42",
+      "b": "CAP_SCREW_-72_-42_120.1_7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_72_-42",
+      "b": "LIFT_ROD_72_-42",
+      "volume_mm3": 7.27123,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_72_-42",
+      "b": "CAP_SCREW_72_-42_120.1_-7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_72_-42",
+      "b": "CAP_SCREW_72_-42_120.1_-7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_72_-42",
+      "b": "CAP_SCREW_72_-42_120.1_7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_72_-42",
+      "b": "CAP_SCREW_72_-42_120.1_7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_-72_42",
+      "b": "LIFT_ROD_-72_42",
+      "volume_mm3": 7.27151,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_-72_42",
+      "b": "CAP_SCREW_-72_42_120.1_-7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_-72_42",
+      "b": "CAP_SCREW_-72_42_120.1_-7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_-72_42",
+      "b": "CAP_SCREW_-72_42_120.1_7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_-72_42",
+      "b": "CAP_SCREW_-72_42_120.1_7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_72_42",
+      "b": "LIFT_ROD_72_42",
+      "volume_mm3": 7.27123,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_72_42",
+      "b": "CAP_SCREW_72_42_120.1_-7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_72_42",
+      "b": "CAP_SCREW_72_42_120.1_-7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_72_42",
+      "b": "CAP_SCREW_72_42_120.1_7_-7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "SLIDER_72_42",
+      "b": "CAP_SCREW_72_42_120.1_7_7",
+      "volume_mm3": 3.27982,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "TOP_-72_-42",
+      "b": "ADJUST_-72_-42",
+      "volume_mm3": 20.06692,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "TOP_72_-42",
+      "b": "ADJUST_72_-42",
+      "volume_mm3": 20.06692,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "TOP_-72_42",
+      "b": "ADJUST_-72_42",
+      "volume_mm3": 20.06692,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    },
+    {
+      "a": "TOP_72_42",
+      "b": "ADJUST_72_42",
+      "volume_mm3": 20.06692,
+      "classification": "EXPECTED_THREAD_ENGAGEMENT"
+    }
+  ],
+  "valid_parts": 94,
+  "total_parts": 94
+}

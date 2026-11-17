@@ -1,0 +1,85 @@
+﻿board,ref,candidate,qty,body_limit_mm,source,status,note
+B01,JP1,PMT_SOCKET_SINGLE,1,"[2.4, 2.4, 6]",S01 p5,PIN_NET_DRAFT,可拆单孔插座；坐标须按厂家底视图二次核对镜像；预计插入约3.1mm
+B01,JP2,PMT_SOCKET_SINGLE,1,"[2.4, 2.4, 6]",S01 p5,PIN_NET_DRAFT,可拆单孔插座；坐标须按厂家底视图二次核对镜像；预计插入约3.1mm
+B01,JP3,PMT_SOCKET_SINGLE,1,"[2.4, 2.4, 6]",S01 p5,PIN_NET_DRAFT,可拆单孔插座；坐标须按厂家底视图二次核对镜像；预计插入约3.1mm
+B01,JP8,PMT_SOCKET_SINGLE,1,"[2.4, 2.4, 6]",S01 p5,PIN_NET_DRAFT,可拆单孔插座；坐标须按厂家底视图二次核对镜像；预计插入约3.1mm
+B01,JP7,PMT_SOCKET_SINGLE,1,"[2.4, 2.4, 6]",S01 p5,PIN_NET_DRAFT,可拆单孔插座；坐标须按厂家底视图二次核对镜像；预计插入约3.1mm
+B01,JP6,PMT_SOCKET_SINGLE,1,"[2.4, 2.4, 6]",S01 p5,PIN_NET_DRAFT,可拆单孔插座；坐标须按厂家底视图二次核对镜像；预计插入约3.1mm
+B01,JP5,PMT_SOCKET_SINGLE,1,"[2.4, 2.4, 6]",S01 p5,PIN_NET_DRAFT,可拆单孔插座；坐标须按厂家底视图二次核对镜像；预计插入约3.1mm
+B01,JP4,PMT_SOCKET_SINGLE,1,"[2.4, 2.4, 6]",S01 p5,PIN_NET_DRAFT,可拆单孔插座；坐标须按厂家底视图二次核对镜像；预计插入约3.1mm
+B01,U1,OPA828ID,1,"[5, 6.2, 1.75]",S04,PIN_NET_DRAFT,
+B01,R1,100k_0.1%,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,C1,1.5p_C0G,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,C2,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,C3,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,U2,AD8138ARZ,1,"[5, 6.2, 1.75]",S12,PIN_NET_DRAFT,
+B01,R2,499_0.1%,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,R3,1k_0.1%,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,R4,499_0.1%,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,R5,1k_0.1%,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,R6,33R,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,R7,33R,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,C4,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,C5,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,C6,330p_DIFF_TRIAL,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B01,J1,HEADER_2x3_P2.54,1,"[7, 11, 6]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B01,J2,HEADER_2x4_P2.54,1,"[7, 14, 6]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B02,U1,AD9268BCPZ-80,1,"[9, 9, 0.85]",S02 p13,PIN_NET_DRAFT,64LFCSP 9mm; EP示意6.5mm需厂家推荐焊盘复核；20MSPS CMOS
+B02,J1,HEADER_2x20_P2.54,1,"[8, 54, 9]",设计分配,PIN_NET_DRAFT,J6 Bank33设1.8V；37-40电源触点不装/不接；短控阻转接板待SP2实测冻结
+B02,J2,HEADER_2x3_P2.54,1,"[7, 11, 7]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B02,J3,HEADER_2x2_P2.54,1,"[7, 8, 7]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B02,U2,AD8138ARZ,1,"[5, 6.2, 1.75]",S12,PIN_NET_DRAFT,
+B02,R1,499,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,R2,499,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,R3,499,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,R4,499,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,R5,33R,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,R6,33R,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,R7,10k_1%,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,R8,0R,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,C1,330p_DIFF_TRIAL,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,C2,1u,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,C3,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,C4,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,C5,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,C6,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,C7,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,C8,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,C9,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,C10,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,C11,100n,1,"[1.6, 0.8, 0.6]",设计分配,PIN_NET_DRAFT,0603名义焊盘；电压/精度/温漂按BOM冻结
+B02,Y1,20MHz_1V8_OSC_RFQ,1,"[5, 3.2, 1.2]",RFQ,PLACEMENT_FUNCTION_ONLY,振荡器输出与ADC时钟耦合/抖动预算待原理细化
+B02,U3,SPI_3V3_1V8_TRANSLATOR_RFQ,1,"[6, 6, 1.2]",设计分配,PLACEMENT_FUNCTION_ONLY,必须明确双向SDIO；禁止直接3.3V驱动ADC；未定引脚
+B02,J4,HEADER_2x4_P2.54,1,"[8, 14, 8]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B02,J5,HEADER_2x3_P2.54,1,"[8, 11, 8]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B03,F1,INPUT_FILTER_ZONE,1,"[14, 10, 5]",设计分配,PLACEMENT_FUNCTION_ONLY,
+B03,U1,QUIET_5V_REG_RFQ,1,"[15, 12, 8]",设计分配,PLACEMENT_FUNCTION_ONLY,
+B03,U2,NEG5_REG_RFQ,1,"[15, 12, 8]",设计分配,PLACEMENT_FUNCTION_ONLY,
+B03,U3,PMT_GAIN_DAC_BUFFER_RFQ,1,"[16, 12, 3]",设计分配,PLACEMENT_FUNCTION_ONLY,Vcont默认0.5V且激光锁闭；只在线间/任务间改变并等待10s级稳定
+B03,J1,HEADER_1x4_P2.54,1,"[13, 5, 7]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B03,J2,HEADER_2x4_P2.54,1,"[8, 14, 8]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B04,J1,24V_LOCKING_IN_RFQ,1,"[14, 20, 12]",设计分配,PLACEMENT_FUNCTION_ONLY,面板锁紧入口+反接/保险/浪涌；主机内部无市电
+B04,F1,INPUT_PROTECTION_ZONE,1,"[16, 20, 10]",设计待定,PLACEMENT_FUNCTION_ONLY,功能占位含外围；不是该IC的实体尺寸/完整焊盘
+B04,U1,TPS54360B_5VD_ZONE,1,"[24, 24, 16]",S09,PLACEMENT_FUNCTION_ONLY,功能占位含外围；不是该IC的实体尺寸/完整焊盘
+B04,U2,TPS54360B_12VM_ZONE,1,"[24, 24, 16]",S09,PLACEMENT_FUNCTION_ONLY,功能占位含外围；不是该IC的实体尺寸/完整焊盘
+B04,U3,ANALOG_PREREG_ZONE,1,"[25, 18, 12]",设计待定,PLACEMENT_FUNCTION_ONLY,功能占位含外围；不是该IC的实体尺寸/完整焊盘
+B04,U4,INDEPENDENT_INHIBIT_ZONE,1,"[26, 18, 10]",设计待定,PLACEMENT_FUNCTION_ONLY,功能占位含外围；不是该IC的实体尺寸/完整焊盘
+B04,J2,HEADER_2x4_P2.54,1,"[7, 14, 10]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B04,J3,HEADER_2x4_P2.54,1,"[7, 14, 10]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B05,U1,TMC2209_LA_PADS_PENDING,1,"[5, 5, 1]",S08,PLACEMENT_FUNCTION_ONLY,芯片焊盘位置起点；引脚未在本版落网；供电12V，0.4A相电流候选
+B05,C1,VM_BULK_ZONE,1,"[10, 12, 12]",设计分配,PLACEMENT_FUNCTION_ONLY,
+B05,R1,SENSE_NETWORK_ZONE,1,"[12, 8, 2]",设计分配,PLACEMENT_FUNCTION_ONLY,
+B05,U2,ENC_LEVEL_BUFFER_ZONE,1,"[14, 16, 2]",S13,PLACEMENT_FUNCTION_ONLY,2×SN74LVC3G17；5V输入→3.3V；禁止5V直入FPGA
+B05,J1,HEADER_1x4_P2.54,1,"[13, 7, 10]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B05,J2,HEADER_2x5_P2.54,1,"[8, 17, 9]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B05,J3,HEADER_2x6_P2.54,1,"[7, 19, 9]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B05,J4,HEADER_2x4_P2.54,1,"[7, 14, 9]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B06,D1,S5971_PIN_INTERFACE,1,"[6, 6, 11.2]",S06,PLACEMENT_FUNCTION_ONLY,光电管头+引脚突出11.2mm；针脚与具体封装仍需厂家正式图复核
+B06,U1,FAST_TIA_COMPARATOR_ZONE,1,"[8, 4, 1.5]",设计分配,PLACEMENT_FUNCTION_ONLY,比较器输出3.3V；系统延迟/幅值相关时间漂移待测
+B06,J1,HEADER_1x4_P1.27,1,"[8, 3, 4]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B07,D1,S5971_PIN_INTERFACE,1,"[6, 6, 11.2]",S06,PLACEMENT_FUNCTION_ONLY,光电管头+引脚突出11.2mm；针脚与具体封装仍需厂家正式图复核
+B07,U1,FAST_TIA_COMPARATOR_ZONE,1,"[8, 4, 1.5]",设计分配,PLACEMENT_FUNCTION_ONLY,比较器输出3.3V；系统延迟/幅值相关时间漂移待测
+B07,J1,HEADER_1x4_P1.27,1,"[8, 3, 4]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定
+B08,D1,S5971_REF_PD,1,"[6, 6, 11.2]",S06,PLACEMENT_FUNCTION_ONLY,
+B08,U1,REF_TIA_BUFFER_ZONE,1,"[5, 9, 1.5]",设计分配,PLACEMENT_FUNCTION_ONLY,参考光电流就地转电压；长线只传缓冲电压
+B08,J1,HEADER_1x4_P1.27,1,"[8, 3, 4]",设计分配,PIN_NET_DRAFT,接口分配；锁扣与具体料号待定

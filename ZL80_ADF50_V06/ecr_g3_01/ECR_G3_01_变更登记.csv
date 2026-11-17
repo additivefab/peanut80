@@ -1,0 +1,8 @@
+id,item,old,new,unit,approval,note
+ECR-G3-01-a,出口上压辊编码器,无,右轴端磁编码器（载体+磁铁+小板+支架）,机械件,APPROVED 2026-11-17,硬件未制造；G3 包文件未改
+ECR-G3-01-b,G3-M06 右上压盖两颗螺钉(G3-F01),标准长度,长 1.5 mm 同规格,螺钉,APPROVED 2026-11-17,让支架两耳套在螺钉下
+ECR-G3-01-c,G3-R03 上辊芯,不变,不变,零件,APPROVED 2026-11-17,载体直接套在 Ø6 轴端，不加工
+ECR-G3-01-d,B05 编码器输入,2 路（G3 现有）,3 路,接口,PENDING,G4 的 B05 编码器输入未闭合，需核对
+ECR-G3-01-e,线束,无,上压辊 FFC 服务环 + 5 路,线束,PENDING,随上辊升降 5 mm
+ECR-G3-01-f,计量窗口（300 mm 片）,[47 253] 206 mm,[0 300],mm,APPROVED 2026-11-17,待 T1–T6 验证后才可声明
+ECR-G3-01-g,控制参考,dual_follower 默认假,默认真并新增 follower_agree,状态机,APPROVED 2026-11-17,metrology_qualified 仍需系统给出

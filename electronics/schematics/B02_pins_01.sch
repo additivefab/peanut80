@@ -1,0 +1,554 @@
+EESchema Schematic File Version 4
+LIBS:ZL80_R5-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "ZL80 B02 PIN-NET DRAFT 1"
+Date "2026-11-14"
+Rev "R5-PDR"
+Comp "NOT ROUTED / NO ERC / REVIEW REQUIRED"
+$EndDescr
+Text Notes 800 650 0 90 ~ 0
+PIN-NET REVIEW SHEET - not a manufacturing schematic. Named nets connect globally.
+$Comp
+L B02_U1 U1
+U 1 1 8425e61f
+P 3000 3000
+F 0 "U1" H 3000 1080 50 0000 C CNN
+F 1 "AD9268BCPZ-80" H 3000 4920 40 0000 C CNN
+	1 3000 3000
+	1 0 0 -1
+$EndComp
+Wire Wire Line
+	2000 1400 1500 1400
+Text Label 1500 1400 0 35 ~ 0
+CLK_P
+Wire Wire Line
+	2000 1500 1500 1500
+Text Label 1500 1500 0 35 ~ 0
+DB12
+Wire Wire Line
+	2000 1600 1500 1600
+Text Label 1500 1600 0 35 ~ 0
+DA7
+Wire Wire Line
+	2000 1700 1500 1700
+Text Label 1500 1700 0 35 ~ 0
+1V8A
+Wire Wire Line
+	2000 1800 1500 1800
+Text Label 1500 1800 0 35 ~ 0
+CLK_N
+Wire Wire Line
+	2000 1900 1500 1900
+Text Label 1500 1900 0 35 ~ 0
+DB13
+Wire Wire Line
+	2000 2000 1500 2000
+Text Label 1500 2000 0 35 ~ 0
+DA8
+Wire Wire Line
+	2000 2100 1500 2100
+Text Label 1500 2100 0 35 ~ 0
+1V8A
+Wire Wire Line
+	2000 2200 1500 2200
+Text Label 1500 2200 0 35 ~ 0
+SYNC
+Wire Wire Line
+	2000 2300 1500 2300
+Text Label 1500 2300 0 35 ~ 0
+1V8D
+Wire Wire Line
+	2000 2400 1500 2400
+Text Label 1500 2400 0 35 ~ 0
+DA9
+Wire Wire Line
+	2000 2500 1500 2500
+Text Label 1500 2500 0 35 ~ 0
+ADC_A_P
+Wire Wire Line
+	2000 2600 1500 2600
+Text Label 1500 2600 0 35 ~ 0
+DB0
+Wire Wire Line
+	2000 2700 1500 2700
+Text Label 1500 2700 0 35 ~ 0
+DB14
+Wire Wire Line
+	2000 2800 1500 2800
+Text Label 1500 2800 0 35 ~ 0
+DA10
+Wire Wire Line
+	2000 2900 1500 2900
+Text Label 1500 2900 0 35 ~ 0
+ADC_A_N
+Wire Wire Line
+	2000 3000 1500 3000
+Text Label 1500 3000 0 35 ~ 0
+DB1
+Wire Wire Line
+	2000 3100 1500 3100
+Text Label 1500 3100 0 35 ~ 0
+DB15
+Wire Wire Line
+	2000 3200 1500 3200
+Text Label 1500 3200 0 35 ~ 0
+1V8D
+Wire Wire Line
+	2000 3300 1500 3300
+Text Label 1500 3300 0 35 ~ 0
+1V8A
+Wire Wire Line
+	2000 3400 1500 3400
+Text Label 1500 3400 0 35 ~ 0
+DB2
+Wire Wire Line
+	2000 3500 1500 3500
+Text Label 1500 3500 0 35 ~ 0
+ORB
+Wire Wire Line
+	2000 3600 1500 3600
+Text Label 1500 3600 0 35 ~ 0
+DA11
+Wire Wire Line
+	2000 3700 1500 3700
+Text Label 1500 3700 0 35 ~ 0
+1V8A
+Wire Wire Line
+	2000 3800 1500 3800
+Text Label 1500 3800 0 35 ~ 0
+DB3
+Wire Wire Line
+	2000 3900 1500 3900
+Text Label 1500 3900 0 35 ~ 0
+DCOB
+Wire Wire Line
+	2000 4000 1500 4000
+Text Label 1500 4000 0 35 ~ 0
+DA12
+Wire Wire Line
+	2000 4100 1500 4100
+Text Label 1500 4100 0 35 ~ 0
+ADC_VREF
+Wire Wire Line
+	2000 4200 1500 4200
+Text Label 1500 4200 0 35 ~ 0
+DB4
+Wire Wire Line
+	2000 4300 1500 4300
+Text Label 1500 4300 0 35 ~ 0
+DCOA
+Wire Wire Line
+	2000 4400 1500 4400
+Text Label 1500 4400 0 35 ~ 0
+DA13
+Wire Wire Line
+	2000 4500 1500 4500
+Text Label 1500 4500 0 35 ~ 0
+ADC_SENSE
+Wire Wire Line
+	2000 4600 1500 4600
+Text Label 1500 4600 0 35 ~ 0
+DB5
+Wire Wire Line
+	4000 1400 4500 1400
+Text Label 4000 1400 0 35 ~ 0
+DA0
+Wire Wire Line
+	4000 1500 4500 1500
+Text Label 4000 1500 0 35 ~ 0
+DA14
+Wire Wire Line
+	4000 1600 4500 1600
+Text Label 4000 1600 0 35 ~ 0
+ADC_VCM
+Wire Wire Line
+	4000 1700 4500 1700
+Text Label 4000 1700 0 35 ~ 0
+1V8D
+Wire Wire Line
+	4000 1800 4500 1800
+Text Label 4000 1800 0 35 ~ 0
+DA1
+Wire Wire Line
+	4000 1900 4500 1900
+Text Label 4000 1900 0 35 ~ 0
+DA15
+Wire Wire Line
+	4000 2000 4500 2000
+Text Label 4000 2000 0 35 ~ 0
+ADC_RBIAS
+Wire Wire Line
+	4000 2100 4500 2100
+Text Label 4000 2100 0 35 ~ 0
+DB6
+Wire Wire Line
+	4000 2200 4500 2200
+Text Label 4000 2200 0 35 ~ 0
+DA2
+Wire Wire Line
+	4000 2300 4500 2300
+Text Label 4000 2300 0 35 ~ 0
+ORA
+Wire Wire Line
+	4000 2400 4500 2400
+Text Label 4000 2400 0 35 ~ 0
+1V8A
+Wire Wire Line
+	4000 2500 4500 2500
+Text Label 4000 2500 0 35 ~ 0
+DB7
+Wire Wire Line
+	4000 2600 4500 2600
+Text Label 4000 2600 0 35 ~ 0
+1V8D
+Wire Wire Line
+	4000 2700 4500 2700
+Text Label 4000 2700 0 35 ~ 0
+SDIO_1V8
+Wire Wire Line
+	4000 2800 4500 2800
+Text Label 4000 2800 0 35 ~ 0
+1V8A
+Wire Wire Line
+	4000 2900 4500 2900
+Text Label 4000 2900 0 35 ~ 0
+DB8
+Wire Wire Line
+	4000 3000 4500 3000
+Text Label 4000 3000 0 35 ~ 0
+DA3
+Wire Wire Line
+	4000 3100 4500 3100
+Text Label 4000 3100 0 35 ~ 0
+SCLK_1V8
+Wire Wire Line
+	4000 3200 4500 3200
+Text Label 4000 3200 0 35 ~ 0
+ADC_B_N
+Wire Wire Line
+	4000 3300 4500 3300
+Text Label 4000 3300 0 35 ~ 0
+DB9
+Wire Wire Line
+	4000 3400 4500 3400
+Text Label 4000 3400 0 35 ~ 0
+DA4
+Wire Wire Line
+	4000 3500 4500 3500
+Text Label 4000 3500 0 35 ~ 0
+CSB_1V8
+Wire Wire Line
+	4000 3600 4500 3600
+Text Label 4000 3600 0 35 ~ 0
+ADC_B_P
+Wire Wire Line
+	4000 3700 4500 3700
+Text Label 4000 3700 0 35 ~ 0
+DB10
+Wire Wire Line
+	4000 3800 4500 3800
+Text Label 4000 3800 0 35 ~ 0
+DA5
+Wire Wire Line
+	4000 3900 4500 3900
+Text Label 4000 3900 0 35 ~ 0
+OEB_1V8
+Wire Wire Line
+	4000 4000 4500 4000
+Text Label 4000 4000 0 35 ~ 0
+1V8A
+Wire Wire Line
+	4000 4100 4500 4100
+Text Label 4000 4100 0 35 ~ 0
+DB11
+Wire Wire Line
+	4000 4200 4500 4200
+Text Label 4000 4200 0 35 ~ 0
+DA6
+Wire Wire Line
+	4000 4300 4500 4300
+Text Label 4000 4300 0 35 ~ 0
+PDWN_1V8
+Wire Wire Line
+	4000 4400 4500 4400
+Text Label 4000 4400 0 35 ~ 0
+1V8A
+Wire Wire Line
+	4000 4500 4500 4500
+Text Label 4000 4500 0 35 ~ 0
+AGND
+$Comp
+L B02_J1 J1
+U 1 1 d0642e84
+P 8000 3000
+F 0 "J1" H 8000 1730 50 0000 C CNN
+F 1 "HEADER_2x20_P2.54" H 8000 4270 40 0000 C CNN
+	1 8000 3000
+	1 0 0 -1
+$EndComp
+Wire Wire Line
+	7000 2050 6500 2050
+Text Label 6500 2050 0 35 ~ 0
+DA0
+Wire Wire Line
+	7000 2150 6500 2150
+Text Label 6500 2150 0 35 ~ 0
+DA1
+Wire Wire Line
+	7000 2250 6500 2250
+Text Label 6500 2250 0 35 ~ 0
+DA2
+Wire Wire Line
+	7000 2350 6500 2350
+Text Label 6500 2350 0 35 ~ 0
+DA3
+Wire Wire Line
+	7000 2450 6500 2450
+Text Label 6500 2450 0 35 ~ 0
+DA4
+Wire Wire Line
+	7000 2550 6500 2550
+Text Label 6500 2550 0 35 ~ 0
+DA5
+Wire Wire Line
+	7000 2650 6500 2650
+Text Label 6500 2650 0 35 ~ 0
+DA6
+Wire Wire Line
+	7000 2750 6500 2750
+Text Label 6500 2750 0 35 ~ 0
+DA7
+Wire Wire Line
+	7000 2850 6500 2850
+Text Label 6500 2850 0 35 ~ 0
+DA8
+Wire Wire Line
+	7000 2950 6500 2950
+Text Label 6500 2950 0 35 ~ 0
+DA9
+Wire Wire Line
+	7000 3050 6500 3050
+Text Label 6500 3050 0 35 ~ 0
+DA10
+Wire Wire Line
+	7000 3150 6500 3150
+Text Label 6500 3150 0 35 ~ 0
+DA11
+Wire Wire Line
+	7000 3250 6500 3250
+Text Label 6500 3250 0 35 ~ 0
+DCOA
+Wire Wire Line
+	7000 3350 6500 3350
+Text Label 6500 3350 0 35 ~ 0
+DA12
+Wire Wire Line
+	7000 3450 6500 3450
+Text Label 6500 3450 0 35 ~ 0
+DA13
+Wire Wire Line
+	7000 3550 6500 3550
+Text Label 6500 3550 0 35 ~ 0
+DA14
+Wire Wire Line
+	7000 3650 6500 3650
+Text Label 6500 3650 0 35 ~ 0
+DCOB
+Wire Wire Line
+	7000 3750 6500 3750
+Text Label 6500 3750 0 35 ~ 0
+DA15
+Wire Wire Line
+	7000 3850 6500 3850
+Text Label 6500 3850 0 35 ~ 0
+DB0
+Wire Wire Line
+	7000 3950 6500 3950
+Text Label 6500 3950 0 35 ~ 0
+DB1
+Wire Wire Line
+	9000 2050 9500 2050
+Text Label 9000 2050 0 35 ~ 0
+DB2
+Wire Wire Line
+	9000 2150 9500 2150
+Text Label 9000 2150 0 35 ~ 0
+DB3
+Wire Wire Line
+	9000 2250 9500 2250
+Text Label 9000 2250 0 35 ~ 0
+DB4
+Wire Wire Line
+	9000 2350 9500 2350
+Text Label 9000 2350 0 35 ~ 0
+DB5
+Wire Wire Line
+	9000 2450 9500 2450
+Text Label 9000 2450 0 35 ~ 0
+DB6
+Wire Wire Line
+	9000 2550 9500 2550
+Text Label 9000 2550 0 35 ~ 0
+DB7
+Wire Wire Line
+	9000 2650 9500 2650
+Text Label 9000 2650 0 35 ~ 0
+DB8
+Wire Wire Line
+	9000 2750 9500 2750
+Text Label 9000 2750 0 35 ~ 0
+DB9
+Wire Wire Line
+	9000 2850 9500 2850
+Text Label 9000 2850 0 35 ~ 0
+DB10
+Wire Wire Line
+	9000 2950 9500 2950
+Text Label 9000 2950 0 35 ~ 0
+DB11
+Wire Wire Line
+	9000 3050 9500 3050
+Text Label 9000 3050 0 35 ~ 0
+DB12
+Wire Wire Line
+	9000 3150 9500 3150
+Text Label 9000 3150 0 35 ~ 0
+DB13
+Wire Wire Line
+	9000 3250 9500 3250
+Text Label 9000 3250 0 35 ~ 0
+DB14
+Wire Wire Line
+	9000 3350 9500 3350
+Text Label 9000 3350 0 35 ~ 0
+DB15
+Wire Wire Line
+	9000 3450 9500 3450
+Text Label 9000 3450 0 35 ~ 0
+AGND
+Wire Wire Line
+	9000 3550 9500 3550
+Text Label 9000 3550 0 35 ~ 0
+AGND
+NoConn ~ 9000 3650
+NoConn ~ 9000 3750
+NoConn ~ 9000 3850
+NoConn ~ 9000 3950
+$Comp
+L B02_J2 J2
+U 1 1 93dfbc7d
+P 13000 3000
+F 0 "J2" H 13000 2450 50 0000 C CNN
+F 1 "HEADER_2x3_P2.54" H 13000 3550 40 0000 C CNN
+	1 13000 3000
+	1 0 0 -1
+$EndComp
+Wire Wire Line
+	12000 2820 11500 2820
+Text Label 11500 2820 0 35 ~ 0
+ADC_A_P
+Wire Wire Line
+	12000 3000 11500 3000
+Text Label 11500 3000 0 35 ~ 0
+AGND
+Wire Wire Line
+	12000 3180 11500 3180
+Text Label 11500 3180 0 35 ~ 0
+ADC_A_N
+Wire Wire Line
+	14000 2820 14500 2820
+Text Label 14000 2820 0 35 ~ 0
+AGND
+Wire Wire Line
+	14000 3000 14500 3000
+Text Label 14000 3000 0 35 ~ 0
+ADC_VCM
+Wire Wire Line
+	14000 3180 14500 3180
+Text Label 14000 3180 0 35 ~ 0
+AGND
+$Comp
+L B02_J3 J3
+U 1 1 25d0c199
+P 3000 7700
+F 0 "J3" H 3000 7150 50 0000 C CNN
+F 1 "HEADER_2x2_P2.54" H 3000 8250 40 0000 C CNN
+	1 3000 7700
+	1 0 0 -1
+$EndComp
+Wire Wire Line
+	2000 7610 1500 7610
+Text Label 1500 7610 0 35 ~ 0
+REF_V
+Wire Wire Line
+	2000 7790 1500 7790
+Text Label 1500 7790 0 35 ~ 0
+AGND
+Wire Wire Line
+	4000 7610 4500 7610
+Text Label 4000 7610 0 35 ~ 0
+REF_V
+Wire Wire Line
+	4000 7790 4500 7790
+Text Label 4000 7790 0 35 ~ 0
+AGND
+$Comp
+L B02_U2 U2
+U 1 1 b36e8a74
+P 8000 7700
+F 0 "U2" H 8000 7070 50 0000 C CNN
+F 1 "AD8138ARZ" H 8000 8330 40 0000 C CNN
+	1 8000 7700
+	1 0 0 -1
+$EndComp
+Wire Wire Line
+	7000 7430 6500 7430
+Text Label 6500 7430 0 35 ~ 0
+REF_FDA_N
+Wire Wire Line
+	7000 7610 6500 7610
+Text Label 6500 7610 0 35 ~ 0
+REF_FDA_P
+Wire Wire Line
+	7000 7790 6500 7790
+Text Label 6500 7790 0 35 ~ 0
+ADC_VCM
+NoConn ~ 7000 7970
+Wire Wire Line
+	9000 7430 9500 7430
+Text Label 9000 7430 0 35 ~ 0
++5VA
+Wire Wire Line
+	9000 7610 9500 7610
+Text Label 9000 7610 0 35 ~ 0
+-5VA
+Wire Wire Line
+	9000 7790 9500 7790
+Text Label 9000 7790 0 35 ~ 0
+D_B_P
+Wire Wire Line
+	9000 7970 9500 7970
+Text Label 9000 7970 0 35 ~ 0
+D_B_N
+$Comp
+L B02_R1 R1
+U 1 1 fe9679b0
+P 13000 7700
+F 0 "R1" H 13000 7150 50 0000 C CNN
+F 1 "499" H 13000 8250 40 0000 C CNN
+	1 13000 7700
+	1 0 0 -1
+$EndComp
+Wire Wire Line
+	12000 7700 11500 7700
+Text Label 11500 7700 0 35 ~ 0
+REF_V
+Wire Wire Line
+	14000 7700 14500 7700
+Text Label 14000 7700 0 35 ~ 0
+REF_FDA_P
+$EndSCHEMATC

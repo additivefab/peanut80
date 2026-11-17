@@ -1,0 +1,590 @@
+[
+  {
+    "board": "B06",
+    "ref": "D1",
+    "valid": true,
+    "volume_mm3": 174.04999999999995,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "J1",
+    "valid": true,
+    "volume_mm3": 87.55199999999998,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "U1",
+    "valid": true,
+    "volume_mm3": 16.182000000000002,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "U2",
+    "valid": true,
+    "volume_mm3": 16.182000000000002,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "U3",
+    "valid": true,
+    "volume_mm3": 16.182,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "R1",
+    "valid": true,
+    "volume_mm3": 3.1359999999999992,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "C1",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "C6",
+    "valid": true,
+    "volume_mm3": 3.1359999999999992,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "C7",
+    "valid": true,
+    "volume_mm3": 3.136,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "C3",
+    "valid": true,
+    "volume_mm3": 3.1359999999999992,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "C4",
+    "valid": true,
+    "volume_mm3": 3.136,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "C5",
+    "valid": true,
+    "volume_mm3": 3.136,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "R2",
+    "valid": true,
+    "volume_mm3": 3.136,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "R3",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "R4",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "R5",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "R6",
+    "valid": true,
+    "volume_mm3": 3.135999999999998,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "R7",
+    "valid": true,
+    "volume_mm3": 3.135999999999999,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "C2",
+    "valid": true,
+    "volume_mm3": 3.135999999999999,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "R8",
+    "valid": true,
+    "volume_mm3": 3.135999999999999,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "R9",
+    "valid": true,
+    "volume_mm3": 3.1359999999999997,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "TP1",
+    "valid": true,
+    "volume_mm3": 0.1690000000000002,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "TP2",
+    "valid": true,
+    "volume_mm3": 0.1690000000000002,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B06",
+    "ref": "TP3",
+    "valid": true,
+    "volume_mm3": 0.16900000000000018,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "D1",
+    "valid": true,
+    "volume_mm3": 174.04999999999995,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "J1",
+    "valid": true,
+    "volume_mm3": 87.55199999999998,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "U1",
+    "valid": true,
+    "volume_mm3": 16.182000000000002,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "U2",
+    "valid": true,
+    "volume_mm3": 16.181999999999995,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "U3",
+    "valid": true,
+    "volume_mm3": 16.182,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "R1",
+    "valid": true,
+    "volume_mm3": 3.1359999999999992,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "C1",
+    "valid": true,
+    "volume_mm3": 3.136,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "C6",
+    "valid": true,
+    "volume_mm3": 3.1359999999999992,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "C7",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "C3",
+    "valid": true,
+    "volume_mm3": 3.1359999999999992,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "C4",
+    "valid": true,
+    "volume_mm3": 3.136,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "C5",
+    "valid": true,
+    "volume_mm3": 3.136,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "R2",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "R3",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "R4",
+    "valid": true,
+    "volume_mm3": 3.136,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "R5",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "R6",
+    "valid": true,
+    "volume_mm3": 3.1359999999999992,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "R7",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "C2",
+    "valid": true,
+    "volume_mm3": 3.135999999999999,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "R8",
+    "valid": true,
+    "volume_mm3": 3.135999999999999,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "R9",
+    "valid": true,
+    "volume_mm3": 3.1359999999999997,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "TP1",
+    "valid": true,
+    "volume_mm3": 0.16900000000000015,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "TP2",
+    "valid": true,
+    "volume_mm3": 0.16900000000000015,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B07",
+    "ref": "TP3",
+    "valid": true,
+    "volume_mm3": 0.1690000000000002,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "U1",
+    "valid": true,
+    "volume_mm3": 69.92999999999999,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "D1",
+    "valid": true,
+    "volume_mm3": 174.04999999999998,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "J1",
+    "valid": true,
+    "volume_mm3": 87.55199999999996,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "R1",
+    "valid": true,
+    "volume_mm3": 3.1359999999999992,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "C1",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "C6",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "C3",
+    "valid": true,
+    "volume_mm3": 3.135999999999998,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "C4",
+    "valid": true,
+    "volume_mm3": 3.135999999999999,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "C5",
+    "valid": true,
+    "volume_mm3": 3.1359999999999992,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "R2",
+    "valid": true,
+    "volume_mm3": 3.135999999999997,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "R3",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "C2",
+    "valid": true,
+    "volume_mm3": 3.1360000000000006,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B08",
+    "ref": "TP1",
+    "valid": true,
+    "volume_mm3": 0.1690000000000002,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "JPMT1",
+    "valid": true,
+    "volume_mm3": 27500.0,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "J2",
+    "valid": true,
+    "volume_mm3": 437.47200000000004,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "J1",
+    "valid": true,
+    "volume_mm3": 337.9039999999999,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "U1",
+    "valid": true,
+    "volume_mm3": 69.93000000000002,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "U2",
+    "valid": true,
+    "volume_mm3": 69.93000000000005,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "R1",
+    "valid": true,
+    "volume_mm3": 3.1359999999999957,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "C1",
+    "valid": true,
+    "volume_mm3": 3.1359999999999935,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "C6",
+    "valid": true,
+    "volume_mm3": 3.1360000000000037,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "C7",
+    "valid": true,
+    "volume_mm3": 3.1359999999999935,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "C3",
+    "valid": true,
+    "volume_mm3": 3.1359999999999935,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "C4",
+    "valid": true,
+    "volume_mm3": 3.1359999999999935,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "C5",
+    "valid": true,
+    "volume_mm3": 3.1359999999999935,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "C8",
+    "valid": true,
+    "volume_mm3": 3.1359999999999935,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "C9",
+    "valid": true,
+    "volume_mm3": 3.136,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "R2",
+    "valid": true,
+    "volume_mm3": 3.135999999999998,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "R3",
+    "valid": true,
+    "volume_mm3": 3.1359999999999935,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "R4",
+    "valid": true,
+    "volume_mm3": 3.1359999999999935,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "R5",
+    "valid": true,
+    "volume_mm3": 3.1359999999999935,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "R6",
+    "valid": true,
+    "volume_mm3": 3.136000000000008,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "R7",
+    "valid": true,
+    "volume_mm3": 3.1360000000000037,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "C2",
+    "valid": true,
+    "volume_mm3": 3.1360000000000054,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "TP1",
+    "valid": true,
+    "volume_mm3": 0.16899999999999982,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  },
+  {
+    "board": "B01",
+    "ref": "TP2",
+    "valid": true,
+    "volume_mm3": 0.169000000000001,
+    "scope": "rectangular courtyard-height keepout, NOT exact body or leads"
+  }
+]

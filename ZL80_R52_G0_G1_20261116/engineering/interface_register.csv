@@ -1,0 +1,15 @@
+﻿id,type,from_to,definition,source_id,state,required_closure
+ICD-01,坐标,整机→扫描头,"右手X横扫/Y走片/Z向上；local=global-(0,0,110) mm",U03,坐标本版定义,零件位姿/基准签署
+ICD-02,片面,扫描头→胶片,"有效X[-40,40]；Y0扫线；名义Z0；实物乳剂焦面待确认",U01/D01,80mm硬约束,实际焦面定义
+ICD-03,扫幅,polygon→f-theta,100mm对应EFL100时光学±0.5rad；机械±0.25rad,公式推导,EFL暂定,处方全场数据
+ICD-04,安装,镜头→机架,继承96×44×30mm包络；110×60×55mmRFQ预留；Z调节预算±15mm,U03,仅包络,WD/入瞳/安装孔/工具空间
+ICD-05,下游,片面→积分筒,104×1.2mm狭缝沿X；筒轴X；侧窗-Y；不挡透射光,U01/U02,接口保留,G2收光/容差
+ICD-06,同步光学,扫线→SOS/EOS,标称片面X=-46/+46；R5折转片实际Z+2；需标定投影差,U02/U03,待标定,active plane光学基准
+ICD-07,同步数字,SOS/EOS→采集,逻辑命名SOS_P/EOS_P；边沿极性、电平、最小脉宽TBD；带时间戳,D01,不可直接接线,比较器/缓冲/线缆/捕获设计
+ICD-08,facet,主轴→FPGA,INDEX_Z+SPEED_LOCK+FAULT建议；Z丢失=facet_valid=0,D01,供应商必答,index电气和相位对应
+ICD-09,激光,控制→激光驱动,LASER_HW_PERMIT与调制分开；默认关闭；电平TBD,U02/D01,不可直接接线,厂家使能/断线行为
+ICD-10,快门,安全回路→快门,失电闭合；OPEN/CLOSED反馈建议；故障锁止,U02/D01,未选型,安全评审和故障注入
+ICD-11,参考光,ND后取样→B08,PMT与参考同时间基准；取样比例和带宽TBD,U03,架构定义,功率/噪声/过载测试
+ICD-12,供电,电源→扫描头,供应商输入母线/峰值电流/接地待定；禁止按总机24V直接接任意模块,D01,TBD,厂家数据表和电源树
+ICD-13,数据,G1→G5,"sample_time,line_id,facet_id,facet_valid,SOS/EOS时间,y_count,gain_id,flags",U05/D01,字段草案,ADC延迟/AFE延迟/CDC验证
+ICD-14,维护,机械→装调,扫描头封闭；装调使用受控程序；原生FreeCAD仍需本地验证,U02/D01,NOT_RELEASED,权限/拆装/重标定流程

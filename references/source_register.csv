@@ -1,0 +1,18 @@
+﻿id,title,location,support,limit,checked
+U01,用户最新约束与参考图,本对话及 Rectangular-Slot Laser Integrating Cavity Diagram.png,80mm胶片/100mm扫描预留；横置轴向狭缝；径向侧窗；导光至PMT,用户要求，优先于旧生成图,2026-11-14
+U02,原机调研,激光扫描仪调研学习记录.docx，p1-3,polygon/f-theta/PMT/高压/对数前端/ADC/FPGA,照片仅支持功能；不支持精确型号尺寸,2026-11-14
+U03,新增评估PPT,激光PMT工业底片扫描仪结构原理与自动馈片设计评估.pptx，28页,飞点；TIA；同步；分离馈片与计量；Master边界,350mm及三档机型不直接迁入80mm机器,2026-11-14
+U04,现有控制板,"SmartZynq_SP2_Schematic_V1d3B_20260413.pdf.pdf，p1,p10,p12；实物正背面",SP2 V1.3B；J6 Bank33 Vadj；J5 3.3V,未提供机械图；110×60×25为保守占位，不是厂家尺寸,2026-11-14
+S01,Hamamatsu H10720/H10721,https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/etd/H10720_H10721_TPMO1062E.pdf,p2工作范围；p5机械和针脚；H10720-20本体50×25×18，12mm引脚，φ8有效面,选为验证候选；不是已通过OD与线性验收,2026-11-14
+S02,Analog Devices AD9268,https://www.analog.com/media/en/technical-documentation/data-sheets/ad9268.pdf,双16bit；1.8V；20MSPS保守工作点；CMOS 12周期延迟；64LFCSP,器件候选；无PCB SI/PI验证,2026-11-14
+S03,Same Sky AMT11,https://www.sameskydevices.com/product/resource/amt11-v.pdf,2026-06-23；AMT112S 4096PPR；典型0.2deg；5V；JAE FI-W17S,高分辨率不等于高精度；需角度误差标定,2026-11-14
+S04,TI OPA828,https://www.ti.com/lit/ds/symlink/opa828.pdf,45MHz JFET；SOIC8；±5V；pin2-/3+/4V-/6OUT/7V+,TIA候选；补偿电容必须扫频验证,2026-11-14
+S05,Analog Devices ADL5304,https://www.analog.com/en/products/adl5304.html,1nA带宽25kHz；10nA 350kHz,只用于对数备选卡；极性转换与动态响应尚未定型,2026-11-14
+S06,Hamamatsu S5971,https://www.hamamatsu.com/jp/en/product/optical-sensors/photodiodes/si-photodiodes/S5971.html,φ1.2受光面，100MHz指定反偏条件,SOS/EOS/参考PD候选；不能照搬器件带宽为系统抖动指标,2026-11-14
+S07,OMC 14HS10-0404S,https://www.osmtec.com/stepper-motors/hybrid-stepper-motors/nema-14-stepper-motors/nema-14-bipolar-1-8deg-14ncm-20oz-in-0-4a-12v-35x35x26mm-4-wires-14hs10-0404s,35×35×26，0.4A相电流，1.8deg,低速牵引PoC；保持转矩不是运行转矩,2026-11-14
+S08,ADI TMC2209,https://www.analog.com/en/products/tmc2209.html,QFN28 5×5，5-28V,本设计用受控12V电机母线，非24V直接接近极限,2026-11-14
+S09,TI TPS54360B,https://www.ti.com/product/TPS54360B,60V输入3.5A降压候选,功率电感/环路/热/EMC仍需详细设计,2026-11-14
+S10,TI TMP117,https://www.ti.com/product/TMP117,WSON6 2×2；I2C,PMT舱、光学基座和驱动板温度,2026-11-14
+S11,Sill f-theta guide,https://www.silloptics.de/en/service/sill-technical-guide/laser-optics/f-theta-lenses,场宽依赖入瞳与扫描镜位置；光学角为机械角两倍,100mm EFL不能替代真实BFL/镜头处方,2026-11-14
+S12,ADI AD8138,https://www.analog.com/media/en/technical-documentation/data-sheets/ad8138.pdf,"p1,p8 SOIC8 pinout；DC differential driver with adjustable VCM",当前RC/偏置仅草图，正式模拟仿真/实测未完成,2026-11-14
+S13,TI SN74LVC3G17,https://www.ti.com/lit/ds/symlink/sn74lvc3g17.pdf,5.5V tolerant inputs with 3.3V supply；p3 pinout,用于编码器电平缓冲；不是完整传感器保护方案,2026-11-14

@@ -1,0 +1,10 @@
+﻿source_id,名称,证据类型,支持范围与限制,来源
+U01,G0/G1交付包 R52-G01-D01,本地原文件,80/100mm、110mm片面、20mm辊径、4096PPR；其他值为暂定,sources/inherited/G01_master_parameters.json
+U02,R5 CAD / R5.1配置,本地原文件,原始位姿、底板孔、板卡及光学包络；非厂家定型图,sources/inherited/instances_R5.json
+U03,扫描仪自动馈片装置调研学习,用户资料,PU/硅胶50A试样及污染风险；非材料性能证书,用户项目原件
+S01,OSM/STEPPERONLINE 14HS10-0404S,原厂公开页面,35.2级面宽、26长、5轴20.5长、0.4A、0.14Nm保持转矩；动态转矩待测,https://www.osmtec.com/stepper-motors/hybrid-stepper-motors/nema-14-stepper-motors/nema-14-bipolar-1-8deg-14ncm-20oz-in-0-4a-12v-35x35x26mm-4-wires-14hs10-0404s
+S02,MinebeaMitsumi L-1260ZZ,原厂公开页面,6x12x4、Cr831N、C0r363N；日本页倒角0.15mm；美国页面存在倒角转录差异须确认,https://product.minebeamitsumi.com/product/category/bearing/miniature_small/parts/L1260ZZ.html
+S03,NBK MJC-20CS-WH-5-6,原厂公开页面,外径20、总长W30、端毂L10、静扭转刚度29Nm/rad、零背隙允许0.2Nm；安装偏差上限不是对中目标,https://www.nbk1560.com/en-US/products/coupling/couplicon/jaw_type/MJC-CS-WH/MJC-20CS-WH/
+S04,Same Sky AMT11 2026-06-23,原厂数据表,4096PPR为可编程设置，默认2048；0.2deg精度；5V CMOS；启动静止200ms；最低轴长9mm,https://www.sameskydevices.com/product/resource/amt11-v.pdf
+S05,Ruland MCL-6-A,原厂公开页面,6孔/16外径/9宽；最大硬件扫掠20.8，旋转螺钉必须远离相邻辊,https://www.ruland.com/mcl-6-a.html
+D01,G3新增工程建议,本次设计/计算,所有未标原厂的公差、材料DOE、张力和验收值均为建议，待签署,config/mechanical_parameters.json

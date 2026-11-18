@@ -53,12 +53,7 @@
       "ZL80_R52_G0_G1_20261116",
       "ZL80_R52_G2E01_20261116",
       "ZL80_R52_G3_20261116",
-      "ZL80_ADF50_V01",
-      "ZL80_ADF50_V02",
-      "ZL80_ADF50_V03",
       "ZL80_R52_G4_20261116",
-      "ZL80_ADF50_V04",
-      "ZL80_R52_G5_20261116",
       "ZL80_ADF50_V06"
     ],
     "python_tests_main": 35,
@@ -87,7 +82,10 @@
       },
       "physical_bench": "NOT_RUN"
     },
-    "adf_third_party_reviewed": "ZL80_ADF50_V05_20261117（第三方评审输入，保留来源校验记录）",
-    "ecr_g3_01": "APPROVED 2026-11-17；设计完成，硬件未制造，计量 NOT_RUN；ZL80_ADF50_V06/ecr_g3_01"
+    "adf_third_party_reviewed": "ZL80_ADF50_V05_20261117（第三方评审包，评估结论保留在 ZL80_ADF50_V06 文档；包本身已于 2026-11-17 删除）",
+    "ecr_g3_01": "APPROVED 2026-11-17；设计完成，硬件未制造，计量 NOT_RUN；ZL80_ADF50_V06/ecr_g3_01",
+    "ecr_g3_01_electrical": "DESIGNED 2026-11-17；B05 第3路输入与线束 W13；FPGA 引脚 P0 未解决；ZL80_ADF50_V06/ecr_g3_01/electrical",
+    "g5_hellofpga": "ZL80_R52_G5_HF_20261117：xc7z020clg400 候选引脚、ENC_E（0x22）、73 项 Python 测试通过；Icarus 13.0 跑通 9/9 bench；Vivado/时序/CDC NOT_RUN；底板与 Bank34 VCCIO 未确认；仍 BLOCKED",
+    "cleanup": "2026-11-17 删除 ADF50 V01–V05（含 V01 2）、原 G5 包 20261116 和缓存；保留 V0.6、G5-HF、G0–G4 与 R5 基线"
   }
 }

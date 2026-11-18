@@ -1,0 +1,58 @@
+{
+  "scope": "ACTUAL_IVERILOG_RTL_SIMULATION",
+  "status": "PASS",
+  "tools": {
+    "iverilog": "/private/tmp/claude-502/-Users-yuxinghua-Downloads-ZL80-R5-80mmScanner/1231c242-def7-4266-a4ad-9294363f7462/scratchpad/mm/env/bin/iverilog",
+    "vvp": "/private/tmp/claude-502/-Users-yuxinghua-Downloads-ZL80-R5-80mmScanner/1231c242-def7-4266-a4ad-9294363f7462/scratchpad/mm/env/bin/vvp"
+  },
+  "tests": [
+    {
+      "test": "tb_async_fifo",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "test": "tb_capture_core",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "test": "tb_capture_overflow",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "test": "tb_encoder_e",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "test": "tb_fifo",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "test": "tb_packetizer",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "test": "tb_pair_guard",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "test": "tb_quad",
+      "status": "PASS",
+      "returncode": 0
+    },
+    {
+      "test": "tb_spi",
+      "status": "PASS",
+      "returncode": 0
+    }
+  ],
+  "vivado_synthesis": "NOT_RUN",
+  "vivado_implementation_timing": "NOT_RUN",
+  "physical_bench": "NOT_RUN"
+}

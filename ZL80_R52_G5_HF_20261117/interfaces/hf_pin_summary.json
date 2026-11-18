@@ -1,0 +1,11 @@
+{
+ "bank34_used": 36,
+ "bank34_exposed": 49,
+ "bank35_used": 29,
+ "bank35_exposed": 49,
+ "new_encoder_e": {
+  "ENC_E_A": "D18",
+  "ENC_E_B": "E17",
+  "ENC_E_OPEN": "D20"
+ }
+}

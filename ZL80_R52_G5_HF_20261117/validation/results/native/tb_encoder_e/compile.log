@@ -1,0 +1,15 @@
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module ad9268_spi_byte declared here: /Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/helpers/ad9268_spi_byte.sv:5
+       :   -- module adc_cmos_lane declared here: /Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/frontend_candidates/adc_cmos_lane.sv:3
+       :   -- module adc_pair_guard declared here: /Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/frontend_candidates/adc_pair_guard.sv:4
+       :   -- module async_fifo_gray declared here: /Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/frontend_candidates/async_fifo_gray.sv:4
+       :   -- module quad_decoder declared here: /Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/core/quad_decoder.sv:4
+       :   -- module record_fifo declared here: /Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/core/record_fifo.sv:5
+       :   -- module record_to_axis64 declared here: /Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/core/record_to_axis64.sv:4
+       :   -- module reset_release declared here: /Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/helpers/reset_release.sv:2
+       :   -- module rr_record_merge declared here: /Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/core/rr_record_merge.sv:3
+       :   -- module sync_bits declared here: /Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/helpers/sync_bits.sv:3
+       :   -- module zl80_capture_core declared here: /Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/core/zl80_capture_core.sv:5
+/Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/rtl/core/zl80_capture_core.sv:54: warning: @* is sensitive to all 7 words in array 'drops'.

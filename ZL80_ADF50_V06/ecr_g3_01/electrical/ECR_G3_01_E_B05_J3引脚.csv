@@ -1,0 +1,21 @@
+﻿脚,G4 现有网名,新网名,说明
+1,SCLK,SCLK,不变
+2,SDIO,SDIO,不变
+3,STEP,STEP,不变
+4,DIR,DIR,不变
+5,MOT_EN,MOT_EN,不变
+6,TMC_UART,TMC_UART,不变
+7,ENC_A,ENC_M_A,改名：假设原 ENC_A/B/Z 是测量组（G4 未写明）
+8,ENC_B,ENC_M_B,同上
+9,ENC_Z,ENC_M_Z,同上
+10,FAULT,FAULT,不变
+11,GND,GND,不变
+12,3V3,3V3,不变
+13,—,ENC_D_A,新增：FPGA 需要驱动组，G4 的 J3 原来没有引出
+14,—,ENC_D_B,新增
+15,—,ENC_D_Z,新增
+16,—,ENC_E_A,新增：出口随动
+17,—,ENC_E_B,新增
+18,—,ENC_E_OPEN,新增
+19,—,GND,新增：扁平线上的回流
+20,—,GND,新增

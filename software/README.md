@@ -1,6 +1,6 @@
 # 数据参考实现
 
-R5.2 短时调试归档使用 [G5 ZL80RAW1](../ZL80_R52_G5_20261116/docs/ZL80_RAW_v1_数据协议.md)。本目录的 ChunkWriter 是 R5-PDR1 格式。G5 的 inspect 结果仅供诊断，正式成像验收须另查测试码和采样覆盖，见 [融合设计基线第 8 节](../docs/ZL80_R52_融合评估与设计基线.md)。
+R5.2 短时调试归档使用 [G5 ZL80RAW1](../ZL80_R52_G5_HF_20261117/docs/ZL80_RAW_v1_数据协议.md)。本目录的 ChunkWriter 是 R5-PDR1 格式。G5 的 inspect 结果仅供诊断，正式成像验收须另查测试码和采样覆盖，见 [融合设计基线第 8 节](../docs/ZL80_R52_融合评估与设计基线.md)。
 
 `reference_model.py` 为Python标准库参考。ChunkWriter按uint64行号/uint16数组写不可覆盖chunk，并保留SHA256与quality元数据；不是最终文件标准、数据库或DICONDE认证。
 

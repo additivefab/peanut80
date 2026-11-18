@@ -1,7 +1,0 @@
-{
-  "tests_run": 29,
-  "status": "PASS_REFERENCE_TESTS",
-  "scope": "Reference batch guards, count rules and explicitly assumed force/geometry calculations only",
-  "physical_tests_run": false,
-  "manufacturing_released": false
-}

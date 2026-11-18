@@ -1,8 +1,0 @@
-﻿编号,来源,位置/URL,采用内容,证据边界
-U1,扫描仪自动馈片装置调研学习.doc,项目文件，第1页,窄缝方案失败；斜立式、近恒力压板；PU/硅胶试验与污染风险,原调研记录；材料寿命/改性建议不视作已验证
-U2,激光PMT工业底片扫描仪结构原理与自动馈片设计评估.pptx,项目文件，第17–22页,倾斜堆叠、分离辊、多源双张检测、馈片与计量解耦、Job ID,项目综合评估，非制造放行
-E1,Simco-Ion FAQ,https://technology-ionization.simco-ion.com/resources/faqs,绝缘材料不能靠接地有效中和；离子化与湿度的作用和限制,外部资料；查阅2026-11-16
-E2,microsonic dbk+4,https://www.microsonic.de/en/ultrasonic-sensors/special-sensors/double-sheet-control/dbkplus4,超声双张、材料teach-in、安装角度和工作间距依介质,候选传感器资料，不保证适用于本项目所有底片
-E3,SMC IZN10E product,https://www.smcusa.com/products/izn10e-ionizer-nozzle-type~159692,24V商用喷嘴离子器，可接传感/监测与污染诊断,候选，气源与尺寸未冻结
-E4,SMC IZN10E installation manual,https://www.smcworld.com/upfiles/etc/international/imm/IZN10E-TFV10.pdf,噪声/接地/气源清洁/维护/通风约束,不把产品接地指标直接当整机保护地合格标准
-D1,ADF50-V0.1本次设计分配,engineering/parameters.json,片仓角度、力量、长度、尺寸、状态机和预算,未进行实物或供应商DFM验证

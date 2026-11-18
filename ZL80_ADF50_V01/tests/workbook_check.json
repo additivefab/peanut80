@@ -1,6 +1,0 @@
-{
-  "status": "PASS_FORMULA_CHECK",
-  "worksheets": 9,
-  "formula_error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
-  "note": "Negative thick-stack headroom is intentional: it flags an infeasible force recipe, not a calculation error."
-}

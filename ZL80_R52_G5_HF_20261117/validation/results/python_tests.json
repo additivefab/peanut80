@@ -1,0 +1,10 @@
+{
+  "scope": "PYTHON_ALGORITHMS_AND_FORMAT_ONLY_NOT_RTL",
+  "tests": 73,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "status": "PASS",
+  "python": "3.9.6 (default, Jan  9 2026, 11:03:41) \n[Clang 17.0.0 (clang-1700.6.4.2)]",
+  "platform": "macOS-15.7.6-arm64-arm-64bit"
+}

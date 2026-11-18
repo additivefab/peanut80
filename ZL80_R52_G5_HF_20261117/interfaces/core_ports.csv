@@ -1,0 +1,14 @@
+﻿name,direction,width,meaning,clock_domain,open_boundary
+clk,in,1,100MHz逻辑时钟假设,normalized,需真实时钟规划
+pair_valid,in,1,归一化双通道采样有效脉冲,clk,不能直接使用异步DCO有效
+pair_a / pair_b,in,16+16,两通道同一采样时刻原始码,clk,B02同epoch对齐未实现
+pair_tick,in,64,ADC实际采样时刻，共同时基,clk,不得采用FIFO出队/软件接收时间
+pair_flags,in,16,越界、时基未标定、配对未验证等,clk,未知状态必须置位
+sos_async / eos_async,in,1+1,比较器输出，独立两级同步,async,输入电平与最短脉宽需测
+enc_m_a/b/z / enc_d_a/b/z,in,6,两组正交编码器原始数字状态,async,外部电平转换；最大边沿速率需测
+enc_e_a/b / enc_e_open,in,3,出口压辊随动编码器A、B与线缆断开观测（ECR-G3-01）,async,5V信号经B05缓冲到3.3V；OPEN高=断开
+polygon_index_async,in,1,物理镜面参考索引观测,async,没有索引仍能记行号，但不能称绝对facet
+external_fault_async,in,1,外部故障观测,async,不是硬件安全禁能的替代
+start / stop,in,1+1,只在clk域；start空闲接受，stop忙时锁存,clk,PS AXI-Lite寄存器桥未集成
+m_axis_*,out/in,64data+keep8+valid+last+ready,记录流,clk,DMA跨域应使用已验证AXIS clock converter
+laser_request,out,1,常量0,clk,本版禁止激光/电机执行

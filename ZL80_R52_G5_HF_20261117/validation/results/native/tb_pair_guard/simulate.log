@@ -1,0 +1,2 @@
+PASS tb_pair_guard
+/Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/sim/tb/tb_pair_guard.sv:12: $finish called at 36000 (1ps)

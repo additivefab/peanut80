@@ -1,0 +1,23 @@
+{
+ "scope": "YOSYS_SYNTH_XILINX_INDICATIVE_NOT_VIVADO",
+ "returncode": 0,
+ "cells": {
+  "BUFG": 1,
+  "CARRY4": 345,
+  "FDRE": 2081,
+  "LUT1": 1,
+  "LUT2": 298,
+  "LUT3": 620,
+  "LUT4": 302,
+  "LUT5": 627,
+  "LUT6": 523,
+  "MUXF7": 4,
+  "MUXF8": 2,
+  "RAM32M": 132,
+  "RAMB36E1": 4
+ },
+ "lut_total": 2371,
+ "ff": 2081,
+ "bram36_equiv": 4.0,
+ "abc_errors": 1
+}

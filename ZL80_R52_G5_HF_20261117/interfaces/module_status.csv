@@ -1,0 +1,13 @@
+﻿module,source,scope,rtl_simulation,vivado,bench
+quad_decoder,rtl/core/quad_decoder.sv,SOURCE_CANDIDATE,PASS_IVERILOG13,NOT_RUN,NOT_RUN
+record_fifo,rtl/core/record_fifo.sv,SOURCE_CANDIDATE,PASS_IVERILOG13,NOT_RUN,NOT_RUN
+record_to_axis64,rtl/core/record_to_axis64.sv,SOURCE_CANDIDATE,PASS_IVERILOG13,NOT_RUN,NOT_RUN
+rr_record_merge,rtl/core/rr_record_merge.sv,SOURCE_CANDIDATE,PASS_IVERILOG13,NOT_RUN,NOT_RUN
+zl80_capture_core,rtl/core/zl80_capture_core.sv,SOURCE_CANDIDATE,PASS_IVERILOG13,NOT_RUN,NOT_RUN
+adc_cmos_lane,rtl/frontend_candidates/adc_cmos_lane.sv,SOURCE_CANDIDATE,NOT_RUN,NOT_RUN,NOT_RUN
+adc_pair_guard,rtl/frontend_candidates/adc_pair_guard.sv,SOURCE_CANDIDATE,PASS_IVERILOG13,NOT_RUN,NOT_RUN
+async_fifo_gray,rtl/frontend_candidates/async_fifo_gray.sv,SOURCE_CANDIDATE,PASS_IVERILOG13,NOT_RUN,NOT_RUN
+ad9268_spi_byte,rtl/helpers/ad9268_spi_byte.sv,SOURCE_CANDIDATE,PASS_IVERILOG13,NOT_RUN,NOT_RUN
+reset_release,rtl/helpers/reset_release.sv,SOURCE_CANDIDATE,NOT_RUN,NOT_RUN,NOT_RUN
+sync_bits,rtl/helpers/sync_bits.sv,SOURCE_CANDIDATE,NOT_RUN,NOT_RUN,NOT_RUN
+tb_encoder_e,sim/tb/tb_encoder_e.sv,BENCH_ADDED,PASS_IVERILOG13,NOT_RUN,NOT_RUN

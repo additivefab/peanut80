@@ -1,0 +1,3 @@
+VCD info: dumpfile tb_packetizer.vcd opened for output.
+PASS tb_packetizer
+/Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/sim/tb/tb_packetizer.sv:31: $finish called at 180000 (1ps)

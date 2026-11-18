@@ -3,8 +3,8 @@
  "date": "2026-11-17",
  "previous": "manifest_sha256_R5-PDR1.json",
  "summary": {
+  "unchanged": 393,
   "changed": 13,
-  "unchanged": 386,
   "new": 21
  },
  "removed_since_R5_PDR1": [],
@@ -21,33 +21,17 @@
    "manifest": "MANIFEST_SHA256.csv",
    "sha256": "48d7842b2d41319f6fdede26781b56b24df98120953f195f63d1aa732673ecde"
   },
-  "ZL80_ADF50_V01": {
-   "manifest": "manifest_sha256.json",
-   "sha256": "354983b681133c8263120da079a50fab160a85e58b04192b782980e914948aed"
-  },
-  "ZL80_ADF50_V02": {
-   "manifest": "manifest_sha256.json",
-   "sha256": "1276f7267beae2abbd19b30a0615910399225789faa388fabde5ee7d8364d3d4"
-  },
-  "ZL80_ADF50_V03": {
-   "manifest": "manifest_sha256.json",
-   "sha256": "b34695f969c41cff386ab95e2b874517754cb2ab48a7f3c95fbc45ad03f15aed"
-  },
   "ZL80_R52_G4_20261116": {
    "manifest": "MANIFEST_SHA256.json",
    "sha256": "ce97c82cbfe3f6ec69bbbf69accdca62d049cc7557345aa384b24e450c2a7b8e"
   },
-  "ZL80_ADF50_V04": {
-   "manifest": "manifest_sha256.json",
-   "sha256": "860e6432b91a62b1df52b6bf98cba55d555b1585b8c8f82f6f6c5c35cd5eb489"
-  },
-  "ZL80_R52_G5_20261116": {
-   "manifest": "FILE_MANIFEST.csv",
-   "sha256": "f8180cc8852a3067db4160e6f8496c2e849f7e4dda01822ec181f0d41cecc139"
-  },
   "ZL80_ADF50_V06": {
    "manifest": "manifest_sha256.json",
-   "sha256": "62527a7c4b4f141728713dec95d3d70cd2aa01dafdb50d1b317050aa8483ebbf"
+   "sha256": "6fcbbe3aafa5db0c75ee5fbba72e4def97ae6e54352e0e7f81eb271e954c8df1"
+  },
+  "ZL80_R52_G5_HF_20261117": {
+   "manifest": "FILE_MANIFEST.csv",
+   "sha256": "7944bdd1834da2bb94e8e2815ac5f62f486c15264a7c40f770bf61b66295b89d"
   }
  },
  "excluded": [
@@ -61,8 +45,8 @@
  "files": [
   {
    "path": "README.md",
-   "bytes": 5151,
-   "sha256": "1ee8a3b02459bb745a76daf8b53c98b59106faaa8a8632b4e999875f744e68b9",
+   "bytes": 5163,
+   "sha256": "c5b5e83cb18b57a4fa2361c95c7c14403f8c02c299bb3090b64509f961be3b36",
    "vs_R5_PDR1": "changed"
   },
   {
@@ -199,8 +183,8 @@
   },
   {
    "path": "cad/source/check_g4_r52_fit.py",
-   "bytes": 3330,
-   "sha256": "aa7bc8640bd7f8ec5380db4d53d90222d788fe3e2efc6f8a20d94c6b38d5133e",
+   "bytes": 3624,
+   "sha256": "845fe62fc0486b8f9b0cb3ceb95fb6b27e4d89a72479034de6f0f28ead8c648c",
    "vs_R5_PDR1": "new"
   },
   {
@@ -715,14 +699,14 @@
   },
   {
    "path": "docs/ZL80_R52_融合评估与设计基线.md",
-   "bytes": 26195,
-   "sha256": "2a3cd25e30ddb87bb13cb64501c41c061e5a83f4d4db499ea939144973bcda47",
+   "bytes": 26399,
+   "sha256": "b56ab5d1a52f1455c63f268e8a7f907e37184a500f2d22e4518db509f9edc436",
    "vs_R5_PDR1": "new"
   },
   {
    "path": "docs/ZL80_R52_融合评估与设计基线.pdf",
-   "bytes": 34843,
-   "sha256": "bd24936227952fd26ca2d20f1a1af0d28be0cd4b7532338ba4f71e21925b535c",
+   "bytes": 35060,
+   "sha256": "062fdf53bbe128b283ed03881736f9d1515f6591080749de8fe21ccb97198159",
    "vs_R5_PDR1": "new"
   },
   {
@@ -745,8 +729,8 @@
   },
   {
    "path": "drawings/ZL80_R52_补充图册.pdf",
-   "bytes": 23636,
-   "sha256": "40e54a376982fe36ab377632d88dfa59c3bd51f46c9ea7a84ad62711da6a3d49",
+   "bytes": 24312,
+   "sha256": "e86153e6205097c76c8146a0f2863f37e0529b0a799f425935ab5113f54ec8d4",
    "vs_R5_PDR1": "new"
   },
   {
@@ -2299,8 +2283,8 @@
   },
   {
    "path": "engineering/ZL80_R5_参数选型BOM与空间预算.xlsx",
-   "bytes": 58915,
-   "sha256": "5e63b53a5d1c818f8fde675313bc6f708864cf104bd84038e5c7c47406fa3533",
+   "bytes": 59325,
+   "sha256": "62bfc2444a0f2a2e82fa298e39adb60ea24257b4c9f7fccfb6f9186840cd35c7",
    "vs_R5_PDR1": "changed"
   },
   {
@@ -2395,8 +2379,8 @@
   },
   {
    "path": "engineering/设计决策与版本差异.csv",
-   "bytes": 4682,
-   "sha256": "c1d0d67bc54f89c23dbcb819d640d7fd8defbdda82eb3b816924dbaf7230f8c1",
+   "bytes": 5445,
+   "sha256": "92292d8c93de3295be07e2c3bedfd0a07e8397de2d5737c2f7a90c02eaf819f1",
    "vs_R5_PDR1": "changed"
   },
   {
@@ -2407,8 +2391,8 @@
   },
   {
    "path": "firmware/README.md",
-   "bytes": 1468,
-   "sha256": "ed45f0392ab4b9cf51fea47d28b6144b088abccb885b4ca8861a8981bc64cf91",
+   "bytes": 1471,
+   "sha256": "8f8a5eb9f9475f6a7554ca5906920b940735dc2bf18082657b123fa1e917f0c5",
    "vs_R5_PDR1": "changed"
   },
   {
@@ -2431,9 +2415,21 @@
   },
   {
    "path": "index.html",
-   "bytes": 33004,
-   "sha256": "553fb800fcf86a5696c01f12a31ade2f36d9ba13e4a726f2ec3c1dc989e56305",
+   "bytes": 33043,
+   "sha256": "d3c5d242dd1397ce08db6e204a721f539e608adee6da12302f9fc00c426c452f",
    "vs_R5_PDR1": "changed"
+  },
+  {
+   "path": "references/Rectangular-Slot Laser Integrating Cavity Diagram.png",
+   "bytes": 2339159,
+   "sha256": "8e098a550f9f933734854ab411c6daf0b5f1e221a936c85c14584a4ea9ed01ce",
+   "vs_R5_PDR1": "unchanged"
+  },
+  {
+   "path": "references/SmartZynq_SP2_Schematic_V1d3B_20260413.pdf.pdf",
+   "bytes": 273223,
+   "sha256": "65ef502b17295f92a50d6266a28d26b19c71c580ca69324d65dd9a5a4f71937e",
+   "vs_R5_PDR1": "unchanged"
   },
   {
    "path": "references/input_provenance.json",
@@ -2448,15 +2444,45 @@
    "vs_R5_PDR1": "unchanged"
   },
   {
+   "path": "references/开发板正面图.jpg",
+   "bytes": 1239772,
+   "sha256": "28e166cb57ebd521666c893189b27ace046f9440774b661f65be5d5938242fb5",
+   "vs_R5_PDR1": "unchanged"
+  },
+  {
+   "path": "references/开发板背面图.jpg",
+   "bytes": 1218341,
+   "sha256": "37237b45a1596ffcf802ab5c87dc48dcfce7f44b63b4ad27fd0ed412ba2308c3",
+   "vs_R5_PDR1": "unchanged"
+  },
+  {
+   "path": "references/新增PPT逐页文本.txt",
+   "bytes": 38355,
+   "sha256": "4a09440f57c96a1b603e82de24f3ed78e745585d838da9bdb4519bad15ea52c1",
+   "vs_R5_PDR1": "unchanged"
+  },
+  {
+   "path": "references/激光PMT工业底片扫描仪结构原理与自动馈片设计评估.pptx",
+   "bytes": 22749228,
+   "sha256": "d6a7bac9e14454d2226783f86d7d8a487f8c5e2a83db4f82905f1123579d8875",
+   "vs_R5_PDR1": "unchanged"
+  },
+  {
+   "path": "references/激光扫描仪调研学习记录.docx",
+   "bytes": 16348243,
+   "sha256": "ffe7e5858e0b1953993718cfbd5d87049a36d4ba19359b51902865be1d786887",
+   "vs_R5_PDR1": "unchanged"
+  },
+  {
    "path": "release_status.json",
-   "bytes": 3772,
-   "sha256": "0d5cacfee5e3165898e64d2faa707788c017590f04fe256831867993cab719ec",
+   "bytes": 4223,
+   "sha256": "4ebca61a430342b714c7da9740e6ef51243d4209814f12cf5a43feddb4beb0dc",
    "vs_R5_PDR1": "changed"
   },
   {
    "path": "software/README.md",
-   "bytes": 1287,
-   "sha256": "4dd9cc58274234e7d67a4005f097ae2308a1240f5500321feb070caa74f8c1d2",
+   "bytes": 1290,
+   "sha256": "aed9a603f2e25dbe83bd3281a4891e8779b8a4ba19f964ea4f06db1a7d26355e",
    "vs_R5_PDR1": "changed"
   },
   {
@@ -2579,57 +2605,5 @@
    "sha256": "74ec9368fdfe03684ecb7f6284d997918c746523af56ff5e3e1f15741c08fa71",
    "vs_R5_PDR1": "unchanged"
   }
- ],
- "publication": {
-  "scope": "Registered public engineering snapshot",
-  "local_only_reference_attachments": [
-   {
-    "path": "references/Rectangular-Slot Laser Integrating Cavity Diagram.png",
-    "bytes": 2339159,
-    "sha256": "8e098a550f9f933734854ab411c6daf0b5f1e221a936c85c14584a4ea9ed01ce",
-    "vs_R5_PDR1": "unchanged"
-   },
-   {
-    "path": "references/SmartZynq_SP2_Schematic_V1d3B_20260413.pdf.pdf",
-    "bytes": 273223,
-    "sha256": "65ef502b17295f92a50d6266a28d26b19c71c580ca69324d65dd9a5a4f71937e",
-    "vs_R5_PDR1": "unchanged"
-   },
-   {
-    "path": "references/开发板正面图.jpg",
-    "bytes": 1239772,
-    "sha256": "28e166cb57ebd521666c893189b27ace046f9440774b661f65be5d5938242fb5",
-    "vs_R5_PDR1": "unchanged"
-   },
-   {
-    "path": "references/开发板背面图.jpg",
-    "bytes": 1218341,
-    "sha256": "37237b45a1596ffcf802ab5c87dc48dcfce7f44b63b4ad27fd0ed412ba2308c3",
-    "vs_R5_PDR1": "unchanged"
-   },
-   {
-    "path": "references/新增PPT逐页文本.txt",
-    "bytes": 38355,
-    "sha256": "4a09440f57c96a1b603e82de24f3ed78e745585d838da9bdb4519bad15ea52c1",
-    "vs_R5_PDR1": "unchanged"
-   },
-   {
-    "path": "references/激光PMT工业底片扫描仪结构原理与自动馈片设计评估.pptx",
-    "bytes": 22749228,
-    "sha256": "d6a7bac9e14454d2226783f86d7d8a487f8c5e2a83db4f82905f1123579d8875",
-    "vs_R5_PDR1": "unchanged"
-   },
-   {
-    "path": "references/激光扫描仪调研学习记录.docx",
-    "bytes": 16348243,
-    "sha256": "ffe7e5858e0b1953993718cfbd5d87049a36d4ba19359b51902865be1d786887",
-    "vs_R5_PDR1": "unchanged"
-   }
-  ],
-  "local_only_third_party_review_package": {
-   "directory": "ZL80_ADF50_V05_20261117",
-   "manifest": "MANIFEST.sha256",
-   "sha256": "68000ea064c32aac053744f8547877f49001334da1c56757f93b33eb9e987f5d"
-  }
- }
+ ]
 }

@@ -1,0 +1,2 @@
+PASS tb_async_fifo
+/Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/sim/tb/tb_async_fifo.sv:14: $finish called at 1495000 (1ps)

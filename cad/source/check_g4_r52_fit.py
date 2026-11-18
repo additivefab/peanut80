@@ -39,6 +39,9 @@ def intersections(objects, context):
 
 
 def main():
+    # RETIRED 2026-11-17: its input ZL80_ADF50_V04 was deleted. Current ADF interference results: ZL80_ADF50_V06/mechanical/interference.json.
+    if not (ROOT / "ZL80_ADF50_V04").exists():
+        raise SystemExit("ZL80_ADF50_V04 was removed; see ZL80_ADF50_V06/mechanical/interference.json")
     board_proxies = {"B01", "B06", "B07", "B08"}
     detector_proxies = {"PD_sync-46", "PD_sync46", "PD_reference"}
     core = list(read_step(ROOT / "cad/step/ZL80_R52_core_review.step"))

@@ -1,0 +1,50 @@
+{
+ "method": "cadquery rigid nominal B-rep, volume>0.01 mm3, against 238 G3 integrated instances plus the four approved ECR parts; strip rebuilt per roller height",
+ "replaced_g3_screws": [
+  "CAP_SCREW_72_42_120.1_-7_7",
+  "CAP_SCREW_72_42_120.1_7_7"
+ ],
+ "interference": {
+  "dz_+0": {
+   "overlaps": [],
+   "strip_radius_mm": 16.7,
+   "strip_arch_height_mm": 5.2
+  },
+  "dz_+5": {
+   "overlaps": [],
+   "strip_radius_mm": 15.2,
+   "strip_arch_height_mm": 5.6
+  },
+  "dz_-1": {
+   "overlaps": [],
+   "strip_radius_mm": 17.5,
+   "strip_arch_height_mm": 5.0
+  }
+ },
+ "nearest": [
+  {
+   "gap": 0.0,
+   "pair": "G3E-05_stand|MOTOR_BRACKET"
+  },
+  {
+   "gap": 1.2,
+   "pair": "G3E-08_connector|G3E-04"
+  },
+  {
+   "gap": 1.47,
+   "pair": "G3E-07_FFC|G3E-03"
+  },
+  {
+   "gap": 1.8,
+   "pair": "G3E-06_adaptor|MOTOR_BRACKET"
+  },
+  {
+   "gap": 2.55,
+   "pair": "G3E-07_FFC|G3E-04"
+  },
+  {
+   "gap": 3.67,
+   "pair": "G3E-07_FFC|MOTOR_BRACKET"
+  }
+ ]
+}

@@ -1,0 +1,2 @@
+PASS tb_fifo depths 2,4,32,256
+/Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/sim/tb/tb_fifo.sv:69: $finish called at 213196000 (1ps)

@@ -1,0 +1,2 @@
+PASS tb_capture_overflow lost=1
+/Users/yuxinghua/Downloads/ZL80_R5_80mmScanner/ZL80_R52_G5_HF_20261117/sim/tb/tb_capture_overflow.sv:28: $finish called at 710000 (1ps)

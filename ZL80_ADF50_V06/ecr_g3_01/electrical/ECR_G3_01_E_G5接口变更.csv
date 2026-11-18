@@ -1,0 +1,7 @@
+﻿编号,对象,现状,需要的改动,优先级,状态
+G5-E1,FPGA 板 J5_V1.3B 引脚,第 7–34 脚已分配，第 1–6 脚在包内无说明,查板卡手册，为 ENC_E_A、ENC_E_B（可选 ENC_E_OPEN）找 3 个 3.3V Bank35 输入；找不到时的备选是让出 ENC_M_Z、ENC_D_Z 两脚,P0,已在 ZL80_R52_G5_HF_20261117 按 Hello-FPGA 核心板分配：ENC_E_A=D18、ENC_E_B=E17、ENC_E_OPEN=D20（Bank35，3.3 V）；底板未确认，候选未批准
+G5-E2,zl80_capture_core 端口,enc_m_*、enc_d_* 共 6 个异步输入,增加 enc_e_a/b（enc_e_open）；同样两级同步；再例化一个 quad_decoder,P0,已改 RTL（ZL80_R52_G5_HF_20261117）；slang 编译检查与 Icarus 13.0 仿真通过
+G5-E3,记录类型,0x20 测量、0x21 驱动,新增 0x22 出口随动编码器 position32；bit 定义同 0x20；START 时快照,P0,已改：类型 0x22，START 快照；协议为加法扩展，记录版本字节仍为 1
+G5-E4,故障位,faults 含编码器非法跳转,增加 E 路非法跳转和 OPEN 置位,P1,已改：bit9 E 非法跳转、bit10 E 断开（E_REQUIRED=1 时）
+G5-E5,host 程序,按 0x20 插值得 Y,同时解码 0x22；输出 E 与 M 的差；follower_agree 供状态机使用,P1,已加 follower_difference / follower_agree；限值与 e_scale 待 T1
+G5-E6,自检 bench,8 个 testbench,增加 E 路正反转、非法跳转、OPEN 三项,P1,已加 tb_encoder_e（正向、OPEN、非法跳转）；Icarus 13.0 通过，Vivado NOT_RUN
